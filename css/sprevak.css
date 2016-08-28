@@ -1,0 +1,50 @@
+/* =separator at foot of page
+-----------------------------------------------------------------------------*/
+ 
+.separator {border-top: 3px solid #990000;}
+
+/* =Blurb on index landing page
+-----------------------------------------------------------------------------*/
+
+div.frontblurb p,
+div.frontblurb ol {
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-top:0ex;
+	margin-bottom:0ex;
+}
+div.frontblurb ol {
+	padding-top:0px;
+	padding-bottom:9px;
+}
+div.frontblurb li {
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+/* =Layout
+-----------------------------------------------------------------------------*/
+
+#topbar {
+	background: #990000;
+	padding:0px;
+	margin:0ex;
+	/* border-bottom: 3px solid #36454f; */
+}  
+
+#topbar li a {color: #ffcccc;}
+
+/* =Footer
+-----------------------------------------------------------------------------*/
+#footer {
+    color: #b3cde0;
+    margin-top: 3ex;
+    padding-bottom: 20px;
+    font-size: .9em;
+    padding-top: 1em;
+    background-color: #990000;
+    overflow: hidden;
+/*	box-shadow: 0 2px 4px #bbb inset;*/
+/*	background: #f0f0f0;*/
+    border-top: 3px solid #36454f;
+}

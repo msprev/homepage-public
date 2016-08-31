@@ -24,7 +24,7 @@ small {
 }
 
 .my-collapse h4 {
-    background: #f9fafa;
+    background: #f7f7f7;
     padding: 8px 16px;
     margin-bottom: 1px;
     font-size: 15px;
@@ -41,7 +41,7 @@ small {
 
 .my-collapse div {
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 24px 32px 1px;
+    padding: 24px 32px 7px;
     margin-bottom: 1px;
 }
 

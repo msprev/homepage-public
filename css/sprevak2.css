@@ -19,3 +19,29 @@ small {
     font-size: 14px;
 }
 
+.my-collapse {
+    margin-bottom: 24px;
+}
+
+.my-collapse h4 {
+    background: #f9fafa;
+    padding: 8px 16px;
+    margin-bottom: 1px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.my-collapse h4 a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    border-bottom: none;
+}
+
+.my-collapse div {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 24px 32px 1px;
+    margin-bottom: 1px;
+}
+

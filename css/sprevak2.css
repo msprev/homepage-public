@@ -1,6 +1,18 @@
+a {
+    /* color: #36454f; */
+    text-decoration: none;
+    border-bottom: dotted 1px #a1a3a1;
+}
+
 .wrapper {
-	padding: 5px 30px;
+    font-family: 'Lato', times;
+	padding: 5px 25px;
 	max-width: 1100px;
 	margin: auto;
 }
+
+h3 {
+    font-family: 'Roboto', times;
+}
+
 

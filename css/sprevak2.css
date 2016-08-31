@@ -1,9 +1,6 @@
-.topbar {
-	background: #990000;
-}  
-
-.active li {
-    color: #ffcccc;
-	background: #FFFFFF;
+.wrapper {
+	padding: 5px 10px;
+	max-width: 1100px;
+	margin: auto;
 }
 

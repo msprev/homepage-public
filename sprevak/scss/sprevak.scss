@@ -1,3 +1,5 @@
+@import "../../kube/scss/kube.scss";
+
 a {
     /* color: #36454f; */
     text-decoration: none;
@@ -25,10 +27,11 @@ small {
 
 .my-collapse h4 {
     background: #f7f7f7;
+    font-family: 'Roboto', times;
     padding: 8px 16px;
     margin-bottom: 1px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 24px;
 }
 

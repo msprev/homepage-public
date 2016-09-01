@@ -1,5 +1,31 @@
 @import "../../kube/scss/kube.scss";
 
+$darkblue: #03396c;
+
+#headshot {
+    float: left; 
+    margin: 5px 10px 0 0; 
+    width: 50%;
+}
+
+.morebutton {
+    float:right; 
+    padding-right: 20px;
+}
+
+.aligntop {
+    vertical-align: top;
+}
+
+.postalblock {
+    display: block; 
+    line-height:20px;
+}
+
+.darkblue {
+    color: $darkblue;
+}
+
 a {
     /* color: #36454f; */
     text-decoration: none;
@@ -23,28 +49,28 @@ small {
 
 .my-collapse {
     margin-bottom: 24px;
+    h4 {
+        background: #f7f7f7;
+        font-family: 'Roboto', times;
+        padding: 8px 16px;
+        margin-bottom: 1px;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 24px;
+        a {
+            text-decoration: none;
+            color: #000;
+            display: block;
+            border-bottom: none;
+        }
+    }
+    div {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 24px 32px 24px;
+        margin-bottom: 1px;
+    }
 }
 
-.my-collapse h4 {
-    background: #f7f7f7;
-    font-family: 'Roboto', times;
-    padding: 8px 16px;
-    margin-bottom: 1px;
-    font-size: 15px;
-    font-weight: bold;
-    line-height: 24px;
-}
 
-.my-collapse h4 a {
-    text-decoration: none;
-    color: #000;
-    display: block;
-    border-bottom: none;
-}
 
-.my-collapse div {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 24px 32px 3px;
-    margin-bottom: 1px;
-}
 

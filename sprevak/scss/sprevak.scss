@@ -1,6 +1,7 @@
 @import "../../kube/scss/kube.scss";
 
 $darkblue: #03396c;
+$darkred:  #945253;
 
 #headshot {
     float: left; 
@@ -25,6 +26,11 @@ $darkblue: #03396c;
 .darkblue {
     color: $darkblue;
 }
+
+.darkred {
+    color: $darkred;
+}
+
 
 a {
     /* color: #36454f; */

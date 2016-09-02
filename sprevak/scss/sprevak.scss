@@ -66,8 +66,15 @@ small {
     }
     div {
         border: 1px solid rgba(0, 0, 0, 0.1);
-        padding: 24px 32px 1px;
+        padding: 8px 32px 1px;
+        // padding: 24px 32px 1px;
         margin-bottom: 1px;
+    }
+    h6 {
+        font-family: 'Roboto', times;
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 0px;
     }
 }
 

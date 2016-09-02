@@ -34,10 +34,19 @@ body {
     vertical-align: top;
 }
 
-.postalblock {
-    display: block; 
-    line-height:20px;
+.nobreak {
+    white-space: nowrap;
 }
+
+.postalblock {
+    margin-left: 0px;
+    li {
+        padding-left:0;
+        list-style-type: none;
+        margin-bottom: 3px;
+    }
+}
+
 
 .darkblue {
     color: $darkblue;

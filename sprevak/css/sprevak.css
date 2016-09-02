@@ -1,3 +1,6 @@
+body {
+  overflow-y: scroll; }
+
 #headshot {
   float: left;
   margin: 5px 10px 0 0;

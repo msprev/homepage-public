@@ -3,6 +3,10 @@
 $darkblue: #03396c;
 $darkred:  #945253;
 
+body {
+    overflow-y: scroll;
+}
+
 #headshot {
     float: left; 
     margin: 5px 10px 0 0; 

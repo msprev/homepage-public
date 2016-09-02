@@ -2148,6 +2148,9 @@ button:hover .menu-icon {
     page-break-after: avoid; }
   @page {
     margin: 0.5cm; } }
+body {
+  overflow-y: scroll; }
+
 #headshot {
   float: left;
   margin: 5px 10px 0 0;

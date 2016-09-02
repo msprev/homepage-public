@@ -2217,8 +2217,11 @@ small {
     margin-bottom: 1px; }
   .my-collapse h6 {
     font-family: 'Roboto', times;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
-    margin-top: 0px; }
+    margin-top: 0px;
+    text-transform: none;
+    font-variant: small-caps;
+    letter-spacing: normal; }
 
 /*# sourceMappingURL=sprevak.css.map */

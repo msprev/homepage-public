@@ -1,12 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title> on marksprevak.com </title>
+      <title>Teachings on marksprevak.com </title>
     <link>https://msprev.github.io/homepage-public/teaching/</link>
     <language>en-us</language>
     <author>Mark Sprevak</author>
     <rights>Copyright (c) Mark Sprevak.</rights>
-    <updated>Tue, 25 Apr 2017 00:00:00 UTC</updated>
+    <updated>Sat, 14 Oct 2017 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Introduction to Cognitive Science</title>
+      <link>https://msprev.github.io/homepage-public/teaching/intro-to-cog-sci-ug/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
+      <author>Mark Sprevak</author>
+      <guid>https://msprev.github.io/homepage-public/teaching/intro-to-cog-sci-ug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philosophy and the Cognitive Sciences</title>
+      <link>https://msprev.github.io/homepage-public/teaching/mooc/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
+      <author>Mark Sprevak</author>
+      <guid>https://msprev.github.io/homepage-public/teaching/mooc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ethics of Artificial Intelligence</title>
+      <link>https://msprev.github.io/homepage-public/teaching/ethics-of-ai-ug/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
+      <author>Mark Sprevak</author>
+      <guid>https://msprev.github.io/homepage-public/teaching/ethics-of-ai-ug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mind, Matter, and Language</title>
+      <link>https://msprev.github.io/homepage-public/teaching/mml/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
+      <author>Mark Sprevak</author>
+      <guid>https://msprev.github.io/homepage-public/teaching/mml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philosophy of Psychology</title>
+      <link>https://msprev.github.io/homepage-public/teaching/phil-psych-ug/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
+      <author>Mark Sprevak</author>
+      <guid>https://msprev.github.io/homepage-public/teaching/phil-psych-ug/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Computational Mind</title>
@@ -19,6 +64,42 @@ tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
 vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
 no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Philosophy of Psychology</title>
+      <link>https://msprev.github.io/homepage-public/teaching/phil-psych-msc/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
+      <author>Mark Sprevak</author>
+      <guid>https://msprev.github.io/homepage-public/teaching/phil-psych-msc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Computational Mind</title>
+      <link>https://msprev.github.io/homepage-public/teaching/computational-mind-msc/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
+      <author>Mark Sprevak</author>
+      <guid>https://msprev.github.io/homepage-public/teaching/computational-mind-msc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CogLab</title>
+      <link>https://msprev.github.io/homepage-public/teaching/coglab/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
+      <author>Mark Sprevak</author>
+      <guid>https://msprev.github.io/homepage-public/teaching/coglab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Undergraduate dissertations x 1</title>
+      <link>https://msprev.github.io/homepage-public/teaching/dissertations-current-ug/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
+      <author>Mark Sprevak</author>
+      <guid>https://msprev.github.io/homepage-public/teaching/dissertations-current-ug/</guid>
+      <description></description>
     </item>
     
   </channel>

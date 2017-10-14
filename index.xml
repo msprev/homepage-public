@@ -6,23 +6,50 @@
     <language>en-us</language>
     <author>Mark Sprevak</author>
     <rights>Copyright (c) Mark Sprevak.</rights>
-    <updated>Fri, 06 Apr 2018 00:00:00 UTC</updated>
+    <updated>Sat, 14 Oct 2017 00:00:00 UTC</updated>
     
     <item>
-      <title>TBA</title>
-      <link>https://msprev.github.io/homepage-public/talks/tba-3880ad2a-92c5-4376-9154-af07eca9f884/</link>
-      <pubDate>Fri, 06 Apr 2018 00:00:00 UTC</pubDate>
+      <title>Introduction to Cognitive Science</title>
+      <link>https://msprev.github.io/homepage-public/teaching/intro-to-cog-sci-ug/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
       <author>Mark Sprevak</author>
-      <guid>https://msprev.github.io/homepage-public/talks/tba-3880ad2a-92c5-4376-9154-af07eca9f884/</guid>
+      <guid>https://msprev.github.io/homepage-public/teaching/intro-to-cog-sci-ug/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Keynote: TBA</title>
-      <link>https://msprev.github.io/homepage-public/talks/keynote-tba-7073550c-0208-4420-b0f2-3241cc37e137/</link>
-      <pubDate>Sat, 04 Nov 2017 00:00:00 UTC</pubDate>
+      <title>Philosophy and the Cognitive Sciences</title>
+      <link>https://msprev.github.io/homepage-public/teaching/mooc/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
       <author>Mark Sprevak</author>
-      <guid>https://msprev.github.io/homepage-public/talks/keynote-tba-7073550c-0208-4420-b0f2-3241cc37e137/</guid>
+      <guid>https://msprev.github.io/homepage-public/teaching/mooc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ethics of Artificial Intelligence</title>
+      <link>https://msprev.github.io/homepage-public/teaching/ethics-of-ai-ug/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
+      <author>Mark Sprevak</author>
+      <guid>https://msprev.github.io/homepage-public/teaching/ethics-of-ai-ug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mind, Matter, and Language</title>
+      <link>https://msprev.github.io/homepage-public/teaching/mml/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
+      <author>Mark Sprevak</author>
+      <guid>https://msprev.github.io/homepage-public/teaching/mml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philosophy of Psychology</title>
+      <link>https://msprev.github.io/homepage-public/teaching/phil-psych-ug/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
+      <author>Mark Sprevak</author>
+      <guid>https://msprev.github.io/homepage-public/teaching/phil-psych-ug/</guid>
       <description></description>
     </item>
     
@@ -40,65 +67,38 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Eliminativism about consciousness</title>
-      <link>https://msprev.github.io/homepage-public/publications/eliminativism-about-consciousness/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 UTC</pubDate>
+      <title>Philosophy of Psychology</title>
+      <link>https://msprev.github.io/homepage-public/teaching/phil-psych-msc/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
       <author>Mark Sprevak</author>
-      <guid>https://msprev.github.io/homepage-public/publications/eliminativism-about-consciousness/</guid>
+      <guid>https://msprev.github.io/homepage-public/teaching/phil-psych-msc/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Two kinds of information processing in cognition</title>
-      <link>https://msprev.github.io/homepage-public/publications/two-kinds-of-information-processing-in-cognition/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 UTC</pubDate>
+      <title>The Computational Mind</title>
+      <link>https://msprev.github.io/homepage-public/teaching/computational-mind-msc/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
       <author>Mark Sprevak</author>
-      <guid>https://msprev.github.io/homepage-public/publications/two-kinds-of-information-processing-in-cognition/</guid>
+      <guid>https://msprev.github.io/homepage-public/teaching/computational-mind-msc/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Critically assessing predictive coding</title>
-      <link>https://msprev.github.io/homepage-public/talks/critically-assessing-predictive-coding-dbc3ed87-da2f-4873-9753-a14b5de827e9/</link>
-      <pubDate>Wed, 06 Sep 2017 00:00:00 UTC</pubDate>
+      <title>CogLab</title>
+      <link>https://msprev.github.io/homepage-public/teaching/coglab/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
       <author>Mark Sprevak</author>
-      <guid>https://msprev.github.io/homepage-public/talks/critically-assessing-predictive-coding-dbc3ed87-da2f-4873-9753-a14b5de827e9/</guid>
+      <guid>https://msprev.github.io/homepage-public/teaching/coglab/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>How to be a realist about the mind</title>
-      <link>https://msprev.github.io/homepage-public/talks/how-to-be-a-realist-about-the-mind-dcd3b2dc-6fab-4b1a-902d-cf49accd32a3/</link>
-      <pubDate>Wed, 31 May 2017 00:00:00 UTC</pubDate>
+      <title>Undergraduate dissertations x 1</title>
+      <link>https://msprev.github.io/homepage-public/teaching/dissertations-current-ug/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
       <author>Mark Sprevak</author>
-      <guid>https://msprev.github.io/homepage-public/talks/how-to-be-a-realist-about-the-mind-dcd3b2dc-6fab-4b1a-902d-cf49accd32a3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Realism about cognitive science</title>
-      <link>https://msprev.github.io/homepage-public/publications/realism-about-cognitive-science/</link>
-      <pubDate>Mon, 22 May 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
-      <guid>https://msprev.github.io/homepage-public/publications/realism-about-cognitive-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zuse&#39;s Thesis, Gandy&#39;s Thesis, and Penrose&#39;s Thesis</title>
-      <link>https://msprev.github.io/homepage-public/publications/zuse-s-thesis-gandy-s-thesis-and-penrose-s-thesis/</link>
-      <pubDate>Mon, 22 May 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
-      <guid>https://msprev.github.io/homepage-public/publications/zuse-s-thesis-gandy-s-thesis-and-penrose-s-thesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thinking with Things -- 2nd Schools workshop</title>
-      <link>https://msprev.github.io/homepage-public/outreach/thinking-with-things-2nd-schools-workshop-dfdaca5f-ad27-4b40-a3cf-a845fb1eaf2d/</link>
-      <pubDate>Fri, 12 May 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
-      <guid>https://msprev.github.io/homepage-public/outreach/thinking-with-things-2nd-schools-workshop-dfdaca5f-ad27-4b40-a3cf-a845fb1eaf2d/</guid>
+      <guid>https://msprev.github.io/homepage-public/teaching/dissertations-current-ug/</guid>
       <description></description>
     </item>
     

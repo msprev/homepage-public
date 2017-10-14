@@ -3,6 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://msprev.github.io/homepage-public/teaching/intro-to-cog-sci-ug/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msprev.github.io/homepage-public/teaching/mooc/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msprev.github.io/homepage-public/teaching/ethics-of-ai-ug/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msprev.github.io/homepage-public/teaching/mml/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msprev.github.io/homepage-public/teaching/phil-psych-ug/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msprev.github.io/homepage-public/teaching/computational-mind-ug/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msprev.github.io/homepage-public/teaching/phil-psych-msc/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msprev.github.io/homepage-public/teaching/computational-mind-msc/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msprev.github.io/homepage-public/teaching/coglab/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msprev.github.io/homepage-public/teaching/dissertations-current-ug/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msprev.github.io/homepage-public/teaching/intro-to-mlec/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msprev.github.io/homepage-public/teaching/dissertations-past-ug/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://msprev.github.io/homepage-public/talks/tba-3880ad2a-92c5-4376-9154-af07eca9f884/</loc>
     <lastmod>2018-04-06T00:00:00+00:00</lastmod>
   </url>
@@ -10,11 +70,6 @@
   <url>
     <loc>https://msprev.github.io/homepage-public/talks/keynote-tba-7073550c-0208-4420-b0f2-3241cc37e137/</loc>
     <lastmod>2017-11-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://msprev.github.io/homepage-public/teaching/computational-mind-ug/</loc>
-    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -55,11 +110,6 @@
   <url>
     <loc>https://msprev.github.io/homepage-public/outreach/thinking-with-things-2nd-schools-workshop-dfdaca5f-ad27-4b40-a3cf-a845fb1eaf2d/</loc>
     <lastmod>2017-05-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://msprev.github.io/homepage-public/teaching/</loc>
-    <lastmod>2017-04-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -644,7 +694,7 @@
   
   <url>
     <loc>https://msprev.github.io/homepage-public/</loc>
-    <lastmod>2018-04-06T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -674,6 +724,12 @@
   <url>
     <loc>https://msprev.github.io/homepage-public/talks/</loc>
     <lastmod>2018-04-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://msprev.github.io/homepage-public/teaching/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

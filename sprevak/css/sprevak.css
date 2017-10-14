@@ -95,6 +95,10 @@ small {
 ol li {
   padding-left: 8px; }
 
+td {
+  padding: 0.2rem 1rem;
+  border-bottom: none; }
+
 #my-collapse {
   margin-bottom: 24px; }
   #my-collapse h4 {

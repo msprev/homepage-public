@@ -88,6 +88,11 @@
   </url>
   
   <url>
+    <loc>https://msprev.github.io/homepage-public/blog/archives/2017/09/15/first-post/</loc>
+    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://msprev.github.io/homepage-public/talks/critically-assessing-predictive-coding-dbc3ed87-da2f-4873-9753-a14b5de827e9/</loc>
     <lastmod>2017-09-06T00:00:00+00:00</lastmod>
   </url>
@@ -685,6 +690,12 @@
   <url>
     <loc>https://msprev.github.io/homepage-public/talks/the-frame-problem-and-the-treatment-of-prediction-in-scientific-theory-2e4feb9d-1e89-49d2-80cd-9e91442ca54c/</loc>
     <lastmod>2003-07-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://msprev.github.io/homepage-public/blog/</loc>
+    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

@@ -38,10 +38,11 @@ h1, h2 {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-size: 18px;
+  margin-top: 30px;
   color: rgba(107, 0, 26, 0.73); }
 
 h2 {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   margin-top: 0px; }
 
@@ -49,11 +50,6 @@ h2 {
   vertical-align: top; }
   .publication-short em {
     vertical-align: top; }
-  .publication-short a {
-    vertical-align: text-top; }
-
-.publication-long {
-  font-size: 14px; }
 
 .aligntop {
   vertical-align: top; }
@@ -61,6 +57,10 @@ h2 {
     vertical-align: top; }
   .aligntop a {
     vertical-align: text-top; }
+
+.article-style {
+  font-size: 18px;
+  font-family: serif; }
 
 .nobreak {
   white-space: nowrap; }
@@ -90,6 +90,10 @@ a {
 
 small {
   font-size: 14px; }
+
+.smallcaps {
+  font-size: 20px;
+  font-variant: small-caps; }
 
 ol li {
   padding-left: 8px; }

@@ -51,12 +51,13 @@ h1 {
     letter-spacing: 0.08em;
     text-transform: uppercase;
     font-size: 18px;
+    margin-top: 30px;
     color: $darkred;
 }
 
 h2 {
     @extend h1;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     margin-top: 0px;
     // text-transform: none;
@@ -68,12 +69,7 @@ h2 {
         vertical-align: top;
     }
     a {
-        vertical-align: text-top;
     }
-}
-
-.publication-long {
-    font-size: 14px;
 }
 
 .aligntop {
@@ -84,6 +80,14 @@ h2 {
     a {
         vertical-align: text-top;
     }
+}
+
+.article-style {
+    font-size: 18px;
+    font-family: serif;
+}
+
+.notes-style {
 }
 
 .nobreak {
@@ -125,6 +129,12 @@ a {
 small {
     font-size: 14px;
 }
+
+.smallcaps {
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
 
 ol {
     li {

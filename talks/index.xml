@@ -6,14 +6,23 @@
     <language>en-us</language>
     <author>Mark Sprevak</author>
     <rights>Copyright (c) Mark Sprevak.</rights>
-    <updated>Fri, 06 Apr 2018 00:00:00 UTC</updated>
+    <updated>Fri, 25 May 2018 00:00:00 UTC</updated>
     
     <item>
-      <title>TBA</title>
-      <link>http://marksprevak.com/talks/tba-3880ad2a-92c5-4376-9154-af07eca9f884/</link>
+      <title>AI and the self</title>
+      <link>http://marksprevak.com/talks/ai-and-the-self-5e032f3d-4c0a-47d4-97c6-a1e93fbc1fa9/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 UTC</pubDate>
+      <author>Mark Sprevak</author>
+      <guid>http://marksprevak.com/talks/ai-and-the-self-5e032f3d-4c0a-47d4-97c6-a1e93fbc1fa9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic representations</title>
+      <link>http://marksprevak.com/talks/probabilistic-representations-3880ad2a-92c5-4376-9154-af07eca9f884/</link>
       <pubDate>Fri, 06 Apr 2018 00:00:00 UTC</pubDate>
       <author>Mark Sprevak</author>
-      <guid>http://marksprevak.com/talks/tba-3880ad2a-92c5-4376-9154-af07eca9f884/</guid>
+      <guid>http://marksprevak.com/talks/probabilistic-representations-3880ad2a-92c5-4376-9154-af07eca9f884/</guid>
       <description></description>
     </item>
     
@@ -86,15 +95,6 @@
       <pubDate>Mon, 30 May 2016 00:00:00 UTC</pubDate>
       <author>Mark Sprevak</author>
       <guid>http://marksprevak.com/talks/information-and-representation-in-probabilistic-models-of-cognition-cd6995cf-ce43-4dfc-af98-87a3960b3753/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Realism about cognitive science</title>
-      <link>http://marksprevak.com/talks/realism-about-cognitive-science-dd46f97d-2786-4d13-bc6c-ef8b2db740ca/</link>
-      <pubDate>Fri, 08 Apr 2016 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
-      <guid>http://marksprevak.com/talks/realism-about-cognitive-science-dd46f97d-2786-4d13-bc6c-ef8b2db740ca/</guid>
       <description></description>
     </item>
     

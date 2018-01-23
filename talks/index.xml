@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Talks on marksprevak.com </title>
+    <title>Talks on Mark Sprevak</title>
     <link>http://marksprevak.com/talks/</link>
-    <language>en-us</language>
-    <author>Mark Sprevak</author>
-    <rights>Copyright (c) Mark Sprevak.</rights>
-    <updated>Fri, 25 May 2018 00:00:00 UTC</updated>
+    <description>Recent content in Talks on Mark Sprevak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 25 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://marksprevak.com/talks/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>AI and the self</title>
       <link>http://marksprevak.com/talks/ai-and-the-self-5e032f3d-4c0a-47d4-97c6-a1e93fbc1fa9/</link>
-      <pubDate>Fri, 25 May 2018 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/talks/ai-and-the-self-5e032f3d-4c0a-47d4-97c6-a1e93fbc1fa9/</guid>
       <description></description>
     </item>
@@ -20,8 +22,8 @@
     <item>
       <title>Probabilistic representations</title>
       <link>http://marksprevak.com/talks/probabilistic-representations-3880ad2a-92c5-4376-9154-af07eca9f884/</link>
-      <pubDate>Fri, 06 Apr 2018 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Fri, 06 Apr 2018 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/talks/probabilistic-representations-3880ad2a-92c5-4376-9154-af07eca9f884/</guid>
       <description></description>
     </item>
@@ -29,8 +31,8 @@
     <item>
       <title>Are brains really probabilistic inference machines?</title>
       <link>http://marksprevak.com/talks/are-brains-really-probabilistic-inference-machines-7073550c-0208-4420-b0f2-3241cc37e137/</link>
-      <pubDate>Sat, 04 Nov 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Sat, 04 Nov 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/talks/are-brains-really-probabilistic-inference-machines-7073550c-0208-4420-b0f2-3241cc37e137/</guid>
       <description></description>
     </item>
@@ -38,8 +40,8 @@
     <item>
       <title>Critically assessing predictive coding</title>
       <link>http://marksprevak.com/talks/critically-assessing-predictive-coding-dbc3ed87-da2f-4873-9753-a14b5de827e9/</link>
-      <pubDate>Wed, 06 Sep 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Wed, 06 Sep 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/talks/critically-assessing-predictive-coding-dbc3ed87-da2f-4873-9753-a14b5de827e9/</guid>
       <description></description>
     </item>
@@ -47,8 +49,8 @@
     <item>
       <title>How to be a realist about the mind</title>
       <link>http://marksprevak.com/talks/how-to-be-a-realist-about-the-mind-dcd3b2dc-6fab-4b1a-902d-cf49accd32a3/</link>
-      <pubDate>Wed, 31 May 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Wed, 31 May 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/talks/how-to-be-a-realist-about-the-mind-dcd3b2dc-6fab-4b1a-902d-cf49accd32a3/</guid>
       <description></description>
     </item>
@@ -56,8 +58,8 @@
     <item>
       <title>Dividing the sea: Pluralism about computational identity</title>
       <link>http://marksprevak.com/talks/dividing-the-sea-pluralism-about-computational-identity-f75d932c-f938-4eb5-9d16-daf5191e4491/</link>
-      <pubDate>Mon, 27 Mar 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Mon, 27 Mar 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/talks/dividing-the-sea-pluralism-about-computational-identity-f75d932c-f938-4eb5-9d16-daf5191e4491/</guid>
       <description></description>
     </item>
@@ -65,8 +67,8 @@
     <item>
       <title>Sharing someone else&#39;s brain</title>
       <link>http://marksprevak.com/talks/sharing-someone-else-s-brain-af107b1b-4870-48dd-a523-14023a72d91a/</link>
-      <pubDate>Mon, 05 Dec 2016 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Mon, 05 Dec 2016 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/talks/sharing-someone-else-s-brain-af107b1b-4870-48dd-a523-14023a72d91a/</guid>
       <description></description>
     </item>
@@ -74,8 +76,8 @@
     <item>
       <title>Melding minds with colleagues</title>
       <link>http://marksprevak.com/talks/melding-minds-with-colleagues-8566ff7d-ee37-45f5-8abc-dee2ea7832a3/</link>
-      <pubDate>Wed, 30 Nov 2016 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Wed, 30 Nov 2016 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/talks/melding-minds-with-colleagues-8566ff7d-ee37-45f5-8abc-dee2ea7832a3/</guid>
       <description></description>
     </item>
@@ -83,8 +85,8 @@
     <item>
       <title>What is predictive coding?</title>
       <link>http://marksprevak.com/talks/what-is-predictive-coding-de7183a3-c3f9-4188-8b20-b1fe705871ea/</link>
-      <pubDate>Fri, 08 Jul 2016 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Fri, 08 Jul 2016 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/talks/what-is-predictive-coding-de7183a3-c3f9-4188-8b20-b1fe705871ea/</guid>
       <description></description>
     </item>
@@ -92,9 +94,504 @@
     <item>
       <title>Information and representation in probabilistic models of cognition</title>
       <link>http://marksprevak.com/talks/information-and-representation-in-probabilistic-models-of-cognition-cd6995cf-ce43-4dfc-af98-87a3960b3753/</link>
-      <pubDate>Mon, 30 May 2016 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Mon, 30 May 2016 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/talks/information-and-representation-in-probabilistic-models-of-cognition-cd6995cf-ce43-4dfc-af98-87a3960b3753/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Realism about cognitive science</title>
+      <link>http://marksprevak.com/talks/realism-about-cognitive-science-dd46f97d-2786-4d13-bc6c-ef8b2db740ca/</link>
+      <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/realism-about-cognitive-science-dd46f97d-2786-4d13-bc6c-ef8b2db740ca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is the extended mind hypothesis nonsensical?</title>
+      <link>http://marksprevak.com/talks/is-the-extended-mind-hypothesis-nonsensical-a718c429-e108-40b9-b478-72fba02aa1c2/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/is-the-extended-mind-hypothesis-nonsensical-a718c429-e108-40b9-b478-72fba02aa1c2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anti-reductionism about mental representations</title>
+      <link>http://marksprevak.com/talks/anti-reductionism-about-mental-representations-ad3b0a5a-1ab0-44f9-845d-92da20f8d516/</link>
+      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/anti-reductionism-about-mental-representations-ad3b0a5a-1ab0-44f9-845d-92da20f8d516/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is the extended mind hypothesis nonsensical?</title>
+      <link>http://marksprevak.com/talks/is-the-extended-mind-hypothesis-nonsensical-7b3ef178-b439-4793-bfcc-6827f6cbf6fd/</link>
+      <pubDate>Fri, 08 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/is-the-extended-mind-hypothesis-nonsensical-7b3ef178-b439-4793-bfcc-6827f6cbf6fd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fictionalism about neural representation</title>
+      <link>http://marksprevak.com/talks/fictionalism-about-neural-representation-3b1ac9e1-560d-4204-9c03-3c44ff2347c0/</link>
+      <pubDate>Thu, 07 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/fictionalism-about-neural-representation-3b1ac9e1-560d-4204-9c03-3c44ff2347c0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive coding</title>
+      <link>http://marksprevak.com/talks/predictive-coding-23212ce1-7f87-4c37-9bc7-0fe01f1266ea/</link>
+      <pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/predictive-coding-23212ce1-7f87-4c37-9bc7-0fe01f1266ea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive coding</title>
+      <link>http://marksprevak.com/talks/predictive-coding-fc29fd0a-c473-4a97-bd89-4c57bddaf230/</link>
+      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/predictive-coding-fc29fd0a-c473-4a97-bd89-4c57bddaf230/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fictionalism about neural representation</title>
+      <link>http://marksprevak.com/talks/fictionalism-about-neural-representation-e633f789-91dd-4e55-a8fe-c521e5189a78/</link>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/fictionalism-about-neural-representation-e633f789-91dd-4e55-a8fe-c521e5189a78/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fictionalism about neural representation</title>
+      <link>http://marksprevak.com/talks/fictionalism-about-neural-representation-1e210be3-1420-4ac5-82be-40c82149e771/</link>
+      <pubDate>Mon, 17 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/fictionalism-about-neural-representation-1e210be3-1420-4ac5-82be-40c82149e771/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fictionalism about neural representation</title>
+      <link>http://marksprevak.com/talks/fictionalism-about-neural-representation-942be677-8c91-4b32-884a-5d90b62172b6/</link>
+      <pubDate>Wed, 05 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/fictionalism-about-neural-representation-942be677-8c91-4b32-884a-5d90b62172b6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is the extended mind hypothesis nonsensical?</title>
+      <link>http://marksprevak.com/talks/is-the-extended-mind-hypothesis-nonsensical-24b846fa-1996-4324-80ff-4ee8c6f143a7/</link>
+      <pubDate>Thu, 16 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/is-the-extended-mind-hypothesis-nonsensical-24b846fa-1996-4324-80ff-4ee8c6f143a7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do group minds exist?</title>
+      <link>http://marksprevak.com/talks/do-group-minds-exist-625da862-cbcd-45cb-a363-063bb0509eb6/</link>
+      <pubDate>Fri, 18 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/do-group-minds-exist-625da862-cbcd-45cb-a363-063bb0509eb6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Psychiatry and the extended mind</title>
+      <link>http://marksprevak.com/talks/psychiatry-and-the-extended-mind-7cda5587-530a-4807-b97e-bdf4fac21abd/</link>
+      <pubDate>Thu, 03 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/psychiatry-and-the-extended-mind-7cda5587-530a-4807-b97e-bdf4fac21abd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is the extended mind hypothesis nonsensical?</title>
+      <link>http://marksprevak.com/talks/is-the-extended-mind-hypothesis-nonsensical-00ab4ecd-a2be-4ea2-9acb-5e67aaf2f0bc/</link>
+      <pubDate>Thu, 20 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/is-the-extended-mind-hypothesis-nonsensical-00ab4ecd-a2be-4ea2-9acb-5e67aaf2f0bc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive coding</title>
+      <link>http://marksprevak.com/talks/predictive-coding-5ca28b4f-1dd8-4ee3-8c79-5b89bc61c576/</link>
+      <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/predictive-coding-5ca28b4f-1dd8-4ee3-8c79-5b89bc61c576/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is the extended mind hypothesis nonsensical?</title>
+      <link>http://marksprevak.com/talks/is-the-extended-mind-hypothesis-nonsensical-d713b179-bb2a-4573-a9a5-5d4b90f95f05/</link>
+      <pubDate>Mon, 15 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/is-the-extended-mind-hypothesis-nonsensical-d713b179-bb2a-4573-a9a5-5d4b90f95f05/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is the extended mind hypothesis nonsensical?</title>
+      <link>http://marksprevak.com/talks/is-the-extended-mind-hypothesis-nonsensical-bbbf8879-2725-488e-ae73-fbb46498a892/</link>
+      <pubDate>Tue, 19 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/is-the-extended-mind-hypothesis-nonsensical-bbbf8879-2725-488e-ae73-fbb46498a892/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is the extended mind hypothesis nonsensical?</title>
+      <link>http://marksprevak.com/talks/is-the-extended-mind-hypothesis-nonsensical-97f72f41-3da2-4c04-8472-220edfbc0cad/</link>
+      <pubDate>Tue, 30 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/is-the-extended-mind-hypothesis-nonsensical-97f72f41-3da2-4c04-8472-220edfbc0cad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Psychiatry and the extended mind</title>
+      <link>http://marksprevak.com/talks/psychiatry-and-the-extended-mind-90f3d052-4b0b-4bb2-90cb-17f785676b67/</link>
+      <pubDate>Fri, 05 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/psychiatry-and-the-extended-mind-90f3d052-4b0b-4bb2-90cb-17f785676b67/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Making friends with representationalism about computation</title>
+      <link>http://marksprevak.com/talks/making-friends-with-representationalism-about-computation-eea2f4c3-dab9-4fcc-80ca-9384a40c2adf/</link>
+      <pubDate>Sat, 12 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/making-friends-with-representationalism-about-computation-eea2f4c3-dab9-4fcc-80ca-9384a40c2adf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inference to the hypothesis of extended cognition</title>
+      <link>http://marksprevak.com/talks/inference-to-the-hypothesis-of-extended-cognition-46ae03be-9fb5-4e09-b051-5f8422ecb3dc/</link>
+      <pubDate>Wed, 02 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/inference-to-the-hypothesis-of-extended-cognition-46ae03be-9fb5-4e09-b051-5f8422ecb3dc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Commentary on Edouard Machery&#39;s &#39;Evidence in Cognitive Neuroscience&#39;</title>
+      <link>http://marksprevak.com/talks/commentary-on-edouard-machery-s-evidence-in-cognitive-neuroscience-1004a292-b371-4c91-9801-12cfc6d4864d/</link>
+      <pubDate>Thu, 19 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/commentary-on-edouard-machery-s-evidence-in-cognitive-neuroscience-1004a292-b371-4c91-9801-12cfc6d4864d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inference to the hypothesis of extended cognition</title>
+      <link>http://marksprevak.com/talks/inference-to-the-hypothesis-of-extended-cognition-3ac4ce84-242a-4baf-beba-e6e638e65b78/</link>
+      <pubDate>Wed, 14 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/inference-to-the-hypothesis-of-extended-cognition-3ac4ce84-242a-4baf-beba-e6e638e65b78/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How does the situated cognition program justify the extended mind?</title>
+      <link>http://marksprevak.com/talks/how-does-the-situated-cognition-program-justify-the-extended-mind-d5cc73b0-ac93-4aac-a54f-61ed26c0f1d4/</link>
+      <pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/how-does-the-situated-cognition-program-justify-the-extended-mind-d5cc73b0-ac93-4aac-a54f-61ed26c0f1d4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is a computational mechanism?</title>
+      <link>http://marksprevak.com/talks/what-is-a-computational-mechanism-83652c2b-6384-49ce-ab60-005c41bac3d9/</link>
+      <pubDate>Wed, 29 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/what-is-a-computational-mechanism-83652c2b-6384-49ce-ab60-005c41bac3d9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inference to the hypothesis of extended cognition</title>
+      <link>http://marksprevak.com/talks/inference-to-the-hypothesis-of-extended-cognition-5a57ffd9-addb-4d9d-b792-8379c27e46ec/</link>
+      <pubDate>Tue, 26 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/inference-to-the-hypothesis-of-extended-cognition-5a57ffd9-addb-4d9d-b792-8379c27e46ec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real computational structure</title>
+      <link>http://marksprevak.com/talks/real-computational-structure-600669a8-ceed-491e-bc44-841545c2eb06/</link>
+      <pubDate>Fri, 19 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/real-computational-structure-600669a8-ceed-491e-bc44-841545c2eb06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Doing without a principle of demarcation</title>
+      <link>http://marksprevak.com/talks/doing-without-a-principle-of-demarcation-1b68e191-d1f1-4277-a247-94fe15019b06/</link>
+      <pubDate>Thu, 26 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/doing-without-a-principle-of-demarcation-1b68e191-d1f1-4277-a247-94fe15019b06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inference, explanation, and extended cognition</title>
+      <link>http://marksprevak.com/talks/inference-explanation-and-extended-cognition-9ca707fd-efa6-49f3-a99c-bb1bb9e71bba/</link>
+      <pubDate>Mon, 23 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/inference-explanation-and-extended-cognition-9ca707fd-efa6-49f3-a99c-bb1bb9e71bba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Does a rock perform every computation?</title>
+      <link>http://marksprevak.com/talks/does-a-rock-perform-every-computation-94776275-a274-4d2b-8fe4-77a9e4aa0c74/</link>
+      <pubDate>Tue, 13 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/does-a-rock-perform-every-computation-94776275-a274-4d2b-8fe4-77a9e4aa0c74/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extending the conscious mind</title>
+      <link>http://marksprevak.com/talks/extending-the-conscious-mind-4cf74687-4318-4dbc-8e70-f0e593908c9a/</link>
+      <pubDate>Wed, 20 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/extending-the-conscious-mind-4cf74687-4318-4dbc-8e70-f0e593908c9a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Does a rock perform every computation?</title>
+      <link>http://marksprevak.com/talks/does-a-rock-perform-every-computation-bbd4c259-491f-4f72-983b-0542ec0eb565/</link>
+      <pubDate>Tue, 21 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/does-a-rock-perform-every-computation-bbd4c259-491f-4f72-983b-0542ec0eb565/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inference, explanation, and extended cognition</title>
+      <link>http://marksprevak.com/talks/inference-explanation-and-extended-cognition-edf95fae-47b0-4542-933f-13e5406ba6c8/</link>
+      <pubDate>Thu, 02 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/inference-explanation-and-extended-cognition-edf95fae-47b0-4542-933f-13e5406ba6c8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can computations be objective features of the world?</title>
+      <link>http://marksprevak.com/talks/can-computations-be-objective-features-of-the-world-0598aa5e-3da4-4896-869c-bdac85c393a5/</link>
+      <pubDate>Mon, 23 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/can-computations-be-objective-features-of-the-world-0598aa5e-3da4-4896-869c-bdac85c393a5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can computations be objective features of the world?</title>
+      <link>http://marksprevak.com/talks/can-computations-be-objective-features-of-the-world-58a1b2a4-21b2-4492-8d58-20dbbd70ccbf/</link>
+      <pubDate>Thu, 05 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/can-computations-be-objective-features-of-the-world-58a1b2a4-21b2-4492-8d58-20dbbd70ccbf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inference, explanation, and extended cognition</title>
+      <link>http://marksprevak.com/talks/inference-explanation-and-extended-cognition-90176ac3-8468-45bd-8cda-79198885a93b/</link>
+      <pubDate>Tue, 27 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/inference-explanation-and-extended-cognition-90176ac3-8468-45bd-8cda-79198885a93b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Commentary on Katherine Hawley&#39;s &#39;Testimony and Knowing How&#39;</title>
+      <link>http://marksprevak.com/talks/commentary-on-katherine-hawley-s-testimony-and-knowing-how-71eeda5d-95f6-4567-bd75-26d6f5c31a89/</link>
+      <pubDate>Sat, 01 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/commentary-on-katherine-hawley-s-testimony-and-knowing-how-71eeda5d-95f6-4567-bd75-26d6f5c31a89/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alternative cognition and extended cognition</title>
+      <link>http://marksprevak.com/talks/alternative-cognition-and-extended-cognition-6bdb0f2f-3899-4973-b6db-653474599d02/</link>
+      <pubDate>Thu, 10 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/alternative-cognition-and-extended-cognition-6bdb0f2f-3899-4973-b6db-653474599d02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computation, individuation, and the representation condition</title>
+      <link>http://marksprevak.com/talks/computation-individuation-and-the-representation-condition-618eff79-13ee-476f-adac-9882325e6bf6/</link>
+      <pubDate>Mon, 07 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/computation-individuation-and-the-representation-condition-618eff79-13ee-476f-adac-9882325e6bf6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alternative cognition and extended cognition</title>
+      <link>http://marksprevak.com/talks/alternative-cognition-and-extended-cognition-393a456d-bb32-473d-b108-5eee0b029def/</link>
+      <pubDate>Tue, 20 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/alternative-cognition-and-extended-cognition-393a456d-bb32-473d-b108-5eee0b029def/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alternative cognition and extended cognition</title>
+      <link>http://marksprevak.com/talks/alternative-cognition-and-extended-cognition-14ce6dc6-2d80-45d0-b922-d3663c9d2f58/</link>
+      <pubDate>Mon, 09 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/alternative-cognition-and-extended-cognition-14ce6dc6-2d80-45d0-b922-d3663c9d2f58/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Realism about computation and two senses of mind dependence</title>
+      <link>http://marksprevak.com/talks/realism-about-computation-and-two-senses-of-mind-dependence-b548597f-1306-4446-a18d-3db9f0e3d2b0/</link>
+      <pubDate>Thu, 08 Feb 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/realism-about-computation-and-two-senses-of-mind-dependence-b548597f-1306-4446-a18d-3db9f0e3d2b0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Not all computations are effective methods</title>
+      <link>http://marksprevak.com/talks/not-all-computations-are-effective-methods-286e733c-a2dc-4a40-bb72-a11a60c4d811/</link>
+      <pubDate>Tue, 12 Dec 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/not-all-computations-are-effective-methods-286e733c-a2dc-4a40-bb72-a11a60c4d811/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithms and the Chinese room</title>
+      <link>http://marksprevak.com/talks/algorithms-and-the-chinese-room-97729f8c-039a-4390-bf04-23ec51927471/</link>
+      <pubDate>Tue, 24 Oct 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/algorithms-and-the-chinese-room-97729f8c-039a-4390-bf04-23ec51927471/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Not all computations are effective methods</title>
+      <link>http://marksprevak.com/talks/not-all-computations-are-effective-methods-ac962f06-f06d-49e9-8c4d-2f33a044fc10/</link>
+      <pubDate>Wed, 18 Oct 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/not-all-computations-are-effective-methods-ac962f06-f06d-49e9-8c4d-2f33a044fc10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Realism about computation in cognitive science</title>
+      <link>http://marksprevak.com/talks/realism-about-computation-in-cognitive-science-363f3b26-624c-44aa-8fd8-738566310939/</link>
+      <pubDate>Thu, 24 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/realism-about-computation-in-cognitive-science-363f3b26-624c-44aa-8fd8-738566310939/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Realism about computation and two senses of mind dependence</title>
+      <link>http://marksprevak.com/talks/realism-about-computation-and-two-senses-of-mind-dependence-c535ccec-1892-470c-8535-900c3e9cdb93/</link>
+      <pubDate>Fri, 07 Jul 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/realism-about-computation-and-two-senses-of-mind-dependence-c535ccec-1892-470c-8535-900c3e9cdb93/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Realism about computation in cognitive science</title>
+      <link>http://marksprevak.com/talks/realism-about-computation-in-cognitive-science-67f688e8-f2a3-44fe-a23c-24689a763607/</link>
+      <pubDate>Thu, 06 Jul 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/realism-about-computation-in-cognitive-science-67f688e8-f2a3-44fe-a23c-24689a763607/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Realism about computation and two senses of mind dependence</title>
+      <link>http://marksprevak.com/talks/realism-about-computation-and-two-senses-of-mind-dependence-4c1ec0f4-3a6d-44cd-b4b3-8adc999afc33/</link>
+      <pubDate>Thu, 17 Nov 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/realism-about-computation-and-two-senses-of-mind-dependence-4c1ec0f4-3a6d-44cd-b4b3-8adc999afc33/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithms and the Chinese room</title>
+      <link>http://marksprevak.com/talks/algorithms-and-the-chinese-room-562d1433-6434-4239-b24f-10a4f6f7234e/</link>
+      <pubDate>Thu, 26 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/algorithms-and-the-chinese-room-562d1433-6434-4239-b24f-10a4f6f7234e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithms and the Chinese room</title>
+      <link>http://marksprevak.com/talks/algorithms-and-the-chinese-room-4283672c-f3e8-42bf-b981-623f719134ad/</link>
+      <pubDate>Tue, 24 May 2005 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/algorithms-and-the-chinese-room-4283672c-f3e8-42bf-b981-623f719134ad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithms and the Chinese room</title>
+      <link>http://marksprevak.com/talks/algorithms-and-the-chinese-room-8f4c0fa8-2ab2-41d3-a2f6-26d7a4219784/</link>
+      <pubDate>Sat, 27 Mar 2004 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/algorithms-and-the-chinese-room-8f4c0fa8-2ab2-41d3-a2f6-26d7a4219784/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithms and the Chinese room</title>
+      <link>http://marksprevak.com/talks/algorithms-and-the-chinese-room-4b53cc42-a5f3-4b91-baff-e9fb83e90eb6/</link>
+      <pubDate>Sat, 15 Nov 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/algorithms-and-the-chinese-room-4b53cc42-a5f3-4b91-baff-e9fb83e90eb6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithms and the Chinese room</title>
+      <link>http://marksprevak.com/talks/algorithms-and-the-chinese-room-16089818-733a-4195-a100-1e264c200d4f/</link>
+      <pubDate>Thu, 07 Aug 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/algorithms-and-the-chinese-room-16089818-733a-4195-a100-1e264c200d4f/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The frame problem and the treatment of prediction in scientific theory</title>
+      <link>http://marksprevak.com/talks/the-frame-problem-and-the-treatment-of-prediction-in-scientific-theory-2e4feb9d-1e89-49d2-80cd-9e91442ca54c/</link>
+      <pubDate>Fri, 18 Jul 2003 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/talks/the-frame-problem-and-the-treatment-of-prediction-in-scientific-theory-2e4feb9d-1e89-49d2-80cd-9e91442ca54c/</guid>
       <description></description>
     </item>
     

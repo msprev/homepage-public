@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title> on marksprevak.com </title>
+    <title>Mark Sprevak</title>
     <link>http://marksprevak.com/phds/</link>
-    <language>en-us</language>
-    <author>Mark Sprevak</author>
-    <rights>Copyright (c) Mark Sprevak.</rights>
-    <updated>Mon, 24 Apr 2017 00:00:00 UTC</updated>
+    <description>Recent content on Mark Sprevak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 24 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://marksprevak.com/phds/index.xml" rel="self" type="application/rss+xml" />
+    
     
   </channel>
 </rss>

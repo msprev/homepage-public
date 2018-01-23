@@ -1,55 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Teachings on marksprevak.com </title>
+    <title>Teachings on Mark Sprevak</title>
     <link>http://marksprevak.com/teaching/</link>
-    <language>en-us</language>
-    <author>Mark Sprevak</author>
-    <rights>Copyright (c) Mark Sprevak.</rights>
-    <updated>Sat, 14 Oct 2017 00:00:00 UTC</updated>
+    <description>Recent content in Teachings on Mark Sprevak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 14 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://marksprevak.com/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Introduction to Cognitive Science</title>
       <link>http://marksprevak.com/teaching/intro-to-cog-sci-ug/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/teaching/intro-to-cog-sci-ug/</guid>
-      <description>
-
-&lt;p&gt;&lt;em&gt;I teach the Philosophy part of the Situated Cognition theme described below&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;course-description&#34;&gt;Course description&lt;/h2&gt;
-
-&lt;p&gt;This course introduces students to the study of Cognitive Science as the intersection of an array of interrelated disciplines including philosophy, psychology, linguistics, anthropology, computer science, human-computer interaction, and neuroscience.&lt;/p&gt;
-
-&lt;h2 id=&#34;organisation&#34;&gt;Organisation&lt;/h2&gt;
-
-&lt;p&gt;Students attend 2 hours of lecture per week, 2 hours of lab per week, as well as a biweekly tutorial hour.&lt;/p&gt;
-
-&lt;h2 id=&#34;course-content&#34;&gt;Course content&lt;/h2&gt;
-
-&lt;p&gt;This course is divided into three themed blocks:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Nativism &amp;amp; Empiricism:&lt;/em&gt; &amp;nbsp; Basic questions about the degree to which certain cognitive
-capacities are &amp;ldquo;native&amp;rdquo;, or hard-wired, in the human brain from birth or can be learned
-via empirical evidence during development.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Representation:&lt;/em&gt; &amp;nbsp;  Principles regarding the types of hypothesized structures and
-symbols that could be used to represent external reality in the human brain or in a
-computational model.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Situated Cognition:&lt;/em&gt; &amp;nbsp; Fundamental approaches to cognition that incorporate the
-physical constraints and affordances of the body.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description>I teach the Philosophy part of the Situated Cognition theme described below
+Course description This course introduces students to the study of Cognitive Science as the intersection of an array of interrelated disciplines including philosophy, psychology, linguistics, anthropology, computer science, human-computer interaction, and neuroscience.
+Organisation Students attend 2 hours of lecture per week, 2 hours of lab per week, as well as a biweekly tutorial hour.
+Course content This course is divided into three themed blocks:</description>
     </item>
     
     <item>
       <title>Philosophy and the Cognitive Sciences</title>
       <link>http://marksprevak.com/teaching/mooc/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/teaching/mooc/</guid>
       <description></description>
     </item>
@@ -57,64 +34,19 @@ physical constraints and affordances of the body.&lt;/p&gt;&lt;/li&gt;
     <item>
       <title>Ethics of Artificial Intelligence</title>
       <link>http://marksprevak.com/teaching/ethics-of-ai-ug/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/teaching/ethics-of-ai-ug/</guid>
-      <description>
-
-&lt;h2 id=&#34;course-description&#34;&gt;Course description&lt;/h2&gt;
-
-&lt;p&gt;Artificial intelligence (AI) is developing at an extremely rapid pace. We expect to see significant changes in our society as AI systems become embedded in various aspects of our lives. This course will introduce students to philosophical issues raised by current and future AI systems.&lt;/p&gt;
-
-&lt;p&gt;No previous familiarity with the literature on AI will be assumed.&lt;/p&gt;
-
-&lt;h2 id=&#34;organisation&#34;&gt;Organisation&lt;/h2&gt;
-
-&lt;p&gt;The class meets every week for 11 weeks for a 2-hour session.&lt;/p&gt;
-
-&lt;p&gt;The classes have a different format from that of most other philosophy courses. This format emphasises writing and discussion in class. Students are expected to have read the assigned readings in advance of the class. During class, students discuss the readings and work in small groups to answer questions based on the readings.&lt;/p&gt;
-
-&lt;p&gt;Groups may be instructed to argue for a particular case (&lt;em&gt;pro&lt;/em&gt; or &lt;em&gt;contra&lt;/em&gt;). They may asked to assess the merits of a given view. They may be asked to look for counterexamples to a generalisation or fallacies with a specific argument. They may be asked to find out some background information that is relevant to answering a question. After considering each question, the whole class comes together to discuss what each group has done, synthesize the results, and see how it helps address the topic for the week.&lt;/p&gt;
-
-&lt;h2 id=&#34;course-content&#34;&gt;Course content&lt;/h2&gt;
-
-&lt;p&gt;Questions considered in the course include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;How do we align the aims of autonomous AI systems with our own?&lt;/li&gt;
-&lt;li&gt;Does the future of AI pose an existential threat to humanity?&lt;/li&gt;
-&lt;li&gt;How do we prevent learning algorithms from acquiring morally objectionable biases?&lt;/li&gt;
-&lt;li&gt;Should autonomous AI be used to kill in warfare?&lt;/li&gt;
-&lt;li&gt;How should AI systems be embedded in our social relations? Is it permissible to fall in love with an AI system?&lt;/li&gt;
-&lt;li&gt;What sort of ethical rules should AI like a self-driving car use?&lt;/li&gt;
-&lt;li&gt;Can AI systems suffer moral harms? And if so, of what kinds?&lt;/li&gt;
-&lt;li&gt;Can AI systems be moral agents? If so, how should we hold them accountable?&lt;/li&gt;
-&lt;li&gt;How should we live with and understand minds that are alien to our own?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;assessment&#34;&gt;Assessment&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;10% &amp;nbsp; Participation grade&lt;/li&gt;
-&lt;li&gt;20% &amp;nbsp; Short writing assignment (500 words)&lt;/li&gt;
-&lt;li&gt;20% &amp;nbsp; Short writing assignment (500 words)&lt;/li&gt;
-&lt;li&gt;50% &amp;nbsp; End-of-semester essay (2,000 words)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;background-reading&#34;&gt;Background reading&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Bostrom, N. (2014), &lt;em&gt;Superintelligence: Paths, Dangers, Strategies&lt;/em&gt;, Oxford University Press&lt;/li&gt;
-&lt;li&gt;Wallach, W., Allen, C. (2008), &lt;em&gt;Moral Machines&lt;/em&gt;, Oxford University Press&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Course description Artificial intelligence (AI) is developing at an extremely rapid pace. We expect to see significant changes in our society as AI systems become embedded in various aspects of our lives. This course will introduce students to philosophical issues raised by current and future AI systems.
+No previous familiarity with the literature on AI will be assumed.
+Organisation The class meets every week for 11 weeks for a 2-hour session.</description>
     </item>
     
     <item>
       <title>Mind, Matter, and Language</title>
       <link>http://marksprevak.com/teaching/mml/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/teaching/mml/</guid>
       <description></description>
     </item>
@@ -122,8 +54,8 @@ physical constraints and affordances of the body.&lt;/p&gt;&lt;/li&gt;
     <item>
       <title>Philosophy of Psychology</title>
       <link>http://marksprevak.com/teaching/phil-psych-ug/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/teaching/phil-psych-ug/</guid>
       <description></description>
     </item>
@@ -131,68 +63,18 @@ physical constraints and affordances of the body.&lt;/p&gt;&lt;/li&gt;
     <item>
       <title>The Computational Mind</title>
       <link>http://marksprevak.com/teaching/computational-mind-ug/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/teaching/computational-mind-ug/</guid>
-      <description>
-
-&lt;h2 id=&#34;course-description&#34;&gt;Course description&lt;/h2&gt;
-
-&lt;p&gt;This course introduces students to the idea that the mind is a computational device.
-Computational models dominate modern psychology.
-    Computational models appear to offer the tantalising prospect of &lt;em&gt;explaining how the mind works&lt;/em&gt;.
-    These models raise numerous foundational philosophical questions.
-    They also appear to have the potential to contribute to, and perhaps even answer, long-standing philosophical questions about the mind.&lt;/p&gt;
-
-&lt;p&gt;This course does not assume prior knowledge of computational modelling techniques or cognitive science.&lt;/p&gt;
-
-&lt;h2 id=&#34;organisation&#34;&gt;Organisation&lt;/h2&gt;
-
-&lt;p&gt;The class meets every week for 11 weeks for a 2-hour session.&lt;/p&gt;
-
-&lt;p&gt;The sessions are a mixture of lecture and discussion.
-In advance of class, students are expected to have read the essential readings and posted on the course&amp;rsquo;s online discussion forum.
-In class, we discuss the readings and explore responses to them.&lt;/p&gt;
-
-&lt;h2 id=&#34;course-content&#34;&gt;Course content&lt;/h2&gt;
-
-&lt;p&gt;Computation appears to be our best hope for explaining how the mind works. Over the past forty years, computational models have scored numerous successes in explaining various mental phenomena. The course introduces the computational approach to the mind and explores some foundational questions and challenges that it faces.&lt;/p&gt;
-
-&lt;p&gt;Topics covered by the course include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What is a computation?&lt;/li&gt;
-&lt;li&gt;What do computational explanations in psychology aim to achieve?&lt;/li&gt;
-&lt;li&gt;If the mind is a type of computer, what kind of computer is it?&lt;/li&gt;
-&lt;li&gt;How should we understand talk of symbols and representational content in these computations?&lt;/li&gt;
-&lt;li&gt;How does computational modelling relate to neuroscience?&lt;/li&gt;
-&lt;li&gt;Is computation an objective property of brain processes, or a projection of our interests?&lt;/li&gt;
-&lt;li&gt;Can consciousness (qualia) be explained in terms of computation?&lt;/li&gt;
-&lt;li&gt;Do the computations that underlie cognition lie inside the head or do some spill out into the environment?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;assessment&#34;&gt;Assessment&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;20% &amp;nbsp; Weekly online discussion posts on the essential readings (~400 words)&lt;/li&gt;
-&lt;li&gt;80% &amp;nbsp; An end-of-semester essay (3,000 words)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;background-reading&#34;&gt;Background reading&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A. Clark. &lt;em&gt;Mindware: An Introduction to Cognitive Science&lt;/em&gt;. Oxford University Press, Oxford, 2nd edition, 2014.&lt;/li&gt;
-&lt;li&gt;T. Crane. &lt;em&gt;The Mechanical Mind&lt;/em&gt;. Routledge, London, 3rd edition, 2016.&lt;/li&gt;
-&lt;li&gt;J. Haugeland. &lt;em&gt;Artificial Intelligence: The Very Idea&lt;/em&gt;. MIT Press, Cambridge, MA, 1985.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Course description This course introduces students to the idea that the mind is a computational device. Computational models dominate modern psychology. Computational models appear to offer the tantalising prospect of explaining how the mind works. These models raise numerous foundational philosophical questions. They also appear to have the potential to contribute to, and perhaps even answer, long-standing philosophical questions about the mind.
+This course does not assume prior knowledge of computational modelling techniques or cognitive science.</description>
     </item>
     
     <item>
       <title>Philosophy of Psychology (MSc)</title>
       <link>http://marksprevak.com/teaching/phil-psych-msc/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/teaching/phil-psych-msc/</guid>
       <description></description>
     </item>
@@ -200,45 +82,19 @@ In class, we discuss the readings and explore responses to them.&lt;/p&gt;
     <item>
       <title>The Computational Mind (MSc)</title>
       <link>http://marksprevak.com/teaching/computational-mind-msc/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/teaching/computational-mind-msc/</guid>
-      <description>
-
-&lt;h2 id=&#34;course-description&#34;&gt;Course description&lt;/h2&gt;
-
-&lt;p&gt;Classes for this course are shared with those of the &lt;a href=&#34;teaching/computational-mind-ug/&#34;&gt;undergraduate version&lt;/a&gt; of the course.&lt;/p&gt;
-
-&lt;p&gt;In addition to classes, the MSc version of the course has a reading group on more advanced topics.
-This is intended to provide a venue to explore ideas for writing a research-focused essay.&lt;/p&gt;
-
-&lt;h2 id=&#34;msc-reading-group&#34;&gt;MSc reading group&lt;/h2&gt;
-
-&lt;p&gt;The reading group meets every 2 weeks.
-Readings are chosen in consultation with the MSc students.
-This year, we are reading:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Essays drafts from M. Colombo and M. Sprevak, (Eds.) &lt;em&gt;Routledge Handbook to the Computational Mind&lt;/em&gt;, forthcoming.&lt;/li&gt;
-&lt;li&gt;Chapter 8 of D. J. Chalmers. &lt;em&gt;The Conscious Mind&lt;/em&gt;. Oxford University Press, Oxford, 1996.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In recent years, we have read chapters from:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;G. Piccinini. &lt;em&gt;The Nature of Computation&lt;/em&gt;. Oxford University Press, Oxford, 2015.&lt;/li&gt;
-&lt;li&gt;R. Sun, (Ed). &lt;em&gt;Cambridge Handbook of Computational Psychology&lt;/em&gt;. Cambridge University Press, Cambridge, 2008.&lt;/li&gt;
-&lt;li&gt;S. Russell and P. Norvig. &lt;em&gt;Artificial Intelligence: A Modern Approach&lt;/em&gt;. Pearson, Upper Saddle River, NJ, 3rd edition, 2010.&lt;/li&gt;
-&lt;li&gt;P. S. Churchland and T. J. Sejnowski. &lt;em&gt;The Computational Brain&lt;/em&gt;. MIT Press, Cambridge, MA, 1992.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Course description Classes for this course are shared with those of the undergraduate version of the course.
+In addition to classes, the MSc version of the course has a reading group on more advanced topics. This is intended to provide a venue to explore ideas for writing a research-focused essay.
+MSc reading group The reading group meets every 2 weeks. Readings are chosen in consultation with the MSc students. This year, we are reading:</description>
     </item>
     
     <item>
       <title>CogLab</title>
       <link>http://marksprevak.com/teaching/coglab/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/teaching/coglab/</guid>
       <description></description>
     </item>
@@ -246,138 +102,31 @@ This year, we are reading:&lt;/p&gt;
     <item>
       <title>Undergraduate dissertations</title>
       <link>http://marksprevak.com/teaching/dissertations-current-ug/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/teaching/dissertations-current-ug/</guid>
-      <description>
-
-&lt;p&gt;I supervise at least one undergraduate a year.
-Many of the same questions come up each year.
-I have prepared below a set of guidelines to help when starting out on a dissertation.&lt;/p&gt;
-
-&lt;p&gt;Please note that this is personal advice and not to be taken as a substitute for the undergraduate handbook and marking scheme.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;do-s-and-don-t-s-for-a-dissertation&#34;&gt;Do&amp;rsquo;s and Don&amp;rsquo;t&amp;rsquo;s for a dissertation&lt;/h2&gt;
-
-&lt;p&gt;Do:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Have a claim. You should be able to state your claim clearly in 1&amp;ndash;2 sentences.&lt;/li&gt;
-&lt;li&gt;Have claim of the right size &amp;ndash; viz. a size you can defend (be careful not to be too ambitious here)&lt;/li&gt;
-&lt;li&gt;Have a rigorous argument for your claim. Your argument should be able to convince a rational person who does not already believe your claim&lt;/li&gt;
-&lt;li&gt;Make your dissertation clearly understandable to a philosopher who is not an expert in this area&lt;/li&gt;
-&lt;li&gt;Explain why your claim is important&lt;/li&gt;
-&lt;li&gt;Be honest if you do not conclusively establish your claim &amp;ndash; e.g. clarify that your claim follows conditional on certain stated assumptions, list unresolved objections&lt;/li&gt;
-&lt;li&gt;Make clear your original contribution&lt;/li&gt;
-&lt;li&gt;Make use of your supervisor for feedback on drafts&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Don&amp;rsquo;t:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Aim for this to be your magnum opus or last word on the topic&lt;/li&gt;
-&lt;li&gt;Try to solve a major problem (e.g. the mind-body problem, external world scepticism)&lt;/li&gt;
-&lt;li&gt;Cover every possible view in the field&lt;/li&gt;
-&lt;li&gt;Include extra material unless it advances your argument&lt;/li&gt;
-&lt;li&gt;Have one massive 6,000 word chapter&lt;/li&gt;
-&lt;li&gt;Leave it until Semester 2 to start work&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;how-to-write-a-dissertation&#34;&gt;How to write a dissertation&lt;/h2&gt;
-
-&lt;p&gt;The points above give you an idea of what to aim for but they don&amp;rsquo;t provide a method for how to get there.
-There are many ways to write a dissertation.
-It may be reassuring to know that there are simple methods that can reliably produce an excellent dissertation.
-The algorithm below is one method:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Find the general area you like (e.g. phenomenal consciousness)&lt;/li&gt;
-&lt;li&gt;Select &lt;em&gt;one&lt;/em&gt; article/book chapter in that area that you find fascinating (e.g. Smith (2009))&lt;/li&gt;
-&lt;li&gt;Summarise Smith (2009) carefully in your own words, paying attention to whether each step in the argument follows from the previous&lt;/li&gt;
-&lt;li&gt;Look for weaknesses in Smith (2009)&amp;rsquo;s argument&lt;/li&gt;
-&lt;li&gt;Summarise how Smith (2009)&amp;rsquo;s argument &lt;em&gt;should be corrected&lt;/em&gt;. Focus on the following:
-
-&lt;ul&gt;
-&lt;li&gt;Which &lt;em&gt;new resources&lt;/em&gt; do you need to draw on?&lt;/li&gt;
-&lt;li&gt;Which &lt;em&gt;alternative conclusions&lt;/em&gt; follow?&lt;/li&gt;
-&lt;li&gt;Which &lt;em&gt;objections&lt;/em&gt; can be raised to your proposal?&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Draw on relevant bits of surrounding literature to support (5)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;You have a first class dissertation!&lt;/p&gt;
-
-&lt;h2 id=&#34;filling-the-dissertation-with-enough-words&#34;&gt;Filling the dissertation with enough words&lt;/h2&gt;
-
-&lt;p&gt;A common worry among students is whether they are able to write enough words.
-The longest piece of philosophical writing they may have done so far is 3,000 words.
-How can you write a sustained argument that lasts for 8,000 words?
-This turns out to be easier than you might think.
-Indeed, the difficulty often turns out to be not going over the word limit.&lt;/p&gt;
-
-&lt;p&gt;For the sake of argument, let us see how following the algorithm above might work out in terms of word count.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Introduction (500 words): &lt;em&gt;What is your claim, the outline of your argument?&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Chapter 1 (1,000 words): &lt;em&gt;Why is your claim important? What are the pay-offs?&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Chapter 2 (2,000 words): &lt;em&gt;Careful and charitable summary of X in your own words&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Chapter 3 (2,000 words): &lt;em&gt;Your rigorous criticism of X&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Chapter 4 (2,000 words): &lt;em&gt;How X should be corrected, associated costs, consequences for views that use X, possible objections&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Conclusion (500 words): &lt;em&gt;Summary and next steps for future work&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And we are done!&lt;/p&gt;
-
-&lt;h2 id=&#34;milestones-to-aim-for&#34;&gt;Milestones to aim for&lt;/h2&gt;
-
-&lt;p&gt;Milestones depend on the specific project and you should talk to your supervisor about your workload and what would be a reasonable plan for finishing the dissertation in the year.
-Below is a rough plan that one might aim for.&lt;/p&gt;
-
-&lt;p&gt;Year 3:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;End Y3: meet supervisor &amp;amp; agree on general topic&lt;/li&gt;
-&lt;li&gt;Summer vacation: background reading on topic&lt;/li&gt;
-&lt;li&gt;Start Y4: find 1 article/chapter to focus&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Year 4, Semester 1:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Start: meet with supervisor &amp;amp; agree plan for year&lt;/li&gt;
-&lt;li&gt;Middle: first draft of 2 chapters&lt;/li&gt;
-&lt;li&gt;End: polished draft of 2 chapters&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Year 4, Semester 2:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Start: first draft of entire dissertation&lt;/li&gt;
-&lt;li&gt;Middle: polished draft of entire dissertation&lt;/li&gt;
-&lt;li&gt;End: revisit, revise, and submit dissertation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;background-reading&#34;&gt;Background reading&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://robertpaulwolff.blogspot.co.uk/2010/07/how-to-write-doctoral-dissertation-in.html&#34;&gt;A dissertation in philosophy is a story &amp;hellip; like all good stories, it only includes what is essential to the story&lt;/a&gt;
-&amp;mdash; Robert Paul Wolff&amp;rsquo;s astute advice that applies just as well to UG dissertations as well as PhD theses&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.jimpryor.net/teaching/guidelines/writing.html&#34;&gt;Be concise, but explain yourself fully&lt;/a&gt;
-&amp;mdash; Jim Pryor with an excellent 3-stage plan for writing philosophy&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.hps.cam.ac.uk/students/research-guide/writing-philosophy&#34;&gt;Style is the feather in the arrow, not the feather in the cap&lt;/a&gt;
-&amp;mdash; Peter Lipton has some wonderful and concise writing advice&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.logicmatters.net/students/writing-style/&#34;&gt;Read your work aloud. &amp;hellip; Be firm: take your prose to the gym, and keep working at it until the bones and sinews show through!&lt;/a&gt;
-&amp;mdash; Peter Smith, previously editor of &lt;em&gt;Analysis&lt;/em&gt;, with some fantastic advice&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.jimpryor.net/teaching/vocab/index.html&#34;&gt;What is an argument?&lt;/a&gt;
-&amp;mdash; Jim Pryor&amp;rsquo;s guide is essential reading for anyone writing philosophy; it contains a lexicon of philosophical terms and a taxonomy of good and bad arguments, which is useful for classifying the arguments you consider&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>I supervise at least one undergraduate a year. Many of the same questions come up each year. I have prepared below a set of guidelines to help when starting out on a dissertation.
+Please note that this is personal advice and not to be taken as a substitute for the undergraduate handbook and marking scheme.
+Do&amp;rsquo;s and Don&amp;rsquo;t&amp;rsquo;s for a dissertation Do:
+ Have a claim. You should be able to state your claim clearly in 1&amp;ndash;2 sentences.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Mind, Language and Embodied Cognition</title>
+      <link>http://marksprevak.com/teaching/intro-to-mlec/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/teaching/intro-to-mlec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Undergraduate dissertations</title>
+      <link>http://marksprevak.com/teaching/dissertations-past-ug/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/teaching/dissertations-past-ug/</guid>
+      <description></description>
     </item>
     
   </channel>

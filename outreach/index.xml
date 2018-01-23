@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Outreaches on marksprevak.com </title>
+    <title>Outreaches on Mark Sprevak</title>
     <link>http://marksprevak.com/outreach/</link>
-    <language>en-us</language>
-    <author>Mark Sprevak</author>
-    <rights>Copyright (c) Mark Sprevak.</rights>
-    <updated>Tue, 03 Apr 2018 00:00:00 UTC</updated>
+    <description>Recent content in Outreaches on Mark Sprevak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 03 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://marksprevak.com/outreach/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Who lives and who drives?</title>
       <link>http://marksprevak.com/outreach/who-lives-and-who-drives-06f211f4-0c34-4b64-9b0c-d4a0b14c1d8d/</link>
-      <pubDate>Tue, 03 Apr 2018 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/outreach/who-lives-and-who-drives-06f211f4-0c34-4b64-9b0c-d4a0b14c1d8d/</guid>
       <description></description>
     </item>
@@ -20,8 +22,8 @@
     <item>
       <title>Thinking with Things -- 2nd Schools workshop</title>
       <link>http://marksprevak.com/outreach/thinking-with-things-2nd-schools-workshop-dfdaca5f-ad27-4b40-a3cf-a845fb1eaf2d/</link>
-      <pubDate>Fri, 12 May 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/outreach/thinking-with-things-2nd-schools-workshop-dfdaca5f-ad27-4b40-a3cf-a845fb1eaf2d/</guid>
       <description></description>
     </item>
@@ -29,8 +31,8 @@
     <item>
       <title>Seeing Minds Online</title>
       <link>http://marksprevak.com/outreach/seeing-minds-online-1913be08-f571-4ae4-8fd0-b4b8b84e862a/</link>
-      <pubDate>Thu, 06 Apr 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/outreach/seeing-minds-online-1913be08-f571-4ae4-8fd0-b4b8b84e862a/</guid>
       <description></description>
     </item>
@@ -38,8 +40,8 @@
     <item>
       <title>Thinking with Things -- 1st Schools workshop</title>
       <link>http://marksprevak.com/outreach/thinking-with-things-1st-schools-workshop-b72f94ae-3cd7-420f-b6f7-252d5a95d6c6/</link>
-      <pubDate>Mon, 20 Mar 2017 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/outreach/thinking-with-things-1st-schools-workshop-b72f94ae-3cd7-420f-b6f7-252d5a95d6c6/</guid>
       <description></description>
     </item>
@@ -47,8 +49,8 @@
     <item>
       <title>Thinking with Things</title>
       <link>http://marksprevak.com/outreach/thinking-with-things-eae72f99-0d41-4594-8849-601c130f9a22/</link>
-      <pubDate>Sat, 08 Oct 2016 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Sat, 08 Oct 2016 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/outreach/thinking-with-things-eae72f99-0d41-4594-8849-601c130f9a22/</guid>
       <description></description>
     </item>
@@ -56,8 +58,8 @@
     <item>
       <title>Will Machines Rule the World?</title>
       <link>http://marksprevak.com/outreach/will-machines-rule-the-world-643b432a-3339-418d-abda-7eeff85511fd/</link>
-      <pubDate>Mon, 07 Dec 2015 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/outreach/will-machines-rule-the-world-643b432a-3339-418d-abda-7eeff85511fd/</guid>
       <description></description>
     </item>
@@ -65,8 +67,8 @@
     <item>
       <title>Turing Test: Man or Machine?</title>
       <link>http://marksprevak.com/outreach/turing-test-man-or-machine-a6e41608-5a08-4dd7-a115-1201d3b53f9e/</link>
-      <pubDate>Wed, 07 Oct 2015 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Wed, 07 Oct 2015 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/outreach/turing-test-man-or-machine-a6e41608-5a08-4dd7-a115-1201d3b53f9e/</guid>
       <description></description>
     </item>
@@ -74,8 +76,8 @@
     <item>
       <title>Museum Lates: Game Masters</title>
       <link>http://marksprevak.com/outreach/museum-lates-game-masters-9747a63d-6069-4b8f-95b2-c1fd2e70fdcb/</link>
-      <pubDate>Fri, 13 Feb 2015 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Fri, 13 Feb 2015 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/outreach/museum-lates-game-masters-9747a63d-6069-4b8f-95b2-c1fd2e70fdcb/</guid>
       <description></description>
     </item>
@@ -83,8 +85,8 @@
     <item>
       <title>Turing Test: Man or Machine?</title>
       <link>http://marksprevak.com/outreach/turing-test-man-or-machine-a678bb9a-1ff2-4009-be04-8d9da48b5134/</link>
-      <pubDate>Thu, 16 Oct 2014 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Thu, 16 Oct 2014 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/outreach/turing-test-man-or-machine-a678bb9a-1ff2-4009-be04-8d9da48b5134/</guid>
       <description></description>
     </item>
@@ -92,9 +94,54 @@
     <item>
       <title>Meet the Experts @ the National Museum of Scotland</title>
       <link>http://marksprevak.com/outreach/meet-the-experts-the-national-museum-of-scotland-11e5208b-73c5-4d18-b232-cacacd32c782/</link>
-      <pubDate>Fri, 26 Sep 2014 00:00:00 UTC</pubDate>
-      <author>Mark Sprevak</author>
+      <pubDate>Fri, 26 Sep 2014 00:00:00 +0000</pubDate>
+      
       <guid>http://marksprevak.com/outreach/meet-the-experts-the-national-museum-of-scotland-11e5208b-73c5-4d18-b232-cacacd32c782/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Falling in Love with AI</title>
+      <link>http://marksprevak.com/outreach/falling-in-love-with-ai-672fb69f-c5e5-4188-819b-8a05464d8882/</link>
+      <pubDate>Mon, 19 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/outreach/falling-in-love-with-ai-672fb69f-c5e5-4188-819b-8a05464d8882/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Take the Turing Test</title>
+      <link>http://marksprevak.com/outreach/take-the-turing-test-d2488b4a-fe36-4c6c-9f16-b37848eaffdf/</link>
+      <pubDate>Thu, 24 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/outreach/take-the-turing-test-d2488b4a-fe36-4c6c-9f16-b37848eaffdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Does technology make you smarter?</title>
+      <link>http://marksprevak.com/outreach/does-technology-make-you-smarter-81d57289-f4b1-480c-b0af-9bde0d35e84e/</link>
+      <pubDate>Thu, 17 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/outreach/does-technology-make-you-smarter-81d57289-f4b1-480c-b0af-9bde0d35e84e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smarter phones, smarter people?</title>
+      <link>http://marksprevak.com/outreach/smarter-phones-smarter-people-3605060e-7b9f-4b2e-bfda-2b00f943667f/</link>
+      <pubDate>Sat, 05 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/outreach/smarter-phones-smarter-people-3605060e-7b9f-4b2e-bfda-2b00f943667f/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is the difference between you and a computer?</title>
+      <link>http://marksprevak.com/outreach/what-is-the-difference-between-you-and-a-computer-caf528a9-c2a5-4767-b284-707d0bdd71ba/</link>
+      <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/outreach/what-is-the-difference-between-you-and-a-computer-caf528a9-c2a5-4767-b284-707d0bdd71ba/</guid>
       <description></description>
     </item>
     

@@ -5,10 +5,19 @@
     <link>http://marksprevak.com/publications/</link>
     <description>Recent content in Publications on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 16 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eliminativism about consciousness</title>
+      <link>http://marksprevak.com/publications/eliminativism-about-consciousness/</link>
+      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/publications/eliminativism-about-consciousness/</guid>
+      <description>1 Introduction In this chapter, we examine a radical philosophical position about consciousness: eliminativism. Eliminativists claim that consciousness does not exist and/or that talk of consciousness should be eliminated from serious science. These are strong positions to take, and require serious defence. To evaluate these positions, the chapter is structured as follows. In Section 2 we introduce the difference between entity eliminativism and discourse eliminativism and outline the typical strategies used to support each.</description>
+    </item>
     
     <item>
       <title>Distributed cognition and the humanities</title>
@@ -45,15 +54,6 @@
       <guid>http://marksprevak.com/publications/turing-s-model-of-the-mind-2017/</guid>
       <description>Alan Turing contributed to a revolutionary idea: that mental activity is computation. Turing’s work helped lay the foundation for what is now known as cognitive science. Today, computation is an essential element for explaining how the mind works. In this chapter, I return to Turing’s early attempts to understanding the mind using computation and examine the role that Turing played in the early days of cognitive science.
 1 Engineering versus psychology Turing is famous as a founding figure in artificial intelligence (AI) but his contribution to cognitive science is less well known.</description>
-    </item>
-    
-    <item>
-      <title>Eliminativism about consciousness</title>
-      <link>http://marksprevak.com/publications/eliminativism-about-consciousness/</link>
-      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://marksprevak.com/publications/eliminativism-about-consciousness/</guid>
-      <description></description>
     </item>
     
     <item>

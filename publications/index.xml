@@ -5,10 +5,28 @@
     <link>http://marksprevak.com/publications/</link>
     <description>Recent content in Publications on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 07 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Introduction to Handbook</title>
+      <link>http://marksprevak.com/publications/introduction-to-handbook/</link>
+      <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/publications/introduction-to-handbook/</guid>
+      <description>Computational approaches to explain how the mind works have bloomed in the last three decades. The idea that computing can explain thinking emerged in the early modern period, but its impact on the philosophy and sciences of mind and brain owes much to the groundbreaking work of Alan Turing on both the foundations of mathematical computation theory and artificial intelligence (e.g., Turing, n.d., 1950). Turing’s work set the stage for the computational theory of mind (CTM), which, classically understood, claims that thinking is a computational process over linguistically structured representations.</description>
+    </item>
+    
+    <item>
+      <title>Triviality arguments about computational implementation</title>
+      <link>http://marksprevak.com/publications/triviality-arguments-about-computational-implementation/</link>
+      <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/publications/triviality-arguments-about-computational-implementation/</guid>
+      <description>1 Introduction Triviality arguments seek to show that computational implementation in physical systems is trivial in some worrisome way. A triviality argument might show that a theory of implementation attributes computations to too many physical systems, or that it attributes too many computations to those physical systems that compute, or both. Triviality arguments threaten to make trouble both for computational functionalism (the metaphysical claim that implementing a certain computation is sufficient for having a certain mental state or process) and for computational explanation in science (the scientific practice of explaining mental and behavioural phenomena in terms of physical computations).</description>
+    </item>
     
     <item>
       <title>Eliminativism about consciousness</title>
@@ -170,15 +188,6 @@
       <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>http://marksprevak.com/publications/the-turing-guide-life-work-legacy-2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Triviality arguments about implementation</title>
-      <link>http://marksprevak.com/publications/triviality-arguments-about-implementation/</link>
-      <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://marksprevak.com/publications/triviality-arguments-about-implementation/</guid>
       <description></description>
     </item>
     

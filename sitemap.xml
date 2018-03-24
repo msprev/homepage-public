@@ -63,6 +63,11 @@
   </url>
   
   <url>
+    <loc>http://marksprevak.com/talks/two-kinds-of-information-processing-in-cognition-e70d4045-0749-4628-8569-58f44a6152a6/</loc>
+    <lastmod>2018-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://marksprevak.com/talks/robots-who-know-themselves-5e032f3d-4c0a-47d4-97c6-a1e93fbc1fa9/</loc>
     <lastmod>2018-05-25T00:00:00+00:00</lastmod>
   </url>
@@ -75,6 +80,16 @@
   <url>
     <loc>http://marksprevak.com/outreach/who-lives-and-who-drives-06f211f4-0c34-4b64-9b0c-d4a0b14c1d8d/</loc>
     <lastmod>2018-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marksprevak.com/publications/introduction-to-handbook/</loc>
+    <lastmod>2018-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marksprevak.com/publications/triviality-arguments-about-computational-implementation/</loc>
+    <lastmod>2018-03-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -244,11 +259,6 @@
   
   <url>
     <loc>http://marksprevak.com/publications/the-turing-guide-life-work-legacy-2017/</loc>
-    <lastmod>2016-04-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://marksprevak.com/publications/triviality-arguments-about-implementation/</loc>
     <lastmod>2016-04-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -691,7 +701,7 @@
   
   <url>
     <loc>http://marksprevak.com/publications/</loc>
-    <lastmod>2018-02-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -702,7 +712,7 @@
   
   <url>
     <loc>http://marksprevak.com/talks/</loc>
-    <lastmod>2018-05-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

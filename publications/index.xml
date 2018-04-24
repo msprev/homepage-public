@@ -5,10 +5,19 @@
     <link>http://marksprevak.com/publications/</link>
     <description>Recent content in Publications on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 24 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Zuse&#39;s Thesis, Gandy&#39;s Thesis, and Penrose&#39;s Thesis</title>
+      <link>http://marksprevak.com/publications/zuse-s-thesis-gandy-s-thesis-and-penrose-s-thesis-2018/</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/publications/zuse-s-thesis-gandy-s-thesis-and-penrose-s-thesis-2018/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Introduction to Handbook</title>
@@ -80,15 +89,6 @@
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>http://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zuse&#39;s Thesis, Gandy&#39;s Thesis, and Penrose&#39;s Thesis</title>
-      <link>http://marksprevak.com/publications/zuse-s-thesis-gandy-s-thesis-and-penrose-s-thesis/</link>
-      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://marksprevak.com/publications/zuse-s-thesis-gandy-s-thesis-and-penrose-s-thesis/</guid>
       <description></description>
     </item>
     

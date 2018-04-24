@@ -73,6 +73,11 @@
   </url>
   
   <url>
+    <loc>http://marksprevak.com/publications/zuse-s-thesis-gandy-s-thesis-and-penrose-s-thesis-2018/</loc>
+    <lastmod>2018-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://marksprevak.com/talks/making-sense-of-probabilistic-neural-representations-3880ad2a-92c5-4376-9154-af07eca9f884/</loc>
     <lastmod>2018-04-06T00:00:00+00:00</lastmod>
   </url>
@@ -140,11 +145,6 @@
   <url>
     <loc>http://marksprevak.com/talks/how-to-be-a-realist-about-the-mind-dcd3b2dc-6fab-4b1a-902d-cf49accd32a3/</loc>
     <lastmod>2017-05-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://marksprevak.com/publications/zuse-s-thesis-gandy-s-thesis-and-penrose-s-thesis/</loc>
-    <lastmod>2017-05-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -701,7 +701,7 @@
   
   <url>
     <loc>http://marksprevak.com/publications/</loc>
-    <lastmod>2018-03-24T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

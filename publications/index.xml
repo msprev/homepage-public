@@ -5,10 +5,19 @@
     <link>http://marksprevak.com/publications/</link>
     <description>Recent content in Publications on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Routledge Handbook of the Computational Mind</title>
+      <link>http://marksprevak.com/publications/routledge-handbook-of-the-computational-mind/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/publications/routledge-handbook-of-the-computational-mind/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Review of *The Language of Thought: A New Philosophical Direction* by Susan Schneider</title>
@@ -161,15 +170,6 @@
       <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>http://marksprevak.com/publications/predictive-coding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Routledge Handbook of the Computational Mind</title>
-      <link>http://marksprevak.com/publications/routledge-handbook-of-the-computational-mind/</link>
-      <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://marksprevak.com/publications/routledge-handbook-of-the-computational-mind/</guid>
       <description></description>
     </item>
     

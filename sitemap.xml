@@ -68,6 +68,11 @@
   </url>
   
   <url>
+    <loc>http://marksprevak.com/publications/distributed-cognition-in-classical-antiquity/</loc>
+    <lastmod>2018-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://marksprevak.com/publications/triviality-arguments-about-computational-implementation/</loc>
     <lastmod>2018-06-06T00:00:00+00:00</lastmod>
   </url>
@@ -208,12 +213,7 @@
   </url>
   
   <url>
-    <loc>http://marksprevak.com/publications/distributed-cognition-in-classical-antiquity/</loc>
-    <lastmod>2016-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://marksprevak.com/publications/the-computable-universe-2017/</loc>
+    <loc>http://marksprevak.com/publications/is-the-whole-universe-a-computer-2017/</loc>
     <lastmod>2016-08-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -701,7 +701,7 @@
   
   <url>
     <loc>http://marksprevak.com/publications/</loc>
-    <lastmod>2018-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

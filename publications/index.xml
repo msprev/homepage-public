@@ -5,10 +5,20 @@
     <link>http://marksprevak.com/publications/</link>
     <description>Recent content in Publications on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Distributed Cognition in Classical Antiquity</title>
+      <link>http://marksprevak.com/publications/distributed-cognition-in-classical-antiquity/</link>
+      <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/publications/distributed-cognition-in-classical-antiquity/</guid>
+      <description>Eleven essays by international specialists in classical antiquity create a period-specific, interdisciplinary introduction to distributed cognition and the cognitive humanities. This collection explores how cognition is explicitly or implicitly conceived of as distributed across brain, body and world in Greek and Roman technology, science, medicine, material culture, philosophy, and literary studies.
+A range of models emerge, which vary both in terms of whether cognition is just embodied or involves tools or objects in the world.</description>
+    </item>
     
     <item>
       <title>Triviality arguments about computational implementation</title>
@@ -121,20 +131,11 @@ The Routledge Handbook of the Computational Mind is an outstanding overview and 
     </item>
     
     <item>
-      <title>Distributed Cognition in Classical Antiquity</title>
-      <link>http://marksprevak.com/publications/distributed-cognition-in-classical-antiquity/</link>
-      <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://marksprevak.com/publications/distributed-cognition-in-classical-antiquity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The computable universe</title>
-      <link>http://marksprevak.com/publications/the-computable-universe-2017/</link>
+      <title>Is the whole universe a computer?</title>
+      <link>http://marksprevak.com/publications/is-the-whole-universe-a-computer-2017/</link>
       <pubDate>Tue, 23 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://marksprevak.com/publications/the-computable-universe-2017/</guid>
+      <guid>http://marksprevak.com/publications/is-the-whole-universe-a-computer-2017/</guid>
       <description></description>
     </item>
     

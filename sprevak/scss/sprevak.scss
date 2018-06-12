@@ -63,6 +63,11 @@ h2 {
     // text-transform: none;
 }
 
+h3 {
+    @extend h2;
+    text-transform: none;
+}
+
 .publication-short {
     vertical-align: top;
     em { 

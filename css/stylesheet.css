@@ -2187,7 +2187,7 @@ body {
 .darkred {
   color: rgba(107, 0, 26, 0.73); }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Roboto', times;
   line-height: 32px;
   font-weight: 400;
@@ -2197,10 +2197,13 @@ h1, h2 {
   margin-top: 30px;
   color: rgba(107, 0, 26, 0.73); }
 
-h2 {
+h2, h3 {
   font-size: 15px;
   line-height: 24px;
   margin-top: 0px; }
+
+h3 {
+  text-transform: none; }
 
 .publication-short {
   vertical-align: top; }
@@ -2277,7 +2280,7 @@ td {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px 32px 1px;
     margin-bottom: 1px; }
-  #my-collapse h1, #my-collapse h2 {
+  #my-collapse h1, #my-collapse h2, #my-collapse h3 {
     font-family: 'Roboto', times;
     font-size: 16px;
     line-height: 24px;

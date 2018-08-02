@@ -5,10 +5,19 @@
     <link>http://marksprevak.com/publications/</link>
     <description>Recent content in Publications on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 05 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Review of *The Language of Thought: A New Philosophical Direction* by Susan Schneider</title>
+      <link>http://marksprevak.com/publications/review-of-the-language-of-thought-a-new-philosophical-direction-by-susan-schneider/</link>
+      <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/publications/review-of-the-language-of-thought-a-new-philosophical-direction-by-susan-schneider/</guid>
+      <description>1 Introduction The Language of Thought (LOT) is closely associated with the work of Jerry Fodor. He defended the idea in his book, The Language of Thought (1975), and continued to do so, with relatively minor revisions, throughout his career. Susan Schneider’s book does not aim to be an exegesis or defence of Fodor. Instead, it offers an alternative to Fodor’s version of LOT that she says is an improvement and a worthy replacement.</description>
+    </item>
     
     <item>
       <title>Two kinds of information processing in cognition</title>
@@ -35,15 +44,6 @@
       
       <guid>http://marksprevak.com/publications/introduction-to-handbook/</guid>
       <description>Computational approaches to explain how the mind works have bloomed in the last three decades. The idea that computing can explain thinking emerged in the early modern period, but its impact on the philosophy and sciences of the mind and brain owes much to the groundbreaking work of Alan Turing on the foundations of both mathematical computation theory and artificial intelligence (AI) (e.g. Turing 1936, 1950). Turing’s work set the stage for the computational theory of mind (CTM), which, classically understood, claims that thinking is a computational process defined over linguistically structured representations.</description>
-    </item>
-    
-    <item>
-      <title>Review of *The Language of Thought: A New Philosophical Direction* by Susan Schneider</title>
-      <link>http://marksprevak.com/publications/review-of-the-language-of-thought-a-new-philosophical-direction-by-susan-schneider/</link>
-      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://marksprevak.com/publications/review-of-the-language-of-thought-a-new-philosophical-direction-by-susan-schneider/</guid>
-      <description>1 Introduction The Language of Thought (LOT) is closely associated with the work of Jerry Fodor. He defended the idea in his book, The Language of Thought (1975), and continued to do so, with relatively minor revisions, throughout his career. Susan Schneider’s book does not aim to be an exegesis or defence of Fodor. Instead, it offers an alternative to Fodor’s version of LOT that she says is an improvement and a worthy replacement.</description>
     </item>
     
     <item>

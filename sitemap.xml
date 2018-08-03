@@ -98,7 +98,7 @@
   </url>
   
   <url>
-    <loc>http://marksprevak.com/talks/robots-who-know-themselves-5e032f3d-4c0a-47d4-97c6-a1e93fbc1fa9/</loc>
+    <loc>http://marksprevak.com/outreach/robots-who-know-themselves-5e032f3d-4c0a-47d4-97c6-a1e93fbc1fa9/</loc>
     <lastmod>2018-05-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -110,6 +110,11 @@
   <url>
     <loc>http://marksprevak.com/publications/zuse-s-thesis-gandy-s-thesis-and-penrose-s-thesis-2018/</loc>
     <lastmod>2018-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marksprevak.com/talks/pespectival-computational-models-0659947c-bd25-4212-a198-4a80f8fb7b50/</loc>
+    <lastmod>2018-04-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -690,7 +695,7 @@
   
   <url>
     <loc>http://marksprevak.com/outreach/</loc>
-    <lastmod>2018-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -707,7 +712,7 @@
   
   <url>
     <loc>http://marksprevak.com/talks/</loc>
-    <lastmod>2018-05-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

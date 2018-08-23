@@ -2187,6 +2187,10 @@ body {
 .darkred {
   color: rgba(107, 0, 26, 0.73); }
 
+.references {
+  padding-left: 1em;
+  text-indent: -1em; }
+
 h1, h2, h3 {
   font-family: 'Roboto', times;
   line-height: 32px;

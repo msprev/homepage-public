@@ -291,7 +291,7 @@
 <blockquote>
 <p>Take a huge bunch of marbles. First count out <span class="math inline">\(x\)</span> marbles in one heap. Then count out <span class="math inline">\(y\)</span> marbles in another. Put the two heaps together and count out the number of marbles in the union thus formed. The result is <span class="math inline">\(x + y\)</span>.</p>
 </blockquote>
-<p>The algorithm reply claims that if you followed these instructions, rather than those of a quus-like algorithm, then you succeeded in meaning <em>plus</em> rather than <em>quus</em> by ‘plus’. However, as Kripke points out, this won’t do as an answer to the sceptic, since the sceptic can repeat her challenge on the terms used by the algorithm. She can ask: what fact determined in your past use of the term ‘count’ that you meant <em>count</em> rather than <em>quount</em> – ‘where to ’quount’ a heap is to count it in the ordinary sense, unless the heap was formed as the union of two heaps, one of which has 57 or more items, in which case one must automatically give the answer ‘5’’ <span class="citation" data-cites="Kripke82">(Kripke 1982, 16)</span>. If one replies that one meant <em>count</em> rather than <em>quount</em> because one followed a <em>counting</em> algorithm rather than a <em>quounting</em> algorithm, then the sceptic can repeat her challenge on the terms of that algorithm, and so on. Kripke is undoubtably right that the algorithm reply, by itself, fails miserably as an answer to the sceptic. However, I wish to suggest that the algorithm reply, with a little help from the Church–Turing thesis, can play a different role: it can solve the auxiliary problem.</p>
+<p>The algorithm reply claims that if you followed these instructions, rather than those of a quus-like algorithm, then you succeeded in meaning <em>plus</em> rather than <em>quus</em> by ‘plus’. However, as Kripke points out, this won’t do as an answer to the sceptic, since the sceptic can repeat her challenge on the terms used by the algorithm. She can ask: what fact determined in your past use of the term ‘count’ that you meant <em>count</em> rather than <em>quount</em> – ‘where to ’quount’ a heap is to count it in the ordinary sense, unless the heap was formed as the union of two heaps, one of which has 57 or more items, in which case one must automatically give the answer ‘5’’ <span class="citation" data-cites="Kripke82">(Kripke 1982 p. 16)</span>. If one replies that one meant <em>count</em> rather than <em>quount</em> because one followed a <em>counting</em> algorithm rather than a <em>quounting</em> algorithm, then the sceptic can repeat her challenge on the terms of that algorithm, and so on. Kripke is undoubtably right that the algorithm reply, by itself, fails miserably as an answer to the sceptic. However, I wish to suggest that the algorithm reply, with a little help from the Church–Turing thesis, can play a different role: it can solve the auxiliary problem.</p>
 <p>The auxiliary problem is the problem of extending answers to the sceptic for particular terms to the whole of natural language. Call the terms for which we already have an answer to the sceptic (those terms for which we already have a particular solution), the ‘basic terms’. Call the other terms, those for which we do not yet have an answer to the sceptic, the ‘non-basic terms’. In order for the algorithm reply to work, the meaning of the non-basic terms has to be fixable using only basic terms. At first sight, this looks unlikely. Natural language is incredibly heterogeneous. The claim that it can be reduced to combinations of a few basic terms looks implausible.</p>
 <p>Before considering why the success of the algorithm reply seems unlikely, let us first consider the reply in more detail. The algorithm reply generalises a particular solution to sceptic to the entirety of natural language. In order to do this, it requires: (1) that we follow algorithms that give the conditions of correct application of all non-basic terms; (2) that those algorithms use only basic terms. If these two conditions are met, then the algorithm reply works as follows: in your past use of a non-basic term <span class="math inline">\(\ulcorner x\urcorner\)</span> you meant <span class="math inline">\(x\)</span> by it just in case you followed an appropriate algorithm when you applied the term. If you followed an appropriate <span class="math inline">\(\ulcorner x\urcorner\)</span>-algorithm when you applied <span class="math inline">\(\ulcorner x\urcorner\)</span>, then you meant <span class="math inline">\(x\)</span> by <span class="math inline">\(\ulcorner x\urcorner\)</span>; if you did not follow an appropriate <span class="math inline">\(\ulcorner x\urcorner\)</span>-algorithm, then you did not mean <span class="math inline">\(x\)</span> by <span class="math inline">\(\ulcorner x\urcorner\)</span>.</p>
 <p>It is important to see that if (1) and (2) are met, then the algorithm reply provides a watertight answer to the auxiliary problem. In the ‘plus’ example above, the sceptic was able to raise her question by questioning the meanings of the component terms of the ‘plus’ algorithm. That strategy is now blocked. By hypothesis, all of the terms used by the algorithms of the algorithm reply are basic. Therefore, the sceptic’s problem cannot be raised again for those terms. Perhaps a different strategy is open to the sceptic. Perhaps she can question the determinacy of the notion of ‘following an algorithm’. However, this strategy is blocked too. What is involved in following a particular algorithm is fully spelled out by the terms of that algorithm. If those terms have determinate meaning, then it is determinate what is involved in following that algorithm. The sceptic cannot, for example, question whether one is really followed an algorithm <span class="math inline">\(A\)</span> or a divergent algorithm <span class="math inline">\(quA\)</span> when applying a term <span class="math inline">\(\ulcorner x\urcorner\)</span>. The only way that one could have followed a divergent algorithm <span class="math inline">\(quA\)</span> would be if algorithm <span class="math inline">\(A\)</span> had different terms, or terms with different meanings. But by hypothesis, algorithm <span class="math inline">\(A\)</span> has fixed terms with fixed meanings. So if one follows an algorithm with the terms of algorithm <span class="math inline">\(A\)</span>, there can be no question of one following a different algorithm <span class="math inline">\(quA\)</span>. Algorithms, if available at all, provide a watertight answer to the auxiliary problem.</p>
@@ -302,7 +302,7 @@
 <p>All of these concerns about the algorithm reply can be answered. With a small elaboration, the algorithm reply can be shown to be an adequate solution to the auxiliary problem.</p>
 <h1 id="the-computability-assumption"><span class="header-section-number">3</span> The computability assumption</h1>
 <p>Before discussing the solution, the idea needs to be introduced that following a rule can be understood as computing a function. This is not intended to be controversial.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> Functions are mappings from one set to another. Rules are instructions on how to act: they tell one, in this situation perform this action. It is possible to think of a rule as a function mapping a set of situations to a set of actions, and the process of following a rule as the process of computing that function.</p>
-<p>There are at least two senses of rule, and two senses of function. Following the terminology of <span class="citation" data-cites="Church41">Church (1941)</span>, the term ‘function’ can refer to a function-in-extension or a function-in-intension. A <em>function-in-extension</em> is the set of input/output pairs associated with the function. For example, the function <span class="math inline">\(f(x) = x^2\)</span> where <span class="math inline">\(x\)</span> is a positive integer, considered as a function-in-extension, is the set of input/output pairs <span class="math inline">\(\{(1,1), (2,4), (3,9), \ldots \}\)</span>. A <em>function-in-intension</em> is a method for computing the set of input/output pairs. For example, the function <span class="math inline">\(f(x) = x^2\)</span> where <span class="math inline">\(x\)</span> is a positive integer, considered as a function-in-intension could be the method ‘Multiply <span class="math inline">\(x\)</span> by itself – take the result as <span class="math inline">\(f(x)\)</span>.’<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> Functions-in-extension are easily individuated: two functions-in-extension are the same just in case the two sets of I/O pairs are the same. The individuation conditions of functions-in-intension, outside a formalism like Church’s <span class="math inline">\(\lambda\)</span>-calculus, are less clear. However, it is generally true that functions-in-intension individuate more finely than functions-in-extension.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p>
+<p>There are at least two senses of rule, and two senses of function. Following the terminology of <span class="citation" data-cites="Church41">Church (1941)</span>, the term ‘function’ can refer to a function-in-extension or a function-in-intension. A <em>function-in-extension</em> is the set of input/output pairs associated with the function. For example, the function <span class="math inline">\(f(x) = x^2\)</span> where <span class="math inline">\(x\)</span> is a positive integer, considered as a function-in-extension, is the set of input/output pairs <span class="math inline">\(\{(1,1), (2,4), (3,9), \ldots \}\)</span>. A <em>function-in-intension</em> is a method for computing the set of input/output pairs. For example, the function <span class="math inline">\(f(x) = x^2\)</span> where <span class="math inline">\(x\)</span> is a positive integer, considered as a function-in-intension could be the method ‘Multiply <span class="math inline">\(x\)</span> by itself – take the result as <span class="math inline">\(f(x)\)</span>’.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> Functions-in-extension are easily individuated: two functions-in-extension are the same just in case the two sets of I/O pairs are the same. The individuation conditions of functions-in-intension, outside a formalism like Church’s <span class="math inline">\(\lambda\)</span>-calculus, are less clear. However, it is generally true that functions-in-intension individuate more finely than functions-in-extension.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></p>
 <p>The term ‘rule’ is similarly ambiguous. A rule could be a prescribed set of situation–action pairs; a rule could prescribe: in <em>this</em> situation perform <em>this</em> action. For example, the rule ‘Always wash your hands before you eat’, could be understood as the prescribed set of situation–action pairs: <span class="math inline">\(\{\)</span> (occasion<span class="math inline">\(_1\)</span> of eating, wash hands before), (occasion<span class="math inline">\(_2\)</span> of eating, wash hands before), <span class="math inline">\(\ldots \}\)</span>. Alternatively, the rule ‘Always wash your hands before you eat’ could be understood as <em>a way of achieving</em> those situation–action pairs: for example, ‘Before eating, walk to the bathroom, turn on the tap, wet your hands, pick up the soap, etc.’. The equivalence claim above between functions and rules is intended as a dual equivalence claim: an equivalence between functions-in-extension and rules understood extensionally, and an equivalence between functions-in-intension and rules understood intensionally. I will distinguish the two senses by referring to functions-in-extension and rules understood extensionally as ‘functions’, and functions-in-intension and rules understood intensionally as ‘algorithms’ or ‘rules’.</p>
 <p>In order for Kripke’s sceptic to raise her challenge, the application conditions of natural language terms must be governed by rules. It is this assumption that enables the sceptic to transfer her concerns from rules in general to the application of natural language terms. In what follows, I take it for granted that the assumption that application of natural language terms is rule-governed is agreed on by all sides. The algorithm reply to the auxiliary problem adds an extra requirement to this assumption: that those rules be, in the sense defined below, <em>computable</em>.</p>
 <p>This requirement can be phrased in many ways: as the requirement that the rules governing the application of natural language terms be effective procedures, as the requirement that the decision as to whether a natural language term correctly applies is determinable by finite means, as the requirement that a computer could, in principle, decide in finite time whether a given natural language term correctly applies in a certain case, or as the requirement that a computer could, in principle, reproduce human linguistic ability. Four things should be made clear about the computability assumption.</p>
@@ -333,61 +333,61 @@
 <h1 id="bibliography" class="unnumbered">Bibliography</h1>
 <div id="refs" class="references">
 <div id="ref-Church41">
-<p>Church, A. 1941. <em>The Calculi of Lambda-Conversion</em>. Princeton, NJ: Princeton University Press.</p>
+<p>Church, A. (1941). <em>The calculi of lambda-conversion</em>. Princeton, NJ: Princeton University Press.</p>
 </div>
 <div id="ref-Clark97">
-<p>Clark, A. 1997. <em>Being There</em>. Cambridge, MA: MIT Press.</p>
+<p>Clark, A. (1997). <em>Being there</em>. Cambridge, MA: MIT Press.</p>
 </div>
 <div id="ref-Dreyfus92">
-<p>Dreyfus, H. L. 1992. <em>What Computers Still Can’t Do</em>. Cambridge, MA: MIT Press.</p>
+<p>Dreyfus, H. L. (1992). <em>What computers still can’t do</em>. Cambridge, MA: MIT Press.</p>
 </div>
 <div id="ref-Fodor90f">
-<p>Fodor, J. A. 1990. <em>A Theory of Content and Other Essays</em>. Cambridge, MA: MIT Press.</p>
+<p>Fodor, J. A. (1990). <em>A theory of content and other essays</em>. Cambridge, MA: MIT Press.</p>
 </div>
 <div id="ref-Ginet92">
-<p>Ginet, C. 1992. “The Dispositionalist Solution to Wittgenstein’s Problem About Understanding a Rule: Answering Kripke’s Objections.” In <em>Midwest Studies in Philosophy</em>, edited by P. A. French, T. E. Jr. Uehling, and H. K. Wettstein, 17:53–73. Notre Dame: University of Notre Dame Press.</p>
+<p>Ginet, C. (1992). ‘The dispositionalist solution to Wittgenstein’s problem about understanding a rule: Answering Kripke’s objections’. French P. A., Uehling T. E. J., &amp; Wettstein H. K. (eds) <em>Midwest studies in philosophy</em>, Vol. 17, pp. 53–73. University of Notre Dame Press: Notre Dame.</p>
 </div>
 <div id="ref-Haugeland81">
-<p>Haugeland, J. 1981. “Semantic Engines: An Introduction to Mind Design.” In <em>Mind Design</em>, edited by J. Haugeland, 1–34. Cambridge, MA: MIT Press.</p>
+<p>Haugeland, J. (1981). ‘Semantic engines: An introduction to mind design’. Haugeland J. (ed.) <em>Mind design</em>, pp. 1–34. MIT Press: Cambridge, MA.</p>
 </div>
 <div id="ref-Hutchins95">
-<p>Hutchins, E. 1995. <em>Cognition in the Wild</em>. Cambridge, MA: MIT Press.</p>
+<p>Hutchins, E. (1995). <em>Cognition in the wild</em>. Cambridge, MA: MIT Press.</p>
 </div>
 <div id="ref-Kripke82">
-<p>Kripke, S. A. 1982. <em>Wittgenstein on Rules and Private Language</em>. Cambridge, MA: MIT Press.</p>
+<p>Kripke, S. A. (1982). <em>Wittgenstein on rules and private language</em>. Cambridge, MA: MIT Press.</p>
 </div>
 <div id="ref-Maddy84">
-<p>Maddy, P. 1984. “How the Causal Theorist Follows a Rule.” <em>Midwest Studies in Philosophy</em> 9: 457–77.</p>
+<p>Maddy, P. (1984). ‘How the causal theorist follows a rule’, <em>Midwest Studies in Philosophy</em>, 9: 457–77.</p>
 </div>
 <div id="ref-McGinn84">
-<p>McGinn, C. 1984. <em>Wittgenstein on Meaning</em>. Oxford: Blackwell.</p>
+<p>McGinn, C. (1984). <em>Wittgenstein on meaning</em>. Oxford: Blackwell.</p>
 </div>
 <div id="ref-Mellor77">
-<p>Mellor, D. H. 1977. “Natural Kinds.” <em>The British Journal for the Philosophy of Science</em> 28: 299–312.</p>
+<p>Mellor, D. H. (1977). ‘Natural kinds’, <em>The British Journal for the Philosophy of Science</em>, 28: 299–312.</p>
 </div>
 <div id="ref-Miller.Wright02">
-<p>Miller, A., and C. Wright, eds. 2002. <em>Rule-Following and Meaning</em>. Chesham: Acumen.</p>
+<p>Miller, A., &amp; Wright, C. (Eds). (2002). <em>Rule-following and meaning</em>. Chesham: Acumen.</p>
 </div>
 <div id="ref-Millikan90">
-<p>Millikan, R. G. 1990. “Truth Rules, Hoverflies, and the Kripke–Wittgenstein Paradox.” <em>Philosophical Review</em> 99: 323–53.</p>
+<p>Millikan, R. G. (1990). ‘Truth rules, hoverflies, and the Kripke–Wittgenstein paradox’, <em>Philosophical Review</em>, 99: 323–53.</p>
 </div>
 <div id="ref-Putnam75b">
-<p>Putnam, H. 1975. “The Meaning of ‘Meaning’.” In <em>Mind, Language and Reality, Philosophical Papers, Vol. 2</em>, 215–71. Cambridge: Cambridge University Press.</p>
+<p>Putnam, H. (1975). ‘The meaning of “meaning”’. <em>Mind, language and reality, philosophical papers, vol. 2</em>, pp. 215–71. Cambridge University Press: Cambridge.</p>
 </div>
 <div id="ref-Rosch73">
-<p>Rosch, E. 1973. “On the Internal Structure of Perceptual and Semantic Categories.” In <em>Cognitive Development and the Acquisition of Language</em>, edited by T. Moore. New York, NY: Academic Press.</p>
+<p>Rosch, E. (1973). ‘On the internal structure of perceptual and semantic categories’. Moore T. (ed.) <em>Cognitive development and the acquisition of language</em>. Academic Press: New York, NY.</p>
 </div>
 <div id="ref-Searle80">
-<p>Searle, J. R. 1980. “Minds, Brains, and Programs.” <em>Behavioral and Brain Sciences</em> 3: 417–24.</p>
+<p>Searle, J. R. (1980). ‘Minds, brains, and programs’, <em>Behavioral and Brain Sciences</em>, 3: 417–24.</p>
 </div>
 <div id="ref-Zymach76">
-<p>Zymach, E. 1976. “Putnam’s Theory of the Reference of Subject Terms.” <em>The Journal of Philosophy</em> 73: 116–27.</p>
+<p>Zymach, E. (1976). ‘Putnam’s theory of the reference of subject terms’, <em>The Journal of Philosophy</em>, 73: 116–27.</p>
 </div>
 </div>
 <section class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>For example, see <span class="citation" data-cites="Miller.Wright02">Miller and Wright (2002)</span> and references.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>For example, see <span class="citation" data-cites="Miller.Wright02">Miller &amp; Wright (2002)</span> and references.<a href="#fnref1" class="footnote-back">↩</a></p></li>
 <li id="fn2"><p><span class="citation" data-cites="Ginet92">Ginet (1992)</span> defends a similar equivalence of functions and rules.<a href="#fnref2" class="footnote-back">↩</a></p></li>
 <li id="fn3"><p>In Church’s <span class="math inline">\(\lambda\)</span>-notation: <span class="math inline">\(f(x) = \lambda x . x x\)</span>.<a href="#fnref3" class="footnote-back">↩</a></p></li>
 <li id="fn4"><p><span class="citation" data-cites="Church41">Church (1941)</span>, pp. 2–3.<a href="#fnref4" class="footnote-back">↩</a></p></li>

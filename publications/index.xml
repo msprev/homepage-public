@@ -5,10 +5,19 @@
     <link>http://marksprevak.com/publications/</link>
     <description>Recent content in Publications on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 24 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Extended cognition</title>
+      <link>http://marksprevak.com/publications/extended-cognition/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/publications/extended-cognition/</guid>
+      <description>Article Summary Extended cognition takes the idea that your mind is ‘on’ your smartphone literally. It says that human cognitive states and processes sometimes spill outside our heads and into objects in our environment. Alleged examples include not just use of smartphones, but also our use of simpler technology (pencil and paper to perform a calculation), our own body (ticking off our fingers when we count), and other people (our spouse who remembers upcoming appointments so we don’t have to).</description>
+    </item>
     
     <item>
       <title>Review of *The Language of Thought: A New Philosophical Direction* by Susan Schneider</title>
@@ -140,15 +149,6 @@ The Routledge Handbook of the Computational Mind is an outstanding overview and 
     </item>
     
     <item>
-      <title>Extended cognition</title>
-      <link>http://marksprevak.com/publications/extended-cognition/</link>
-      <pubDate>Wed, 06 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://marksprevak.com/publications/extended-cognition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>From intelligent machines to the human brain</title>
       <link>http://marksprevak.com/publications/from-intelligent-machines-to-the-human-brain-2015/</link>
       <pubDate>Wed, 06 Apr 2016 00:00:00 +0000</pubDate>
@@ -254,7 +254,7 @@ This volume brings together contributions from some of the leading experts on Al
       <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
       
       <guid>http://marksprevak.com/publications/neural-sufficiency-reductionism-and-cognitive-neuropsychiatry-2011/</guid>
-      <description>Kanaan and McGuire (2011) elegantly describe three challenges facing the use of fMRI to uncover cognitive mechanisms. They shows how these challenges ramify in the case of identifying the mechanisms responsible for psychiatric disorders. I want to raise another difficulty for fMRI that also appears to ramify in similar cases. This is that there are good reasons for doubting one of the assumptions on which many fMRI studies are based: that neural mechanisms are always and everywhere sufficient for cognition.</description>
+      <description>Kanaan &amp;amp; McGuire (2011) elegantly describe three challenges facing the use of fMRI to uncover cognitive mechanisms. They shows how these challenges ramify in the case of identifying the mechanisms responsible for psychiatric disorders. I want to raise another difficulty for fMRI that also appears to ramify in similar cases. This is that there are good reasons for doubting one of the assumptions on which many fMRI studies are based: that neural mechanisms are always and everywhere sufficient for cognition.</description>
     </item>
     
     <item>

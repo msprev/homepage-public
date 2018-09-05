@@ -5,7 +5,7 @@
     <link>http://marksprevak.com/publications/</link>
     <description>Recent content in Publications on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>Extended cognition</title>
       <link>http://marksprevak.com/publications/extended-cognition/</link>
-      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 05 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>http://marksprevak.com/publications/extended-cognition/</guid>
       <description>Article Summary Extended cognition takes the idea that your mind is ‘on’ your smartphone literally. It says that human cognitive states and processes sometimes spill outside our heads and into objects in our environment. Alleged examples include not just use of smartphones, but also our use of simpler technology (pencil and paper to perform a calculation), our own body (ticking off our fingers when we count), and other people (our spouse who remembers upcoming appointments so we don’t have to).</description>
@@ -167,11 +167,20 @@ The Routledge Handbook of the Computational Mind is an outstanding overview and 
     </item>
     
     <item>
-      <title>Predictive coding</title>
-      <link>http://marksprevak.com/publications/predictive-coding/</link>
+      <title>Predictive coding I</title>
+      <link>http://marksprevak.com/publications/predictive-coding-i/</link>
       <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://marksprevak.com/publications/predictive-coding/</guid>
+      <guid>http://marksprevak.com/publications/predictive-coding-i/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive coding II</title>
+      <link>http://marksprevak.com/publications/predictive-coding-ii/</link>
+      <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://marksprevak.com/publications/predictive-coding-ii/</guid>
       <description></description>
     </item>
     

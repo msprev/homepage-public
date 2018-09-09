@@ -2,49 +2,16 @@
 <html lang="en">
     <head>
         <title>Chinese rooms and program portability</title>
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="HandheldFriendly" content="True">
-        <meta name="MobileOptimized" content="320">
-        <meta name="viewport" content="width=device-width, initial-scale=1 minimal-ui">
-
         <meta name="description" content="">
-        <meta name="keywords" content="">
 
-        
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        
-        <meta name="twitter:card" content="summary">
-        
-        <meta name="twitter:site" content="@msprevak">
-        <meta name="twitter:title" content="Chinese rooms and program portability : marksprevak.com">
-        <meta name="twitter:creator" content="@msprevak">
-        <meta name="twitter:description" content="">
-        <meta name="twitter:image:src" content="">
-        <meta name="twitter:domain" content="marksprevak.com">
+<link rel="stylesheet" href="http://marksprevak.com/kube/css/kube.min.css" />
+<link rel="stylesheet" href="http://marksprevak.com/css-customisations/sprevak.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-
-<link rel="stylesheet" href="http://marksprevak.com/css/stylesheet.min.css" />
-<link rel="stylesheet" href="http://marksprevak.com/font-awesome/css/font-awesome.min.css">
-
-<script type="text/javascript" src="http://marksprevak.com/scripts/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="http://marksprevak.com/kube/js/kube.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-        <style type="text/css">
-          .hidden {display:none;}
-        </style>
-        <script type="text/javascript">
-          $('html').addClass('hidden');
-          $(document).ready(function() {
-            $('html').removeClass('hidden');
-           });
-         </script>
-
 
 <title>Mark Sprevak</title>
 <base href="http://marksprevak.com/">
@@ -52,259 +19,213 @@
 
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700%7CLato:400,700" rel="stylesheet">
 
-        
     </head>
     <body>
+        <div class="page wrapper">
 
-        <div class="wrapper">
-
-            <div class="row" style="padding-bottom: 8px; padding-top: 0px; margin-bottom: 12px; border-bottom: 1px solid; border-color: rgba(0, 0, 0, 0.3);">
-    <div class="show-sm col col-12">
-            <div class="titlebar"><a href="http://marksprevak.com/">Mark&nbsp;Sprevak</a>
-                <a href="#" data-component="toggleme" data-target="#navbar" style="float: right; color: rgba(0, 0, 0, 0.8);"><i class="kube-menu"></i></a>
-            </div>
+            <header class="header">
+                <div class="is-navbar-container" style="padding-bottom: 6px; padding-top: 0px; margin-bottom: 12px; border-bottom: 1px solid; border-color: rgba(0, 0, 0, 0.3);">
+    <div class="is-brand">
+        <div class="titlebar"><a href="http://marksprevak.com/">Mark&nbsp;Sprevak</a></div>
+        
+        <a href="#"
+                style="color: rgba(0, 0, 0, 0.8); text-decoration: none; border-bottom: none; font-size:18px;"
+                class="nav-toggle is-push-right-mobile is-shown-mobile icon-kube-menu"
+                data-kube="toggle"
+                data-target="#top-navbar"></a>
     </div>
-
-    <div class="hide-sm col col-12">
-            <div class="row">
-                <div class="col col-3">
-                    <div class="titlebar"><a href="http://marksprevak.com/">Mark&nbsp;Sprevak</a></div>
-                </div>
-
-                <div class="col col-9">
-                    <ul class="unstyled">
-                        
-                        
-                        
-                        <li style="float: right; margin-left: 20px;"  >
-                            <a href="http://marksprevak.com/teaching/" style="text-decoration: none; border-bottom: none;">Teaching</a>
-                        </li>
-                        
-                        
-                        
-                        <li style="float: right; margin-left: 20px;"  >
-                            <a href="http://marksprevak.com/mscs/" style="text-decoration: none; border-bottom: none;">MSc research</a>
-                        </li>
-                        
-                        
-                        
-                        <li style="float: right; margin-left: 20px;"  >
-                            <a href="http://marksprevak.com/phds/" style="text-decoration: none; border-bottom: none;">PhD research</a>
-                        </li>
-                        
-                        
-                        
-                        <li style="float: right; margin-left: 20px;"  >
-                            <a href="http://marksprevak.com/cv/" style="text-decoration: none; border-bottom: none;">CV</a>
-                        </li>
-                        
-                        
-                        
-                        <li style="float: right; margin-left: 20px;"  >
-                            <a href="http://marksprevak.com/outreach/" style="text-decoration: none; border-bottom: none;">Outreach</a>
-                        </li>
-                        
-                        
-                        
-                        <li style="float: right; margin-left: 20px;"  >
-                            <a href="http://marksprevak.com/talks/" style="text-decoration: none; border-bottom: none;">Talks</a>
-                        </li>
-                        
-                        
-                        
-                        <li style="float: right; margin-left: 20px;"  >
-                            <a href="http://marksprevak.com/publications/" style="text-decoration: none; border-bottom: none;">Publications</a>
-                        </li>
-                        
-                        
-                        
-                        
-                    </ul>
-                </div>
-            </div>
+    <div id="top-navbar" class="is-navbar is-hidden-mobile">
+        <nav class="is-push-right">
+            <ul style="text-align: right;">
+                
+                
+                
+                
+                
+                <li  >
+                    <a href="http://marksprevak.com/publications/" style="text-decoration: none; border-bottom: none;">Publications</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="http://marksprevak.com/talks/" style="text-decoration: none; border-bottom: none;">Talks</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="http://marksprevak.com/outreach/" style="text-decoration: none; border-bottom: none;">Outreach</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="http://marksprevak.com/cv/" style="text-decoration: none; border-bottom: none;">CV</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="http://marksprevak.com/phds/" style="text-decoration: none; border-bottom: none;">PhD research</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="http://marksprevak.com/mscs/" style="text-decoration: none; border-bottom: none;">MSc research</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="http://marksprevak.com/teaching/" style="text-decoration: none; border-bottom: none;">Teaching</a>
+                </li>
+                
+                
+            </ul>
+        </nav>
     </div>
-
-    <nav id="navbar" class="hide show-sm">
-        <ul style="float: right; text-align:right; padding-right:5px;">
-            
-            
-            
-            
-            
-            <li style=""  >
-                <a href="http://marksprevak.com/publications/" style="text-decoration: none; border-bottom: none;">Publications</a>
-            </li>
-            
-            
-            
-            <li style=""  >
-                <a href="http://marksprevak.com/talks/" style="text-decoration: none; border-bottom: none;">Talks</a>
-            </li>
-            
-            
-            
-            <li style=""  >
-                <a href="http://marksprevak.com/outreach/" style="text-decoration: none; border-bottom: none;">Outreach</a>
-            </li>
-            
-            
-            
-            <li style=""  >
-                <a href="http://marksprevak.com/cv/" style="text-decoration: none; border-bottom: none;">CV</a>
-            </li>
-            
-            
-            
-            <li style=""  >
-                <a href="http://marksprevak.com/phds/" style="text-decoration: none; border-bottom: none;">PhD research</a>
-            </li>
-            
-            
-            
-            <li style=""  >
-                <a href="http://marksprevak.com/mscs/" style="text-decoration: none; border-bottom: none;">MSc research</a>
-            </li>
-            
-            
-            
-            <li style=""  >
-                <a href="http://marksprevak.com/teaching/" style="text-decoration: none; border-bottom: none;">Teaching</a>
-            </li>
-            
-            
-        </ul>
-    </nav>
 </div>
 
+            </header>
 
-            <div class="row gutters">
-                <div class="col col-8">
+            <main class="main">
+                <div class="is-row">
 
-                    <div style="padding-bottom: 30px;">
-                        <div style="margin-bottom: 10px;">
-                            <h1 style="margin-top: 0px; margin-bottom: 0px; color: black;">Chinese rooms and program portability</h1>
-                            
-                            <p class="muted" style="margin-top: 10px;">
+                    <div class="is-col is-67">     
+
+                        <div style="padding-bottom: 30px;">
+                            <div style="margin-bottom: 10px;">
+                                <h1 class="is-color-black" style="margin-top: 0px; margin-bottom: 0px;">Chinese rooms and program portability</h1>
                                 
-                                    2007  &nbsp;
+                                <p class="is-muted" style="margin-top: 10px;">
+                                    
+                                        2007  &nbsp;
+                                    
+                                    <em>British Journal for the Philosophy of Science</em>, 58: 755&#8211;776
+                                </p>
+                                <p class="is-small" style="margin-top: 10px;">
+                                    <span>Last updated 4 October 2006</span>
+                                    
+                                </p>
+                            </div>
+                            <div class="is-hidden-print">
                                 
-                                <em>British Journal for the Philosophy of Science</em>, 58: 755&#8211;776
-                            </p>
-                            <p class="small" style="margin-top: 10px;">
-                                <span>Last updated 4 October 2006</span>
-                                
-                            </p>
-                        </div>
-                        <div class="hide-print">
-                            
-                            <a href="http://marksprevak.com/pdf/paper/Sprevak---Chinese%20Rooms%20and%20Program%20Portability.pdf" target="_blank" class="label badge outline focus upper"><span class="fa fa-file-pdf-o"></span>&nbsp;PDF</a>
-                            &nbsp;&nbsp;
-                            
-                            
-                            
-                            <a href="http://dx.doi.org/10.1093/bjps/axm035" target="_blank" class="label tag focus upper">doi&nbsp;<span style="font-size: 10px; padding-left: 1px;" class="fa fa-external-link"></span></a>
-                            
-                        </div>
-                    </div>
+<a href="http://marksprevak.com/pdf/paper/Sprevak---Chinese%20Rooms%20and%20Program%20Portability.pdf" target="_blank" class="label is-secondary is-mds" style="margin-left: 2px; margin-right:5px;">
+    <i class="far fa-file-pdf" style="font-size: 12px;"></i>
+    &nbsp;PDF
+</a>
 
-                    <div class="hide-sm">
-                        
-                        <div class="article-style" style="margin-left: 30px; margin-right: 30px; margin-bottom: 30px;">
-                            <p>I argue in this paper that there is a mistake in Searle’s Chinese room argument that has not received sufficient attention. The mistake stems from Searle’s use of the Church–Turing thesis. Searle assumes that the Church–Turing thesis licences the assumption that the Chinese room can run any program. I argue that it does not, and that this assumption is false. A number of possible objections are considered and rejected. My conclusion is that it is consistent with Searle’s argument to hold onto the claim that understanding consists in the running of a program.</p>
 
+
+<a href="http://dx.doi.org/10.1093/bjps/axm035" target="_blank" class="label is-tertiary is-mds" style="margin-left: 0; padding-left: 0; margin-right:2px;">
+    doi&nbsp;
+    <i class="fas fa-external-link-alt"></i>
+</a>
+
+
+                            </div>
                         </div>
-                        
-                    </div>
-                    <div class="show-sm">
-                        
+
+                        <div class="is-hidden-mobile">
                             
-                            <div class="hide-print" style="border-bottom: 0; margin-top: 5px; padding-bottom: 10px; padding-right: 20px; width:33%; float: left;">
+                            <div class="article-style" style="margin-left: 30px; margin-right: 30px; margin-bottom: 30px;">
+                                <p>I argue in this paper that there is a mistake in Searle’s Chinese room argument that has not received sufficient attention. The mistake stems from Searle’s use of the Church–Turing thesis. Searle assumes that the Church–Turing thesis licences the assumption that the Chinese room can run any program. I argue that it does not, and that this assumption is false. A number of possible objections are considered and rejected. My conclusion is that it is consistent with Searle’s argument to hold onto the claim that understanding consists in the running of a program.</p>
+
+                            </div>
+                            
+                        </div>
+                        <div class="is-shown-mobile">
+                            
+                            
+                            <div class="is-hidden-print" style="border-bottom: 0; margin-top: 5px; padding-bottom: 10px; padding-right: 20px; width:33%; float: left;">
                                 <img src="http://marksprevak.com/img/pubs/bjps-cra.png" alt="">
                             </div>
                             
-                            <div class="muted smaller hide-print">
+                            <div class="is-muted is-smaller is-hidden-print">
                                 Abstract:
                             </div>
                             <div class="article-style" style="margin-bottom: 30px;">
                                 <p>I argue in this paper that there is a mistake in Searle’s Chinese room argument that has not received sufficient attention. The mistake stems from Searle’s use of the Church–Turing thesis. Searle assumes that the Church–Turing thesis licences the assumption that the Chinese room can run any program. I argue that it does not, and that this assumption is false. A number of possible objections are considered and rejected. My conclusion is that it is consistent with Searle’s argument to hold onto the claim that understanding consists in the running of a program.</p>
 
                             </div>
-                        
-                    </div>
-
-                    <div>
-                        
-                        <div class="show-sm">
                             
+                        </div>
+
+                        <div>
+                            
+                            <div class="is-shown-mobile">
+                                
                                 <h1 style="margin-top: 0px;" id="internal-mds-toc">Contents</h1>
-                                <ul class="unstyled">
+                                <ul class="is-unstyled">
                                     
                                     <li>
                                         
                                         <a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#searles-argument"><span style="font-size: 14px;">1 &nbsp; Searle’s argument</span></a>
                                         
-                                    </li>
-                                    
+                                            </li>
+                                            
                                     <li>
                                         
-                                        <ul class="unstyled" style="margin-left: 15px;">
+                                        <ul class="is-unstyled" style="margin-left: 15px;">
                                             
                                             <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#SectChurchTuring"><span style="font-size: 12px;">1.1 &nbsp; The Church–Turing thesis</span></a>
-                                            
+                                                
                                         </ul>
                                         
-                                    </li>
-                                    
+                                            </li>
+                                            
                                     <li>
                                         
                                         <a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#criticism-of-searles-argument"><span style="font-size: 14px;">2 &nbsp; Criticism of Searle’s argument</span></a>
                                         
-                                    </li>
-                                    
+                                            </li>
+                                            
                                     <li>
                                         
                                         <a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#objections-and-replies"><span style="font-size: 14px;">3 &nbsp; Objections and replies</span></a>
                                         
-                                    </li>
-                                    
+                                            </li>
+                                            
                                     <li>
                                         
-                                        <ul class="unstyled" style="margin-left: 15px;">
+                                        <ul class="is-unstyled" style="margin-left: 15px;">
                                             
                                             <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-virtual-brain-machine-objection"><span style="font-size: 12px;">3.1 &nbsp; The virtual brain machine objection</span></a>
-                                            
+                                                
                                             <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-man-with-a-brain-objection"><span style="font-size: 12px;">3.2 &nbsp; The man with a brain objection</span></a>
-                                            
+                                                
                                             <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-syntaxphysics-objection"><span style="font-size: 12px;">3.3 &nbsp; The syntax/physics objection</span></a>
-                                            
+                                                
                                             <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-abstraction-objection"><span style="font-size: 12px;">3.4 &nbsp; The abstraction objection</span></a>
-                                            
+                                                
                                             <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-same-conclusion-objection"><span style="font-size: 12px;">3.5 &nbsp; The same conclusion objection</span></a>
-                                            
+                                                
                                             <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-unnecessary-baggage-objection"><span style="font-size: 12px;">3.6 &nbsp; The unnecessary baggage objection</span></a>
-                                            
+                                                
                                             <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-chinese-gym-objection"><span style="font-size: 12px;">3.7 &nbsp; The Chinese gym objection</span></a>
-                                            
+                                                
                                             <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-syntaxsemantics-objection"><span style="font-size: 12px;">3.8 &nbsp; The syntax/semantics objection</span></a>
-                                            
+                                                
                                             <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#SecTuringObjection"><span style="font-size: 12px;">3.9 &nbsp; Turing’s definition of algorithm</span></a>
-                                            
+                                                
                                         </ul>
                                         
-                                    </li>
-                                    
+                                            </li>
+                                            
                                     <li>
                                         
                                         <a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#conclusion"><span style="font-size: 14px;">4 &nbsp; Conclusion</span></a>
                                         
-                                    </li>
-                                    
+                                            </li>
+                                            
                                 </ul>
-                            
-                            
-                        </div>
-                        <div class="article-style">
-                            <div>
+                                
+                                
+                            </div>
+                            <div class="article-style">
+                                <div>
 <h1 id="searles-argument"><span class="header-section-number">1</span> Searle’s argument</h1>
 <p>Searle’s Chinese room argument is an argument against the possibility of Strong artificial intelligence (Strong AI). The thesis of Strong AI is that running a particular program is sufficient for, or constitutive of, mentality: it is simply in virtue of running a particular program that a system has mentality. One aspect of mentality is understanding, and this is the aspect on which Searle focuses. Searle appreciates that understanding is a complex notion, so he has a particular form of understanding in mind, namely, the understanding of simple stories. He considers whether the Strong AI thesis holds in this case.</p>
 <p>It seems intuitively obvious that when I read a simple story in English, I understand that story: somewhere in my head there is understanding going on. However, if I read a simple story written in Chinese (a language that I do not speak), there is no understanding going on. What makes the difference between these two cases? The advocate of Strong AI says that the difference consists in my running a particular program in the case of English stories and my failure to run a particular program in the case of Chinese stories. If the program for understanding Chinese stories were given to me, then I would be able to understand Chinese stories. Similarly, if that program were given to any other sufficiently complex system (e.g. a Turing machine), then it too would be able to understand Chinese stories. Searle argues that this consequence of Strong AI – that running a program is sufficient for, or constitutive of, understanding simple Chinese stories – is false. Call this consequence AI.</p>
@@ -724,111 +645,99 @@ Therefore, programs are not minds
 </section>
 </div>
 
+                            </div>
+                            
                         </div>
-                        
+
                     </div>
 
-                </div>
-
-                <div class="col col-4">     
-                    <div class="hide-print hide-sm">
-                        
-                        <h1 style="margin-top: 0px;">Contents</h1>
-                        <ul class="unstyled">
+                    <div class="is-col is-33">     
+                        <div class="is-hidden-print is-hidden-mobile">
                             
-                            <li>
+                            <h1 style="margin-top: 0px;">Contents</h1>
+                            <ul class="is-unstyled">
                                 
-                                <a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#searles-argument"><span style="font-size: 14px;">1 &nbsp; Searle’s argument</span></a>
-                                
-                            </li>
+                                <li>
+                                    
+                                    <a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#searles-argument"><span style="font-size: 14px;">1 &nbsp; Searle’s argument</span></a>
+                                    
+                                        </li>
+                                        
+                                <li>
+                                    
+                                    <ul class="is-unstyled" style="margin-left: 15px;">
+                                        
+                                        <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#SectChurchTuring"><span style="font-size: 12px;">1.1 &nbsp; The Church–Turing thesis</span></a>
+                                            
+                                    </ul>
+                                    
+                                        </li>
+                                        
+                                <li>
+                                    
+                                    <a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#criticism-of-searles-argument"><span style="font-size: 14px;">2 &nbsp; Criticism of Searle’s argument</span></a>
+                                    
+                                        </li>
+                                        
+                                <li>
+                                    
+                                    <a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#objections-and-replies"><span style="font-size: 14px;">3 &nbsp; Objections and replies</span></a>
+                                    
+                                        </li>
+                                        
+                                <li>
+                                    
+                                    <ul class="is-unstyled" style="margin-left: 15px;">
+                                        
+                                        <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-virtual-brain-machine-objection"><span style="font-size: 12px;">3.1 &nbsp; The virtual brain machine objection</span></a>
+                                            
+                                        <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-man-with-a-brain-objection"><span style="font-size: 12px;">3.2 &nbsp; The man with a brain objection</span></a>
+                                            
+                                        <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-syntaxphysics-objection"><span style="font-size: 12px;">3.3 &nbsp; The syntax/physics objection</span></a>
+                                            
+                                        <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-abstraction-objection"><span style="font-size: 12px;">3.4 &nbsp; The abstraction objection</span></a>
+                                            
+                                        <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-same-conclusion-objection"><span style="font-size: 12px;">3.5 &nbsp; The same conclusion objection</span></a>
+                                            
+                                        <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-unnecessary-baggage-objection"><span style="font-size: 12px;">3.6 &nbsp; The unnecessary baggage objection</span></a>
+                                            
+                                        <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-chinese-gym-objection"><span style="font-size: 12px;">3.7 &nbsp; The Chinese gym objection</span></a>
+                                            
+                                        <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-syntaxsemantics-objection"><span style="font-size: 12px;">3.8 &nbsp; The syntax/semantics objection</span></a>
+                                            
+                                        <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#SecTuringObjection"><span style="font-size: 12px;">3.9 &nbsp; Turing’s definition of algorithm</span></a>
+                                            
+                                    </ul>
+                                    
+                                        </li>
+                                        
+                                <li>
+                                    
+                                    <a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#conclusion"><span style="font-size: 14px;">4 &nbsp; Conclusion</span></a>
+                                    
+                                        </li>
+                                        
+                            </ul>
                             
-                            <li>
-                                
-                                <ul class="unstyled" style="margin-left: 15px;">
-                                    
-                                    <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#SectChurchTuring"><span style="font-size: 12px;">1.1 &nbsp; The Church–Turing thesis</span></a>
-                                    
-                                </ul>
-                                
-                            </li>
                             
-                            <li>
-                                
-                                <a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#criticism-of-searles-argument"><span style="font-size: 14px;">2 &nbsp; Criticism of Searle’s argument</span></a>
-                                
-                            </li>
+                            <div style="border-bottom: 0; padding-bottom: 10px; width:80%; margin-left: auto; margin-right: auto;">
+                                <img src="http://marksprevak.com/img/pubs/bjps-cra.png" alt="">
+                            </div>
                             
-                            <li>
-                                
-                                <a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#objections-and-replies"><span style="font-size: 14px;">3 &nbsp; Objections and replies</span></a>
-                                
-                            </li>
-                            
-                            <li>
-                                
-                                <ul class="unstyled" style="margin-left: 15px;">
-                                    
-                                    <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-virtual-brain-machine-objection"><span style="font-size: 12px;">3.1 &nbsp; The virtual brain machine objection</span></a>
-                                    
-                                    <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-man-with-a-brain-objection"><span style="font-size: 12px;">3.2 &nbsp; The man with a brain objection</span></a>
-                                    
-                                    <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-syntaxphysics-objection"><span style="font-size: 12px;">3.3 &nbsp; The syntax/physics objection</span></a>
-                                    
-                                    <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-abstraction-objection"><span style="font-size: 12px;">3.4 &nbsp; The abstraction objection</span></a>
-                                    
-                                    <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-same-conclusion-objection"><span style="font-size: 12px;">3.5 &nbsp; The same conclusion objection</span></a>
-                                    
-                                    <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-unnecessary-baggage-objection"><span style="font-size: 12px;">3.6 &nbsp; The unnecessary baggage objection</span></a>
-                                    
-                                    <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-chinese-gym-objection"><span style="font-size: 12px;">3.7 &nbsp; The Chinese gym objection</span></a>
-                                    
-                                    <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#the-syntaxsemantics-objection"><span style="font-size: 12px;">3.8 &nbsp; The syntax/semantics objection</span></a>
-                                    
-                                    <li><a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#SecTuringObjection"><span style="font-size: 12px;">3.9 &nbsp; Turing’s definition of algorithm</span></a>
-                                    
-                                </ul>
-                                
-                            </li>
-                            
-                            <li>
-                                
-                                <a href="http://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/#conclusion"><span style="font-size: 14px;">4 &nbsp; Conclusion</span></a>
-                                
-                            </li>
-                            
-                        </ul>
-                        
-                        
-                        <div style="border-bottom: 0; padding-bottom: 10px; width:80%; margin-left: auto; margin-right: auto;">
-                            <img src="http://marksprevak.com/img/pubs/bjps-cra.png" alt="">
                         </div>
-                        
                     </div>
                 </div>
+            </main>
 
-            </div>
+        <footer class="footer"></footer>
 
         </div>
 
-        
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-600543-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script');
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
-        'http://www') + '.google-analytics.com/ga.js';
-    ga.setAttribute('async', 'true');
-    document.documentElement.firstChild.appendChild(ga);
-  })();
-
-(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
-fitText(document.getElementById('title'), 1)
-
+        <script src="http://marksprevak.com/kube/js/kube.min.js"></script>
+<script>
+    $K.init();
 </script>
+
 
     </body>
 </html>

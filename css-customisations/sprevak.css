@@ -98,6 +98,8 @@ a {
   color: #3278AF; }
 
 .wrapper {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
   font-family: 'Lato', times;
   padding: 10px 25px 50px;
   max-width: 1100px;

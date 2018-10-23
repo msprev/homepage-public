@@ -35,7 +35,7 @@ ul, ol {
   color: rgba(107, 0, 26, 0.73); }
 
 .linkblue {
-  color: #3D95DB !important; }
+  color: #3278AF !important; }
 
 .references {
   padding-left: 1em;
@@ -95,7 +95,7 @@ h3 {
 a {
   text-decoration: none;
   border-bottom: dotted 1px #a1a3a1; 
-  color: #3D95DB; }
+  color: #3278AF; }
 
 .wrapper {
   font-family: 'Lato', times;
@@ -133,8 +133,8 @@ td {
 
 
 .label.is-secondary.is-mds {
-    color: #3D95DB; 
-    border: 1px solid #3D95DB; 
+    color: #3278AF; 
+    border: 1px solid #3278AF; 
     font-size: 10px; 
     font-weight: 500; 
     margin-left: 0.25em; 
@@ -151,7 +151,7 @@ td {
 }
 
 .label.is-tertiary.is-mds {
-    color: #3D95DB; 
+    color: #3278AF; 
     font-size: 11px; 
     font-weight: 500; 
     margin-left: 0.25em; 

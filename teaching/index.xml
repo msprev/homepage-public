@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teachings on Mark Sprevak</title>
-    <link>http://marksprevak.com/teaching/</link>
+    <link>https://marksprevak.com/teaching/</link>
     <description>Recent content in Teachings on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 14 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://marksprevak.com/teaching/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marksprevak.com/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Introduction to Cognitive Science</title>
-      <link>http://marksprevak.com/teaching/intro-to-cog-sci-ug/</link>
+      <link>https://marksprevak.com/teaching/intro-to-cog-sci-ug/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://marksprevak.com/teaching/intro-to-cog-sci-ug/</guid>
+      <guid>https://marksprevak.com/teaching/intro-to-cog-sci-ug/</guid>
       <description>I teach the Philosophy part of the Situated Cognition theme described below
 Course description This course introduces students to the study of Cognitive Science as the intersection of an array of interrelated disciplines including philosophy, psychology, linguistics, anthropology, computer science, human-computer interaction, and neuroscience.
 Organisation Students attend 2 hours of lecture per week, 2 hours of lab per week, as well as a biweekly tutorial hour.
@@ -24,19 +24,19 @@ Course content This course is divided into three themed blocks:</description>
     
     <item>
       <title>Philosophy and the Cognitive Sciences</title>
-      <link>http://marksprevak.com/teaching/mooc/</link>
+      <link>https://marksprevak.com/teaching/mooc/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://marksprevak.com/teaching/mooc/</guid>
+      <guid>https://marksprevak.com/teaching/mooc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ethics of Artificial Intelligence</title>
-      <link>http://marksprevak.com/teaching/ethics-of-ai-ug/</link>
+      <link>https://marksprevak.com/teaching/ethics-of-ai-ug/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://marksprevak.com/teaching/ethics-of-ai-ug/</guid>
+      <guid>https://marksprevak.com/teaching/ethics-of-ai-ug/</guid>
       <description>Course description Artificial intelligence (AI) is developing at an extremely rapid pace. We expect to see significant changes in our society as AI systems become embedded in various aspects of our lives. This course will introduce students to philosophical issues raised by current and future AI systems.
 No previous familiarity with the literature on AI will be assumed.
 Organisation The class meets every week for 11 weeks for a 2-hour session.</description>
@@ -44,47 +44,47 @@ Organisation The class meets every week for 11 weeks for a 2-hour session.</desc
     
     <item>
       <title>Mind, Matter, and Language</title>
-      <link>http://marksprevak.com/teaching/mml/</link>
+      <link>https://marksprevak.com/teaching/mml/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://marksprevak.com/teaching/mml/</guid>
+      <guid>https://marksprevak.com/teaching/mml/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Philosophy of Psychology</title>
-      <link>http://marksprevak.com/teaching/phil-psych-ug/</link>
+      <link>https://marksprevak.com/teaching/phil-psych-ug/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://marksprevak.com/teaching/phil-psych-ug/</guid>
+      <guid>https://marksprevak.com/teaching/phil-psych-ug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Computational Mind</title>
-      <link>http://marksprevak.com/teaching/computational-mind-ug/</link>
+      <link>https://marksprevak.com/teaching/computational-mind-ug/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://marksprevak.com/teaching/computational-mind-ug/</guid>
+      <guid>https://marksprevak.com/teaching/computational-mind-ug/</guid>
       <description>Course description This course introduces students to the idea that the mind is a computational device. Computational models dominate modern psychology. Computational models appear to offer the tantalising prospect of explaining how the mind works. These models raise numerous foundational philosophical questions. They also appear to have the potential to contribute to, and perhaps even answer, long-standing philosophical questions about the mind.
 This course does not assume prior knowledge of computational modelling techniques or cognitive science.</description>
     </item>
     
     <item>
       <title>Philosophy of Psychology (MSc)</title>
-      <link>http://marksprevak.com/teaching/phil-psych-msc/</link>
+      <link>https://marksprevak.com/teaching/phil-psych-msc/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://marksprevak.com/teaching/phil-psych-msc/</guid>
+      <guid>https://marksprevak.com/teaching/phil-psych-msc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Computational Mind (MSc)</title>
-      <link>http://marksprevak.com/teaching/computational-mind-msc/</link>
+      <link>https://marksprevak.com/teaching/computational-mind-msc/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://marksprevak.com/teaching/computational-mind-msc/</guid>
+      <guid>https://marksprevak.com/teaching/computational-mind-msc/</guid>
       <description>Course description Classes for this course are shared with those of the undergraduate version of the course.
 In addition to classes, the MSc version of the course has a reading group on more advanced topics. This is intended to provide a venue to explore ideas for writing a research-focused essay.
 MSc reading group The reading group meets every 2 weeks. Readings are chosen in consultation with the MSc students. This year, we are reading:</description>
@@ -92,19 +92,19 @@ MSc reading group The reading group meets every 2 weeks. Readings are chosen in 
     
     <item>
       <title>CogLab</title>
-      <link>http://marksprevak.com/teaching/coglab/</link>
+      <link>https://marksprevak.com/teaching/coglab/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://marksprevak.com/teaching/coglab/</guid>
+      <guid>https://marksprevak.com/teaching/coglab/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Undergraduate dissertations</title>
-      <link>http://marksprevak.com/teaching/dissertations-current-ug/</link>
+      <link>https://marksprevak.com/teaching/dissertations-current-ug/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://marksprevak.com/teaching/dissertations-current-ug/</guid>
+      <guid>https://marksprevak.com/teaching/dissertations-current-ug/</guid>
       <description>I supervise at least one undergraduate a year. Many of the same questions come up each year. I have prepared below a set of guidelines to help when starting out on a dissertation.
 Please note that this is personal advice and not to be taken as a substitute for the undergraduate handbook and marking scheme.
 Do&amp;rsquo;s and Don&amp;rsquo;t&amp;rsquo;s for a dissertation Do:
@@ -113,19 +113,19 @@ Do&amp;rsquo;s and Don&amp;rsquo;t&amp;rsquo;s for a dissertation Do:
     
     <item>
       <title>Introduction to Mind, Language and Embodied Cognition</title>
-      <link>http://marksprevak.com/teaching/intro-to-mlec/</link>
+      <link>https://marksprevak.com/teaching/intro-to-mlec/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://marksprevak.com/teaching/intro-to-mlec/</guid>
+      <guid>https://marksprevak.com/teaching/intro-to-mlec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Undergraduate dissertations</title>
-      <link>http://marksprevak.com/teaching/dissertations-past-ug/</link>
+      <link>https://marksprevak.com/teaching/dissertations-past-ug/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://marksprevak.com/teaching/dissertations-past-ug/</guid>
+      <guid>https://marksprevak.com/teaching/dissertations-past-ug/</guid>
       <description></description>
     </item>
     

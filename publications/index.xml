@@ -5,10 +5,19 @@
     <link>https://marksprevak.com/publications/</link>
     <description>Recent content in Publications on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 22 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Two kinds of information processing in cognition</title>
+      <link>https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/</guid>
+      <description>1 Introduction There is a new way in which cognition could be information processing. Philosophers have tended to conceptualise cognition’s relationship to Shannon information in just one way. This suited an approach that treated cognition as inference over representations of single outcomes (there is a face here, there is a line there, there is a house here). Recent work conceives of cognition differently. Cognition does not involve an inference over representations of single outcomes but an inference over probabilistic representations – representations whose content involves multiple outcomes and their estimated probabilities.</description>
+    </item>
     
     <item>
       <title>Distributed Cognition in Classical Antiquity</title>
@@ -82,15 +91,6 @@ The Routledge Handbook of the Computational Mind is an outstanding overview and 
       
       <guid>https://marksprevak.com/publications/eliminativism-about-consciousness/</guid>
       <description>1 Introduction In this chapter, we examine a radical philosophical position about consciousness: eliminativism. Eliminativists claim that consciousness does not exist and/or that talk of consciousness should be eliminated from science. These are strong positions to take, and require serious defence. To evaluate these positions, the chapter is structured as follows. In Section 2 we introduce the difference between entity eliminativism and discourse eliminativism and outline the typical strategies used to support each.</description>
-    </item>
-    
-    <item>
-      <title>Two kinds of information processing in cognition</title>
-      <link>https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/</link>
-      <pubDate>Thu, 05 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/</guid>
-      <description>1 Introduction There is a new way in which cognition could be information processing. Philosophers have tended to conceptualise cognition’s relationship to Shannon information in just one way. This suited an approach that treated cognition as inference over representations of single outcomes (there is a face here, there is a line there, there is a house here). Recent work conceives of cognition differently. Cognition does not involve an inference over representations of single outcomes but an inference over probabilistic representations – representations whose content involves multiple outcomes and their estimated probabilities.</description>
     </item>
     
     <item>

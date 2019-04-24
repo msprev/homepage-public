@@ -63,6 +63,18 @@
   </url>
   
   <url>
+    <loc>https://marksprevak.com/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://marksprevak.com/publications/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
@@ -113,11 +125,6 @@
   </url>
   
   <url>
-    <loc>https://marksprevak.com/cv/</loc>
-    <lastmod>2018-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://marksprevak.com/publications/zuse-s-thesis-gandy-s-thesis-and-penrose-s-thesis-2018/</loc>
     <lastmod>2018-04-24T00:00:00+00:00</lastmod>
   </url>
@@ -138,23 +145,9 @@
   </url>
   
   <url>
-    <loc>https://marksprevak.com/mscs/</loc>
-    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marksprevak.com/outreach/</loc>
-    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marksprevak.com/phds/</loc>
-    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marksprevak.com/talks/</loc>
-    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
+    <loc>https://marksprevak.com/teaching/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -283,21 +276,23 @@
   </url>
   
   <url>
-    <loc>https://marksprevak.com/</loc>
-    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://marksprevak.com/cv/</loc>
   </url>
   
   <url>
-    <loc>https://marksprevak.com/publications/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://marksprevak.com/mscs/</loc>
   </url>
   
   <url>
-    <loc>https://marksprevak.com/teaching/</loc>
-    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://marksprevak.com/outreach/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marksprevak.com/phds/</loc>
+  </url>
+  
+  <url>
+    <loc>https://marksprevak.com/talks/</loc>
   </url>
   
 </urlset>

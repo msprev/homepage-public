@@ -64,14 +64,19 @@
   
   <url>
     <loc>https://marksprevak.com/</loc>
-    <lastmod>2019-05-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://marksprevak.com/publications/</loc>
-    <lastmod>2019-05-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://marksprevak.com/publications/review-of-the-language-of-thought-a-new-philosophical-direction-by-susan-schneider-2018/</loc>
+    <lastmod>2019-05-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -112,11 +117,6 @@
   <url>
     <loc>https://marksprevak.com/publications/triviality-arguments-about-computational-implementation-2018/</loc>
     <lastmod>2018-10-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marksprevak.com/publications/review-of-the-language-of-thought-a-new-philosophical-direction-by-susan-schneider-2018/</loc>
-    <lastmod>2018-08-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>

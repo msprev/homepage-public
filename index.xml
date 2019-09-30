@@ -5,7 +5,7 @@
     <link>https://marksprevak.com/</link>
     <description>Recent content on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,15 +20,6 @@
 Course description This course introduces students to the study of Cognitive Science as the intersection of an array of interrelated disciplines including philosophy, psychology, linguistics, anthropology, computer science, human-computer interaction, and neuroscience.
 Organisation Students attend 2 hours of lecture per week, 2 hours of lab per week, as well as a biweekly tutorial hour.
 Course content This course is divided into three themed blocks:</description>
-    </item>
-    
-    <item>
-      <title>Philosophy and the Cognitive Sciences</title>
-      <link>https://marksprevak.com/teaching/mooc/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/teaching/mooc/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -52,6 +43,24 @@ Organisation The class meets every week for 11 weeks for a 2-hour session.</desc
     </item>
     
     <item>
+      <title>Rule-Following and Meaning</title>
+      <link>https://marksprevak.com/teaching/rule-following-meaning/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/teaching/rule-following-meaning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philosophy and the Cognitive Sciences</title>
+      <link>https://marksprevak.com/teaching/mooc/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/teaching/mooc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Philosophy of Psychology</title>
       <link>https://marksprevak.com/teaching/phil-psych-ug/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
@@ -71,26 +80,6 @@ This course does not assume prior knowledge of computational modelling technique
     </item>
     
     <item>
-      <title>Philosophy of Psychology (MSc)</title>
-      <link>https://marksprevak.com/teaching/phil-psych-msc/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/teaching/phil-psych-msc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Computational Mind (MSc)</title>
-      <link>https://marksprevak.com/teaching/computational-mind-msc/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/teaching/computational-mind-msc/</guid>
-      <description>Course description Classes for this course are shared with those of the undergraduate version of the course.
-In addition to classes, the MSc version of the course has a reading group on more advanced topics. This is intended to provide a venue to explore ideas for writing a research-focused essay.
-MSc reading group The reading group meets every 2 weeks. Readings are chosen in consultation with the MSc students. This year, we are reading:</description>
-    </item>
-    
-    <item>
       <title>CogLab</title>
       <link>https://marksprevak.com/teaching/coglab/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
@@ -100,7 +89,7 @@ MSc reading group The reading group meets every 2 weeks. Readings are chosen in 
     </item>
     
     <item>
-      <title>Undergraduate dissertations</title>
+      <title>Philosophy dissertations</title>
       <link>https://marksprevak.com/teaching/dissertations-current-ug/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
@@ -121,12 +110,21 @@ Do&amp;rsquo;s and Don&amp;rsquo;t&amp;rsquo;s for a dissertation Do:
     </item>
     
     <item>
-      <title>Undergraduate dissertations</title>
+      <title>Philosophy undergraduate dissertations</title>
       <link>https://marksprevak.com/teaching/dissertations-past-ug/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://marksprevak.com/teaching/dissertations-past-ug/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Extended cognition</title>
+      <link>https://marksprevak.com/publications/extended-cognition/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/extended-cognition/</guid>
+      <description>Article Summary Extended cognition takes the idea that your mind is ‘on’ your smartphone literally. It says that human cognitive states and processes sometimes spill outside our heads and into objects in our environment. Alleged examples include not just smartphones, but also use of simpler technology (pencil and paper to perform a calculation), our own body (ticking off our fingers when we count), and other people (our spouse who remembers appointments so we don’t have to).</description>
     </item>
     
     <item>
@@ -169,12 +167,12 @@ Susan Schneider
     </item>
     
     <item>
-      <title>Extended cognition</title>
-      <link>https://marksprevak.com/publications/extended-cognition/</link>
-      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
+      <title>Distributed cognition and the humanities</title>
+      <link>https://marksprevak.com/publications/distributed-cognition-and-the-humanities-2018/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://marksprevak.com/publications/extended-cognition/</guid>
-      <description>Article Summary Extended cognition takes the idea that your mind is ‘on’ your smartphone literally. It says that human cognitive states and processes sometimes spill outside our heads and into objects in our environment. Alleged examples include not just smartphones, but also use of simpler technology (pencil and paper to perform a calculation), our own body (ticking off our fingers when we count), and other people (our spouse who remembers appointments so we don’t have to).</description>
+      <guid>https://marksprevak.com/publications/distributed-cognition-and-the-humanities-2018/</guid>
+      <description>Consider counting on your fingers; or solving a challenging mathematical problem using pen and paper (or Napier’s bones, or a slide-rule); or the way in which we routinely offload the psychological task of remembering phone numbers on to our ubiquitous mobile phones; or a brainstorming scenario in which new creative ideas emerge from a process of collective group interaction; or the manner in which the intelligent feat of ship navigation is realised through a pattern of embodied, information-communicating social exchanges between crew members who, individually, perform purely local information-processing tasks (such as bearing taking) using specialised technology.</description>
     </item>
     
     <item>
@@ -185,15 +183,6 @@ Susan Schneider
       <guid>https://marksprevak.com/publications/distributed-cognition-in-classical-antiquity-2018/</guid>
       <description>An opening essay outlining the theoretical framework along with twelve essays by international specialists in classical antiquity create a period-specific interdisciplinary introduction to distributed cognition and the cognitive humanities. This collection explores how cognition is explicitly or implicitly conceived of as distributed across brain, body and world in Greek and Roman technology, science, medicine, material culture, philosophy, and literary studies.
 A range of models emerge, which vary both in terms of whether cognition is just embodied or involves tools or objects in the world.</description>
-    </item>
-    
-    <item>
-      <title>Distributed cognition and the humanities</title>
-      <link>https://marksprevak.com/publications/distributed-cognition-and-the-humanities-2018/</link>
-      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/publications/distributed-cognition-and-the-humanities-2018/</guid>
-      <description>Consider counting on your fingers; or solving a challenging mathematical problem using pen and paper (or Napier’s bones, or a slide-rule); or the way in which we routinely offload the psychological task of remembering phone numbers on to our ubiquitous mobile phones; or a brainstorming scenario in which new creative ideas emerge from a process of collective group interaction; or the manner in which the intelligent feat of ship navigation is realised through a pattern of embodied, information-communicating social exchanges between crew members who, individually, perform purely local information-processing tasks (such as bearing taking) using specialised technology.</description>
     </item>
     
     <item>

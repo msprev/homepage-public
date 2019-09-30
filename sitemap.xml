@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>https://marksprevak.com/teaching/mooc/</loc>
-    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://marksprevak.com/teaching/ethics-of-ai-ug/</loc>
     <lastmod>2017-10-14T00:00:00+00:00</lastmod>
   </url>
@@ -23,22 +18,22 @@
   </url>
   
   <url>
+    <loc>https://marksprevak.com/teaching/rule-following-meaning/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marksprevak.com/teaching/mooc/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://marksprevak.com/teaching/phil-psych-ug/</loc>
     <lastmod>2017-10-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://marksprevak.com/teaching/computational-mind-ug/</loc>
-    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marksprevak.com/teaching/phil-psych-msc/</loc>
-    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marksprevak.com/teaching/computational-mind-msc/</loc>
     <lastmod>2017-10-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -64,19 +59,32 @@
   
   <url>
     <loc>https://marksprevak.com/cv/</loc>
-    <lastmod>2019-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marksprevak.com/publications/extended-cognition/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://marksprevak.com/</loc>
-    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://marksprevak.com/publications/</loc>
-    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marksprevak.com/mscs/</loc>
+    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://marksprevak.com/teaching/</loc>
+    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -100,17 +108,12 @@
   </url>
   
   <url>
-    <loc>https://marksprevak.com/publications/extended-cognition/</loc>
-    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marksprevak.com/publications/distributed-cognition-in-classical-antiquity-2018/</loc>
+    <loc>https://marksprevak.com/publications/distributed-cognition-and-the-humanities-2018/</loc>
     <lastmod>2018-10-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://marksprevak.com/publications/distributed-cognition-and-the-humanities-2018/</loc>
+    <loc>https://marksprevak.com/publications/distributed-cognition-in-classical-antiquity-2018/</loc>
     <lastmod>2018-10-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -147,17 +150,6 @@
   <url>
     <loc>https://marksprevak.com/publications/turing-s-model-of-the-mind-2017/</loc>
     <lastmod>2017-11-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://marksprevak.com/teaching/</loc>
-    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://marksprevak.com/mscs/</loc>
-    <lastmod>2017-04-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>

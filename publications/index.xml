@@ -5,10 +5,19 @@
     <link>https://marksprevak.com/publications/</link>
     <description>Recent content in Publications on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 14 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Extended cognition</title>
+      <link>https://marksprevak.com/publications/extended-cognition/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/extended-cognition/</guid>
+      <description>Article Summary Extended cognition takes the idea that your mind is ‘on’ your smartphone literally. It says that human cognitive states and processes sometimes spill outside our heads and into objects in our environment. Alleged examples include not just smartphones, but also use of simpler technology (pencil and paper to perform a calculation), our own body (ticking off our fingers when we count), and other people (our spouse who remembers appointments so we don’t have to).</description>
+    </item>
     
     <item>
       <title>Routledge Handbook of the Computational Mind</title>
@@ -50,12 +59,12 @@ Susan Schneider
     </item>
     
     <item>
-      <title>Extended cognition</title>
-      <link>https://marksprevak.com/publications/extended-cognition/</link>
-      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
+      <title>Distributed cognition and the humanities</title>
+      <link>https://marksprevak.com/publications/distributed-cognition-and-the-humanities-2018/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://marksprevak.com/publications/extended-cognition/</guid>
-      <description>Article Summary Extended cognition takes the idea that your mind is ‘on’ your smartphone literally. It says that human cognitive states and processes sometimes spill outside our heads and into objects in our environment. Alleged examples include not just smartphones, but also use of simpler technology (pencil and paper to perform a calculation), our own body (ticking off our fingers when we count), and other people (our spouse who remembers appointments so we don’t have to).</description>
+      <guid>https://marksprevak.com/publications/distributed-cognition-and-the-humanities-2018/</guid>
+      <description>Consider counting on your fingers; or solving a challenging mathematical problem using pen and paper (or Napier’s bones, or a slide-rule); or the way in which we routinely offload the psychological task of remembering phone numbers on to our ubiquitous mobile phones; or a brainstorming scenario in which new creative ideas emerge from a process of collective group interaction; or the manner in which the intelligent feat of ship navigation is realised through a pattern of embodied, information-communicating social exchanges between crew members who, individually, perform purely local information-processing tasks (such as bearing taking) using specialised technology.</description>
     </item>
     
     <item>
@@ -66,15 +75,6 @@ Susan Schneider
       <guid>https://marksprevak.com/publications/distributed-cognition-in-classical-antiquity-2018/</guid>
       <description>An opening essay outlining the theoretical framework along with twelve essays by international specialists in classical antiquity create a period-specific interdisciplinary introduction to distributed cognition and the cognitive humanities. This collection explores how cognition is explicitly or implicitly conceived of as distributed across brain, body and world in Greek and Roman technology, science, medicine, material culture, philosophy, and literary studies.
 A range of models emerge, which vary both in terms of whether cognition is just embodied or involves tools or objects in the world.</description>
-    </item>
-    
-    <item>
-      <title>Distributed cognition and the humanities</title>
-      <link>https://marksprevak.com/publications/distributed-cognition-and-the-humanities-2018/</link>
-      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/publications/distributed-cognition-and-the-humanities-2018/</guid>
-      <description>Consider counting on your fingers; or solving a challenging mathematical problem using pen and paper (or Napier’s bones, or a slide-rule); or the way in which we routinely offload the psychological task of remembering phone numbers on to our ubiquitous mobile phones; or a brainstorming scenario in which new creative ideas emerge from a process of collective group interaction; or the manner in which the intelligent feat of ship navigation is realised through a pattern of embodied, information-communicating social exchanges between crew members who, individually, perform purely local information-processing tasks (such as bearing taking) using specialised technology.</description>
     </item>
     
     <item>

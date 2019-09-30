@@ -99,6 +99,7 @@ a {
   text-decoration: none;
   border-bottom: dotted 1px #a1a3a1; 
   color: #03396c; }
+  /* previous colour: #235b88 */
 
 .wrapper {
   -webkit-font-smoothing: antialiased;

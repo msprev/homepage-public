@@ -5,10 +5,19 @@
     <link>https://marksprevak.com/publications/</link>
     <description>Recent content in Publications on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eliminativism about consciousness</title>
+      <link>https://marksprevak.com/publications/eliminativism-about-consciousness/</link>
+      <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/eliminativism-about-consciousness/</guid>
+      <description>1 Introduction In this chapter, we examine a radical philosophical position about consciousness: eliminativism. Eliminativists claim that consciousness does not exist and/or that talk of consciousness should be eliminated from science. These are strong positions to take, and require serious defence. To evaluate these positions, the chapter is structured as follows. In Section 2 we introduce the difference between entity eliminativism and discourse eliminativism and outline the typical strategies used to support each.</description>
+    </item>
     
     <item>
       <title>Extended cognition</title>
@@ -93,15 +102,6 @@ A range of models emerge, which vary both in terms of whether cognition is just 
       
       <guid>https://marksprevak.com/publications/triviality-arguments-about-computational-implementation-2018/</guid>
       <description>1 Introduction Triviality arguments seek to show that computational implementation in physical systems is trivial in some worrisome way. A triviality argument might show that a theory of implementation attributes computations to too many physical systems, or that it attributes too many computations to those physical systems that compute, or both. Triviality arguments threaten to make trouble both for computational functionalism (the metaphysical claim that implementing a certain computation is sufficient for having a certain mental state or process) and for computational explanation in science (the scientific practice of explaining mental and behavioral phenomena in terms of physical computations).</description>
-    </item>
-    
-    <item>
-      <title>Eliminativism about consciousness</title>
-      <link>https://marksprevak.com/publications/eliminativism-about-consciousness/</link>
-      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/publications/eliminativism-about-consciousness/</guid>
-      <description>1 Introduction In this chapter, we examine a radical philosophical position about consciousness: eliminativism. Eliminativists claim that consciousness does not exist and/or that talk of consciousness should be eliminated from science. These are strong positions to take, and require serious defence. To evaluate these positions, the chapter is structured as follows. In Section 2 we introduce the difference between entity eliminativism and discourse eliminativism and outline the typical strategies used to support each.</description>
     </item>
     
     <item>

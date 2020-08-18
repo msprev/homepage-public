@@ -5,10 +5,19 @@
     <link>https://marksprevak.com/publications/</link>
     <description>Recent content in Publications on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Two kinds of information processing in cognition</title>
+      <link>https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/</link>
+      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/</guid>
+      <description>1 Introduction There is a new way in which cognition could be information processing. Philosophers have traditionally tended to understand cognition’s relationship to Shannon information in just one way. This suited an approach that treated cognition as an inference over representations of single outcomes (there is a face here, there is a line there, there is a house here). Recent work conceives of cognition differently. Cognition does not involve an inference over representations of single outcomes but an inference over probabilistic representations – representations whose content includes multiple outcomes along with their estimated probabilities.</description>
+    </item>
     
     <item>
       <title>Eliminativism about consciousness</title>
@@ -46,15 +55,6 @@
       <guid>https://marksprevak.com/publications/routledge-handbook-of-the-computational-mind-2018/</guid>
       <description>Computational approaches dominate contemporary cognitive science, promising a unified, scientific explanation of how the mind works. However, computational approaches raise major philosophical and scientific questions. In what sense is the mind computational? How do computational approaches explain perception, learning, and decision making? What kinds of challenges should computational approaches overcome to advance our understanding of mind, brain, and behaviour?
 The Routledge Handbook of the Computational Mind is an outstanding overview and exploration of these issues and the first philosophical collection of its kind.</description>
-    </item>
-    
-    <item>
-      <title>Two kinds of information processing in cognition</title>
-      <link>https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/</link>
-      <pubDate>Sat, 18 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/</guid>
-      <description>1 Introduction There is a new way in which cognition could be information processing. Philosophers have traditionally tended to understand cognition’s relationship to Shannon information in just one way. This suited an approach that treated cognition as an inference over representations of single outcomes (there is a face here, there is a line there, there is a house here). Recent work conceives of cognition differently. Cognition does not involve an inference over representations of single outcomes but an inference over probabilistic representations – representations whose content includes multiple outcomes along with their estimated probabilities.</description>
     </item>
     
     <item>

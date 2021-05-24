@@ -5,7 +5,7 @@
     <link>https://marksprevak.com/</link>
     <description>Recent content on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 19 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Cognitive Science</title>
       <link>https://marksprevak.com/teaching/intro-to-cog-sci-ug/</link>
@@ -112,6 +112,15 @@ Please note that this is personal advice and not to be taken as a substitute for
       
       <guid>https://marksprevak.com/teaching/dissertations-past-ug/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive coding I: Introduction</title>
+      <link>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</link>
+      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</guid>
+      <description>1 Introduction Predictive coding is a computational model of cognition. Like other computational models, it attempts to explain human thought and behaviour in terms of computations performed by our brains. It differs from more traditional approaches in at least three respects. First, it aspires to be comprehensive: it aims to explain, not just one domain of human cognition, but all of it – perception, motor control, decision making, planning, reasoning, attention, and so on.</description>
     </item>
     
     <item>

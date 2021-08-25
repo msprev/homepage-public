@@ -5,7 +5,7 @@
     <link>https://marksprevak.com/</link>
     <description>Recent content on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Cognitive Science</title>
       <link>https://marksprevak.com/teaching/intro-to-cog-sci-ug/</link>
@@ -112,6 +112,15 @@ Please note that this is personal advice and not to be taken as a substitute for
       
       <guid>https://marksprevak.com/teaching/dissertations-past-ug/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive coding III: The algorithmic level</title>
+      <link>https://marksprevak.com/publications/predictive-coding-iii-the-algorithmic-level-4cf4/</link>
+      <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/predictive-coding-iii-the-algorithmic-level-4cf4/</guid>
+      <description>1 Introduction At Marr’s computational level, predictive coding suggests that the task facing the brain is to minimise its long-term, prediction-weighted sensory prediction error. This article focuses on the algorithm and representations by which the brain attempts to accomplish this task – in other words, what predictive coding says at Marr’s algorithmic level. In principle, a huge range of possible algorithms could be used to minimise sensory prediction error. Furthermore, nothing has been assumed about the brain’s success rate in solving this computational problem.</description>
     </item>
     
     <item>

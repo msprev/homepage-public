@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Predictive coding IV: The implementation level | Mark Sprevak</title>
+        <meta name="description" content="">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://marksprevak.com/kube/css/kube.min.css" />
+<link rel="stylesheet" href="https://marksprevak.com/css-customisations/sprevak.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<title>Mark Sprevak</title>
+<base href="https://marksprevak.com/">
+<link rel="canonical" href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700%7CLato:400,700" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="page wrapper">
+
+            <header class="header">
+                <div class="is-navbar-container" style="padding-bottom: 6px; padding-top: 0px; margin-bottom: 12px; border-bottom: 1px solid; border-color: rgba(0, 0, 0, 0.3);">
+    <div class="is-brand">
+        <div class="titlebar"><a href="https://marksprevak.com/">Mark&nbsp;Sprevak</a></div>
+        
+        <a href="#"
+                style="color: rgba(0, 0, 0, 0.8); text-decoration: none; border-bottom: none; font-size:18px;"
+                class="is-hidden-print nav-toggle is-push-right-mobile is-shown-mobile icon-kube-menu"
+                data-kube="toggle"
+                data-target="#top-navbar"></a>
+    </div>
+    <div id="top-navbar" class="is-navbar is-hidden-print is-hidden-mobile">
+        <nav class="is-push-right">
+            <ul style="text-align: right;">
+                
+                
+                
+                
+                
+                <li  >
+                    <a href="https://marksprevak.com/publications/" style="text-decoration: none; border-bottom: none;">Publications</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="https://marksprevak.com/talks/" style="text-decoration: none; border-bottom: none;">Talks</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="https://marksprevak.com/outreach/" style="text-decoration: none; border-bottom: none;">Outreach</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="https://marksprevak.com/cv/" style="text-decoration: none; border-bottom: none;">CV</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="https://marksprevak.com/phds/" style="text-decoration: none; border-bottom: none;">PhD study</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="https://marksprevak.com/mscs/" style="text-decoration: none; border-bottom: none;">MSc study</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="https://marksprevak.com/teaching/" style="text-decoration: none; border-bottom: none;">Teaching</a>
+                </li>
+                
+                
+            </ul>
+        </nav>
+    </div>
+</div>
+
+            </header>
+
+            <main class="main">
+                <div class="is-row">
+
+                    <div class="is-col is-67">     
+
+                        <div style="padding-bottom: 30px;">
+                            <div style="margin-bottom: 10px;">
+                                <h1 class="is-color-black" style="margin-top: 0px; margin-bottom: 0px;">Predictive coding IV: The implementation level</h1>
+                                
+                                <p class="is-muted" style="margin-top: 10px;">
+                                    
+                                        draft  &nbsp;
+                                    
+                                    
+                                </p>
+                                <p class="is-small" style="margin-top: 10px;">
+                                    <span>Last updated 9 October 2021</span>
+                                    
+                                </p>
+                            </div>
+                            <div class="is-hidden-print">
+                                
+<a href="https://marksprevak.com/pdf/paper/Sprevak--Predictive-Coding-4-Implementation.pdf" target="_blank" class="label is-primary is-focus" style="margin-left: 0px; margin-right:5px;">
+    <i class="far fa-file-pdf" style="font-size: 12px;"></i>
+    &nbsp;PDF
+</a>
+
+
+
+
+
+                            </div>
+                        </div>
+
+                        <div class="is-hidden-mobile">
+                            
+                        </div>
+                        <div class="is-shown-mobile">
+                            
+                            
+                            <div class="is-muted is-smaller is-hidden-print">
+                                Abstract:
+                            </div>
+                            <div class="article-style" style="margin-bottom: 30px;">
+                                
+                            </div>
+                            
+                        </div>
+
+                        <div>
+                            
+                            <div class="is-shown-mobile">
+                                
+                                    <h1 style="margin-top: 0px;" id="internal-mds-toc">Contents</h1>
+                                    <ul class="is-unstyled">
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#introduction"><span style="visibility: visible;">1</span> &nbsp;  Introduction</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#general-features-of-a-theory-at-the-implementation-level"><span style="visibility: visible;">2</span> &nbsp;  General features of a theory at the implementation level</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <ul class="is-unstyled" style="margin-left: 15px;">
+            
+            <li>
+                <span style="font-size: 12px;">
+                    
+                    <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#complexity-uncertainty-and-a-dilemma"><span style="visibility: visible;">2.1</span> &nbsp;  Complexity, uncertainty, and a dilemma</a>
+                    
+                </span>
+            </li>
+            
+            <li>
+                <span style="font-size: 12px;">
+                    
+                    <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#the-neocortical-proposal"><span style="visibility: visible;">2.2</span> &nbsp;  The neocortical proposal</a>
+                    
+                </span>
+            </li>
+            
+            <li>
+                <span style="font-size: 12px;">
+                    
+                    <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#pushing-complexity-down-to-the-implementation-level"><span style="visibility: visible;">2.3</span> &nbsp;  Pushing complexity down to the implementation level</a>
+                    
+                </span>
+            </li>
+            
+            <li>
+                <span style="font-size: 12px;">
+                    
+                    <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#no-simple-mapping-and-ambiguous-terms"><span style="visibility: visible;">2.4</span> &nbsp;  No simple mapping and ambiguous terms</a>
+                    
+                </span>
+            </li>
+            
+        </ul>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#implementing-layers-of-the-network"><span style="visibility: visible;">3</span> &nbsp;  Implementing layers of the network</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#implementing-prediction-units-and-error-units"><span style="visibility: visible;">4</span> &nbsp;  Implementing prediction units and error units</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#implementing-precision-weighting"><span style="visibility: visible;">5</span> &nbsp;  Implementing precision weighting</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#beyond-the-neocortical-proposal"><span style="visibility: visible;">6</span> &nbsp;  Beyond the neocortical proposal</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#using-implementation-to-explain-anomalies"><span style="visibility: visible;">7</span> &nbsp;  Using implementation to explain anomalies</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#constraining-the-empirical-content-of-predictive-coding"><span style="visibility: visible;">8</span> &nbsp;  Constraining the empirical content of predictive coding</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#conclusion"><span style="visibility: visible;">9</span> &nbsp;  Conclusion</a>
+            
+        </span>
+        
+    </li>
+    
+</ul>
+
+                                
+                                
+                            </div>
+                            <div class="article-style">
+                                <div>
+<h1 data-number="1" id="introduction"><span class="header-section-number">1</span> Introduction</h1>
+<p>A theory at Marr’s implementation level focuses on the relationship between the algorithm and the nuts and bolts of a physical machine. When a physical system implements an algorithm, its physical states should correspond to the algorithm’s abstract <em>inputs</em>, <em>outputs</em>, and <em>intermediate states</em>. Changes in those physical states should be governed by physical processes that mirror the corresponding changes between the abstract symbolic or numerical states described at the algorithmic level.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> A theory at Marr’s implementation level aims to spell out which entities are related by this relationship. It specifies which elements of the abstract algorithm’s specification correspond to which elements of the implementing physical system. In the case of predictive coding, it should tell us which neural states and physical processes correspond to the numerical values and mathematical operations of the ANN. One might expect it to describe the neural states and processes correspond, for example, to the ANN’s <em>hierarchical structure</em>, <em>prediction</em> and <em>error units</em>, <em>activation function</em>, and <em>learning rule</em>.</p>
+<p>This article examines a number of approaches taken to implementation by predictive coding. Section 2 introduces some general features of predictive coding at the implementation level. Section 3, 4, and 5 explore a specific proposal about predictive coding’s implementation – a view that I will call the ‘neocortical proposal’. Section 6 examines claims about implementation that go beyond the neocortical proposal, including the suggestion that some of the ANN’s features are implemented in the non-neural body’s morphology or in environmental features outside the head. Section 7 explores how predictive coding might appeal to differences between the physical implementation of different cognitive processes to explain apparent anomalies at the computational and algorithmic levels – cases where it seems that the brain is not minimising sensory prediction error. Section 8 examines a potential worry with an unbridled application of this strategy: that predictive coding’s computational and algorithmic level claims may be ‘immunised’ against disconfirming empirical evidence. Section 9 provides a brief conclusion and review of predictive coding’s overall research programme.</p>
+<h1 data-number="2" id="general-features-of-a-theory-at-the-implementation-level"><span class="header-section-number">2</span> General features of a theory at the implementation level</h1>
+<h2 data-number="2.1" id="complexity-uncertainty-and-a-dilemma"><span class="header-section-number">2.1</span> Complexity, uncertainty, and a dilemma</h2>
+<p>Brains are, by any standard, extremely complicated physical systems. They offer up a vast array of physical states and dynamics at many spatiotemporal scales. Neurophysiological study appears to reveal a great deal of variation in the behaviour of individual neurons, synapses, and sub-cellular mechanisms. Inside the brain’s constellation of swirling states and processes, no one knows exactly which are the ones responsible for the computation associated with cognition. It is not easy to distinguish between physical responses in the brain that are <em>functionally significant</em> for implementing a computation from background activities that can be safely ignored.</p>
+<p>In contrast, computers like electronic PCs have a relatively simple internal physical structure. They are made up from a small number of identical basic components arranged in a uniform and repetitive manner. The physical states and processes that implement their computations are relatively easily identified and discriminated from background physical activity. We can say which physical states and processes implement features of the computation – e.g. electrical potentials at transistor junctions – and which states and processes – e.g. the colour of the insulation over wires, the sound of the ventilation fan – can be ignored. Electronic PCs are engineered to be comprehensible to us and to offer clear and obvious patterns for physical implementation. Our position with respect to the brain is different. There are a huge number of potential claims about implementation that one might defend about the brain. A vast number of neural responses could have a computational purpose. It should come as no surprise that there is uncertainty about exactly which claim predictive coding should defend at the implementation level. An advocate of predictive coding might wish to hedge their bets – remain to some degree uncommitted – about the details of how their algorithm is implemented. Advocates of predictive coding correspondingly tend to take a rather guarded, cautious approach to their commitments about implementation, or at least more guarded and cautious than for their claims at the computational and algorithmic levels.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p>However, they face a dilemma here. On the one hand, if they choose to avoid commitment to a specific proposal at the implementation level (perhaps due to uncertainty), then their algorithmic-level claims become hard to test. Evidence that confirms predictive coding’s claims at the algorithmic level needs to include observations showing that the neural mechanisms and responses that actually govern behaviour conform to the proposed algorithm. However, unless one knows what that algorithm entails in terms of measurable physical changes in the brain – i.e. one adopts some specific implementation-level theory – this cannot be done. On the other hand, if they choose to adopt a specific proposal about predictive coding’s implementation then, although their algorithmic-level claims become open to testing, those claims also become hostage to the fortunes of that claim about implementation. If that claim about implementation were to turn out to be false or inaccurate, then any confirmation or disconfirmation that accrued to the algorithmic-level proposal on its basis would be spurious. An advocate of predictive coding needs to tread a line between: (i) making sufficiently detailed assumptions about neural implementation to open their algorithmic-level claims to empirical test; and (ii) avoiding undue commitment to assumptions that may subsequently prove to be false or inaccurate.</p>
+<p>It is not obvious how to navigate this dilemma. The most common approach adopted in the predictive coding literature is to accept some relatively broad, provisional assumptions about neural implementation and test algorithmic-level proposals on that basis. Of course, this opens up the unwholesome possibility that if an empirical test were to produce unwelcome results, one might preserve one’s algorithmic-level theory and simply modify assumptions at the implementation level so as to fit the evidence. We will explore this risk in Section 8.</p>
+<h2 data-number="2.2" id="the-neocortical-proposal"><span class="header-section-number">2.2</span> The neocortical proposal</h2>
+<p>Sections 3, 4, and 5 describe the most common broad proposal about how predictive coding is implemented in the brain – the <em>neocortical proposal</em>. This is based around the idea that relatively regular neurological structures in the mammalian neocortex, ‘cortical microcircuits’ – which have been long suspected to serve some computational function – correspond to repeated elements in the ANN.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> Section 3 examines how the neocortex might implement hierarchical layers of the ANN. Section 4 considers how prediction and error units might be implemented inside cortical areas. Section 5 considers how precision weighting, associated with the lateral connections between error units, might be implemented.</p>
+<p>It is important to emphasise that the neocortical proposal is just one hypothesis about predictive coding’s implementation. It is open to revision or even, in principle, replacement. The neocortical proposal is also underspecified in certain respects: key details regarding how some features of the ANN – e.g. its individual activation values, its activation function, and its learning rule – are implemented remain to be filled out. The neocortical proposal is also likely to be, at best, only a partial account of predictive coding’s implementation. The ambition of predictive coding is to explain <em>all</em> aspects of cognitive function. The neocortical proposal, however, is silent about how predictive coding would operate in non-cortical areas of the brain.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> Parts of the ANN may also be implemented in non-neural structures, such as the non-neural body or external environment. The neocortical proposal does not say anything about this. Finally, the neocortical proposal does not say how the ANN would be implemented in agents who do not possess a neocortex, such as birds.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> Despite these qualifications however, the neocortical proposal has become the primary framework by which algorithmic-level claims about predictive coding have been empirically tested.</p>
+<h2 data-number="2.3" id="pushing-complexity-down-to-the-implementation-level"><span class="header-section-number">2.3</span> Pushing complexity down to the implementation level</h2>
+<p>At both Marr’s computational and algorithmic levels, advocates of predictive coding stress the universal and unifying character of their model. A single <em>task</em> and a single <em>algorithm</em> are proposed to characterise all aspects of cognition. One might wonder how this fits with the undeniable diversity among the cognitive processes displayed by, and the cognitive tasks encountered by, different organisms, or by the same organism at different times or under different conditions. Cognitive processes and cognitive tasks are clearly not all exactly alike in every respect. At some point, predictive coding should somehow acknowledge this. It should explain, or at least provide room for explaining, not just the similarities, but also the differences between cognitive processes and tasks.</p>
+<p>It is common for advocates of predictive coding to accommodate these differences by introducing complications and variations primarily at the implementation level. As previously observed, brains are not organised in an uniform fashion and are in no sense simple physical systems. Given the huge range of physical mechanisms that the brain affords, the brain may use <em>multiple physical methods</em> – possibly operating over different spatiotemporal scales or active under different conditions – to achieve the single computational effects described in the ANN. On such a view, one might expect a theory about the physical <em>implementation</em> of cognition to be relatively complex and heterogeneous, even if the <em>algorithm</em> being implemented and the <em>computational task</em> being solved are simple and unified.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> The complexity and diversity displayed in cognition would reflect – not the brain implementing a collection of different algorithms or computing many functions – but that it uses a wide variety of physical processes to implement the same algorithm with the goal of computing the same function. In Section 7, we will see how an appeal to these differences at the level of physical implementation can help explain observations that might otherwise appear problematic for predictive coding, such as our inability to revise certain aspects of our generative model. To a first approximation, the predictive coding research programme tends to ‘push down’ complexity and variation between cognitive processes and tasks into complexity and variation at the level of physical implementation. One should aim for a relatively simple, austere, and unified theory at Marr’s computational and algorithmic levels, but expect a relatively messy, complicated, and open-ended story at the implementation level.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<h2 data-number="2.4" id="no-simple-mapping-and-ambiguous-terms"><span class="header-section-number">2.4</span> No simple mapping and ambiguous terms</h2>
+<p>A corollary to this is that predictive coding is not committed to an implementation-level theory that maps the elements of the ANN onto physical hardware in any simple or direct way. It is not committed to single ANN units being implemented by single <em>neurons</em>, connections by <em>synapses</em>, unit activation values by <em>neural firing rates</em>. The ANN provides a map of a numerical algorithm; it is in no straightforward sense a wiring diagram for the brain. Neurons, synapses, and neural firing rates of course are likely to play a role in the implementation of predictive coding, but these physical elements need not stand in anything like a simple one-to-one relationship to the ANN’s units, connections, and activation values.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+<p>An unfortunate and potentially confusing feature of the predictive coding literature is that terms are sometimes used in a way that suggests that there <em>is</em> a simple mapping. Expressions such as ‘hierarchical layer’, ‘connection’, ‘feedforward pathway’, ‘feedback pathway’, ‘lateral connection’ may be used to refer to <em>either</em> abstract features of the algorithm <em>or</em> physical features in the brain. A ‘lateral connection’ might mean an element of the ANN (a weight in <span class="math inline">\(\boldsymbol{\Sigma}\)</span>) or a physical connection (such as a synapse) between neurons. Of course, one might propose that there is a relationship between the two: one might claim that ANN ‘lateral connections’ are physically implemented by neural ‘lateral connections’. But it is equally possible, and as we will see more likely, to say that the relationship between the two is more indirect. In principle, a lateral connection between error units of the ANN might be implemented by any number of physical relationships in the brain, and these physical relationships may have little in common with each other than their shared computational role. We will see in Section 5 that two rather dissimilar kinds of physical response – neuromodulator release and fast gamma-band synchronisation – are proposed to be among the physical resources that implement lateral connections between ANN units.</p>
+<h1 data-number="3" id="implementing-layers-of-the-network"><span class="header-section-number">3</span> Implementing layers of the network</h1>
+<p>This section describes how hierarchical layers of the ANN may be implemented in the mammalian neocortex. The neocortex is organised into between 50 to 200 anatomically distinct <em>cortical areas</em>. These areas connect to each other in a relatively selective way: neurons inside one cortical area tend onto project to neurons in only a few other cortical areas. Those cortico-cortical connections also tend to be reciprocal: if neurons in cortical area A project to cortical area B, it is likely that neurons in B will project to A. The overall pattern of synaptic connectivity between cortical areas is commonly interpreted as having a hierarchical structure <span class="citation" data-cites="FellemanVanEssen91">(Felleman &amp; Van Essen 1991)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> Cortical areas are classified as ‘higher’ or ‘lower’ in the anatomical hierarchy depending on how far they are from a sensory or motor boundary. This distance is measured by the minimum number of synaptic steps – how many neuron-to-neuron hops – would be needed to reach the boundary. Projections from lower cortical areas (e.g. primary visual cortex, primary motor) tend to converge on targets in higher cortical areas (e.g. secondary sensorimotor areas or association areas). These higher cortical areas send reciprocal connections back to the lower areas. The synaptic pathways that go from lower to higher cortical areas – ‘ascending’ the hierarchy – tend to be excitatory. The synaptic pathways that go from higher to lower cortical areas – ‘descending’ the hierarchy – tend to be inhibitory.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a></p>
+<p>If the functional response of neurons is measured (using a technique like fMRI), and cortical areas are individuated in terms of their function rather than their anatomical structure, then the locations and relationships between the resulting regions tend to align closely with those of an anatomically individuated cortical hierarchy <span class="citation" data-cites="GlasserCoalsonRobinson16">(Glasser et al. 2016)</span>. The structural anatomical hierarchy appears to coincide with a functional processing hierarchy. Functional spiking responses in different cortical areas appear to play different roles in cognitive processing and those roles appear to be related to each other in a roughly hierarchical fashion. Spiking activity in lower cortical areas generally tends to be associated with the brain tracking fine-grained features in specific sensory modalities (e.g. patches of contrast in small parts of the visual field). Spiking activity in higher cortical areas generally tends to be associated with the brain tracking abstract and large-scale features that span multiple sensory modalities (e.g. objects, faces, hands).<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></p>
+<p>The neocortical proposal suggests that <em>cortical areas</em> implement the functional <em>layers</em> of the ANN. The hierarchical structure of the neocortex and projections between cortical areas implement the hierarchical structure and pattern of connections between ANN layers. Lower cortical areas (closest to the sensory or motor boundaries) implement lower layers of the ANN (closest to the input, <span class="math inline">\(\mathbf{x}\)</span>). Higher cortical areas (furthest from the sensorimotor boundary) implement higher layers of the ANN (furthest from input, <span class="math inline">\(\mathbf{x}\)</span>). Ascending, excitatory anatomical pathways in the neocortex implement feedforward, excitatory connections between layers of the ANN. Descending, inhibitory anatomical pathways implement feedback, inhibitory connections between layers of the ANN. Neural responses in lower cortical areas implement activity in lower layers of the ANN – both are associated with tracking more fine-grained features in the sensory input. Neural responses in higher cortical areas implement activity in higher layers of the ANN – associated with tracking more abstract and large-scale features in the sensory input</p>
+<div id="fig1">
+<figure>
+<img src="img/ann4.png" title="opt title" style="width:90.0%" alt="Neocortical proposal about the physical implementation of predictive coding." /><figcaption aria-hidden="true">Neocortical proposal about the physical implementation of predictive coding.</figcaption>
+</figure>
+</div>
+<p><span class="citation" data-cites="RaoBallard99">Rao &amp; Ballard (1999)</span> suggest that an ANN layer consists in prediction and error units that stand in a one-to-one relation to each other (e.g. units <span class="math inline">\(\mathbf{y}^{S1}\)</span> and <span class="math inline">\(\mathbf{e}^{S1}\)</span> in Figure 1 form a layer). Prediction errors are passed ‘up’ the ANN between layers, whereas prediction values are passed ‘down’. The weights of the connections between ANN layers encode the generative model (the <span class="math inline">\(\mathbf{W}\)</span> weights). If we combine this concept of an ANN layer with the neocortical proposal about implementation, then one would predict that neocortical areas send prediction errors ‘upwards’ along ascending, excitatory anatomical pathways to higher neocortical areas, and prediction values ‘downwards’ along descending, inhibitory anatomical pathways to lower neocortical areas. The cortico-cortical connections that link different cortical areas modulate these signals and the effective synaptic strength of those connections implements the generative model. This results in one of the most frequently cited claims associated with predictive coding: <em>error signals</em> flow forwards in the brain (from lower to higher cortical areas), and <em>prediction signals</em> flow backwards (from higher to lower cortical areas).<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></p>
+<p><span class="citation" data-cites="Spratling17">Spratling (2017)</span> describes an alternative way of dividing up the ANN into layers. On his proposal, an ANN layer consists in prediction and error units that are fully connected to each other via weighted connections (e.g. <span class="math inline">\(\mathbf{y}^{S1}\)</span> and <span class="math inline">\(\mathbf{e}^{S0}\)</span> in Figure 1 form a layer).<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a> Prediction values are passed ‘up’ the ANN between layers, whereas prediction errors are passed ‘down’. Unlike with Rao and Ballard’s model, the connections between ANN layers shuttle prediction values and error values around without altering them and the weighted connections inside a layer encode the generative model (the <span class="math inline">\(\mathbf{W}\)</span> weights). If one combines Spratling’s concept of an ANN layer with the neocortical proposal about implementation, then one would predict that neocortical areas send prediction values ‘upwards’ along ascending, excitatory anatomical pathways to higher cortical areas, and predictions errors ‘downwards’ along descending, inhibitory anatomical pathways to lower neocortical areas. The cortico-cortical connections that link different cortical areas transmit prediction values and prediction errors around the brain and do not implement the generative model; that is implemented by connections inside the cortical areas. This results in a claim that is diametrically opposed to Rao and Ballard’s: <em>prediction signals</em> flow forwards in the brain (from lower to higher cortical areas), while <em>error signals</em> flow backwards (from higher to lower cortical areas).<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a></p>
+<p>That two contradictory predictions about brain function can be derived from the same abstract numerical algorithm should encourage some degree of caution and humility when assessing the empirical content of predictive coding. It illustrates just how tightly predictive coding’s predictions about cognition and brain function are indexed to the fine print of its proposal about physical implementation. Evidence that the brain implements a predictive coding algorithm only holds conditional on assumptions about which bits of the algorithm map onto which bits of neural hardware. We will explore this issue regarding the empirical content of predictive coding in more detail in Section 8.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a> For the sake of simplicity, in the next two sections I will assume that units in the ANN are grouped into layers as Rao and Ballard suggest.</p>
+<h1 data-number="4" id="implementing-prediction-units-and-error-units"><span class="header-section-number">4</span> Implementing prediction units and error units</h1>
+<p>This section describes how physical features in the brain implement the ANN’s prediction and error units. Cortical areas contain millions of neurons of many different types.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a> The structure of a cortical area is usually divided into six anatomical layers (labelled I–VI). The most common neuronal cell type inside a cortical area is the pyramidal neuron, which itself comes in many different biological subtypes.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a> Pyramidal neurons are distributed primarily in layers II–V. Smaller pyramidal neurons tend to occur in the layers closer to the outer surface of the cortex (anatomical layers II–III). In the neocortical proposal, these are called the ‘superficial’ pyramidal cells. Larger pyramidal neurons tend to occur in layers closer to the centre of the brain (anatomical layers IV–V). These are referred to as ‘deep’ pyramidal cells. Superficial pyramidal cells typically send excitatory projections forwards in the neuroanatomical cortical hierarchy to deep pyramidal cells in higher cortical areas. Deep pyramidal cells typically send inhibitory connections backwards in the hierarchy to superficial pyramidal cells in lower cortical areas. The neocortical proposal claims that <em>superficial pyramidal cells</em> implement <em>error units</em> and <em>deep pyramidal cells</em> implement <em>prediction units</em>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a></p>
+<p>The neocortical proposal does not suggest that there is a simple one-to-one mapping between ANN units and pyramidal neurons – each pyramidal cell does not implement exactly one ANN unit. It is hard to see how a one-to-one mapping could be plausible. First, the input–output behaviour of a pyramidal cell does not correspond any obvious way to that of an ANN unit. Second, it is unclear how a single pyramidal cell, with a behaviour that is stochastic and sensitive to thermal noise, would be capable of reliably storing and transmitting over time a continuous numerical value – which is what is required of an ANN unit. Third, individual neurons appear to be redundant to the brain’s function in a way that individual ANN units are not. Individual pyramidal neurons die or change their response profile without any apparent computational side effects, whereas ANN units are often treated as non-redundant contributors to the algorithm for inference and learning; in the probabilistic interpretation, each ANN unit represents the mean value of a unique environmental variable.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a> Advocates of the neocortical proposal typically suggest that each ANN unit is implemented by a <em>population</em> of pyramidal neurons.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a></p>
+<p>According to the neocortical proposal, error and prediction units are physically distinguished from each other by the cortical layer in which they appear (superficial versus deep). But <em>within</em> a cortical layer, how are single ANN units distinguished from each other? It is possible to imagine the brain might exploit any number of its physical or functional properties here. Cortical cells within a layer might be grouped together and distinguished from others based on their physical proximity, by their connectivity, by correlations in their firing patterns, or by their neuronal subtype. In theory, the principle that determines which cells correspond to single ANN units might vary between different cortical areas or change over time. The neocortical proposal is silent about the details here. All that is proposed is that in some respect (yet to be determined), ANN units are implemented by functionally distinct neural populations. No experimental paradigm has yet attempted to probe the neural basis of predictive coding at the resolution of single prediction and error ANN units. Indeed, the evidence for the proposed laminar separation of all prediction and error units – i.e. that prediction errors (<span class="math inline">\(\mathbf{e}\)</span>) are exclusively implemented by superficial cells and prediction values (<span class="math inline">\(\mathbf{y}\)</span>) are exclusively implemented by deep cells – remains inconclusive and controversial.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a></p>
+<p>Let us set aside the question of how to divide cortical pyramidal cells into populations that correspond to individual ANN units, and consider a separate question: How do those neural subpopulations, wherever they are, encode the continuous numerical values associated with individual ANN units – <em>viz</em>. the <span class="math inline">\(e_i\)</span> or <span class="math inline">\(y_i\)</span> values? This is also left largely open by the neocortical proposal. One possibility is that the firing rate of the neural subpopulation encodes the activation level of its corresponding ANN unit. Typically, such schemes assume there is an approximately monotonic relationship between the physical quantity and the encoded number – more rapid firing encodes a higher activation value in the corresponding ANN unit.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a> An encoded <span class="math inline">\(e_i\)</span> or <span class="math inline">\(y_i\)</span> value might, for example, be proportional to the average firing rate, or to the log of the average firing rate. However, the neural subpopulation might not code for these values using its firing rate, but instead rely on some other physical property, such as the timing of spikes within the population, the variability among individual responses of the population, or the phase of its firing relative to other patterns in the brain. Alternatively, the population might encode the numerical values using a digital coding scheme, where no continuous function would take one from the magnitude of physical responses to stored values. Digital encoding is how our electronic PCs store numerical values, and it opens the door to all manner of compression schemes and efficiencies. In general, how neural populations encode the numerical values that feature in their proposed algorithms (such as, for example, how they encode the sufficient statistics of subjective probability distributions in probabilistic inference algorithms) is largely unknown and the subject of much speculation <span class="citation" data-cites="PougetBeck13">(Pouget et al. 2013)</span>. <span class="citation" data-cites="RasmussenEliasmith13">Rasmussen &amp; Eliasmith (2013)</span> criticise predictive coding for lack of specificity here, arguing that a lack of detail about implementation of these numerical values risks making predictive coding’s algorithmic-level proposal impossible to test.</p>
+<p>Empirical studies often refrain from making specific or particularly detailed commitments about predictive coding’s physical implementation. They tend to rely on fairly broad assumptions that would be consistent with a wide range of more specific proposals about implementation. A common assumption is that, if predictive coding is correct then neural activity in deep cortical layers should be somehow correlated with prediction occurring, and neural activity in superficial cortical layers should be correlated with prediction errors occurring. This means that if one were to apply an appropriate data-analysis technique – which might involve relatively sophisticated statistical methods, careful management and curation of the data – those predictions and errors could be recovered from that neural data. This relatively minimal assumption is compatible with many specific proposals about implementation. However, it only tells us whether <em>experimenters</em> can recover prediction or error information from the neural data (perhaps by using rather complex and roundabout methods). It does not show that the brain itself uses that particular encoding scheme for storing predictions or errors. Such studies may show that neural observations are <em>consistent</em> with brains using deep and superficial layers to encode prediction and error data. However, they do not show that predictive coding offers the best or the only interpretation of that neural data.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a></p>
+<p>Finally, it should be stressed that predictive coding’s neocortical proposal focuses on a handful of relatively broad-brush patterns in neocortical organisation. It would be a mistake to think that these patterns exhaust the structure of the neocortex, or that the features on which it relies are perfectly regular and exceptionless. Cortical biology is extremely complicated and diverse. One might hope that at least some of this complexity and diversity can be abstracted away and ignored in a computational account of cognition (like the colour of insulation over wires inside an electronic PC). However, it seems reasonable to leave open the possibility that at least some of that physical complexity and diversity might have a computational role, and that predictive coding’s neocortical claim would need to be elaborated to accommodate it. At this stage, exactly how one should develop the neocortical proposal to accommodate the complexities and irregularities of real-world cortical organisation is unknown.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a></p>
+<h1 data-number="5" id="implementing-precision-weighting"><span class="header-section-number">5</span> Implementing precision weighting</h1>
+<p>This section describes how the precision weighting of error signals might be implemented in the brain. Precision weighting allows certain prediction errors to count for more than others during the prediction-error-minimisation process. At the algorithmic level, precision weighting is modelled by weighted lateral and intrinsic connections between ANN error units.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a> These connections suppress or boost the activation levels of certain error units relative to others, meaning that they have greater or lesser influence as the algorithm unfolds. The weights of the connections (the <span class="math inline">\(\boldsymbol{\Sigma}\)</span> values) control the distribution of precision weighting over the ANN’s error units.</p>
+<p>The physical implementation of precision weighting is one of the more open-ended and less well-understood areas of predictive coding. Naively, one might assume that the physical resources that implement precision weighting would be similar to those that implement the generative model. At the algorithmic level, both correspond to the same sort of abstract feature – weighted connections between ANN units (the weights of which are specified by the matrices <span class="math inline">\(\boldsymbol{\Sigma}\)</span> and <span class="math inline">\(\mathbf{W}\)</span> respectively). In Section 3, we saw that the weighted connections specified by <span class="math inline">\(\mathbf{W}\)</span> are implemented by the strength of synaptic projections that ascend and descend between cortical areas. One might guess that the <span class="math inline">\(\boldsymbol{\Sigma}\)</span> connections would be implemented similarly, for example, by the strength of lateral synaptic connections inside cortical areas between whichever neural subpopulations implement individual ANN error units.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a></p>
+<p>This may be part of how precision weighting is implemented in the brain. Aspects of precision weighting that are relatively slow to change or that change during learning may be encoded in lateral synaptic projections that allow one neural population to inhibit another. But the assumption that synaptic connectivity would be the <em>only</em> way in which precision weighting is implemented would not fit with the idea that the brain’s precision weighting sometimes changes dramatically and over short time periods. Predictive coding claims that changes in the agent’s attention or in their degree of uncertainty about certain hidden environmental variables depends on shifts in the brain’s distribution of precision weighting over its sensory prediction errors. Such changes may occur on a millisecond timescale – much faster than the kinds of change normally associated with long-term synaptic plasticity or learning (assumed to govern <span class="math inline">\(\mathbf{W}\)</span>).<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a></p>
+<p>Friston proposes two distinct (and likely interrelated) mechanisms as candidates for processes that implement fast changes to precision weighting:</p>
+<blockquote>
+<p>So how is precision encoded in the brain? In predictive coding, precision modulates the amplitude of prediction errors … This means that precision corresponds to the synaptic gain of prediction error units. The most obvious candidates for controlling gain (and implicitly encoding precision) are classical neuromodulators like dopamine and acetylcholine, which provides a nice link to theories of attention and uncertainty. Another candidate is fast synchronized presynaptic input that lowers effective postsynaptic membrane time constants and increases synchronous gain. This fits comfortably with the correlation theory and speaks to recent ideas about the role of synchronous activity in mediating attentional gain. <span class="citation" data-cites="Friston10">(Friston 2010 p. 132)</span></p>
+</blockquote>
+<p>Neuromodulators are brain chemicals that have the ability to systematically change the function of a neuron in their vicinity. Examples of common neuromodulators include acetylcholine, dopamine, norepinephrine, and serotonin. Acetylcholine and dopamine are known to have many effects on cortical pyramidal neurons: they can change their intrinsic firing activity, change their threshold for firing, suppress adaptation of firing, and alter the efficacy of existing synaptic connections.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a> These effects can occur rapidly – on a timescale of milliseconds – certainly much quicker than the changes associated with long-term synaptic plasticity. Many models of cognition hypothesise that neuromodulators play a role in cognition, although their true computational function is unknown.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn29" class="footnote-ref" id="fnref29" role="doc-noteref"><sup>29</sup></a> Friston argues that one of the computational functions of acetylcholine and dopamine is to selectively boost or suppress firing in the neural subpopulations that implement error units, and thus to implement precision weighting of prediction error.</p>
+<p>Friston observes that this would create a connection between predictive coding and existing theories of attention and uncertainty. These theories already suggest that acetylcholine and dopamine are associated with controlling attention and tracking uncertainty.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn30" class="footnote-ref" id="fnref30" role="doc-noteref"><sup>30</sup></a> That connection is somewhat complicated by the fact that those theories also tend to employ rival algorithmic-level models that do not fully agree with predictive coding on the details of the computational role that neuromodulators play. For example, the literature on rewarded-guided decision making under uncertainty interprets neural activity that is modulated by dopamine as encoding <em>reward prediction error</em>. According to Friston, it encodes the <em>precision of sensory prediction error</em>. Both proposals associate dopamine with a measure of uncertainty (broadly construed), but they disagree about the details of its computational function.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn31" class="footnote-ref" id="fnref31" role="doc-noteref"><sup>31</sup></a></p>
+<p>The second physical mechanism that Friston proposes to implement precision weighting is fast synchronised firing. Neural spikes that arrive at the same time (‘fast synchronized presynaptic input’) tend to have a greater effect on downstream neurons than the same inputs would if they were to have occurred in a temporally disordered way. Synchronisation appears to ‘up the gain’ on a neural signal.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn32" class="footnote-ref" id="fnref32" role="doc-noteref"><sup>32</sup></a>. One might imagine the effect as similar to that of a group of people pushing a heavy object in an uncoordinated fashion versus timing their pushes to move it in several big heaves. Synchronised firing in the brain can start and stop suddenly and can modulate the gain on neural responses over a timescale of milliseconds. Synchronisation may occur across a variety of firing-frequency bands, and some neural populations respond more to signals that are synchronised at some frequencies than others.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn33" class="footnote-ref" id="fnref33" role="doc-noteref"><sup>33</sup></a> As with neuromodulator release, the true computational function of synchronisation is unknown and the object of much speculation. Like neuromodulator release, synchronised firing is known to have profound effects on cortical neurons. It is also correlated with changes in attention: attentional shifts tend to be associated with changes in (fast) gamma-band (30–90 Hz) synchronised firing in superficial cortical neurons.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn34" class="footnote-ref" id="fnref34" role="doc-noteref"><sup>34</sup></a></p>
+<p><span class="citation" data-cites="BastosUsrey12">Bastos et al. (2012)</span> suggest that superficial pyramidal cells – which are claimed to implement ANN error units – are preferentially tuned to synchronisation at gamma-band frequencies (30–90 Hz), whereas deep pyramidal cells – which implement prediction units – are tuned to synchronisation in the slower alpha and beta ranges (&lt;30 Hz). Gamma-band synchronisation is claimed to selectively increase the responsiveness of the cortical error units (boost their neural subpopulation’s response) without affecting (amplifying or dampening) the response of cortical prediction units which are tuned to signals at lower frequencies. There is empirical data to support the idea that superficial and deep cortical pyramidal cells are differentially tuned to respond to inputs synchronised at higher and lower frequencies respectively.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn35" class="footnote-ref" id="fnref35" role="doc-noteref"><sup>35</sup></a> There is also evidence that ‘forwards’ connections in the cortical hierarchy (originating from superficial layers and carrying error signals) and ‘backwards’ connections (originating from deep layers and carrying predictions) tend to carry signals with higher and lower frequencies respectively.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn36" class="footnote-ref" id="fnref36" role="doc-noteref"><sup>36</sup></a></p>
+<p>The two proposed mechanisms for implementing precision weighting – neuromodulator release and gamma-band synchronisation – are likely to interact with each other. Release of acetylcholine, for example, appears to elicit greater gamma-band oscillations.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn37" class="footnote-ref" id="fnref37" role="doc-noteref"><sup>37</sup></a> The exact nature of their interaction is unknown, although one might expect that their respective effects dominate over different (albeit overlapping) timescales – the changes in cortical neuron behaviour due to neuromodulator release are generally slower to take effect and less quick to disappear than those for gamma-band synchronisation.</p>
+<p>The neocortical claim should be understood as proposing that neuromodulator release and gamma-band synchronisation are <em>among</em> the physical resources that implement precision weighting. It does not entail that they exhaust the neural basis of precision weighting. There may be other physical mechanisms that selectively boost and inhibit the relevant neural subpopulations to implement precision weighting. Indeed, an unlimited number of physical mechanisms, operating on different timescales and interlaced in complicated ways, may jointly function as the physical basis of precision weighting in the brain. One should not assume that a simple account of the physical implementation of precision weighting will emerge from the neocortical proposal:</p>
+<blockquote>
+<p>Thus while the notion of sculpting patterns of effective connectivity by means of ‘precision-weighted prediction error’ is simple enough, the [physical] mechanisms that implement such effects may be multiple and complex, and they may interact in important but as yet under-appreciated ways. <span class="citation" data-cites="Clark15">(Clark 2016 p. 149)</span></p>
+</blockquote>
+<h1 data-number="6" id="beyond-the-neocortical-proposal"><span class="header-section-number">6</span> Beyond the neocortical proposal</h1>
+<p>One might wonder about whether the neocortical proposal is the full story about the implementation of predictive coding. Do non-cortical brain regions implement aspects of the algorithm? Do physical resources outside the brain – parts of the agent’s non-neural body or technological resources in the environment – implement elements of the algorithm? It is not unusual for predictive coders to suggest that the neocortical proposal only describes one part of the implementation of predictive coding. Resources that lie outside the neocortex or outside the brain may also contribute to the algorithm.</p>
+<p>The motivation for going beyond the neocortical proposal comes partly from within the neocortical proposal itself. In the previous section, we saw that the neocortical proposal suggests that <em>diverse</em> physical processes in the brain implement precision weighting. These processes might include neuromodulator release, gamma-band synchronisation, some combination of the two, and other mechanisms as well. While the exact mixture of physical resources that implement precision weighting is uncertain, the general idea is that a <em>single</em> formal element of the ANN need not be implemented by a <em>single</em> physical type of resource.</p>
+<p>A similar point could be made about what the neocortical proposal says for the implementation of the generative model. The neocortical proposal claims that the generative model (the <span class="math inline">\(\mathbf{W}\)</span> matrix) is implemented by <em>effective synaptic connectivity</em> between cortical areas.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn38" class="footnote-ref" id="fnref38" role="doc-noteref"><sup>38</sup></a> However, the term ‘effective synaptic connectivity’ does not name a single biological property. It rather denotes a functional relationship concerning how activity in one neural population tends to influence activity in another. This relationship could be physically realised in any number of specific biological changes in the molecular make-up of synaptic junctions, in the post-synaptic cell, in the pre-synaptic cell, or in the biochemical environment surrounding a synapse. The neocortical proposal is silent about how effective synaptic connectivity is achieved in the brain; it only requires that <em>some</em> physical change takes place such that firing activity in one neural population has a greater/lesser chance of causing firing in the second population. Like with precision weighting, the neocortical proposal allows for the possibility that diverse physical resources physically implement the generative model (the <span class="math inline">\(\mathbf{W}\)</span> matrix).</p>
+<p>Taking this idea further, one might wonder whether the physical relationships that realise, for example, effective synaptic connectivity need to be restricted to those in the immediate vicinity of the synapse. In principle, the <span class="math inline">\(\mathbf{W}\)</span> weights could be encoded by <em>whatever</em> physical features systematically change the effective synaptic connectivity between neural populations. On this reading, all manner of physical characteristics in the brain, body, and environment could qualify as ‘part’ of the physical implementation of the generative model. Gross anatomical features of the brain (e.g. different degrees of myelination), the spatial distances between cortical areas (such that closer areas are more likely to influence each other by spreading activation), the physical constraints on the speed of transmission of neural depolarisations, differing levels of metabolic support afforded to neural cells by non-neural cells – all of these can, in principle, change effective synaptic connectivity and thus could be claimed as part of the implementation of the generative model:</p>
+<blockquote>
+<p>… our basic evolved structure (gross neuroanatomy, bodily morphology, etc.) may itself be regarded as a particularly concrete set of inbuilt (embodied) biases that form part of our overall ‘model’ of the world <span class="citation" data-cites="Clark15">(Clark 2016 p. 175)</span></p>
+</blockquote>
+<p>The same sort of reasoning applies to the implementation of the ANN connection weights associated with precision weighting (the <span class="math inline">\(\boldsymbol{\Sigma}\)</span> matrix). There is no reason why only physical processes that take place in or around the neural populations that implement error units (such as neuromodulator release, gamma synchronisation in presynaptic input) should implement precision weighting. In principle, <em>any</em> physical process that systematically changes the gain of the relevant neural subpopulations is a candidate for an implementation of precision weighting. <span class="citation" data-cites="KanaiKomuraShipp15">Kanai et al. (2015)</span> explore how <em>subcortical</em> neural activity – responses in the pulvinar nuclei in the thalamus – systematically changes the firing of populations of superficial pyramidal neurons via corticothalamic loops and hence changes the response of error units. Activity in these loops is already known to correlate with changes in attention. <span class="citation" data-cites="Clark15">Clark (2016)</span> proposes that external physical resources – mechanisms that lie entirely outside the brain – might perform a similar function. He claims that a key feature of human cognition is that it exploits non-neural bodily and environmental resources to systematically change the weighting of the brain’s sensory prediction errors: external symbols and public language conjure up ‘artificial contexts’ that boost the weight of some sensory prediction errors (pp. 282–284),<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn39" class="footnote-ref" id="fnref39" role="doc-noteref"><sup>39</sup></a> our cultural practices and social institutions lend certain sensory prediction errors extra importance (pp. 275–279), and our reliance on technology such as laptops and smartphones directs our brain to correct for certain sensory prediction errors in preference to others as well as making certain aspects of the incoming sensory stream more (and occasionally less) predictable (pp. 260–262).<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn40" class="footnote-ref" id="fnref40" role="doc-noteref"><sup>40</sup></a></p>
+<p>It is worth considering that there might be a dynamic element to all this too. The precise mixture of physical resources that implement any given formal element of the algorithm (e.g. a specific <span class="math inline">\(\mathbf{W}\)</span> weight) could conceivably change over time. In principle, this might allow for more efficient utilisation of whatever physical resources – neural, bodily, and environmental – happen to be available to the cognitive system at that moment. An analogy might be drawn with ‘cloud computing’ paradigms on the Internet. In cloud computing, multiple physical devices are scattered around the world and activity across their various physical components implements a single distributed computation. The exact mix of physical resources inside these devices that implement the computation may change over time to suit the demands of the task and which physical resources happen to be free. Despite these variations in its physical basis, which may occur while the computation is running, the computation can proceed smoothly so long as at each moment each physical part plays the appropriate role and interacts with its fellows in the right way. In a similar fashion, our cognitive system might employ different physical resources at different times to implement formal features of the algorithm, rebalancing the mixture of physical resources across the brain, body, and environment based on current demands and availability.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn41" class="footnote-ref" id="fnref41" role="doc-noteref"><sup>41</sup></a> This suggests that the full story of predictive coding’s physical implementation may be extremely complex and hard to fathom. A simple Rosetta-stone-style description of predictive coding’s implementation – that says that <em>this</em> formal element of the ANN is always implemented by <em>this</em> neural response – might be unrealistic. The physical implementation of predictive coding may instead be an idiosyncratic matter that varies depending on an individual’s specific circumstances and available physical resources.</p>
+<h1 data-number="7" id="using-implementation-to-explain-anomalies"><span class="header-section-number">7</span> Using implementation to explain anomalies</h1>
+<p>The possibilities discussed in the previous section introduce new degrees of freedom into predictive coding’s overall model of cognition. In this section, I will consider how this might allow predictive coding to accommodate behavioural or psychological phenomena that might otherwise appear puzzling or as potential counterexamples to its algorithmic or computational claims. The freedom in question concerns possible variations in the hardware that implements formally indistinguishable elements of the computation. Different physical resources that play exactly the same formal role in the computation may have markedly different physical characteristics. These physical characteristics can result in the cognitive system producing responses that depart from what one might expect if one were to assume that every physical component behaved in exactly the same way in all respects and that the only properties that matter to cognition are those that algorithmic or computational levels describe. An advocate of predictive coding may point to these <em>implementation-level differences</em> – variations in the domain of physical hardware – to explain anomalies with respect to what one might expect from the algorithmic or computational level accounts.</p>
+<p>Two respects in which physical resources that implement the same formal element are likely to vary are how <em>much</em> they can change during the algorithm, and how <em>rapidly</em> they can change. In the idealised world of predictive coding’s mathematical algorithm, formal elements like ANN connection weights were assumed to be capable of an unlimited amount of change (in principle, they can take any real-valued number), and each connection weight is assumed to change at the same rate (during the operation of the learning algorithm). In the concrete implementation of the algorithm in the brain, this may not be true. Some physical resources that implement ANN connection weights – whether they are specific parameters of the generative model or precision weightings over error units – may be harder or slower to change than others. Some might correspond to relatively fixed features of bodily morphology that are not open to revision during learning. These differences among the physical resources that implement formally indistinguishable elements may account for why a cognitive system might find it harder to change, say, certain parameters of its generative model.</p>
+<p>One way to illustrate the point is to revisit the analogy with cloud computing. In such a computation, different physical devices distributed across the Internet may be treated as formally identical (as indistinguishable ‘processing’ or ‘memory’ units), but some may run faster than others. Some processing units (physical CPUs, GPUs) may have a faster clock speed or access to higher bandwidth channels; some physical memory units (RAM, solid-state devices, hard disks, magnetic tape) may be slower to respond or more stable over time. These implementation-level differences may be deliberately ignored at the level of the specification of the algorithm: all that matters to the algorithm is that certain operations take place in a timely enough fashion to not throw off the next step in the algorithm. Consistent with this however, may be variation in how the algorithm is physically implemented. One might need to appeal to these differences at the implementation level to explain patterns in the real-world behaviour of the system. So called ‘implementational details’ can have highly tangible effects. It may matter a great deal to me if, while waiting for an important message, I suffer a delay in receiving my emails, even though what is responsible for the delay is not some malfunction of the retrieval algorithm, but that the relevant subroutine happens to be implemented on that occasion on slightly slower or less responsive hardware.</p>
+<p>Appeal to variations at the implementation level can help to explain a range of behavioural and psychological anomalies for predictive coding. One source of such anomalies is perceptual illusion. Perceptual illusions are cases in which our cognitive system fails to minimise a sensory prediction error and continues to fail to do so apparently regardless of how well evidenced the error is (or how heavily the cognitive system attempts to weight it). An inability to make a sensory prediction error ‘go away’ by the usual means is what makes perceptual illusions robust, stable, reproducible phenomena. In the Müller–Lyer illusion, two straight lines of equal length are estimated to be of different lengths. This is reflected both in our conscious experience of the lines and the subpersonal estimates and responses generated by our brain.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn42" class="footnote-ref" id="fnref42" role="doc-noteref"><sup>42</sup></a> No matter how many times one sees the lines, no matter how much one knows about how the illusion works, no matter how many times one might measure the lines with a ruler and verify their length, no matter how one distributes one’s spatial attention over the lines, and no matter how high the stakes for the cognitive system to correct for that error, one’s perceptual system still seems biased to represent them as different lengths. In the limit, one might be <em>morally certain</em> – willing to bet one’s life and the lives of all one’s descendants – on the proposition that the lines are the same length, yet one’s perceptual system still seems to stubbornly represent them as different lengths. Additional evidence, background knowledge, shifts in attention, and so on can affect the strength of the Müller–Lyer illusion.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn43" class="footnote-ref" id="fnref43" role="doc-noteref"><sup>43</sup></a> But these factors are not enough to make the illusion disappear, as they would in a normal case of misperception, or to bring about veridical perception of the lines.</p>
+<p>What is significant here is not that a false sensory prediction occurs, but that the cognitive system seems oddly unable to correct that error. What the Müller–Lyer illusion appears to show is that certain assumptions that make up our generative model are to a certain degree <em>inflexible</em>, or at least remarkably resistant to revision. <em>Prima facie</em>, this does not fit with what predictive coding says at the algorithmic level (or with its claim about perception being a form of Bayesian inference). An appropriate sequence of weighted prediction errors <em>should</em> in principle be able to update the ANN to stop making a false sensory prediction, even if the cost might be to change the generative model in ways that would cause it to start making false predictions about other cases. There is nothing in predictive coding’s algorithm to suggest that an appropriate stream of prediction errors would be incapable of changing the prediction values or revising parameters of the generative model. But we – at least, adult humans – cannot seem to make this happen. An input stream of relevant, weighted prediction errors seems powerless to revise the model.</p>
+<p>The stubborn nature of these sensory prediction errors only presents a puzzle, however, if one assumes the idealised, infinitely flexible model of predictive coding’s algorithm. In the abstract world of the mathematical algorithm, every element of the generative model can be revised arbitrarily far in light of incoming data. If one complicates the model by noting that the ANN is implemented in finite physical resources that may have different physical characteristics and be more or less amenable to change, then the observed lack of flexibility in the generative model becomes less surprising. Indeed, given the constrained and finite nature of any physical implementation, one should expect that a real-world implementation of the generative model (and precision weighting) would not have the kind of flexibility possessed by the abstract model. Moreover if one assumes, as suggested in the previous section, that the physical implementation of predictive coding consists in a mix of different physical elements, one should expect that different aspects of the generative model to have different constraints imposed by their physical nature on how easily and how far they can be modified. Certain parameters inside the generative model may correspond to synaptic connections that are open to change (albeit to a finite degree) by learning; others may correspond to gross anatomical features that cannot be modified after development. Explanation of the persistence of errors in the Müller–Lyer illusion may thus be pushed down to the implementation level. The behavioural and psychological profile we observe – that certain sensory prediction errors associated with the illusion seem incapable of being minimised – is explained, not in terms of some characteristic of the formal algorithm, but as a consequence of the specific physical implementation of the algorithm in a complex and varied mix of physical resources.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn44" class="footnote-ref" id="fnref44" role="doc-noteref"><sup>44</sup></a></p>
+<p><span class="citation" data-cites="Lupyan15">Lupyan (2015)</span>, <span class="citation" data-cites="Clark15">Clark (2016 pp. 199–201)</span>, and <span class="citation" data-cites="Hohwy13">Hohwy (2013 p. 141)</span> also discuss the Müller–Lyer illusion, but they have a slightly different issue in mind. Their aim to explain why any false sensory prediction occurs <em>at all</em>. They suggest that the false prediction is generated by assumptions that allow the cognitive system to generate numerous true sensory predictions in the context of three-dimensional scenes <span class="citation" data-cites="Gregory63 HowePurves05">(see proposals by Gregory 1963; Howe &amp; Purves 2005)</span>. They argue that the prediction errors observed in the Müller–Lyer illusion case are sufficiently rare in realistic ecological settings that any failure to minimise them does not conflict with the assumption that the brain’s overall goal is to minimise long-term sensory prediction error. In other words, the false prediction that the lines are different lengths should be understood as a ‘short-term’ or ‘local’ error of the kind discussed in <span class="citation" data-cites="Sprevak20b">Sprevak (forthcoming)</span>, Section 5. However, even if this is correct, it would not explain why it is <em>hard to change</em> the relevant assumption when errors do start coming in. This resistance to revision is what the algorithm fails to explain. What is proposed above is that it should be explained at the implementation level: the hardware that encodes the assumption that Lupyan et al. describe is less open to change than others. In line with what they suggest, the relevant hardware perhaps does not need to change in normal ecological settings – past evolutionary forces may have calcified the assumption by encoding it in relatively fixed physical resources.</p>
+<p><span class="citation" data-cites="KirchhoffKiverstein19a">Kirchhoff &amp; Kiverstein (2019 pp. 88–90)</span> argue that the persistence of the Müller–Lyer illusion should be explained in terms of the distribution of precision weighting. They claim that the prediction errors associated with the illusion are systematically assigned a low precision weighting, and so they are less likely to be revised: i.e. low precision weighting explains why the illusion persists. This might be a literally correct description of the situation, but it raises the question of why the precision weightings are set this low and why it is so difficult to change them. The weightings do not appear to change, or at least not enough to eliminate the error, in response to considerations that in other contexts would be sufficient to radically shift them: e.g. certainty that a prediction error has been made, shifts in attention, changes in reward. If the prediction error associated with the illusion is being discounted by the algorithm via precision weightings, it being discounted in a puzzlingly inflexible way. The algorithm provides no explanation for this: in principle, all lateral and intrinsic connections between ANN error units are as malleable as each other. One seems to be thrown back on the idea that there may be physical differences in how precision weighting is physically implemented in the brain that these are responsible for the observed differences in the illusion case. In other words, a return to the same basic strategy sketched in this section: explain the persistence of the illusion by appeal to differences among the physical resources that implement the formal model.</p>
+<h1 data-number="8" id="constraining-the-empirical-content-of-predictive-coding"><span class="header-section-number">8</span> Constraining the empirical content of predictive coding</h1>
+<!-- Cao, R. (2020). New labels for old ideas: Predictive processing and the interpretation of neural signals. Review of Philosophy and Psychology, 11(3):517–546. -->
+<p>Introducing these extra degrees of freedom in predictive coding’s model offers dangers as well as opportunities. The previous section described some of the advantages of letting the implementation of predictive coding be complex, diverse, and open-ended. However, it is easy to slip from this into treating predictive coding’s physical implementation as completely unconstrained. On such a view, the implementation of a given element of the formal model (e.g. an ANN connection weight) on any given occasion could potentially be <em>anything</em> provided it fulfils the role required of it by the algorithm. No further constraints are placed on the nature of the physical resource that implements a component of the ANN. If one’s assumptions about the physical implementation of predictive coding are this liberal, then potentially any sequence of physical states that a biological system undergoes over time could be mapped to some sequence of features of the ANN. In effect, <em>whatever</em> an organism happens to do on any given occasion could be treated as the implementation of some appropriate element of the formal model, and hence as an instance of predictive coding.</p>
+<p>Such thinking can lead one to very strange places, as Clark and Friston describe:</p>
+<blockquote>
+<p>We are built to breathe air through our lungs, hence we embody a kind of structural ‘expectation’ of staying (mostly) above water – unlike (say) an octopus. Some of our action tendencies are likewise built-in. The reflexive response to touching a hot plate is to draw away. This reflex amounts to a kind of bedrock ‘expectation’ of avoiding tissue damage. In this attenuated sense every embodied agent (even a bacterium) is, just as <span class="citation" data-cites="Friston12">Friston (2012)</span> claims, already a kind of surprise-minimizing model of its environment. <span class="citation" data-cites="Clark15">(Clark 2016 p. 263)</span></p>
+</blockquote>
+<blockquote>
+<p>… each organism represents a hypothesis or model that contains a different set of prior expectations about the environment it inhabits <span class="citation" data-cites="Friston11a">(Friston 2011b p. 90)</span></p>
+</blockquote>
+<p>It is hard to see how these claims could be empirically tested. Whatever the system happens to do, it is treated as engaged in ‘prediction’ about sensory input. Any physical resource that it happens to employ on any occasion (including the resource of <em>having lungs</em>) is mapped onto it having an appropriate assumption in its generative model. No matter what physical behaviour is observed, that behaviour is treated, in that context, as an implementation of some or other aspect of the formal model. In short, the physical implementation of the ANN consists in <em>whatever physical resources that the system happens to deploy on any given occasion</em>.</p>
+<p>Our computational claims about physical systems in science and engineering are not normally like this. When we say that our electronic PCs implement an algorithm, what we mean is that <em>a small number of specific electrical circuits inside the PC</em> implement that algorithm. We can empirically verify this claim – we can check whether the PC is running that algorithm – by examining the pattern of physical activity inside those circuits. If we discover that the pattern of physical activity in those circuits does not conform to the algorithm, then we would say that the device does not implement the algorithm; if we discover that it does conform to the algorithm, we would say that it does implement the algorithm. However, if one were to permit that <em>any</em> physical activity in and around the device could implement any aspect of the algorithm at any given moment, then one would not be able to conduct such tests. There would be no specific empirical content associated with the claim that the device implements the algorithm. Checking the electrical activity would be little more than a pantomime, not a meaningful test of implementation. For if the electrical activity were not to conform to the algorithm, it would still be consistent with any number of other patterns of activity, perhaps highly idiosyncratic and context-dependent ones, implementing the algorithm. If one refuses to place any limitations at all on which physical resources do and do not implement the algorithm, it is hard to see how the algorithmic-level proposal could be subject to empirical constraints. Any observed sequence of physical states could, in principle, be treated as consistent with the formal model, for any sequence of physical states could be treated as implementing the relevant aspect of the prediction-generating machinery on that particular occasion.</p>
+<p>Clark suggests that we should pull back from an unconstrained approach to predictive coding’s implementation and distinguish between physical states that <em>properly</em> implement the algorithm and those that merely <em>could</em>, in some attenuated sense, be mapped onto elements of the formal model:</p>
+<blockquote>
+<p>If my skin heals after a cut, it would be misleading to say that in some structural, embodied fashion I ‘predict’ an unbroken membrane. Yet it is only in this strained sense that, to take another example, the shape of the fish could be said to embody expectations concerning the hydrodynamics of seawater. Perhaps we should allow that in some very broad sense, fish-y ‘surprisal’ is indeed partially determined by such morphological factors. <em>Our focus, however, has been on suites of entwined predictions issued by a neurally encoded generative model</em> – the kind of process implemented, if [predictive coding] is correct, by iterated exchanges of prediction and prediction error signaling in asymmetrical bidirectional cascades of neuronal processing. Consequently, I do not think we ought properly (without scare quotes) to speak of all these bedrock adaptive states and responses as themselves amounting to structurally sedimented (Friston says ‘embodied’) predictions or expectations. <span class="citation" data-cites="Clark15">(Clark 2016 pp. 264–5, emphasis mine)</span></p>
+</blockquote>
+<p>This raises the question of on what basis we should draw the distinction between physical resources that ‘properly’ implement the algorithm and those that merely implement it in scare quotes. Clark suggests that we do this in terms of resources that ‘set the scene’ for the prediction-error minimisation process versus those that ‘more explicit[ly]’ run the algorithm (ibid.). But that distinction itself seems hazy and with a questionable empirical basis. Physical resources that count as ‘setting the scene’ for some investigators may be classified as ‘principal players’ by others, and vice versa. The resources in question both fulfil the formal role required of them by the algorithm. Who is to say which are the principal players and which are not? In the case of the quotation above, why should only the neural/neocortical activity fall into the foreground? Clark’s own discussion of the role of external technology in setting precision weighting tends to blur this distinction – on his view, it is unclear whether a piece of the external environment should be understood as merely setting the scene for the assignment of ‘true’ neural precision weighting or whether it itself sets precision weighting in some extended implementation of the algorithm <span class="citation" data-cites="Clark15">(Clark 2016 pp. 260–2)</span>. It is simply not obvious how one should distinguish between physical resources that properly implement the algorithm from those that also play the role, but only do so to set the scene.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn45" class="footnote-ref" id="fnref45" role="doc-noteref"><sup>45</sup></a></p>
+<p>Of course, one could settle the issue by fiat.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fn46" class="footnote-ref" id="fnref46" role="doc-noteref"><sup>46</sup></a> For example, one might say that the ‘proper’ implementation of a prediction value, <span class="math inline">\(y_i\)</span>, consists, exclusively, in the average neural firing rate of a deep layer of pyramidal neurons. No other physical activity in the brain, body, or environment implements prediction values. Adopting this restriction opens the door to empirical testing. One would be able to look at the state of deep layer pyramidal neurons to see if they conform to the algorithm’s prescriptions. But why accept a restriction like this on predictive coding’s implementation? Why think that only a single type of physical state – or even a small number of physical state types – correspond to a single formal state in the model? Attempts to artificially restrict the implementation base quickly run up against the kinds of considerations raised in Sections 6 and 7 which motivated a liberal, open-ended, unconstrained approach towards predictive coding’s physical implementation. In general, it is not obvious how predictive coding should reconcile two opposing forces: (i) permitting the implementation to be complex, idiosyncratic, and varied in ways that we do not yet understand; and (ii) imposing some constraints on which physical states do and do not implement the model in order to render the view empirically testable.</p>
+<p>This brings us back to the dilemma about implementation first described in Section 2.1. On the one hand, predictive coding faces pressure to allow the cognitive system to use an unconstrained set of physical resources in and around the brain to implement its formal model. The pressure comes not only from observation of the sheer complexity of the brain and our current uncertainty about which neural processes are functionally significant to cognition, but also from the reasonable expectation that the physical implementation of predictive coding is likely to be extremely complicated and varied. On the other hand, predictive coding faces pressures to ensure that the physical implementation of its formal model is somehow constrained. Without restrictions on the physical resources that implement the model, it is impossible to test the model – to bring evidence about observed physical activity to bear either for or against the model. Without constraints, any observation will be compatible with the model, as it is compatible with a suitably complicated and qualified story about physical implementation. There is currently no agreement about how to resolve this dilemma. That makes empirically testing predictive coding’s model – outside the context of some artificially restricted mapping like the neocortical proposal – extremely difficult.</p>
+<h1 data-number="9" id="conclusion"><span class="header-section-number">9</span> Conclusion</h1>
+<p>Pinning down what predictive coding actually says is hard. The view can take (sometimes radically) different shapes in different hands. This shifting ground is normal in cutting-edge science, and it is a sensible way for the scientific community to explore the contours of a new view. But it can be frustrating for philosophers. It is reasonable to wonder what predictive coding really is and is not committed to. In this series of papers, I have tried to sketch the bare bones of the view. That sketch is incomplete in many ways and the research programme is rapidly changing. What I have said is also likely to be contentious, at least for some advocates of the view. However, my aim has been only to get the rough shape of the view on the table, and to convey a sense of its potential attractions and challenges.</p>
+<p>In the present paper, I have argued that bringing neural and behavioural evidence to bear on predictive coding’s research programme requires making non-trivial assumptions at Marr’s implementation level – about which neural (and perhaps also extra-neural) properties map to which numerical components of the algorithm. Only relative to some specific mapping can one check whether the abstract processes described actually occur in the physical world and whether they drive behaviour in the way suggested. I outlined a popular and influential theory about predictive coding’s implementation – the neocortical proposal. This suggests that long-known anatomical structures in mammalian neocortex implement predictive coding’s ANN. However, the neocortical proposal is a relatively broad-brush theory at Marr’s implementation level – many important details regarding the ANN’s implementation are omitted. It is also normally understood as offering only a partial account of the implementation of predictive coding. Moving from a broad-brush, partial theory of predictive coding’s implementation to a full theory – one that would allow for uncontentious definitive confirmation or disconfirmation of predictive coding’s claims – remains problematic however, and faces not just empirical challenges but also conceptual ones.</p>
+<p>Predictive coding’s research programme is an alliance of three claims at Marr’s computational, algorithmic, and implementation levels. There is scope for committing to one of these claims but not others – <em>unbundling</em> the research programme. There is scope for developing the details of the claims in many different ways – <em>forking</em> the research programme. Finally, there is scope for reigning in how much of cognition and behaviour the resulting model aims to describe and explain – <em>weakening</em> the research programme. In a sense, it is purely a semantic matter which view out of this constellation one ends up calling ‘predictive coding’. What I have described here is a version that aims to connect all three claims together tightly, develop them in a way that aims to be relatively simple at the computational and algorithmic levels, and tries to cover all (or as much as possible) of cognition and behaviour. To my mind, this represents the sort of iteration of the view that best expresses the initial promise to provide a computational model of human cognition that is comprehensive, unifying, and complete. What we have seen however, that even in this ideal case what is currently in hand is more of an aspiration than a theory – one that remains to be articulated in relevant details and securely connected to standard forms of empirical evidence.</p>
+<h1 class="unnumbered" id="bibliography">Bibliography</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-BastosUsrey12" class="csl-entry" role="doc-biblioentry">
+Bastos, A. M., Usrey, W. M., Adams, R. A., Mangun, G. R., Fries, P., &amp; Friston, K. (2012). <span>‘Canonical microcircuits for predictive coding’</span>, <em>Neuron</em>, 76: 695–711.
+</div>
+<div id="ref-Berridge07" class="csl-entry" role="doc-biblioentry">
+Berridge, K. C. (2007). <span>‘The debate over dopamine’s role in reward: The case for incentive salience’</span>, <em>Psychopharmacology</em>, 191: 391–431.
+</div>
+<div id="ref-Bogacz17" class="csl-entry" role="doc-biblioentry">
+Bogacz, R. (2017). <span>‘A tutorial on the free-energy framework for modelling perception and learning’</span>, <em>Journal of Mathematical Psychology</em>, 76/198–211.
+</div>
+<div id="ref-BorgersEpsteinKopell05" class="csl-entry" role="doc-biblioentry">
+Börgers, C., Epstein, S., &amp; Kopell, N. J. (2005). <span>‘Background gamma rhythmicity and attention in cortical local circuits: A computational study’</span>, <em>Proceedings of the National Academy of Sciences</em>, 102: 7002–7.
+</div>
+<div id="ref-BosmanSchoffelenBrunet12" class="csl-entry" role="doc-biblioentry">
+Bosman, C. A., Schoffelen, J.-M., Brunet, N., Oostenveld, R., Bastos, A. M., Womelsdorf, T., Rubehn, B., et al. (2012). <span>‘Attentional stimulus selection through selective synchronization between monkey visual areas’</span>, <em>Neuron</em>, 75: 875–88.
+</div>
+<div id="ref-BrunoFranz09" class="csl-entry" role="doc-biblioentry">
+Bruno, N., &amp; Franz, V. H. (2009). <span>‘When is grasping affected by the <span>M</span><span>ü</span>ller–<span>L</span>yer illusion? A quantitative review’</span>, <em>Neuropsychologia</em>, 47: 1421–33.
+</div>
+<div id="ref-BuchelGeuterSprenger14" class="csl-entry" role="doc-biblioentry">
+Büchel, C., Geuter, S., Sprenger, C., &amp; Eippert, F. (2014). <span>‘Placebo analgesia: A predictive coding perspective’</span>, <em>Neuron</em>, 81: 1223–39.
+</div>
+<div id="ref-BuffaloFriesLandman11" class="csl-entry" role="doc-biblioentry">
+Buffalo, E. A., Fries, P., Landman, R., Buschman, T. J., &amp; Desimone, R. (2011). <span>‘Laminar differences in gamma and alpha coherence in the ventral stream’</span>, <em>Proceedings of the National Academy of Sciences</em>, 108: 11262–7.
+</div>
+<div id="ref-BuhlTamasFisahn98" class="csl-entry" role="doc-biblioentry">
+Buhl, E. H., Tamás, G., &amp; Fisahn, A. (1998). <span>‘Cholinergic activation and tonic excitation induce persistent gamma oscillations in mouse somatosensory cortex <em>in vitro</em>’</span>, <em>Journal of Physiology</em>, 513: 117–26.
+</div>
+<div id="ref-CalabreseWoolley15" class="csl-entry" role="doc-biblioentry">
+Calabrese, A., &amp; Woolley, S. M. N. (2015). <span>‘Coding principles of the canonical cortical microcircuit in the avian brain’</span>, <em>Proceedings of the National Academy of Sciences</em>, 112: 3517–22.
+</div>
+<div id="ref-CembrowskiSpruston19" class="csl-entry" role="doc-biblioentry">
+Cembrowski, M. S., &amp; Spruston, N. (2019). <span>‘Heterogeneity within classical cell types is the rule: Lessons from hippocampal pyramidal neurons’</span>, <em>Nature Reviews Neuroscience</em>, 20: 193–204.
+</div>
+<div id="ref-Chalmers93a" class="csl-entry" role="doc-biblioentry">
+Chalmers, D. J. (2012). <span>‘A computational foundation for the study of cognition’</span>, <em>Journal of Cognitive Science</em>, 12: 323–57.
+</div>
+<div id="ref-ChawlaLumerFriston99" class="csl-entry" role="doc-biblioentry">
+Chawla, D., Lumer, E. D., &amp; Friston, K. (1999). <span>‘The relationship between synchronization among neuronal populations and their mean activity levels’</span>, <em>Neural Computation</em>, 11: 1389–411.
+</div>
+<div id="ref-Clark07" class="csl-entry" role="doc-biblioentry">
+Clark, A. (2007). <span>‘Curing cognitive hiccups: A defense of the extended mind’</span>, <em>The Journal of Philosophy</em>, 106: 163–92.
+</div>
+<div id="ref-Clark08a" class="csl-entry" role="doc-biblioentry">
+——. (2008). <em>Supersizing the mind</em>. Oxford: Oxford University Press.
+</div>
+<div id="ref-Clark13a" class="csl-entry" role="doc-biblioentry">
+——. (2013a). <span>‘The many faces of precision (replies to commentaries on <span>“whatever next? Neural prediction, situated agents, and the future of cognitive science”</span>)’</span>, <em>Frontiers in Psychology</em>, 4: 270.
+</div>
+<div id="ref-Clark13" class="csl-entry" role="doc-biblioentry">
+——. (2013b). <span>‘Whatever next? Predictive brains, situated agents, and the future of cognitive science’</span>, <em>Behavioral and Brain Sciences</em>, 36: 181–253.
+</div>
+<div id="ref-Clark15" class="csl-entry" role="doc-biblioentry">
+——. (2016). <em>Surfing uncertainty: Prediction, action, and the embodied mind</em>. Oxford: Oxford University Press.
+</div>
+<div id="ref-Clark17a" class="csl-entry" role="doc-biblioentry">
+——. (2017). <span>‘Busting out: Predictive brains, embodied minds, and the puzzle of the evidentiary veil’</span>, <em>No<span>û</span>s</em>, 51: 727–53.
+</div>
+<div id="ref-DouglasMartin04" class="csl-entry" role="doc-biblioentry">
+Douglas, R. J., &amp; Martin, K. A. C. (2004). <span>‘Neuronal circuits of the neocortex’</span>, <em>Annual Review of Neuroscience</em>, 27/419–451.
+</div>
+<div id="ref-Doya02" class="csl-entry" role="doc-biblioentry">
+Doya, K. (2002). <span>‘Metalearning and neuromodulation’</span>, <em>Neural Networks</em>, 15: 495–506.
+</div>
+<div id="ref-EngelFries01" class="csl-entry" role="doc-biblioentry">
+Engel, A. K., Fries, P., &amp; Singer, W. (2001). <span>‘Dynamic predictions: Oscillations and synchrony in top-down processing’</span>, <em>Nature Reviews Neuroscience</em>, 2: 704–16.
+</div>
+<div id="ref-EngelSinger01" class="csl-entry" role="doc-biblioentry">
+Engel, A. K., &amp; Singer, W. (2001). <span>‘Temporal binding and the neural correlates of sensory awareness’</span>, <em>Trends in Cognitive Sciences</em>, 5: 16–25.
+</div>
+<div id="ref-FeldmanFriston10" class="csl-entry" role="doc-biblioentry">
+Feldman, H., &amp; Friston, K. (2010). <span>‘Attention, uncertainty, and free-energy’</span>, <em>Frontiers in Human Neuroscience</em>, 4: 1–23.
+</div>
+<div id="ref-FellemanVanEssen91" class="csl-entry" role="doc-biblioentry">
+Felleman, D. J., &amp; Van Essen, D. C. (1991). <span>‘Distributed hierarchical processing in the primate cerebral cortex’</span>, <em>Cerebral Cortex</em>, 1: 1–47.
+</div>
+<div id="ref-FellousLinster98" class="csl-entry" role="doc-biblioentry">
+Fellous, J.-M., &amp; Linster, C. (1998). <span>‘Computational models of neuromodulation’</span>, <em>Neural Computation</em>, 10: 771–805.
+</div>
+<div id="ref-FriesReynoldsRorie01" class="csl-entry" role="doc-biblioentry">
+Fries, P., Reynolds, J. H., Rorie, A. E., &amp; Desimone, R. (2001). <span>‘Modulation of oscillatory neuronal synchronization by selective visual attention’</span>, <em>Science</em>, 291: 1560–3.
+</div>
+<div id="ref-Friston05" class="csl-entry" role="doc-biblioentry">
+Friston, K. (2005). <span>‘A theory of cortical responses’</span>, <em>Philosophical Transactions of the Royal Society of London, Series B</em>, 360: 815–36.
+</div>
+<div id="ref-Friston09" class="csl-entry" role="doc-biblioentry">
+——. (2009). <span>‘The free-energy principle: A rough guide to the brain?’</span>, <em>Trends in Cognitive Sciences</em>, 13: 293–301.
+</div>
+<div id="ref-Friston10" class="csl-entry" role="doc-biblioentry">
+——. (2010). <span>‘The free-energy principle: A unified brain theory?’</span>, <em>Nature Reviews Neuroscience</em>, 11: 127–38.
+</div>
+<div id="ref-Friston11b" class="csl-entry" role="doc-biblioentry">
+——. (2011a). <span>‘Functional and effective connectivity: A review’</span>, <em>Brain Connectivity</em>, 1: 13–36.
+</div>
+<div id="ref-Friston11a" class="csl-entry" role="doc-biblioentry">
+——. (2011b). <span>‘Embodied inference: Or <span>“<span>I</span> think therefore <span>I</span> am, if <span>I</span> am what <span>I</span> think”</span>’</span>. Tschacher W. &amp; Bergomi C. (eds) <em>The implications of embodiment (cognition and communication)</em>, pp. 89–125. Imprint Academic: Exeter.
+</div>
+<div id="ref-Friston12" class="csl-entry" role="doc-biblioentry">
+——. (2012). <span>‘A free energy principle for biological systems’</span>, <em>Entropy</em>, 14: 2100–21.
+</div>
+<div id="ref-FristonDaunizeauKiebel09" class="csl-entry" role="doc-biblioentry">
+Friston, K., Daunizeau, J., &amp; Kiebel, S. J. (2009). <span>‘Reinforcement learning or active inference’</span>, <em>PLoS ONE</em>, 4: e6421.
+</div>
+<div id="ref-GlasserCoalsonRobinson16" class="csl-entry" role="doc-biblioentry">
+Glasser, M. F., Coalson, T. S., Robinson, E. C., Hacker, C. D., Harwell, J., Yacoub, E., Ugurbil, K., et al. (2016). <span>‘A multi-modal parcellation of human cerebral cortex’</span>, <em>Nature</em>, 536/171–178.
+</div>
+<div id="ref-Gregory63" class="csl-entry" role="doc-biblioentry">
+Gregory, R. L. (1963). <span>‘Distortion of visual space as inappropriate constancy scaling’</span>, <em>Nature</em>, 199: 678–80.
+</div>
+<div id="ref-HarrisShepard15" class="csl-entry" role="doc-biblioentry">
+Harris, K. D., &amp; Shepard, G. M. G. (2015). <span>‘The neocortical circuit: Themes and variations’</span>, <em>Nature Reviews Neuroscience</em>, 18/170–181.
+</div>
+<div id="ref-Hasselmo95" class="csl-entry" role="doc-biblioentry">
+Hasselmo, M. E. (1995). <span>‘Neuromodulation and cortical function: Modeling the physiological basis of behavior’</span>, <em>Behavioural Brain Research</em>, 67: 1–27.
+</div>
+<div id="ref-HeilbronChait18" class="csl-entry" role="doc-biblioentry">
+Heilbron, M., &amp; Chait, M. (2018). <span>‘Great expectations: Is there evidence for predictive coding in auditory cortex?’</span>, <em>Neuroscience</em>, 389: 54–73.
+</div>
+<div id="ref-HerreroRobertsDelicato08" class="csl-entry" role="doc-biblioentry">
+Herrero, J. L., Roberts, M. J., Delicato, L. S., Gieselmann, M. A., Dayan, P., &amp; Thiele, A. (2008). <span>‘Acetylcholine contributes through muscarinic receptors to attentional modulation in <span>V1</span>’</span>, <em>Nature</em>, 454: 1110–4.
+</div>
+<div id="ref-HilgetagGoulas20" class="csl-entry" role="doc-biblioentry">
+Hilgetag, C. C., &amp; Goulas, A. (2020). <span>‘<span>“Hierarchy”</span> in the organization of brain networks’</span>, <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em>, 375: 20190319.
+</div>
+<div id="ref-HilgetagONeillYoung96" class="csl-entry" role="doc-biblioentry">
+Hilgetag, C. C., O’Neill, M. A., &amp; Young, M. P. (1996). <span>‘Indeterminate organization of the visual system’</span>, <em>Science</em>, 271: 776–7.
+</div>
+<div id="ref-Hohwy13" class="csl-entry" role="doc-biblioentry">
+Hohwy, J. (2013). <em>The predictive mind</em>. Oxford: Oxford University Press.
+</div>
+<div id="ref-HowePurves05" class="csl-entry" role="doc-biblioentry">
+Howe, C. Q., &amp; Purves, D. (2005). <span>‘The m<span>ü</span>ller–lyer illusion explained by the statistics of image–source relationships’</span>, <em>Proceedings of the National Academy of Sciences</em>, 102/1234–1239.
+</div>
+<div id="ref-KanaiKomuraShipp15" class="csl-entry" role="doc-biblioentry">
+Kanai, R., Komura, Y., Shipp, S., &amp; Friston, K. (2015). <span>‘Cerebral hierarchies: Predictive processing, precision and the pulvinar’</span>, <em>Philosophical Transactions of the Royal Society of London, Series B</em>, 370: 20140169.
+</div>
+<div id="ref-KirchhoffKiverstein19a" class="csl-entry" role="doc-biblioentry">
+Kirchhoff, M. D., &amp; Kiverstein, J. (2019). <em>Extended consciousness and predictive processing</em>. Abingdon: Routledge.
+</div>
+<div id="ref-KlinkenbergSambethBlokland11" class="csl-entry" role="doc-biblioentry">
+Klinkenberg, I., Sambeth, A., &amp; Blokland, A. (2011). <span>‘Acetylcholine and attention’</span>, <em>Behavioural Brain Research</em>, 221: 430–42.
+</div>
+<div id="ref-Koch04a" class="csl-entry" role="doc-biblioentry">
+Koch, C. (2004). <em>Biophysics of computation: Information processing in single neurons</em>. Oxford: Oxford University Press.
+</div>
+<div id="ref-KokLange15" class="csl-entry" role="doc-biblioentry">
+Kok, P., &amp; Lange, F. P. de. (2015). <span>‘Predictive coding in the sensory cortex’</span>. Forstmann B. U. &amp; Wagenmakers E.-. J. (eds) <em>An introduction to model-based cognitive neuroscience</em>, pp. 221–44. Springer: New York, NY.
+</div>
+<div id="ref-LangeHeilbronKok18" class="csl-entry" role="doc-biblioentry">
+Lange, F. P. de, Heilbron, M., &amp; Kok, P. (2018). <span>‘How do expectations shape perception?’</span>, <em>Trends in Cognitive Sciences</em>, 22: 764–79.
+</div>
+<div id="ref-Lupyan15" class="csl-entry" role="doc-biblioentry">
+Lupyan, G. (2015). <span>‘Cognitive penetrability of perception in the age of prediction: Predictive systems are penetrable systems’</span>, <em>Review of Philosophy and Psychology</em>, 6: 547–69.
+</div>
+<div id="ref-LupyanClark15" class="csl-entry" role="doc-biblioentry">
+Lupyan, G., &amp; Clark, A. (2015). <span>‘Words and the world: Predictive coding and the language-perception-cognition interface’</span>, <em>Current Directions in Psychological Science</em>, 24: 279–84.
+</div>
+<div id="ref-MarkovKennedy13" class="csl-entry" role="doc-biblioentry">
+Markov, N. T., &amp; Kennedy, H. (2013). <span>‘The importance of being hierarchical’</span>, <em>Current Opinion in Neurobiology</em>, 23: 187–94.
+</div>
+<div id="ref-Masland04" class="csl-entry" role="doc-biblioentry">
+Masland, R. H. (2004). <span>‘Neuronal cell types’</span>, <em>Current Biology</em>, 14: R497–500.
+</div>
+<div id="ref-MillerClark18" class="csl-entry" role="doc-biblioentry">
+Miller, M., &amp; Clark, A. (2018). <span>‘Happily entangled: Prediction, emotion, and the embodied mind’</span>, <em>Synthese</em>, 195: 2559–75.
+</div>
+<div id="ref-MontagueHymanCohen04" class="csl-entry" role="doc-biblioentry">
+Montague, P. R., Hyman, S. E., &amp; Cohen, J. D. (2004). <span>‘Computational roles for dopamine in behavioural control’</span>, <em>Nature</em>, 431: 760–7.
+</div>
+<div id="ref-Muckli10" class="csl-entry" role="doc-biblioentry">
+Muckli, L. (2010). <span>‘What are we missing here? Brain imaging evidence for higher cognitive functions in primary visual cortex <span>V</span>1’</span>, <em>International Journal of Imaging Systems and Technology</em>, 20: 131–9.
+</div>
+<div id="ref-Mumford92" class="csl-entry" role="doc-biblioentry">
+Mumford, D. (1992). <span>‘On the computational architecture of the neocortex: <span>II</span> the role of cortico-cortico loops’</span>, <em>Biological Cybernetics</em>, 66: 241–51.
+</div>
+<div id="ref-OudenKokLange12" class="csl-entry" role="doc-biblioentry">
+Ouden, H. den, Kok, P., &amp; Lange, F. P. de. (2012). <span>‘How prediction errors shape perception, attention, and motivation’</span>, <em>Frontiers in Psychology</em>, 3: 548.
+</div>
+<div id="ref-PougetBeck13" class="csl-entry" role="doc-biblioentry">
+Pouget, A., Beck, J. M., Ma, W. J., &amp; Latham, P. E. (2013). <span>‘Probabilistic brains: Knows and unknowns’</span>, <em>Nature Neuroscience</em>, 16: 1170–8.
+</div>
+<div id="ref-QiuLiZhang08" class="csl-entry" role="doc-biblioentry">
+Qiu, J., Li, H., Zhang, Q., Liu, Q., &amp; Zhang, F. (2008). <span>‘The <span>M</span><span>ü</span>ller–<span>L</span>yer illusion seen by the brain: An event-related brain potentials study’</span>, <em>Biological Psychology</em>, 77: 150–8.
+</div>
+<div id="ref-RaoBallard99" class="csl-entry" role="doc-biblioentry">
+Rao, R. P. N., &amp; Ballard, D. H. (1999). <span>‘Predictive coding in the visual cortex: A functional interpretation of some extra-classical receptive-field effects’</span>, <em>Nature Neuroscience</em>, 2: 79–87.
+</div>
+<div id="ref-RasmussenEliasmith13" class="csl-entry" role="doc-biblioentry">
+Rasmussen, D., &amp; Eliasmith, C. (2013). <span>‘God, the devil, and the details: Fleshing out the predictive processing framework’</span>, <em>Behavioral and Brain Sciences</em>, 36: 223–4.
+</div>
+<div id="ref-RicciSerre20" class="csl-entry" role="doc-biblioentry">
+Ricci, M., &amp; Serre, T. (2020). <span>‘Hierarchical models of the visual system’</span>. Jaeger D. &amp; Jung R. (eds) <em>Encyclopedia of computational neuroscience</em>. Springer. DOI: <a href="https://doi.org/10.1007/978-1-4614-7320-6">10.1007/978-1-4614-7320-6</a>
+</div>
+<div id="ref-RoskiesWood17" class="csl-entry" role="doc-biblioentry">
+Roskies, A. L., &amp; Wood, C. C. (2017). <span>‘Catching the prediction wave in brain science’</span>, <em>Analysis</em>, 77: 848–57.
+</div>
+<div id="ref-SalinasSejnowski01" class="csl-entry" role="doc-biblioentry">
+Salinas, E., &amp; Sejnowski, T. J. (2001). <span>‘Gain modulation in the central nervous system: Where behavior, neurophysiology, and computation meet’</span>, <em>The Neuroscientist</em>, 7: 430–40.
+</div>
+<div id="ref-Schultz98" class="csl-entry" role="doc-biblioentry">
+Schultz, W. (1998). <span>‘Predictive reward signal of dopamine neurons’</span>, <em>Journal of Neurophysiology</em>, 80/1–27.
+</div>
+<div id="ref-SchultzDayan97" class="csl-entry" role="doc-biblioentry">
+Schultz, W., Dayan, P., &amp; Montague, P. R. (1997). <span>‘A neural substrate of prediction and reward’</span>, <em>Science</em>, 275: 1593–9.
+</div>
+<div id="ref-SchwartenbeckFitzGeraldMathys15" class="csl-entry" role="doc-biblioentry">
+Schwartenbeck, P., FitzGerald, T., Mathys, C., Dolan, R. J., &amp; Friston, K. (2015). <span>‘The dopaminergic midbrain encodes the expected certainty about desired outcomes’</span>, <em>Cerebral Cortex</em>, 25: 3434–445.
+</div>
+<div id="ref-SerreKouhCadieu05" class="csl-entry" role="doc-biblioentry">
+Serre, T., Kouh, M., Cadieu, C., Knoblich, U., Kreiman, G., &amp; Poggio, T. (2005). <span>‘<a href="https://dspace.mit.edu/handle/1721.1/36407">A theory of object recognition: Computations and circuits in the feedforward path of the ventral stream in primate visual cortex</a>’</span>, <em>AI Memo</em>, 2005-036.
+</div>
+<div id="ref-Singer99" class="csl-entry" role="doc-biblioentry">
+Singer, W. (1999). <span>‘Neuronal synchrony: A versatile code review for the definition of relations?’</span>, <em>Neuron</em>, 24: 49–65.
+</div>
+<div id="ref-Spratling08" class="csl-entry" role="doc-biblioentry">
+Spratling, M. W. (2008). <span>‘Reconciling predictive coding and biased competition models of cortical function’</span>, <em>Frontiers in Computational Neuroscience</em>, 2: 1–8.
+</div>
+<div id="ref-Spratling17" class="csl-entry" role="doc-biblioentry">
+——. (2017). <span>‘A review of predictive coding algorithms’</span>, <em>Brain and Cognition</em>, 112: 92–7.
+</div>
+<div id="ref-Sprevak18c" class="csl-entry" role="doc-biblioentry">
+Sprevak, M. (2018). <span>‘Triviality arguments about computational implementation’</span>. Sprevak M. &amp; Colombo M. (eds) <em>Routledge handbook of the computational mind</em>, pp. 175–91. Routledge: London.
+</div>
+<div id="ref-Sprevak20c" class="csl-entry" role="doc-biblioentry">
+——. (forthcoming). <span>‘Predictive coding <span>III</span>: The algorithm’</span>, <em>TBC</em>.
+</div>
+<div id="ref-Sprevak20b" class="csl-entry" role="doc-biblioentry">
+——. (forthcoming). <span>‘Predictive coding <span>II</span>: The computation’</span>, <em>TBC</em>.
+</div>
+<div id="ref-Spruston08" class="csl-entry" role="doc-biblioentry">
+Spruston, N. (2008). <span>‘Pyramidal neurons: Dendritic structure and synaptic integration’</span>, <em>Nature Reviews Neuroscience</em>, 9: 206–21.
+</div>
+<div id="ref-Stevens98" class="csl-entry" role="doc-biblioentry">
+Stevens, C. F. (1998). <span>‘Neuronal diversity: Too many cell types for comfort?’</span>, <em>Current Biology</em>, 8: R708–10.
+</div>
+<div id="ref-TeufelFletcher16" class="csl-entry" role="doc-biblioentry">
+Teufel, C., &amp; Fletcher, P. C. (2016). <span>‘The promises and pitfalls of applying computational models to neurological and psychiatric disorders’</span>, <em>Brain</em>, 139: 2600–8.
+</div>
+<div id="ref-TudusciucNieder10" class="csl-entry" role="doc-biblioentry">
+Tudusciuc, O., &amp; Nieder, A. (2010). <span>‘Comparison of length judgments and the <span>M</span><span>ü</span>ller–<span>L</span>yer illusion in monkeys and humans’</span>, <em>Experimental brain research</em>, 207: 221–31.
+</div>
+<div id="ref-UngerleiderHaxby94" class="csl-entry" role="doc-biblioentry">
+Ungerleider, L. G., &amp; Haxby, J. V. (1994). <span>‘<span>“What”</span> and <span>“where”</span> in the human brain’</span>, <em>Current Opinion in Neurobiology</em>, 4: 157–65.
+</div>
+<div id="ref-WeidnerFink07" class="csl-entry" role="doc-biblioentry">
+Weidner, R., &amp; Fink, G. R. (2007). <span>‘The neural mechanisms underlying the <span>M</span><span>ü</span>ller–<span>L</span>yer illusion and its interaction with visuospatial judgments’</span>, <em>Cerebral Cortex</em>, 17: 878–84.
+</div>
+<div id="ref-WeisWiese19" class="csl-entry" role="doc-biblioentry">
+Weis, P. P., &amp; Wiese, E. (2019). <span>‘Problem solvers adjust cognitive offloading based on performance goals’</span>, <em>Cognnitive Science</em>, 43: e12802.
+</div>
+<div id="ref-WomelsdorfFries06" class="csl-entry" role="doc-biblioentry">
+Womelsdorf, T., &amp; Fries, P. (2006). <span>‘Neuronal coherence during selective attentional processing and sensory–motor integration’</span>, <em>Journal of Physiology (Paris)</em>, 100: 182–93.
+</div>
+<div id="ref-YonLangePress19" class="csl-entry" role="doc-biblioentry">
+Yon, D., Lange, F. P. de, &amp; Press, C. (2019). <span>‘The predictive brain as a stubborn scientist’</span>, <em>Trends in Cognitive Sciences</em>, 23: 6–8.
+</div>
+<div id="ref-ZengSanes17" class="csl-entry" role="doc-biblioentry">
+Zeng, H., &amp; Sanes, J. R. (2017). <span>‘Neuronal cell-type classification: Challenges, opportunities and the path forward’</span>, <em>Nature Reviews Neuroscience</em>, 18: 530–46.
+</div>
+</div>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>This kind of mirroring condition is generally supposed to be a necessary condition for the physical implementation of any algorithm <span class="citation" data-cites="Chalmers93a">(Chalmers 2012)</span>. It is not a sufficient condition however – for a brief review of why, see <span class="citation" data-cites="Sprevak18c">Sprevak (2018)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>For example, when discussing layers of the algorithm’s predictive hierarchy, <span class="citation" data-cites="Clark15">Clark (2016)</span>: ‘I remain deliberately uncommitted to the correct neural interpretation of this essential functional notion of layers or levels.’ (p. 313n4)<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>See <span class="citation" data-cites="BastosUsrey12">Bastos et al. (2012)</span>; <span class="citation" data-cites="Friston05">Friston (2005)</span>; <span class="citation" data-cites="Friston09">Friston (2009)</span>; <span class="citation" data-cites="Mumford92">Mumford (1992)</span>; <span class="citation" data-cites="RaoBallard99">Rao &amp; Ballard (1999)</span>. See <span class="citation" data-cites="DouglasMartin04">Douglas &amp; Martin (2004)</span>; <span class="citation" data-cites="HarrisShepard15">Harris &amp; Shepard (2015)</span> for a general review of the anatomical structure and potential computational function of cortical microcircuits.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>See <span class="citation" data-cites="BuchelGeuterSprenger14">Büchel et al. (2014)</span>; <span class="citation" data-cites="OudenKokLange12">Ouden et al. (2012)</span>; <span class="citation" data-cites="KanaiKomuraShipp15">Kanai et al. (2015)</span>; <span class="citation" data-cites="MillerClark18">Miller &amp; Clark (2018)</span> for proposals about how non-cortical brain structures might implement part of predictive coding’s algorithm.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>For discussion of brain structures in birds that are homologous to microcircuits in the mammalian neocortex, see <span class="citation" data-cites="CalabreseWoolley15">Calabrese &amp; Woolley (2015)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>This idea – that a single computational function may be implemented by diverse neural mechanisms that operate at different timescales or are active in different contexts – is not new. See <span class="citation" data-cites="Koch04a">Koch (2004)</span>, pp. 471–477 for discussion of how the operation of <em>multiplication</em> could be implemented by at least five dissimilar biophysical processes in the brain.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p><span class="citation" data-cites="Clark13a">Clark (2013a)</span>, pp. 193–194 describes a conflict between the ‘Neats’ and the ‘Scruffies’. He suggests that predictive coding is likely to be at best only a qualified victory for the Neats: although the model of cognition offered by predictive coding at the computational and algorithmic levels is simple and unified, what predictive coding says at the level of physical implementation is likely to be disjunctive and messy.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p>See <span class="citation" data-cites="Bogacz17">Bogacz (2017)</span>: ‘Even if the free-energy framework does describe cortical computation, the mapping between the variables in the model and the elements of the neural circuit may not be “clean” but rather “messy”, i.e. each model variable or parameter may be represented by multiple neurons or synapses.’ (p. 209).<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9" role="doc-endnote"><p>Although see the worries they raise about potential irregularities in the hierarchical structure <span class="citation" data-cites="FellemanVanEssen91">(Felleman &amp; Van Essen 1991 p. 31)</span>. There may be also be multiple ways to divide up the neocortex into structures that are approximately hierarchical <span class="citation" data-cites="HilgetagONeillYoung96">(Hilgetag et al. 1996)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10" role="doc-endnote"><p>For a review of this pattern of neocortical connectivity, see <span class="citation" data-cites="HilgetagGoulas20">Hilgetag &amp; Goulas (2020)</span>; <span class="citation" data-cites="MarkovKennedy13">Markov &amp; Kennedy (2013)</span>; <span class="citation" data-cites="Mumford92">Mumford (1992)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11" role="doc-endnote"><p>See <span class="citation" data-cites="UngerleiderHaxby94">Ungerleider &amp; Haxby (1994)</span>. <span class="citation" data-cites="RicciSerre20">Ricci &amp; Serre (2020)</span>; <span class="citation" data-cites="SerreKouhCadieu05">Serre et al. (2005)</span> give a helpful overview of the functional hierarchy for the visual cortex along with a non-predictive-coding computational model of these responses.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12" role="doc-endnote"><p>For examples of this, see <span class="citation" data-cites="Bogacz17">Bogacz (2017)</span>; <span class="citation" data-cites="Clark13">Clark (2013b)</span>, pp 187–188; <span class="citation" data-cites="Friston05">Friston (2005)</span>; <span class="citation" data-cites="Friston09">Friston (2009)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13" role="doc-endnote"><p>See <span class="citation" data-cites="Sprevak20c">Sprevak (forthcoming)</span>, Section 4.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14" role="doc-endnote"><p>See <span class="citation" data-cites="KokLange15">Kok &amp; Lange (2015)</span>, pp. 224–225; <span class="citation" data-cites="Spratling08">Spratling (2008)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15" role="doc-endnote"><p>For a helpful discussion of this issue and a wider contextualisation of the problem in cognitive neuroscience, see <span class="citation" data-cites="TeufelFletcher16">Teufel &amp; Fletcher (2016)</span>, pp. 2605–2606.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16" role="doc-endnote"><p>Classifying cortical neurons into discrete biological types can be done in many different ways based on variations in their morphology, electrophysiology, connectivity, molecular biology, and/or expression of genes and proteins <span class="citation" data-cites="Masland04 Stevens98 ZengSanes17">(Masland 2004; Stevens 1998; Zeng &amp; Sanes 2017)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17" role="doc-endnote"><p>See <span class="citation" data-cites="Spruston08">Spruston (2008)</span>. There is also within-cell-type variation for each proposed type of pyramidal cell, see <span class="citation" data-cites="CembrowskiSpruston19">Cembrowski &amp; Spruston (2019)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18" role="doc-endnote"><p><span class="citation" data-cites="BastosUsrey12">Bastos et al. (2012)</span>; <span class="citation" data-cites="Bogacz17">Bogacz (2017)</span>; <span class="citation" data-cites="Friston05">Friston (2005)</span>; <span class="citation" data-cites="Mumford92">Mumford (1992)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19" role="doc-endnote"><p>See <span class="citation" data-cites="Sprevak20c">Sprevak (forthcoming)</span>, Sections 2.5, 5<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20" role="doc-endnote"><p>See <span class="citation" data-cites="Clark13">Clark (2013b)</span>, p. 188; <span class="citation" data-cites="Clark15">Clark (2016)</span>, p. 46; <span class="citation" data-cites="Friston05">Friston (2005)</span>, p. 826.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn21" role="doc-endnote"><p><span class="citation" data-cites="KokLange15">Kok &amp; Lange (2015)</span> observe that currently there is a ‘conspicuous lack of direct evidence’ for superficial and deep pyramidal cells encoding prediction errors and predictions respectively (pp. 232–233). <span class="citation" data-cites="HeilbronChait18">Heilbron &amp; Chait (2018)</span> found ‘no evidence in the auditory domain’ for this claimed separation. For techniques that might uncover such a separation, see discussion of functional measurement of cortical laminae with higher temporal and spatial resolution in <span class="citation" data-cites="LangeHeilbronKok18">Lange et al. (2018)</span>, pp. 773–775.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn22" role="doc-endnote"><p>Friston assumes a rate-based neural coding scheme (neural firing rates encode the numerical values of predictions and errors) in his account of predictive coding’s implementation <span class="citation" data-cites="KanaiKomuraShipp15">(Kanai et al. 2015 p. 11)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn23" role="doc-endnote"><p>See <span class="citation" data-cites="Muckli10">Muckli (2010)</span>. For a helpful discussion of this issue, see <span class="citation" data-cites="KokLange15">Kok &amp; Lange (2015)</span>, pp 229–231.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn24" role="doc-endnote"><p><span class="citation" data-cites="BastosUsrey12">Bastos et al. (2012)</span> explore how some, but by no means all, of the fine-grained details of cortical physiology might fit with an account of the implementation of predictive coding.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn25" role="doc-endnote"><p><span class="citation" data-cites="Sprevak20c">Sprevak (forthcoming)</span>, Section 2.4.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref25" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn26" role="doc-endnote"><p>For example, see <span class="citation" data-cites="Bogacz17">Bogacz (2017)</span>, p. 201.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref26" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn27" role="doc-endnote"><p><span class="citation" data-cites="Friston09">Friston (2009)</span>; <span class="citation" data-cites="Clark15">Clark (2016)</span>, pp. 146–150.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref27" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn28" role="doc-endnote"><p><span class="citation" data-cites="Hasselmo95">Hasselmo (1995)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref28" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn29" role="doc-endnote"><p>For examples of various proposals, <span class="citation" data-cites="Doya02">Doya (2002)</span>; <span class="citation" data-cites="FellousLinster98">Fellous &amp; Linster (1998)</span>; <span class="citation" data-cites="MontagueHymanCohen04">Montague et al. (2004)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref29" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn30" role="doc-endnote"><p>See <span class="citation" data-cites="SchultzDayan97">Schultz et al. (1997)</span>; <span class="citation" data-cites="Schultz98">Schultz (1998)</span> on the role of dopamine in encoding reward uncertainty; <span class="citation" data-cites="Berridge07">Berridge (2007)</span> on dopamine and salience; See <span class="citation" data-cites="HerreroRobertsDelicato08">Herrero et al. (2008)</span>; <span class="citation" data-cites="KlinkenbergSambethBlokland11">Klinkenberg et al. (2011)</span> on acetylcholine and attention.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref30" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn31" role="doc-endnote"><p>See <span class="citation" data-cites="Friston09">Friston (2009)</span>, p. 299 for discussion of whether dopamine encodes the ‘prediction error on value’ – a prediction error about reward – as proposed on models of reward-guided decision-making that use a temporal-difference computational model; or, the ‘value of prediction error’ – how much the brain weights a sensory prediction error in its deliberations – as proposed on his predictive coding model <span class="citation" data-cites="FeldmanFriston10 FristonDaunizeauKiebel09 SchwartenbeckFitzGeraldMathys15">(Feldman &amp; Friston 2010; Friston et al. 2009; Schwartenbeck et al. 2015)</span>. Friston claims that his approach better explains the observed experimental results regarding dopaminergic activity.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref31" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn32" role="doc-endnote"><p><span class="citation" data-cites="SalinasSejnowski01">Salinas &amp; Sejnowski (2001)</span>; <span class="citation" data-cites="ChawlaLumerFriston99">Chawla et al. (1999)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref32" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn33" role="doc-endnote"><p><span class="citation" data-cites="EngelFries01">Engel et al. (2001)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref33" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn34" role="doc-endnote"><p><span class="citation" data-cites="FriesReynoldsRorie01">Fries et al. (2001)</span>; <span class="citation" data-cites="WomelsdorfFries06">Womelsdorf &amp; Fries (2006)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref34" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn35" role="doc-endnote"><p><span class="citation" data-cites="BuffaloFriesLandman11">Buffalo et al. (2011)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref35" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn36" role="doc-endnote"><p>See <span class="citation" data-cites="BosmanSchoffelenBrunet12">Bosman et al. (2012)</span>. Gamma-band synchronisation is also proposed as the brain’s way of solving the ‘binding problem’ – how representations in distant parts of the cortex get bound together into a single percept <span class="citation" data-cites="EngelFries01 EngelSinger01 Singer99">(Engel et al. 2001; Engel &amp; Singer 2001; Singer 1999)</span>. It is not clear how the proposed ‘long-range’ synchronisation between distant neural populations for binding fits with predictive coding’s proposal about ‘short-range’ synchronisation between subpopulations of error units inside a single cortical area.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref36" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn37" role="doc-endnote"><p><span class="citation" data-cites="BuhlTamasFisahn98">Buhl et al. (1998)</span>; <span class="citation" data-cites="BorgersEpsteinKopell05">Börgers et al. (2005)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref37" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn38" role="doc-endnote"><p><span class="citation" data-cites="Friston11b">Friston (2011a)</span>, p. 14.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref38" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn39" role="doc-endnote"><p>See also <span class="citation" data-cites="LupyanClark15">Lupyan &amp; Clark (2015)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref39" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn40" role="doc-endnote"><p>See also <span class="citation" data-cites="Clark17a">Clark (2017)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref40" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn41" role="doc-endnote"><p>See <span class="citation" data-cites="Clark15">Clark (2016)</span> on ‘transient assemblies’ of neural and environmental resources in cognition (pp. 150–151, 256–260). For more on how the physical states that implement a cognitive computation may shift depending on task demands, see the hypothesis of ‘cognitive impartiality’ in <span class="citation" data-cites="Clark07">Clark (2007)</span>; <span class="citation" data-cites="Clark08a">Clark (2008)</span>, Ch. 6; and studies by <span class="citation" data-cites="WeisWiese19">Weis &amp; Wiese (2019)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref41" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn42" role="doc-endnote"><p><span class="citation" data-cites="BrunoFranz09">Bruno &amp; Franz (2009)</span>; <span class="citation" data-cites="TudusciucNieder10">Tudusciuc &amp; Nieder (2010)</span>; <span class="citation" data-cites="WeidnerFink07">Weidner &amp; Fink (2007)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref42" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn43" role="doc-endnote"><p>See <span class="citation" data-cites="QiuLiZhang08">Qiu et al. (2008)</span>; <span class="citation" data-cites="WeidnerFink07">Weidner &amp; Fink (2007)</span>.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref43" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn44" role="doc-endnote"><p>See <span class="citation" data-cites="YonLangePress19">Yon et al. (2019)</span> for examples of physical features in the brain that might explain what they call ‘evidence-resistant’ predictions.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref44" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn45" role="doc-endnote"><p><span class="citation" data-cites="RoskiesWood17">Roskies &amp; Wood (2017)</span> draw this distinction in terms of physical elements that are more ‘active’ or ‘passive’ during the prediction process, but the nature of this distinction is again unclear.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref45" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn46" role="doc-endnote"><p>This is arguably how it is done for electronic PCs.<a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#fnref46" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</div>
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="is-col is-33">     
+                        <div class="is-hidden-print is-hidden-mobile">
+                            
+                                <h1 style="margin-top: 0px;">Contents</h1>
+                                <ul class="is-unstyled">
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#introduction"><span style="visibility: visible;">1</span> &nbsp;  Introduction</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#general-features-of-a-theory-at-the-implementation-level"><span style="visibility: visible;">2</span> &nbsp;  General features of a theory at the implementation level</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <ul class="is-unstyled" style="margin-left: 15px;">
+            
+            <li>
+                <span style="font-size: 12px;">
+                    
+                    <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#complexity-uncertainty-and-a-dilemma"><span style="visibility: visible;">2.1</span> &nbsp;  Complexity, uncertainty, and a dilemma</a>
+                    
+                </span>
+            </li>
+            
+            <li>
+                <span style="font-size: 12px;">
+                    
+                    <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#the-neocortical-proposal"><span style="visibility: visible;">2.2</span> &nbsp;  The neocortical proposal</a>
+                    
+                </span>
+            </li>
+            
+            <li>
+                <span style="font-size: 12px;">
+                    
+                    <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#pushing-complexity-down-to-the-implementation-level"><span style="visibility: visible;">2.3</span> &nbsp;  Pushing complexity down to the implementation level</a>
+                    
+                </span>
+            </li>
+            
+            <li>
+                <span style="font-size: 12px;">
+                    
+                    <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#no-simple-mapping-and-ambiguous-terms"><span style="visibility: visible;">2.4</span> &nbsp;  No simple mapping and ambiguous terms</a>
+                    
+                </span>
+            </li>
+            
+        </ul>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#implementing-layers-of-the-network"><span style="visibility: visible;">3</span> &nbsp;  Implementing layers of the network</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#implementing-prediction-units-and-error-units"><span style="visibility: visible;">4</span> &nbsp;  Implementing prediction units and error units</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#implementing-precision-weighting"><span style="visibility: visible;">5</span> &nbsp;  Implementing precision weighting</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#beyond-the-neocortical-proposal"><span style="visibility: visible;">6</span> &nbsp;  Beyond the neocortical proposal</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#using-implementation-to-explain-anomalies"><span style="visibility: visible;">7</span> &nbsp;  Using implementation to explain anomalies</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#constraining-the-empirical-content-of-predictive-coding"><span style="visibility: visible;">8</span> &nbsp;  Constraining the empirical content of predictive coding</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/#conclusion"><span style="visibility: visible;">9</span> &nbsp;  Conclusion</a>
+            
+        </span>
+        
+    </li>
+    
+</ul>
+
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+        <footer class="footer"></footer>
+
+        </div>
+
+        <script src="https://marksprevak.com/kube/js/kube.min.js"></script>
+<script>
+    $K.init();
+</script>
+
+
+    </body>
+</html>

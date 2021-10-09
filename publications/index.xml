@@ -5,7 +5,16 @@
     <link>https://marksprevak.com/publications/</link>
     <description>Recent content in Publications on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 25 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Predictive coding IV: The implementation level</title>
+      <link>https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/</link>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/</guid>
+      <description>1 Introduction A theory at Marr’s implementation level focuses on the relationship between the algorithm and the nuts and bolts of a physical machine. When a physical system implements an algorithm, its physical states should correspond to the algorithm’s abstract inputs, outputs, and intermediate states. Changes in those physical states should be governed by physical processes that mirror the corresponding changes between the abstract symbolic or numerical states described at the algorithmic level.</description>
+    </item>
+    
     <item>
       <title>Predictive coding III: The algorithmic level</title>
       <link>https://marksprevak.com/publications/predictive-coding-iii-the-algorithmic-level-4cf4/</link>

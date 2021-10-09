@@ -108,6 +108,7 @@ h3 {
 }
 
 .article-style blockquote {
+    font-style: revert;
     font-size: 18px;
     line-height: 1.35;
 }

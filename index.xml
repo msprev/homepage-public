@@ -5,7 +5,7 @@
     <link>https://marksprevak.com/</link>
     <description>Recent content on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 09 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Cognitive Science</title>
       <link>https://marksprevak.com/teaching/intro-to-cog-sci-ug/</link>
@@ -115,21 +115,39 @@ Please note that this is personal advice and not to be taken as a substitute for
     </item>
     
     <item>
-      <title>Predictive coding IV: The implementation level</title>
-      <link>https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/</link>
-      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
+      <title>Predictive coding I: Introduction</title>
+      <link>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</link>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/</guid>
-      <description>1 Introduction A theory at Marr’s implementation level focuses on the relationship between the algorithm and the nuts and bolts of a physical machine. When a physical system implements an algorithm, its physical states should correspond to the algorithm’s abstract inputs, outputs, and intermediate states. Changes in those physical states should be governed by physical processes that mirror the corresponding changes between the abstract symbolic or numerical states described at the algorithmic level.</description>
+      <guid>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</guid>
+      <description>1 Introduction Predictive coding is a computational model of cognition. Like other computational models, it attempts to explain human thought and behaviour in terms of computations performed by our brains. It differs from more traditional approaches in at least three respects. First, it aspires to be comprehensive: it aims to explain, not just one domain of human cognition, but all of it – perception, motor control, decision making, planning, reasoning, attention, and so on.</description>
+    </item>
+    
+    <item>
+      <title>Predictive coding II: The computational level</title>
+      <link>https://marksprevak.com/publications/predictive-coding-ii-the-computational-level-b9f5/</link>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/predictive-coding-ii-the-computational-level-b9f5/</guid>
+      <description>1 Introduction When we encounter a new computing device, we often try to describe its computational characteristics in terms of the task it faces: this shop’s cash register has the task of adding numbers, this computer programme has the task of sorting names into alphabetical order, this Excel spreadsheet has the task of calculating expected losses. As well as asking a how-question about the device – How does it work?</description>
     </item>
     
     <item>
       <title>Predictive coding III: The algorithmic level</title>
       <link>https://marksprevak.com/publications/predictive-coding-iii-the-algorithmic-level-4cf4/</link>
-      <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://marksprevak.com/publications/predictive-coding-iii-the-algorithmic-level-4cf4/</guid>
       <description>1 Introduction At Marr’s computational level, predictive coding suggests that the task facing the brain is to minimise its long-term, prediction-weighted sensory prediction error. This article focuses on the algorithm and representations by which the brain attempts to accomplish this task – in other words, what predictive coding says at Marr’s algorithmic level. In principle, a huge range of possible algorithms could be used to minimise sensory prediction error. Furthermore, nothing has been assumed about the brain’s success rate in solving this computational problem.</description>
+    </item>
+    
+    <item>
+      <title>Predictive coding IV: The implementation level</title>
+      <link>https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/</link>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/</guid>
+      <description>1 Introduction A theory at Marr’s implementation level focuses on the relationship between the algorithm and the nuts and bolts of a physical machine. When a physical system implements an algorithm, its physical states should correspond to the algorithm’s abstract inputs, outputs, and intermediate states. Changes in those physical states should be governed by physical processes that mirror the corresponding changes between the abstract symbolic or numerical states described at the algorithmic level.</description>
     </item>
     
     <item>
@@ -139,24 +157,6 @@ Please note that this is personal advice and not to be taken as a substitute for
       
       <guid>https://marksprevak.com/publications/philosophical-issues-in-computational-cognitive-sciences-06dd/</guid>
       <description>1 Introduction In 1962, Wilfred Sellars wrote: ‘The aim of philosophy, abstractly formulated, is to understand how things in the broadest possible sense of the term hang together in the broadest possible sense of the term’ (Sellars 1962 p. 35). On this view, philosophical issues are marked out not by having some uniquely philosophical subject matter, but in terms of the overall scope of the enquiry. When one turns to the philosophical issues, what one is doing is taking a step back from some of the details of the science and considering how matters hang together relative to the broad ambitions and goals that motivated the scientific enquiry in the first place.</description>
-    </item>
-    
-    <item>
-      <title>Predictive coding II: The computational level</title>
-      <link>https://marksprevak.com/publications/predictive-coding-ii-the-computational-level-b9f5/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/publications/predictive-coding-ii-the-computational-level-b9f5/</guid>
-      <description>1 Introduction When we encounter a new computing device, we often try to describe its computational characteristics in terms of the task it faces: this shop’s cash register has the task of adding numbers, this computer programme has the task of sorting names into alphabetical order, this Excel spreadsheet has the task of calculating expected losses. As well as asking a how-question about the device – How does it work?</description>
-    </item>
-    
-    <item>
-      <title>Predictive coding I: Introduction</title>
-      <link>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</link>
-      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</guid>
-      <description>1 Introduction Predictive coding is a computational model of cognition. Like other computational models, it attempts to explain human thought and behaviour in terms of computations performed by our brains. It differs from more traditional approaches in at least three respects. First, it aspires to be comprehensive: it aims to explain, not just one domain of human cognition, but all of it – perception, motor control, decision making, planning, reasoning, attention, and so on.</description>
     </item>
     
     <item>

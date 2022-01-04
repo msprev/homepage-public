@@ -5,7 +5,7 @@
     <link>https://marksprevak.com/</link>
     <description>Recent content on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Cognitive Science</title>
       <link>https://marksprevak.com/teaching/intro-to-cog-sci-ug/</link>
@@ -112,6 +112,15 @@ Please note that this is personal advice and not to be taken as a substitute for
       
       <guid>https://marksprevak.com/teaching/dissertations-past-ug/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>What realism about agents requires</title>
+      <link>https://marksprevak.com/publications/what-realism-about-agents-requires-c999/</link>
+      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/what-realism-about-agents-requires-c999/</guid>
+      <description>Bruineberg et al. distinguish a metaphysically robust use from a merely formal use of the concept of a Markov blanket (Friston vs Pearl blankets). They argue that Friston blankets are only able to do the work required of them if they yield a single principled boundary between the agent and world. They argue that Friston blankets cannot do this (Sect 5). Reasons include that a Friston blanket depends on a number of non-trivial assumptions that don’t flow purely from the formalism, including the choice of which Bayesian network one uses to model the system.</description>
     </item>
     
     <item>

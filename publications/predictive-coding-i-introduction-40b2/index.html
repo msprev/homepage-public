@@ -106,7 +106,7 @@
                                     
                                 </p>
                                 <p class="is-small" style="margin-top: 10px;">
-                                    <span>Last updated 19 October 2021</span>
+                                    <span>Last updated 10 March 2022</span>
                                     
                                 </p>
                             </div>
@@ -130,6 +130,29 @@
 
                         <div class="is-hidden-mobile">
                             
+                            <div class="article-style" style="margin-left: 30px; margin-right: 30px; margin-bottom: 30px;">
+                                <p>Predictive coding &#x2013; also known as &#x2018;predictive processing&#x2019;, &#x2018;free
+energy minimisation&#x2019;, or &#x2018;prediction error minimisation&#x2019; &#x2013; is an
+exciting novel account of human cognition. It claims to offer a complete
+and unified theory of cognition that stretches all the way from cellular
+biology to phenomenology. However, the exact content of the view, and
+how it might achieve these ambitions, is not clear. This series of
+articles examines predictive coding and attempts to identify its key
+commitments and its argumentative strategy. The present article begins
+by focusing on possible confounds with predictive coding: claims that
+are often identified with predictive coding, but which are not
+predictive coding. These possible confounds include the idea that the
+brain employs an efficient scheme for encoding incoming sensory signals;
+that our perceptual experience is shaped by our prior beliefs; that
+cognition involves minimisation of prediction error; that the brain is a
+probabilistic, approximately Bayesian, inference engine; and that the
+brain learns and employs a generative model of the world. These ideas
+have garnered widespread support in cognitive neuroscience over many
+years, but it is important not to conflate them, or empirical evidence
+that confirms them, with predictive coding.</p>
+
+                            </div>
+                            
                         </div>
                         <div class="is-shown-mobile">
                             
@@ -138,7 +161,26 @@
                                 Abstract:
                             </div>
                             <div class="article-style" style="margin-bottom: 30px;">
-                                
+                                <p>Predictive coding &#x2013; also known as &#x2018;predictive processing&#x2019;, &#x2018;free
+energy minimisation&#x2019;, or &#x2018;prediction error minimisation&#x2019; &#x2013; is an
+exciting novel account of human cognition. It claims to offer a complete
+and unified theory of cognition that stretches all the way from cellular
+biology to phenomenology. However, the exact content of the view, and
+how it might achieve these ambitions, is not clear. This series of
+articles examines predictive coding and attempts to identify its key
+commitments and its argumentative strategy. The present article begins
+by focusing on possible confounds with predictive coding: claims that
+are often identified with predictive coding, but which are not
+predictive coding. These possible confounds include the idea that the
+brain employs an efficient scheme for encoding incoming sensory signals;
+that our perceptual experience is shaped by our prior beliefs; that
+cognition involves minimisation of prediction error; that the brain is a
+probabilistic, approximately Bayesian, inference engine; and that the
+brain learns and employs a generative model of the world. These ideas
+have garnered widespread support in cognitive neuroscience over many
+years, but it is important not to conflate them, or empirical evidence
+that confirms them, with predictive coding.</p>
+
                             </div>
                             
                         </div>
@@ -227,318 +269,1477 @@
                             </div>
                             <div class="article-style">
                                 <div>
-<h1 data-number="1" id="introduction"><span class="header-section-number">1</span> Introduction</h1>
-<p>Predictive coding is a computational model of cognition. Like other computational models, it attempts to explain human thought and behaviour in terms of computations performed by our brains. It differs from more traditional approaches in at least three respects. First, it aspires to be <em>comprehensive</em>: it aims to explain, not just one domain of human cognition, but all of it – perception, motor control, decision making, planning, reasoning, attention, and so on. Second, it aims to <em>unify:</em> rather than explain cognition in terms of many different kinds of computation, it explains cognition by appeal to a single computation – one computational task and one computational algorithm are claimed to underlie all aspects of cognition. Third, it aims to be <em>complete</em>: it offers not just part of the story about the computation, but a model that stretches all the way from the details of neuromodulator release to abstract principles of rational action governing whole agents.</p>
-<p>This is exciting stuff, however understanding precisely what predictive coding says, and whether it can achieve these ambitions, is not straightforward. For one thing, the term ‘predictive coding’ means different things to different people. For another, important features of the view, whatever its name, are liable to change or are underspecified in important respects. In this article and the three that follow it, my aim is to outline what predictive coding is, or aspires to be, and how it might fulfil these ambitions.</p>
-<p>I claim that predictive coding should be understood as a loose alliance of three conceptually distinct claims. These claims, each of which may be precisified or qualified in variety of ways, are made at Marr’s <em>computational</em>, <em>algorithmic</em>, and <em>implementation</em> levels of description.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> At Marr’s computational level, predictive coding suggests that the <em>task</em> facing the brain in cognition is to minimise sensory prediction error. At the algorithmic level, predictive coding suggests that the <em>algorithm</em> by which our brains attempt to solve this task involves operation of a hierarchical artificial neural network of prediction and error units. This network may, in a further interpretative step, be understood as running a ‘message passing’ algorithm for approximate Bayesian inference. At Marr’s implementation level, predictive coding suggests that some of the <em>physical resources</em> that implement this algorithm are located in the human neocortex: anatomically distinct areas in the neocortex implement functionally distinct layers of the abstract hierarchical artificial neural network and anatomically distinct cell populations inside each neocortical area implement prediction and error units.</p>
-<p>Each of these claims is likely to be qualified in certain respects or supplemented by further details. Each needs to be stated more precisely and ideally associated with a quantitative mathematical formalisation. A path needs to be forged from the claims to supporting empirical evidence. Finally, one needs to show that the resultant model delivers the kinds of benefits originally promised – a comprehensive, unifying, and complete account of cognition. Different researchers within the predictive coding community have different opinions about how to do all this, and many of the details are simply currently left open. This means that the exact commitments of predictive coding are, to put it mildly, contentious. For all these reasons, it is more accurate to think of predictive coding as a <em>research programme</em> rather than as a mature theory that can be fully stated now. The aim of the research programme is to articulate and defend some sophisticated (likely heavily modified, precisified) descendent of the three claims above. As with any research programme, the merits of predictive coding should be judged in the round and, to some degree, prospectively: not just in terms of the raw predictive power and confirmation of what it says now, but also in terms of its potential future benefits, and its ability to inspire and guide fruitful future research.</p>
-<p>Before saying what predictive coding is, it is helpful to first say what it is not. In this article, I outline five ideas that are often presented alongside predictive coding, but which should be carefully distinguished from predictive coding. In the three articles that follow, I focus on the positive content of the view. These explore predictive coding’s claims at Marr’s computational, algorithmic, and implementation levels respectively <span class="citation" data-cites="Sprevak20b Sprevak20c Sprevak20d">(Sprevak forthcoming, forthcoming, forthcoming)</span>. My strategy is to present what, in my opinion, are the ‘bare bones’ of the approach. As we will see, there are many ways in which these basic ideas may be subsequently elaborated and refined. For readers new to this topic, I hope that this will provide you with a scaffold on which to drape your future, more nuanced understanding of the literature on predictive coding. Sometimes starting with a basic sketch is the best way to convey what is going on in a complex scene.</p>
-<p>In the remainder of this article, I focus on five ideas that feature prominently in many expositions of predictive coding, but which are <em>not</em> predictive coding. The ideas are: (i) the brain employs an efficient coding scheme; (ii) cognition contains many top-down, expectation-driven effects; (iii) cognition involves minimising prediction error; (iv) cognition is a form of probabilistic inference; (v) cognition employs generative models. I argue that, while these ideas are used by predictive coding, they do not reflect what is unique about that research programme. They are shared by a wide variety of alternative computational approaches to cognition that have little otherwise in common with predictive coding. If one wishes to know what is special about predictive coding, then these ideas, whatever their value, can function as potential distractors. An important corollary is that empirical evidence for predictive coding does not necessarily flow from the empirical evidence that supports these more general ideas. Empirical evidence for predictive coding should aim to <em>selectively</em> support predictive coding with respect to plausible contemporary rivals, not to confirm ideas that are shared by a wide variety of alternative approaches.</p>
-<p>In both the present article and those that follow, I consider predictive coding only as a proposed model of <em>subpersonal</em> cognitive processing. I do not examine how predictive coding’s computational model might be adapted, extended, or otherwise applied to describe personal-level thinking or conscious experience. Modelling conscious experience with predictive coding is a relatively new development that is gaining traction among philosophers. But it is a project that assumes we have a prior understanding of what predictive coding’s computational model is. That prior question is the focus of this review.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
-<p>As already mentioned, some authors use the term ‘predictive coding’ to refer to only one aspect of the view: for example, the ‘efficient coding’ strategy of Section 2, or the artificial neural network described in <span class="citation" data-cites="Sprevak20c">Sprevak (forthcoming)</span>. Likewise, some authors call the larger overarching research programme not ‘predictive coding’, but ‘predictive processing’, ‘prediction error minimisation’, or ‘free energy minimisation’. In what follows, I choose to use the term ‘predictive coding’ to refer to the entire research programme, and I disambiguate alternative usages along the way. Readers should feel free to substitute alternative terms as they please.</p>
-<h1 data-number="2" id="efficient-neural-coding"><span class="header-section-number">2</span> Efficient neural coding</h1>
-<p>An important idea that predictive coding employs is that the brain’s coding scheme for storing and transmitting sensory information is efficient. Neural activity, or rather certain aspects of it, should be seen through the lens of <em>compressing information</em> (and information should be understood in terms of Shannon information theory). To compress Shannon information, a system should aim to transmit only what is ‘new’ or ‘unexpected’ or ‘unpredicted’ relative to its expectations. If the brain embodies certain assumptions about its incoming sensory data, these could allow it to predict certain ‘bits’ of that incoming sensory stream. This means that fewer bits would need to be stored or transmitted inwards from the sensory periphery, yielding a gain in efficiency in storing and transmitting sensory information from the sensory organs to the rest of the brain. The more accurately the brain’s assumptions reflect its incoming sensory stream, the less information would need to be stored or transmitted inwards from the periphery. All that needs to be sent is the error with respect to its predictions. The same idea underlies efficient coding schemes used on electronic computers for storing and transmitting images and movies across the Internet (e.g. JPEG or MPEG).</p>
-<p>The notion that our brains use a coding scheme that is efficient in this respect dates back at least to the work of <span class="citation" data-cites="Attneave54">Attneave (1954)</span> and <span class="citation" data-cites="Barlow61a">Barlow (1961)</span>. They argued that the brain uses a compressing, ‘redundancy reducing’ code for sensory data partly based on the grounds that neurons in the early visual system have very limited physical dynamic range: the bits they store or transmit are precious and should not be squandered.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> Predictive coding employs the same basic idea, but elevates it to a universal design principle that governs all aspects of cognition and neural functioning. According to predictive coding, the brain is ruled by a single imperative – to maximally compress its incoming sensory stream. To this, predictive coding adds a range of assumptions about (i) the particular algorithm and representational scheme by which the incoming sensory signals are predicted and compressed; (ii) how the assumptions used for sensory compression are modified during learning; (iii) where physically in the brain all this takes place.</p>
-<p>The idea that brains code sensory information ‘efficiently’ is not unique to predictive coding. For one thing, predictive coding has rather specific views about how its sensory compression scheme operates – see (i)–(iii) above. For another, predictive coding holds the rather extreme position that redundancy reduction for sensory data is the brain’s <em>only</em> goal. As Barlow made clear in his later work, even if one thinks that sensory compression is one thing the brain does, it is not obvious that it is the only thing. In some circumstances, it may pay the brain <em>not</em> to compress:</p>
+<h1 data-number="1" id="introduction"><span
+class="header-section-number">1</span> Introduction</h1>
+<p>Predictive coding is a computational model of cognition. Like other
+computational models, it attempts to explain human thought and behaviour
+in terms of computations performed by our brains. It differs from more
+traditional approaches in at least three respects. First, it aspires to
+be <em>comprehensive</em>: it aims to explain, not just one domain of
+human cognition, but all of it – perception, motor control, decision
+making, planning, reasoning, attention, and so on. Second, it aims to
+<em>unify:</em> rather than explain cognition in terms of many different
+kinds of computation, it explains cognition by appeal to a single
+computation – one computational task and one computational algorithm are
+claimed to underlie all aspects of cognition. Third, it aims to be
+<em>complete</em>: it offers not just part of the story about the
+computation, but a model that stretches all the way from the details of
+neuromodulator release to abstract principles of rational action
+governing whole agents.</p>
+<p>This is exciting stuff, however understanding precisely what
+predictive coding says, and whether it can achieve these ambitions, is
+not straightforward. For one thing, the term ‘predictive coding’ means
+different things to different people. For another, important features of
+the view, whatever its name, are liable to change or are underspecified
+in important respects. In this article and the three that follow it, my
+aim is to outline what predictive coding is, or aspires to be, and how
+it might fulfil these ambitions.</p>
+<p>I claim that predictive coding should be understood as a loose
+alliance of three conceptually distinct claims. These claims, each of
+which may be precisified or qualified in variety of ways, are made at
+Marr’s <em>computational</em>, <em>algorithmic</em>, and
+<em>implementation</em> levels of description.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn1"
+class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> At
+Marr’s computational level, predictive coding suggests that the
+<em>task</em> facing the brain in cognition is to minimise sensory
+prediction error. At the algorithmic level, predictive coding suggests
+that the <em>algorithm</em> by which our brains attempt to solve this
+task involves operation of a hierarchical artificial neural network of
+prediction and error units. This network may, in a further
+interpretative step, be understood as running a ‘message passing’
+algorithm for approximate Bayesian inference. At Marr’s implementation
+level, predictive coding suggests that some of the <em>physical
+resources</em> that implement this algorithm are located in the human
+neocortex: anatomically distinct areas in the neocortex implement
+functionally distinct layers of the abstract hierarchical artificial
+neural network and anatomically distinct cell populations inside each
+neocortical area implement prediction and error units.</p>
+<p>Each of these claims is likely to be qualified in certain respects or
+supplemented by further details. Each needs to be stated more precisely
+and ideally associated with a quantitative mathematical formalisation. A
+path needs to be forged from the claims to supporting empirical
+evidence. Finally, one needs to show that the resultant model delivers
+the kinds of benefits originally promised – a comprehensive, unifying,
+and complete account of cognition. Different researchers within the
+predictive coding community have different opinions about how to do
+this, and many of the details are currently left open. This means that
+the exact commitments of predictive coding are, to put it mildly,
+contentious. For all these reasons, it is more accurate to think of
+predictive coding as a <em>research programme</em> rather than as a
+mature theory that can be stated in full now. The aim of the research
+programme is to articulate and defend some sophisticated (likely heavily
+modified and precisified) descendent of the three claims above. As with
+any research programme, the merits of predictive coding should be judged
+in the round and, to some degree, prospectively: not just in terms of
+the raw predictive power and confirmation of what it says now, but also
+in terms of its potential future benefits, and its ability to inspire
+and guide fruitful future research.</p>
+<p>Before saying what predictive coding is, it is helpful to first say
+what it is not. In this article, I outline five ideas that are often
+presented alongside predictive coding, but which should be carefully
+distinguished from predictive coding. In the three articles that follow,
+I focus primarily on the positive content of the view. These explore
+predictive coding’s claims at Marr’s computational, algorithmic, and
+implementation levels respectively <span class="citation"
+data-cites="Sprevak20b Sprevak20c Sprevak20d">(Sprevak forthcoming,
+forthcoming, forthcoming)</span>. My strategy is to present what, in my
+opinion, are the ‘bare bones’ of the approach. As we will see, there are
+many ways in which these basic ideas may be elaborated and refined. For
+readers new to this topic, I hope that this will provide you with a
+scaffold on which to drape your future, more nuanced understanding of
+the view. Sometimes starting with a basic sketch is the best way to
+convey what is going on in a complex scene.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn2"
+class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p>In the remainder of this article, I focus on five ideas that feature
+prominently in many expositions of predictive coding, but which are not
+predictive coding. The ideas are: (i) the brain employs an efficient
+coding scheme; (ii) cognition contains many top-down, expectation-driven
+effects; (iii) cognition involves minimising prediction error; (iv)
+cognition is a form of probabilistic inference; (v) cognition employs
+generative models. I argue that, while these ideas are used by
+predictive coding, they do not reflect what is distinctive about that
+research programme. They are shared by a wide variety of alternative
+computational approaches to cognition that have little otherwise in
+common with predictive coding. If one wishes to know what is novel with
+predictive coding, then these ideas, whatever their value, can function
+as potential distractors. An important corollary of this is that
+evidence for predictive coding does not necessarily flow from evidence
+that supports these more general ideas. Evidence for predictive coding
+should aim to <em>selectively</em> support predictive coding with
+respect to plausible contemporary rivals, not to confirm ideas that are
+shared by a wide variety of alternative approaches.</p>
+<p>In both the present article and those that follow, I consider
+predictive coding only as a model of <em>subpersonal</em> cognitive
+processing. I do not examine how predictive coding’s computational model
+might be adapted, extended, or otherwise applied to account for
+personal-level thinking or conscious experience. Modelling conscious
+experience with predictive coding is a relatively new development that
+is gaining traction among philosophers. But it is also a project that
+assumes we have a prior understanding of what predictive coding’s
+computational model is. That prior question is the focus of this
+review.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a></p>
+<p>As already mentioned, some authors use the term ‘predictive coding’
+to refer to only one aspect of the view: for example, the ‘efficient
+coding’ strategy of Section 2, or the artificial neural network
+described in <span class="citation" data-cites="Sprevak20c">Sprevak
+(forthcoming)</span>. Likewise, some authors call the larger overarching
+research programme not ‘predictive coding’, but ‘predictive processing’,
+‘prediction error minimisation’, or ‘free energy minimisation’. In what
+follows, I choose to use the term ‘predictive coding’ to refer to the
+entire research programme, and I disambiguate alternative usages along
+the way. Readers should feel free to substitute alternative terms as
+they please.</p>
+<h1 data-number="2" id="efficient-neural-coding"><span
+class="header-section-number">2</span> Efficient neural coding</h1>
+<p>An important idea that predictive coding employs is that the brain’s
+coding scheme for storing and transmitting sensory information is
+efficient. Neural activity, or rather certain aspects of it, should be
+seen through the lens of <em>compressing information</em> (and
+information should be understood in terms of Shannon information
+theory). To compress Shannon information, a system should aim to
+transmit only what is ‘new’ or ‘unexpected’ or ‘unpredicted’ relative to
+its expectations. If the brain embodies certain assumptions about its
+incoming sensory data, these could allow it to predict certain ‘bits’ of
+that incoming sensory stream. This means that fewer bits would need to
+be stored or transmitted inwards from the sensory periphery, yielding a
+gain in efficiency in storing and transmitting sensory information from
+the sensory organs to the rest of the brain. The more accurately the
+brain’s assumptions reflect its incoming sensory stream, the less
+information would need to be stored or transmitted inwards from the
+periphery. All that needs to be sent is the error with respect to its
+predictions. The same idea underlies efficient coding schemes used on
+electronic computers for storing and transmitting images and movies
+across the Internet (e.g. JPEG or MPEG).</p>
+<p>The notion that our brains use a coding scheme that is efficient in
+this respect dates back at least to the work of <span class="citation"
+data-cites="Attneave54">Attneave (1954)</span> and <span
+class="citation" data-cites="Barlow61a">Barlow (1961)</span>. They
+argued that the brain uses a compressing, ‘redundancy reducing’ code for
+sensory data partly based on the grounds that neurons in the early
+visual system have very limited physical dynamic range: the bits they
+store or transmit are precious and should not be squandered.<a
+href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a> Predictive coding employs the same
+basic idea, but elevates it to a universal design principle that governs
+all aspects of cognition and neural functioning. According to predictive
+coding, the brain is ruled by a single imperative – to maximally
+compress its incoming sensory stream. To this, predictive coding adds a
+range of assumptions about (i) the particular algorithm and
+representational scheme by which the incoming sensory signals are
+predicted and compressed; (ii) how the assumptions used for sensory
+compression are modified during learning; (iii) where physically in the
+brain all this takes place.</p>
+<p>The idea that brains code sensory information ‘efficiently’ is not
+unique to predictive coding. For one thing, predictive coding has rather
+specific views about how its sensory compression scheme operates – see
+(i)–(iii) above. For another, predictive coding holds the rather extreme
+position that redundancy reduction for sensory data is the brain’s
+<em>only</em> goal. As Barlow made clear in his later work, even if one
+thinks that sensory compression is one thing the brain does, it is not
+obvious that it is the only thing. In some circumstances, it may pay the
+brain <em>not</em> to compress:</p>
 <blockquote>
-<p>The point Attneave and I failed to appreciate is that the best way to code information depends enormously on the use that is to be made of it … if you simply want to transmit information to another location, then redundancy-reducing codes economizing channel capacity are what you need … But the brain is not just a communication system, and we now need to survey cases where compression is not the best way to exploit statistical structure. <span class="citation" data-cites="Barlow01">(Barlow 2001 p. 246)</span>.</p>
+<p>The point Attneave and I failed to appreciate is that the best way to
+code information depends enormously on the use that is to be made of it
+… if you simply want to transmit information to another location, then
+redundancy-reducing codes economizing channel capacity are what you need
+… But the brain is not just a communication system, and we now need to
+survey cases where compression is not the best way to exploit
+statistical structure. <span class="citation"
+data-cites="Barlow01">(Barlow 2001 p. 246)</span>.</p>
 </blockquote>
-<p>One can appreciate Barlow’s point by considering what is the most efficient coding scheme for image data on an electronic computer. What counts as the most efficient coding scheme depends, not just on how many bits one would save during storage or transmission of the image, but also on what one wishes to do with the image data. If all one wishes to do is transmit the image across a low-bandwidth channel (e.g. a slow Internet connection), then compressing it using a scheme like JPEG makes sense, since it reduces the amount of data you need to transport. Similarly, if all one wishes is to store the image on a small hard drive, then JPEG may be a good scheme, since it minimises how much storage would be used.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> However, if you want to <em>transform</em> the image or <em>perform an inference</em> over it, then a scheme like JPEG may not be the best or most efficient coding system. Compressed data are often harder to work with. If you ask your computer to rotate an image 23 degrees clockwise, the computer will generally not do this with the compressed data. Instead, it will switch to an uncompressed version of the image (a two-dimensional array of RGB values at X, Y pixel locations). Image processing algorithms defined over uncompressed data tend to be shorter, simpler, and faster than those over their compressed counterparts.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> Uncompressed images have extra structure, and that structure can make the job of an algorithm that operates on them easier, even if it adds extra overhead to store or transmit.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
-<p>If the only costs that matter to the brain are the storage and transmission costs of incoming sensory data, then it may make sense for the brain to exclusively aim to compress that incoming sensory data. However, if other considerations matter – e.g. speed, simplicity, and ease in inference – then it may make sense to add or preserve redundant structure in incoming sensory data.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> Optimising for redundancy reduction of sensory data is not the only possible objective for a cognitive system that seeks efficiency.</p>
-<p>It is not uncommon for contemporary work on the ‘efficient coding’ hypothesis in computational cognitive science to acknowledge this point.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> Predictive coding has rather strong and unusual views about this: it equates efficient coding with sensory redundancy reduction, it claims that the entire brain (not just certain areas in the sensory cortex) is devoted to this sensory compression, and it claims that this is accomplished by a specific algorithm and representational scheme. The basic idea that <em>one</em> of the things that the brain does is sensory compression is, however, not unique to predictive coding.</p>
-<h1 data-number="3" id="top-down-expectation-driven-effects-in-perception"><span class="header-section-number">3</span> Top-down, expectation-driven effects in perception</h1>
-<p>Top-down, expectation-driven effects in perception are cases in which what an agent ‘thinks’ systematically affects what they ‘perceive’. Top-down, expectation-driven effects are often presented as part and parcel of predictive coding. Predictive coding’s model is thought to imply that human perception is fundamentally top-down or expectation-laden: ‘What we perceive (or think we perceive) is heavily determined by what we know’ <span class="citation" data-cites="Clark11">(Clark 2011)</span>. Experimental evidence for top-down, expectation-driven effects is sometimes presented as evidence that supports predictive coding. The reasoning here appears to be that if predictive coding is true, then top-down, expectation-driven effects are to be expected; they can be predicted and explained in terms of the two-way flow of prediction and error signals inside predictive coding’s computational model.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></p>
-<p>However, the relationship between predictive coding and top-down, expectation-driven effects in perception is complex.</p>
-<p>For one thing, top-down effects are normally identified with a relationship between an agent’s <em>personal-level</em> states: what an agent <em>believes</em> affects their perceptual <em>experience</em>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> Predictive coding is, at least in the first instance, a claim about the agent’s subpersonal computational processes. The ‘top’ and ‘bottom’ in predictive coding, as we will see, refer to subpersonal computational states. Predictive coding proposes that ‘high-level’ neural representations (implemented deep in the cortical hierarchy) have a ‘top-down’ influence on ‘low-level’ representations (implemented in the early sensory system).<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> How this kind of subpersonal top-down effect relates to personal-level top-down effects observed in psychology is presently unclear.</p>
-<p>Plausibly, the existence of any personal-level top-down effects requires <em>some</em> information flow at the subpersonal level from high-level cognitive centres to low-level sensory systems. However, only a tiny fraction of the top-down subpersonal information processing posited by predictive coding is reflected in the contents of personal-level belief or perceptual experience. For predictive coding to say something specific about the existence or character of personal-level top-down effects, it would need to say <em>which</em> aspects of that subpersonal information flow give rise to <em>which</em> personal-level states (beliefs and perceptual contents). These assumptions are not currently to be found in predictive coding’s core computational model. Ideas about these have been proposed, but exactly how subpersonal states in the computational model map onto personal-level beliefs and perceptual experiences remains a highly speculative matter. Absent confidence in such assumptions however, it is simply unclear how predictive coding’s computational architecture bears, or if it bears at all, on personal-level top-down effects observed in perception.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></p>
-<p>A separate issue complicating the relationship between predictive coding and top-down effects is that positing top-down subpersonal information flow in a computational model is not a feature that is <em>unique</em> to predictive coding. Indeed, almost any computational model of cognition will involve information flowing downwards from high-level cognitive centres to low-level sensory systems. There is an obvious need for top-down subpersonal influence to account for the action of endogenous attention and to explain how and why certain sensory processes get suppressed or enhanced based on the agent’s background knowledge and assumptions.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a> A further commonly cited consideration is the huge number of descending neural pathways in the mammalian brain that carry information in the cerebral cortex backwards from higher cognitive areas to lower sensory areas. Hypotheses abound about the computational function of these neural backwards connections. Even if one were to disregard them, there are plenty of other routes by which information in high-level cognition is likely to systemically influence low-level sensory systems. As <span class="citation" data-cites="FirestoneScholl16">Firestone &amp; Scholl (2016)</span> point out, the decision to “shut one’s eyes”, which causes one’s eyelids to close, has an evident effect on one’s sensory input, thereby opening up an information-bearing channel (looping out into the world) via which high-level representations can influence low-level sensations.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a> Finally, even so-called feedforward computational models – e.g. the account of the early visual system proposed by <span class="citation" data-cites="Marr82">Marr (1982)</span>, Ch. 3 – are normally qualified with a rider that, <em>of course</em>, additional top-down, expectation-driven subpersonal influences exist, even if they have been omitted from the model for the sake of simplicity.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a></p>
-<p>When suggesting that it can account for personal-level top-down, expectation-driven effects in perception, the case predictive coding has to make is why its specific set of top-down computational pathways is <em>uniquely</em> or <em>best</em> suited to explain personal-level effects. There are a vast number of alternative computational architectures that allow for some degree and manner of subpersonal top-down influence. These include endless varieties of artificial neural network and classical, symbolic architectures that contain loops. It is presently unclear why predictive coding’s proposal is the best one to explain personal-level top-down effects in psychology. To be clear, predictive coding <em>allows</em> for top-down effects in perception to occur; it is also broadly <em>suggestive</em> that such effects will occur. What is not clear is that it is better suited to account for these effects than any number of alternative computational models. For these reasons, it is not clear how empirical evidence of personal-level top-down selectively confirms predictive coding.</p>
-<h1 data-number="4" id="minimising-prediction-error"><span class="header-section-number">4</span> Minimising prediction error</h1>
-<p>Minimising prediction error is a common objective in modern artificial intelligence and machine learning. Researchers often define learning tasks or inference tasks as problems of minimising prediction error (about reward or other kinds of data). A computational system that learns tries to tweak the parameters of its mathematical model to fit or predict its data. A computational system that performs inference often tries to make predictions that will minimise error or be as close to reality (‘ground truth’) as possible.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a> Different types of computational system differ in the kinds of data they try to predict, the mathematical model they use, and the methods they use to fit their model or perform inference.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a> Prediction error can also be measured in many different ways. A commonly used measure is the mean value of the squared difference between predictions and the actual data – ‘mean-squared error’. Many computational systems change their mathematical models or their variables to minimise the magnitude of their mean-squared errors.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a></p>
-<p>The space of possible computational models that attempt to minimise prediction error is vast. You can get some idea of its size and diversity by opening up any current textbook on machine learning or statistics.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a> A relatively simple example of such a model is one that performs regression. Regression is an attempt to fit a polynomial function of a certain degree – a smooth curve – to observed data and use that curve to make predictions about unobserved cases. Classical regression techniques in statistics tell the computational agent how to find such polynomial functions. The simplest version of this method is linear regression, which uses a straight line as its model of the data (a polynomial of degree 1). Minimising prediction error reduces to the task of finding the value of the two numerical parameters (slope and y-intercept) that define a straight line that minimises the mean-squared error in predicting known data.</p>
-<p>Deep neural networks offer examples of much richer and more complicated mathematical models that also aim to minimise prediction error. The predictions generated by a deep neural network may involve stringing together a huge sequence of mathematical operation with many variables. Learning for these models consists in finding the values, not of just two, but of millions of parameters that minimise the model’s prediction error. Learning techniques for deep neural networks, e.g. various versions of backpropagation, attempt to iteratively modify the model’s many parameters to produce a model that does better at minimising prediction error.</p>
-<p>Predictive coding says that the brain aims to minimise prediction error. What distinguishes predictive coding from other contemporary approaches is that it makes distinctive claims about the <em>data</em>, <em>model</em>, and <em>algorithm</em> used to minimise prediction error; a further point of difference is that predictive coding makes a special claim about the <em>role</em> of minimising prediction error in the brain’s overall cognitive economy.</p>
-<p>The <em>data</em> that the brain attempts to predict are, according to predictive coding, the brain’s sensory signals. Predictive coding claims that the brain aims to minimise its prediction error over (a weighted average of) its incoming sensory signals.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a> This should be distinguished from alternative hypotheses about data over which predictions are made, such as the claim that the brain attempts to minimise prediction error over its <em>reward</em> signals.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a> The <em>model</em> the brain uses to generate its predictions consists in a deep artificial neural network with a specific topology and pattern of connections between prediction and error units. This artificial neural network is organised in a way that is quite unlike those commonly found in modern commercial applications of deep learning and artificial intelligence. The <em>algorithm</em> predictive coding ascribes to the brain for finding the right parameters of this artificial neural network is also unusual. Unlike in most commercial applications of deep learning – which rely on some version of backpropagation – predictive coding proposes that learning occurs via Hebbian learning.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a> A special <em>role</em> is also accorded to prediction error minimisation. Predictive coding claims that minimising sensory prediction error is not just one objective among many that the brain faces, but its <em>only</em> goal. Minimising prediction error should be understood as the objective of all aspects of cognition (and not just, say, something that it does in perceptual learning or classification).</p>
-<p>Many contemporary computational models of cognition advert to the notion of minimising prediction error. What marks out predictive coding as special is that it proposes that the brain uses a specific dataset, a specific mathematical model, a specific algorithm, and it accords this task a special role in cognition. Evidence that the brain contains prediction errors or that it is sometimes engaged in the task of minimising prediction error, even if it is compatible with what predictive coding says, is liable to also fit many other approaches. These might also posit prediction errors, but minimise them in different ways, or not grant them a universal role in governing all aspects of cognition. In order to selectively confirm predictive coding, one needs further details about the nature, role, and function of these prediction error signals in the brain – Are they exclusively sensory predictions? How were they created? How would they be revised? What is their role across different cognitive tasks?</p>
-<h1 data-number="5" id="cognition-as-a-form-of-probabilistic-inference"><span class="header-section-number">5</span> Cognition as a form of probabilistic inference</h1>
-<p>Cognitive systems receive noisy, incomplete, and sometimes contradictory information from the world. They need to weigh this information rapidly and efficiently, and integrate it with (perhaps conflicting) background knowledge in order to reach a decision or to generate behaviour. Probabilistic computational models have been widely adopted in computational cognitive science to help shed light on this.</p>
-<p>According to these models, brains represent multiple incompatible possibilities (e.g. ‘the person facing me is my father, my uncle, his cousin, …’) along with some measure of uncertainty about those various outcomes. Subsequent steps in the cognitive processing will take each of these different possibilities into account, weighted somehow by the cognitive system’s degree of uncertainty. The essential idea is that the brain does not ‘put all its money’ on one outcome at any given moment, but rather keeps track of many possibilities, along with its degree of uncertainty about them.</p>
-<p>Computational models tend to develop this idea by ascribing mathematical <em>subjective probability distributions</em> to cognitive systems. These subjective probability distributions describe the cognitive system’s degree of uncertainty or confidence across many possible outcomes. Cognitive processes are modelled as a series of elementary steps in which one subjective probability distribution conditions, or updates, another. Cognition might maintain this probabilistic character right until the moment the cognitive system is forced to plump for a specific outcome in action (e.g. the agent is required to respond ‘yes’/‘no’ in a forced-choice task). The probabilistic rules that govern this processing – the steps by which subjective probabilities are combined or updated in the brain – may vary between different approaches. It is important to note however, that the subjective probabilities that are ascribed may not be personal-level states of the whole agent <span class="citation" data-cites="deFinetti90 Ramsey90">(e.g. as in the classical degrees of belief discussed by de Finetti 1990; Ramsey 1990)</span>. Subjective probability distributions are often ascribed to subpersonal parts of the agent (e.g. cognitive subsystems, neural regions, cell populations, or even individual neurons) <span class="citation" data-cites="Deneve08 PougetDayan03">(for example, see Deneve 2008; Pouget et al. 2003)</span>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a></p>
-<p>A particularly influential example of this approach is the so-called ‘Bayesian brain’ hypothesis. This suggests that Bayes’ rule, or some approximation to it, describes the rules by which the human brain combines and updates its subjective probability distributions. Exact Bayesian inference is computationally costly, so most advocates of the Bayesian brain hypothesis believe that the brain performs some version of <em>approximate Bayesian inference</em>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a> There are a vast range of algorithms to choose from here. Bayesian algorithms tend to fall into two camps: <em>sampling methods</em> (which aim to follow the trajectory of multiple categorical samples through inference to create a posterior empirical distribution that approximates the true Bayesian posterior) and <em>variational methods</em> (which use simplified, less computationally demanding subjective probability distributions, varying their parameters to find an analytical result that is close to the true Bayesian posterior). Both approaches for approximating Bayesian inference are common in modern artificial intelligence and machine learning.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a> Advocates of the Bayesian brain hypothesis do not agree about whether the brain uses a sampling method or a variational method.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a></p>
-<p>Predictive coding is one example of a probabilistic model of cognition and an instance of the Bayesian brain hypothesis. Predictive coding identifies the task the brain faces in cognition as that of minimising sensory prediction error. If combined with appropriate simplifying assumptions, this task can be shown to entail approximate Bayesian inference.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a> The numerical values that feature in predictive coding’s artificial neural network can be interpreted as parameters of subjective probability distributions (namely, as the means and variances of Gaussian distributions). Predictive coding’s algorithm can be interpreted as a particular version of variational Bayesian inference.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn28" class="footnote-ref" id="fnref28" role="doc-noteref"><sup>28</sup></a> Predictive coding proposes that these numerical parameters, hence the subjective probability distributions manipulated in cognition, are encoded in the average firing rates of neural populations of layers in the neocortex, and the manner in which these subjective probability distributions condition one another in inference is encoded in the strength of the synaptic connections between distinct neocortical areas.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn29" class="footnote-ref" id="fnref29" role="doc-noteref"><sup>29</sup></a></p>
-<p>Someone might endorse the idea that the brain engages in probabilistic inference, or even the Bayesian brain hypothesis, but reject some or all of predictive coding’s specific assumptions about how all of this works. They might, for example, not accept that <em>all</em> aspects of human cognition involve Bayesian inference, or that <em>every</em> aspect of cognition involves inference over the <em>same</em> probabilistic model, or that the subjective probability distributions are always <em>Gaussian</em>, or that the brain’s rules for manipulating these distributions are predictive coding’s specific version of <em>variational</em> Bayes, or that average firing rates in neocortical layers encode the parameters of the brain’s subjective probability distributions.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn30" class="footnote-ref" id="fnref30" role="doc-noteref"><sup>30</sup></a> The space of possible computational models that treat cognition as involving some kind of probabilistic inference is vast. Evidence in favour of a probabilistic approach to cognition cannot straightforwardly be treated as evidence that confirms predictive coding as opposed to any number of other views.</p>
-<h1 data-number="6" id="cognition-uses-a-generative-model"><span class="header-section-number">6</span> Cognition uses a generative model</h1>
-<p>A generative model is a special kind of representation that describes how observations are produced by unobserved (‘latent’) variables in the world. If a generative model were supplied with the information that your best friend enters the room, it might tell you about which sights, sounds, smells you would experience. There is a growing acceptance in computational cognitive science (and AI) that generative models – and in particular, <em>probabilistic</em> generative models – are likely to play an important role in cognition. This is for at least three (interrelated) reasons.</p>
-<p>First, a generative model would help a cognitive system solve the problem of distinguishing between changes in its sensory data that are <em>self-generated</em> and <em>externally generated</em>. When our eyes move, the pattern of light projected onto our retinas changes. How does our brain distinguish these kinds of self-generated change from the changes that would be produced by the movement of external objects in our environment? <span class="citation" data-cites="Helmholtz67">Helmholtz (1867)</span> suggested that the brain makes a copy of its motor plans and uses this copy (the ‘efference copy’) to predict how its planned movements are likely to affect future sensory data. When the cognitive system issues a motor command (e.g. to rotate its eyeballs), it sends a copy of the command to a generative model (the ‘forward model’ or ‘motor emulator’), which predicts the sensory consequences that will flow from that motor command (how sensory data are likely to change if the eyeballs rotate). These consequences are then fed back to the sensory system and the brain uses them to ‘subtract away’ estimated self-generated changes from the incoming data. A generative model could thus help the brain to distinguish changes to the sensory data wrought by itself from those that are caused by external objects.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn31" class="footnote-ref" id="fnref31" role="doc-noteref"><sup>31</sup></a></p>
-<p>Second, a generative model could help the brain overcome some of the latency, noise, variability, and gaps in sensory input that potentially cause problems for motor control. When you execute a complex, rapid motion – e.g. a tennis serve – your brain needs to have accurate, low-latency sensory feedback. During the motion, your brain needs to know where your limbs are, how its intended motor plan is unfolding, if any resistance is being met, and how the positions of external objects (like the ball) are changing. Complex, rapid motor control needs to be <em>regulated</em> by sensory feedback. The problem the brain faces is that, due to limitations in its hardware, this sensory feedback tends to arrive late, with many gaps, and a great deal of noise and variability. A generative model would allow the brain to partly overcome these limitations by introducing regulation based, not on <em>actual</em> sensory feedback, but on <em>expected</em> feedback. This would mean that the brain would not need to wait for (slow, noisy, gappy) sensory data to arrive. It could control motion based on expected sensory data, updating its generative model as and when the actual sensory data do arrive. Potentially, that updating might take into account all sorts of background information that the brain has about systematic bias, noise, or uncertainty in the sensory data or sensory organs. Advocates of this approach suggest that a probabilistic generative model, updated using Bayesian rules, could allow the brain to make <em>optimal</em> use of its background knowledge and sensory data to regulate motor control and motor learning.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn32" class="footnote-ref" id="fnref32" role="doc-noteref"><sup>32</sup></a></p>
-<p>Third, a generative model that takes a probabilistic form could, in principle, be inverted using Bayes’ theorem to yield a <em>discriminative</em> model of a domain. Discriminative models are of obvious value in many areas of cognition. A discriminative model tells the cognitive system, given some sensory signal, which state(s) of the world are most likely to be responsible for its observations.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn33" class="footnote-ref" id="fnref33" role="doc-noteref"><sup>33</sup></a> Discriminative models are needed in visual perception, object categorisation, speech recognition, detection of causal relations, and social cognition. Whereas a discriminative model tells the cognitive system how make the inferential leap <em>from</em> sensory data <em>to</em> the value of latent unobserved variables, a generative model tells the cognitive system how to make an inference <em>from</em> the value of latent variables <em>to</em> sensory observations. That inverse information might not initially appear to be useful, but if the system applies Bayes’ theorem, a generative model can be flipped to create a discriminative model. What is more, building a generative model of a domain might be a computationally attractive strategy because generative models are often easier to learn, easier to update, more compact to represent, and less liable to break as background conditions change than discriminative models.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn34" class="footnote-ref" id="fnref34" role="doc-noteref"><sup>34</sup></a> Therefore, an effective method for answering a discriminative query (what is the value of a latent variable, given my sensory input?) is sometimes to learn and maintain a generative model of the domain in question and then invert it as and when needed using Bayes’ theorem to answer the query. It is common to see this generative strategy used in contemporary machine learning and computational cognitive science.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn35" class="footnote-ref" id="fnref35" role="doc-noteref"><sup>35</sup></a></p>
-<p>Nowadays, it is not unusual for a computational model of cognition to include a generative model. However, the considerations above do not specifically support predictive coding’s proposal about the nature, content, and function of a generative model. They do not, for example, commit to the idea that the brain only has one generative model, or that computation over that generative model is its exclusive method of inference, or to predictive coding’s ideas about the particular content or structure of the brain’s probabilistic generative model, the algorithms by which it is updated or used in inference, or where in the brain it is physically implemented. As far as the points above are concerned, there may be multiple generative models in cognition. Distinct models might exist in relative informational isolation inside different cognitive modules – there might, for example, be a domain-specific generative model dedicated exclusively to motor control.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn36" class="footnote-ref" id="fnref36" role="doc-noteref"><sup>36</sup></a> The considerations above are also consistent with the brain using other methods alongside generative models to solve problems. When faced with a discriminative problem, for example, the brain might sometimes learn and use a discriminative model of that domain directly, or adopt any number of hybrid generative-discriminative approaches.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn37" class="footnote-ref" id="fnref37" role="doc-noteref"><sup>37</sup></a> Finally, there are endless ways in which the content and structure of a generative model might be filled out, methods by which a generative model might be updated and used, and proposals for how it might be physically implemented in the brain.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn38" class="footnote-ref" id="fnref38" role="doc-noteref"><sup>38</sup></a></p>
-<p>Generative models feature in many contemporary computational models of cognition. Predictive coding employs the idea, but the idea is not unique to predictive coding. The proposal that the brain uses a generative model should not be equated with predictive coding. One should not assume that empirical evidence that favours the hypothesis that the brain employs a generative model is also evidence that supports predictive coding’s specific proposal about the character and role of a generative model in cognition.</p>
-<h1 data-number="7" id="conclusion"><span class="header-section-number">7</span> Conclusion</h1>
-<p>The aim of this paper is to separate five influential ideas about computational modelling of cognition from predictive coding. Many philosophers first encounter these five ideas in the context of predictive coding. They should be aware that the ideas are not unique to that view: they exist in a broader intellectual landscape and they are employed by approaches that have little or nothing to do with predictive coding. Endorsement of one or more of the ideas should not be interpreted as an implicit endorsement of predictive coding. Empirical evidence that supports one or more of the ideas should not be interpreted as straightforwardly evidence for predictive coding (rather than evidence for any number of other views). If one wants to understand the <em>distinctive</em> content of predictive coding, or to evaluate the empirical evidence for it, one needs to disentangle it from these other ideas.</p>
-<p>Of course, there is nothing to stop one from adopting the deflationary view that ‘predictive coding’ refers to some broad, unspecified synthesis of the five ideas. On such a view, one could say, without fear of contradiction, that predictive coding is already widely accepted and experimentally confirmed. However, there are good reasons to resist such a move. Advocates of predictive coding are keen to stress that their view is both novel with respect to contemporary rivals and that it has testable empirical content. To the extent that these claims are justified, an advocate of predictive coding should be able to show that predictive coding departs from other views and that it does not make a claim that is so anodyne as to be consistent with any future evidence. Clark, for example, warns against interpreting predictive coding as ‘extremely broad vision of the brain as an engine of multilevel probabilistic prediction’ <span class="citation" data-cites="Clark15">(Clark 2016 p. 10)</span>. Predictive coding should be a ‘specific proposal’, not a ‘broad vision’ (ibid.). Hohwy observes that there can be an ambiguity in how the view is presented which means that it is ‘both mainstream and utterly controversial’ <span class="citation" data-cites="Hohwy13">(Hohwy 2013 p. 7)</span>. Hohwy says that in order to make meaningful contact with empirical evidence, a specific version of the theory is needed <span class="citation" data-cites="Hohwy13">(Hohwy 2013 pp. 7–8)</span>.</p>
-<p>What is that specific, constrained version of predictive coding? In what follows, I propose that what distinguishes predictive coding consists in a combination of three, potentially dissociable, claims, each of which may be further developed or qualified in various ways. These claims concern how cognition works at Marr’s <em>computational</em>, <em>algorithmic</em>, and <em>implementation</em> levels.</p>
-<p>It is worth tempering what follows with the cautionary note that the content of predictive coding is in no way a settled matter. Researchers differ about which features of the view matter, how they should be articulated, whether the resulting model will have a truly universal applicability to every aspect of human cognition, and whether the computational, algorithmic, and implementation level claims should all be asserted together, or packaged into a single framework in the way proposed. Cutting through this disagreement and uncertainty however, is an idea that has inspired many researchers: a simple, bold, unifying picture of the mind, its computational architecture, and its physical implementation. This (perhaps deliberately idealised and simplified) version of the view will be the primary target of the next three papers.</p>
+<p>One can appreciate Barlow’s point by considering what is the most
+efficient coding scheme for image data on an electronic computer. What
+counts as the most efficient coding scheme depends, not just on how many
+bits one would save during storage or transmission of the image, but
+also on what one wishes to do with the image data. If all one wishes to
+do is transmit the image across a low-bandwidth channel (e.g. a slow
+Internet connection), then compressing it using a scheme like JPEG makes
+sense, since it reduces the amount of data you need to transport.
+Similarly, if all one wishes is to store the image on a small hard
+drive, then JPEG may be a good scheme, since it minimises how much
+storage would be used.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a> However, if you want to
+<em>transform</em> the image or <em>perform an inference</em> over it,
+then a scheme like JPEG may not be the best or most efficient coding
+system. Compressed data are often harder to work with. If you ask your
+computer to rotate an image 23 degrees clockwise, the computer will
+generally not do this with the compressed data. Instead, it will switch
+to an uncompressed version of the image (a two-dimensional array of RGB
+values at X, Y pixel locations). Image processing algorithms defined
+over uncompressed data tend to be shorter, simpler, and faster than
+those over their compressed counterparts.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn6"
+class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>
+Uncompressed images have extra structure, and that structure can make
+the job of an algorithm that operates on them easier, even if it adds
+extra overhead to store or transmit.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn7" class="footnote-ref"
+id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<p>If the only costs that matter to the brain are the storage and
+transmission costs of incoming sensory data, then it may make sense for
+the brain to exclusively aim to compress that incoming sensory data.
+However, if other considerations matter – e.g. speed, simplicity, and
+ease in inference – then it may make sense to add or preserve redundant
+structure in incoming sensory data.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn8" class="footnote-ref"
+id="fnref8" role="doc-noteref"><sup>8</sup></a> Optimising for
+redundancy reduction of sensory data is not the only possible objective
+for a cognitive system that seeks efficiency.</p>
+<p>It is not uncommon for contemporary work on the ‘efficient coding’
+hypothesis in computational cognitive science to acknowledge this
+point.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn9" class="footnote-ref" id="fnref9"
+role="doc-noteref"><sup>9</sup></a> Predictive coding has rather strong
+and unusual views about this: it equates efficient coding with sensory
+redundancy reduction, it claims that the entire brain (not just certain
+areas in the sensory cortex) is devoted to this sensory compression, and
+it claims that this is accomplished by a specific algorithm and
+representational scheme. The basic idea that <em>one</em> of the things
+that the brain does is sensory compression is, however, not unique to
+predictive coding.</p>
+<h1 data-number="3"
+id="top-down-expectation-driven-effects-in-perception"><span
+class="header-section-number">3</span> Top-down, expectation-driven
+effects in perception</h1>
+<p>Top-down, expectation-driven effects in perception are cases in which
+what an agent ‘thinks’ systematically affects what they ‘perceive’.
+Top-down, expectation-driven effects are often presented as part and
+parcel of predictive coding. Predictive coding’s model is thought to
+imply that human perception is fundamentally top-down or
+expectation-laden: ‘What we perceive (or think we perceive) is heavily
+determined by what we know’ <span class="citation"
+data-cites="Clark11">(Clark 2011)</span>. Experimental evidence for
+top-down, expectation-driven effects is sometimes presented as evidence
+that supports predictive coding. The reasoning here appears to be that
+if predictive coding is true, then top-down, expectation-driven effects
+are to be expected; they can be predicted and explained in terms of the
+two-way flow of prediction and error signals inside predictive coding’s
+computational model.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn10" class="footnote-ref" id="fnref10"
+role="doc-noteref"><sup>10</sup></a></p>
+<p>However, the relationship between predictive coding and top-down,
+expectation-driven effects in perception is complex.</p>
+<p>For one thing, top-down effects are normally identified with a
+relationship between an agent’s <em>personal-level</em> states: what an
+agent <em>believes</em> affects their perceptual <em>experience</em>.<a
+href="#fn11" class="footnote-ref" id="fnref11"
+role="doc-noteref"><sup>11</sup></a> Predictive coding is, at least in
+the first instance, a claim about the agent’s subpersonal computational
+processes. The ‘top’ and ‘bottom’ in predictive coding, as we will see,
+refer to subpersonal computational states. Predictive coding proposes
+that ‘high-level’ neural representations (implemented deep in the
+cortical hierarchy) have a ‘top-down’ influence on ‘low-level’
+representations (implemented in the early sensory system).<a
+href="#fn12" class="footnote-ref" id="fnref12"
+role="doc-noteref"><sup>12</sup></a> How this kind of subpersonal
+top-down effect relates to personal-level top-down effects observed in
+psychology is presently unclear.</p>
+<p>Plausibly, the existence of any personal-level top-down effects
+requires <em>some</em> information flow at the subpersonal level from
+high-level cognitive centres to low-level sensory systems. However, only
+a tiny fraction of the top-down subpersonal information processing
+posited by predictive coding is reflected in the contents of
+personal-level belief or perceptual experience. For predictive coding to
+say something specific about the existence or character of
+personal-level top-down effects, it would need to say <em>which</em>
+aspects of that subpersonal information flow give rise to <em>which</em>
+personal-level states (beliefs and perceptual contents). These
+assumptions are not currently to be found in predictive coding’s core
+computational model. Ideas about these have been proposed, but exactly
+how subpersonal states in the computational model map onto
+personal-level beliefs and perceptual experiences remains a highly
+speculative matter. Absent confidence in such assumptions however, it is
+simply unclear how predictive coding’s computational architecture bears,
+or if it bears at all, on personal-level top-down effects observed in
+perception.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn13" class="footnote-ref" id="fnref13"
+role="doc-noteref"><sup>13</sup></a></p>
+<p>A separate issue complicating the relationship between predictive
+coding and top-down effects is that positing top-down subpersonal
+information flow in a computational model is not a feature that is
+<em>unique</em> to predictive coding. Indeed, almost any computational
+model of cognition will involve information flowing downwards from
+high-level cognitive centres to low-level sensory systems. There is an
+obvious need for top-down subpersonal influence to account for the
+action of endogenous attention and to explain how and why certain
+sensory processes get suppressed or enhanced based on the agent’s
+background knowledge and assumptions.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn14"
+class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a> A
+further commonly cited consideration is the huge number of descending
+neural pathways in the mammalian brain that carry information in the
+cerebral cortex backwards from higher cognitive areas to lower sensory
+areas. Hypotheses abound about the computational function of these
+neural backwards connections. Even if one were to disregard them, there
+are plenty of other routes by which information in high-level cognition
+is likely to systemically influence low-level sensory systems. As <span
+class="citation" data-cites="FirestoneScholl16">Firestone &amp; Scholl
+(2016)</span> point out, the decision to “shut one’s eyes”, which causes
+one’s eyelids to close, has an evident effect on one’s sensory input,
+thereby opening up an information-bearing channel (looping out into the
+world) via which high-level representations can influence low-level
+sensations.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn15" class="footnote-ref" id="fnref15"
+role="doc-noteref"><sup>15</sup></a> Finally, even so-called feedforward
+computational models – e.g. the account of the early visual system
+proposed by <span class="citation" data-cites="Marr82">Marr
+(1982)</span>, Ch. 3 – are normally qualified with a rider that, <em>of
+course</em>, additional top-down, expectation-driven subpersonal
+influences exist, even if they have been omitted from the model for the
+sake of simplicity.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn16" class="footnote-ref" id="fnref16"
+role="doc-noteref"><sup>16</sup></a></p>
+<p>When suggesting that it can account for personal-level top-down,
+expectation-driven effects in perception, the case predictive coding has
+to make is why its specific set of top-down computational pathways is
+<em>uniquely</em> or <em>best</em> suited to explain personal-level
+effects. There are a vast number of alternative computational
+architectures that allow for some degree and manner of subpersonal
+top-down influence. These include endless varieties of artificial neural
+network and classical, symbolic architectures that contain loops. It is
+presently unclear why predictive coding’s proposal is the best one to
+explain personal-level top-down effects in psychology. To be clear,
+predictive coding <em>allows</em> for top-down effects in perception to
+occur; it is also broadly <em>suggestive</em> that such effects will
+occur. What is not clear is that it is better suited to account for
+these effects than any number of alternative computational models. For
+these reasons, it is not clear how empirical evidence of personal-level
+top-down selectively confirms predictive coding.</p>
+<h1 data-number="4" id="minimising-prediction-error"><span
+class="header-section-number">4</span> Minimising prediction error</h1>
+<p>Minimising prediction error is a common objective in modern
+artificial intelligence and machine learning. Researchers often define
+learning tasks or inference tasks as problems of minimising prediction
+error (about reward or other kinds of data). A computational system that
+learns tries to tweak the parameters of its mathematical model to fit or
+predict its data. A computational system that performs inference often
+tries to make predictions that will minimise error or be as close to
+reality (‘ground truth’) as possible.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn17"
+class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a>
+Different types of computational system differ in the kinds of data they
+try to predict, the mathematical model they use, and the methods they
+use to fit their model or perform inference.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn18"
+class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a>
+Prediction error can also be measured in many different ways. A commonly
+used measure is the mean value of the squared difference between
+predictions and the actual data – ‘mean-squared error’. Many
+computational systems change their mathematical models or their
+variables to minimise the magnitude of their mean-squared errors.<a
+href="#fn19" class="footnote-ref" id="fnref19"
+role="doc-noteref"><sup>19</sup></a></p>
+<p>The space of possible computational models that attempt to minimise
+prediction error is vast. You can get some idea of its size and
+diversity by opening up any current textbook on machine learning or
+statistics.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn20" class="footnote-ref" id="fnref20"
+role="doc-noteref"><sup>20</sup></a> A relatively simple example of such
+a model is one that performs regression. Regression is an attempt to fit
+a polynomial function of a certain degree – a smooth curve – to observed
+data and use that curve to make predictions about unobserved cases.
+Classical regression techniques in statistics tell the computational
+agent how to find such polynomial functions. The simplest version of
+this method is linear regression, which uses a straight line as its
+model of the data (a polynomial of degree 1). Minimising prediction
+error reduces to the task of finding the value of the two numerical
+parameters (slope and y-intercept) that define a straight line that
+minimises the mean-squared error in predicting known data.</p>
+<p>Deep neural networks offer examples of much richer and more
+complicated mathematical models that also aim to minimise prediction
+error. The predictions generated by a deep neural network may involve
+stringing together a huge sequence of mathematical operation with many
+variables. Learning for these models consists in finding the values, not
+of just two, but of millions of parameters that minimise the model’s
+prediction error. Learning techniques for deep neural networks,
+e.g. various versions of backpropagation, attempt to iteratively modify
+the model’s many parameters to produce a model that does better at
+minimising prediction error.</p>
+<p>Predictive coding says that the brain aims to minimise prediction
+error. What distinguishes predictive coding from other contemporary
+approaches is that it makes distinctive claims about the <em>data</em>,
+<em>model</em>, and <em>algorithm</em> used to minimise prediction
+error; a further point of difference is that predictive coding makes a
+special claim about the <em>role</em> of minimising prediction error in
+the brain’s overall cognitive economy.</p>
+<p>The <em>data</em> that the brain attempts to predict are, according
+to predictive coding, the brain’s sensory signals. Predictive coding
+claims that the brain aims to minimise its prediction error over (a
+weighted average of) its incoming sensory signals.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn21"
+class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a>
+This should be distinguished from alternative hypotheses about data over
+which predictions are made, such as the claim that the brain attempts to
+minimise prediction error over its <em>reward</em> signals.<a
+href="#fn22" class="footnote-ref" id="fnref22"
+role="doc-noteref"><sup>22</sup></a> The <em>model</em> the brain uses
+to generate its predictions consists in a deep artificial neural network
+with a specific topology and pattern of connections between prediction
+and error units. This artificial neural network is organised in a way
+that is quite unlike those commonly found in modern commercial
+applications of deep learning and artificial intelligence. The
+<em>algorithm</em> predictive coding ascribes to the brain for finding
+the right parameters of this artificial neural network is also unusual.
+Unlike in most commercial applications of deep learning – which rely on
+some version of backpropagation – predictive coding proposes that
+learning occurs via Hebbian learning.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn23"
+class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a> A
+special <em>role</em> is also accorded to prediction error minimisation.
+Predictive coding claims that minimising sensory prediction error is not
+just one objective among many that the brain faces, but its
+<em>only</em> goal. Minimising prediction error should be understood as
+the objective of all aspects of cognition (and not just, say, something
+that it does in perceptual learning or classification).</p>
+<p>Many contemporary computational models of cognition advert to the
+notion of minimising prediction error. What marks out predictive coding
+as special is that it proposes that the brain uses a specific dataset, a
+specific mathematical model, a specific algorithm, and it accords this
+task a special role in cognition. Evidence that the brain contains
+prediction errors or that it is sometimes engaged in the task of
+minimising prediction error, even if it is compatible with what
+predictive coding says, is liable to also fit many other approaches.
+These might also posit prediction errors, but minimise them in different
+ways, or not grant them a universal role in governing all aspects of
+cognition. In order to selectively confirm predictive coding, one needs
+further details about the nature, role, and function of these prediction
+error signals in the brain – Are they exclusively sensory predictions?
+How were they created? How would they be revised? What is their role
+across different cognitive tasks?</p>
+<h1 data-number="5"
+id="cognition-as-a-form-of-probabilistic-inference"><span
+class="header-section-number">5</span> Cognition as a form of
+probabilistic inference</h1>
+<p>Cognitive systems receive noisy, incomplete, and sometimes
+contradictory information from the world. They need to weigh this
+information rapidly and efficiently, and integrate it with (perhaps
+conflicting) background knowledge in order to reach a decision or to
+generate behaviour. Probabilistic computational models have been widely
+adopted in computational cognitive science to help shed light on
+this.</p>
+<p>According to these models, brains represent multiple incompatible
+possibilities (e.g. ‘the person facing me is my father, my uncle, his
+cousin, …’) along with some measure of uncertainty about those various
+outcomes. Subsequent steps in the cognitive processing will take each of
+these different possibilities into account, weighted somehow by the
+cognitive system’s degree of uncertainty. The essential idea is that the
+brain does not ‘put all its money’ on one outcome at any given moment,
+but rather keeps track of many possibilities, along with its degree of
+uncertainty about them.</p>
+<p>Computational models tend to develop this idea by ascribing
+mathematical <em>subjective probability distributions</em> to cognitive
+systems. These subjective probability distributions describe the
+cognitive system’s degree of uncertainty or confidence across many
+possible outcomes. Cognitive processes are modelled as a series of
+elementary steps in which one subjective probability distribution
+conditions, or updates, another. Cognition might maintain this
+probabilistic character right until the moment the cognitive system is
+forced to plump for a specific outcome in action (e.g. the agent is
+required to respond ‘yes’/‘no’ in a forced-choice task). The
+probabilistic rules that govern this processing – the steps by which
+subjective probabilities are combined or updated in the brain – may vary
+between different approaches. It is important to note however, that the
+subjective probabilities that are ascribed may not be personal-level
+states of the whole agent <span class="citation"
+data-cites="deFinetti90 Ramsey90">(e.g. as in the classical degrees of
+belief discussed by de Finetti 1990; Ramsey 1990)</span>. Subjective
+probability distributions are often ascribed to subpersonal parts of the
+agent (e.g. cognitive subsystems, neural regions, cell populations, or
+even individual neurons) <span class="citation"
+data-cites="Deneve08 PougetDayan03">(for example, see Deneve 2008;
+Pouget et al. 2003)</span>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn24" class="footnote-ref"
+id="fnref24" role="doc-noteref"><sup>24</sup></a></p>
+<p>A particularly influential example of this approach is the so-called
+‘Bayesian brain’ hypothesis. This suggests that Bayes’ rule, or some
+approximation to it, describes the rules by which the human brain
+combines and updates its subjective probability distributions. Exact
+Bayesian inference is computationally costly, so most advocates of the
+Bayesian brain hypothesis believe that the brain performs some version
+of <em>approximate Bayesian inference</em>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn25"
+class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a>
+There are a vast range of algorithms to choose from here. Bayesian
+algorithms tend to fall into two camps: <em>sampling methods</em> (which
+aim to follow the trajectory of multiple categorical samples through
+inference to create a posterior empirical distribution that approximates
+the true Bayesian posterior) and <em>variational methods</em> (which use
+simplified, less computationally demanding subjective probability
+distributions, varying their parameters to find an analytical result
+that is close to the true Bayesian posterior). Both approaches for
+approximating Bayesian inference are common in modern artificial
+intelligence and machine learning.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn26" class="footnote-ref"
+id="fnref26" role="doc-noteref"><sup>26</sup></a> Advocates of the
+Bayesian brain hypothesis do not agree about whether the brain uses a
+sampling method or a variational method.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn27"
+class="footnote-ref" id="fnref27"
+role="doc-noteref"><sup>27</sup></a></p>
+<p>Predictive coding is one example of a probabilistic model of
+cognition and an instance of the Bayesian brain hypothesis. Predictive
+coding identifies the task the brain faces in cognition as that of
+minimising sensory prediction error. If combined with appropriate
+simplifying assumptions, this task can be shown to entail approximate
+Bayesian inference.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn28" class="footnote-ref" id="fnref28"
+role="doc-noteref"><sup>28</sup></a> The numerical values that feature
+in predictive coding’s artificial neural network can be interpreted as
+parameters of subjective probability distributions (namely, as the means
+and variances of Gaussian distributions). Predictive coding’s algorithm
+can be interpreted as a particular version of variational Bayesian
+inference.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn29" class="footnote-ref" id="fnref29"
+role="doc-noteref"><sup>29</sup></a> Predictive coding proposes that
+these numerical parameters, hence the subjective probability
+distributions manipulated in cognition, are encoded in the average
+firing rates of neural populations of layers in the neocortex, and the
+manner in which these subjective probability distributions condition one
+another in inference is encoded in the strength of the synaptic
+connections between distinct neocortical areas.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn30"
+class="footnote-ref" id="fnref30"
+role="doc-noteref"><sup>30</sup></a></p>
+<p>Someone might endorse the idea that the brain engages in
+probabilistic inference, or even the Bayesian brain hypothesis, but
+reject some or all of predictive coding’s specific assumptions about how
+all of this works. They might, for example, not accept that <em>all</em>
+aspects of human cognition involve Bayesian inference, or that
+<em>every</em> aspect of cognition involves inference over the
+<em>same</em> probabilistic model, or that the subjective probability
+distributions are always <em>Gaussian</em>, or that the brain’s rules
+for manipulating these distributions are predictive coding’s specific
+version of <em>variational</em> Bayes, or that average firing rates in
+neocortical layers encode the parameters of the brain’s subjective
+probability distributions.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn31" class="footnote-ref"
+id="fnref31" role="doc-noteref"><sup>31</sup></a> The space of possible
+computational models that treat cognition as involving some kind of
+probabilistic inference is vast. Evidence in favour of a probabilistic
+approach to cognition cannot straightforwardly be treated as evidence
+that confirms predictive coding as opposed to any number of other
+views.</p>
+<h1 data-number="6" id="cognition-uses-a-generative-model"><span
+class="header-section-number">6</span> Cognition uses a generative
+model</h1>
+<p>A generative model is a special kind of representation that describes
+how observations are produced by unobserved (‘latent’) variables in the
+world. If a generative model were supplied with the information that
+your best friend enters the room, it might tell you about which sights,
+sounds, smells you would experience. There is a growing acceptance in
+computational cognitive science (and AI) that generative models – and in
+particular, <em>probabilistic</em> generative models – are likely to
+play an important role in cognition. This is for at least three
+(interrelated) reasons.</p>
+<p>First, a generative model would help a cognitive system solve the
+problem of distinguishing between changes in its sensory data that are
+<em>self-generated</em> and <em>externally generated</em>. When our eyes
+move, the pattern of light projected onto our retinas changes. How does
+our brain distinguish these kinds of self-generated change from the
+changes that would be produced by the movement of external objects in
+our environment? <span class="citation"
+data-cites="Helmholtz67">Helmholtz (1867)</span> suggested that the
+brain makes a copy of its motor plans and uses this copy (the ‘efference
+copy’) to predict how its planned movements are likely to affect future
+sensory data. When the cognitive system issues a motor command (e.g. to
+rotate its eyeballs), it sends a copy of the command to a generative
+model (the ‘forward model’ or ‘motor emulator’), which predicts the
+sensory consequences that will flow from that motor command (how sensory
+data are likely to change if the eyeballs rotate). These consequences
+are then fed back to the sensory system and the brain uses them to
+‘subtract away’ estimated self-generated changes from the incoming data.
+A generative model could thus help the brain to distinguish changes to
+the sensory data wrought by itself from those that are caused by
+external objects.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn32" class="footnote-ref" id="fnref32"
+role="doc-noteref"><sup>32</sup></a></p>
+<p>Second, a generative model could help the brain overcome some of the
+latency, noise, variability, and gaps in sensory input that potentially
+cause problems for motor control. When you execute a complex, rapid
+motion – e.g. a tennis serve – your brain needs to have accurate,
+low-latency sensory feedback. During the motion, your brain needs to
+know where your limbs are, how its intended motor plan is unfolding, if
+any resistance is being met, and how the positions of external objects
+(like the ball) are changing. Complex, rapid motor control needs to be
+<em>regulated</em> by sensory feedback. The problem the brain faces is
+that, due to limitations in its hardware, this sensory feedback tends to
+arrive late, with many gaps, and a great deal of noise and variability.
+A generative model would allow the brain to partly overcome these
+limitations by introducing regulation based, not on <em>actual</em>
+sensory feedback, but on <em>expected</em> feedback. This would mean
+that the brain would not need to wait for (slow, noisy, gappy) sensory
+data to arrive. It could control motion based on expected sensory data,
+updating its generative model as and when the actual sensory data do
+arrive. Potentially, that updating might take into account all sorts of
+background information that the brain has about systematic bias, noise,
+or uncertainty in the sensory data or sensory organs. Advocates of this
+approach suggest that a probabilistic generative model, updated using
+Bayesian rules, could allow the brain to make <em>optimal</em> use of
+its background knowledge and sensory data to regulate motor control and
+motor learning.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn33" class="footnote-ref" id="fnref33"
+role="doc-noteref"><sup>33</sup></a></p>
+<p>Third, a generative model that takes a probabilistic form could, in
+principle, be inverted using Bayes’ theorem to yield a
+<em>discriminative</em> model of a domain. Discriminative models are of
+obvious value in many areas of cognition. A discriminative model tells
+the cognitive system, given some sensory signal, which state(s) of the
+world are most likely to be responsible for its observations.<a
+href="#fn34" class="footnote-ref" id="fnref34"
+role="doc-noteref"><sup>34</sup></a> Discriminative models are needed in
+visual perception, object categorisation, speech recognition, detection
+of causal relations, and social cognition. Whereas a discriminative
+model tells the cognitive system how make the inferential leap
+<em>from</em> sensory data <em>to</em> the value of latent unobserved
+variables, a generative model tells the cognitive system how to make an
+inference <em>from</em> the value of latent variables <em>to</em>
+sensory observations. That inverse information might not initially
+appear to be useful, but if the system applies Bayes’ theorem, a
+generative model can be flipped to create a discriminative model. What
+is more, building a generative model of a domain might be a
+computationally attractive strategy because generative models are often
+easier to learn, easier to update, more compact to represent, and less
+liable to break as background conditions change than discriminative
+models.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn35" class="footnote-ref" id="fnref35"
+role="doc-noteref"><sup>35</sup></a> Therefore, an effective method for
+answering a discriminative query (what is the value of a latent
+variable, given my sensory input?) is sometimes to learn and maintain a
+generative model of the domain in question and then invert it as and
+when needed using Bayes’ theorem to answer the query. It is common to
+see this generative strategy used in contemporary machine learning and
+computational cognitive science.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn36" class="footnote-ref"
+id="fnref36" role="doc-noteref"><sup>36</sup></a></p>
+<p>Nowadays, it is not unusual for a computational model of cognition to
+include a generative model. However, the considerations above do not
+specifically support predictive coding’s proposal about the nature,
+content, and function of a generative model. They do not, for example,
+commit to the idea that the brain only has one generative model, or that
+computation over that generative model is its exclusive method of
+inference, or to predictive coding’s ideas about the particular content
+or structure of the brain’s probabilistic generative model, the
+algorithms by which it is updated or used in inference, or where in the
+brain it is physically implemented. As far as the points above are
+concerned, there may be multiple generative models in cognition.
+Distinct models might exist in relative informational isolation inside
+different cognitive modules – there might, for example, be a
+domain-specific generative model dedicated exclusively to motor
+control.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn37" class="footnote-ref" id="fnref37"
+role="doc-noteref"><sup>37</sup></a> The considerations above are also
+consistent with the brain using other methods alongside generative
+models to solve problems. When faced with a discriminative problem, for
+example, the brain might sometimes learn and use a discriminative model
+of that domain directly, or adopt any number of hybrid
+generative-discriminative approaches.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn38"
+class="footnote-ref" id="fnref38" role="doc-noteref"><sup>38</sup></a>
+Finally, there are endless ways in which the content and structure of a
+generative model might be filled out, methods by which a generative
+model might be updated and used, and proposals for how it might be
+physically implemented in the brain.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fn39" class="footnote-ref"
+id="fnref39" role="doc-noteref"><sup>39</sup></a></p>
+<p>Generative models feature in many contemporary computational models
+of cognition. Predictive coding employs the idea, but the idea is not
+unique to predictive coding. The proposal that the brain uses a
+generative model should not be equated with predictive coding. One
+should not assume that empirical evidence that favours the hypothesis
+that the brain employs a generative model is also evidence that supports
+predictive coding’s specific proposal about the character and role of a
+generative model in cognition.</p>
+<h1 data-number="7" id="conclusion"><span
+class="header-section-number">7</span> Conclusion</h1>
+<p>The aim of this paper is to separate five influential ideas about
+computational modelling of cognition from predictive coding. Many
+philosophers first encounter these ideas in the context of predictive
+coding. They should be aware that these ideas are not unique to the
+view: they exist in a broader intellectual landscape and they are
+employed by approaches that have little or nothing to do with predictive
+coding. Endorsement of one or more of the ideas should not be taken as
+an implicit endorsement of predictive coding. Equally, evidence that
+confirms one or more of the ideas should not be taken as evidence that
+unambiguously confirms predictive coding (rather than any number of
+other views). If one wants to understand the distinctive content of
+predictive coding, or to evaluate the empirical evidence for it, one
+needs to disentangle it from these other ideas.</p>
+<p>Of course, there is nothing to stop someone from defining the words
+‘predictive coding’ to refer to some broad, non-specific mixture of
+these five ideas. On such a deflationary reading, one could say, without
+fear of contradiction, that predictive coding is already widely accepted
+and experimentally confirmed. However, there are good reasons to resist
+such a move. Advocates of predictive coding are keen to stress that
+their view is both novel and that it faces genuine empirical jeopardy
+with respect to future evidence. To the extent that these claims are
+justified, an advocate of predictive coding should be able to show that
+predictive coding departs from rival views and that it does not make a
+claim that is so anodyne as to be consistent with any likely future
+evidence. Clark, for example, warns against interpreting predictive
+coding as ‘extremely broad vision of the brain as an engine of
+multilevel probabilistic prediction’ <span class="citation"
+data-cites="Clark15">(Clark 2016 p. 10)</span>. It should be understood
+as a ‘specific proposal’, not as a ‘broad vision’ (ibid.). Hohwy
+observes that there is often ambiguity when the view is presented which
+means that it is ‘both mainstream and utterly controversial’ <span
+class="citation" data-cites="Hohwy13">(Hohwy 2013 p. 7)</span>. He says
+that in order for it to be meaningfully tested by empirical evidence, a
+detailed, specific version of the theory is needed <span
+class="citation" data-cites="Hohwy13">(Hohwy 2013 pp. 7–8)</span>.</p>
+<p>What is that detailed, specific version of predictive coding? In what
+follows, I argue that what distinguishes predictive coding from
+contemporary rivals consists in a combination of three, potentially
+dissociable, claims, each of which may be further developed or qualified
+in various ways. These claims concern how cognition works at Marr’s
+<em>computational</em>, <em>algorithmic</em>, and
+<em>implementation</em> levels.</p>
+<p>It is worth tempering what follows with a cautionary note. The
+content of predictive coding is in no way a settled matter. Researchers
+disagree profoundly about which features of the view really matter, how
+they should be articulated, whether the resulting model has a truly
+universal scope, and whether and how the computational, algorithmic, and
+implementation level claims should be combined. Cutting through all this
+disagreement and uncertainty however, is a set of ideas that has
+inspired many researchers: a simple, bold, unifying picture of the mind,
+its abstract computational structure, and its physical implementation.
+This, perhaps deliberately idealised and simplified, version of
+predictive coding will be the primary target of the next three
+papers.</p>
 <h1 class="unnumbered" id="bibliography">Bibliography</h1>
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-AitchisonLengyel17" class="csl-entry" role="doc-biblioentry">
-Aitchison, L., &amp; Lengyel, M. (2017). <span>‘With or without you: Predictive coding and <span>B</span>ayesian inference in the brain’</span>, <em>Current Opinion in Neurobiology</em>, 46: 219–27.
+<div id="refs" class="references csl-bib-body hanging-indent"
+role="doc-bibliography">
+<div id="ref-AitchisonLengyel17" class="csl-entry"
+role="doc-biblioentry">
+Aitchison, L., &amp; Lengyel, M. (2017). <span>‘With or without you:
+Predictive coding and <span>B</span>ayesian inference in the
+brain’</span>, <em>Current Opinion in Neurobiology</em>, 46: 219–27.
 </div>
 <div id="ref-Attneave54" class="csl-entry" role="doc-biblioentry">
-Attneave, F. (1954). <span>‘Informational aspects of visual perception’</span>, <em>Psychological Review</em>, 61: 183–93.
+Attneave, F. (1954). <span>‘Informational aspects of visual
+perception’</span>, <em>Psychological Review</em>, 61: 183–93.
 </div>
 <div id="ref-Barber12" class="csl-entry" role="doc-biblioentry">
-Barber, D. (2012). <em>Bayesian reasoning and machine learning</em>. Cambridge: Cambridge University Press.
+Barber, D. (2012). <em>Bayesian reasoning and machine learning</em>.
+Cambridge: Cambridge University Press.
 </div>
 <div id="ref-Barlow61a" class="csl-entry" role="doc-biblioentry">
-Barlow, H. B. (1961). <span>‘Possible principles underlying the transformations of sensory messages’</span>. Rosenblith W. A. (ed.) <em>Sensory communication</em>, pp. 217–34. MIT Press: Cambridge, MA.
+Barlow, H. B. (1961). <span>‘Possible principles underlying the
+transformations of sensory messages’</span>. Rosenblith W. A. (ed.)
+<em>Sensory communication</em>, pp. 217–34. MIT Press: Cambridge, MA.
 </div>
 <div id="ref-Barlow01" class="csl-entry" role="doc-biblioentry">
-——. (2001). <span>‘Redundancy reduction revisited’</span>, <em>Network: Computation in Neural Systems</em>, 12: 241–53.
+——. (2001). <span>‘Redundancy reduction revisited’</span>, <em>Network:
+Computation in Neural Systems</em>, 12: 241–53.
+</div>
+<div id="ref-BastosUsrey12" class="csl-entry" role="doc-biblioentry">
+Bastos, A. M., Usrey, W. M., Adams, R. A., Mangun, G. R., Fries, P.,
+&amp; Friston, K. (2012). <span>‘Canonical microcircuits for predictive
+coding’</span>, <em>Neuron</em>, 76: 695–711.
 </div>
 <div id="ref-Bishop06" class="csl-entry" role="doc-biblioentry">
-Bishop, C. M. (2006). <em>Pattern recognition and machine learning</em>. New York, NY: Springer.
+Bishop, C. M. (2006). <em>Pattern recognition and machine learning</em>.
+New York, NY: Springer.
 </div>
 <div id="ref-Blakemore99" class="csl-entry" role="doc-biblioentry">
-Blakemore, S.-J., Frith, C. D., &amp; Wolpert, D. M. (1999). <span>‘Spatio-temporal prediction modulates the perception of self-produced stimuli’</span>, <em>Journal of Cognitive Neuroscience</em>, 11: 551–9.
+Blakemore, S.-J., Frith, C. D., &amp; Wolpert, D. M. (1999).
+<span>‘Spatio-temporal prediction modulates the perception of
+self-produced stimuli’</span>, <em>Journal of Cognitive
+Neuroscience</em>, 11: 551–9.
+</div>
+<div id="ref-Bogacz17" class="csl-entry" role="doc-biblioentry">
+Bogacz, R. (2017). <span>‘A tutorial on the free-energy framework for
+modelling perception and learning’</span>, <em>Journal of Mathematical
+Psychology</em>, 76/198–211.
 </div>
 <div id="ref-ChaterManning06" class="csl-entry" role="doc-biblioentry">
-Chater, N., &amp; Manning, C. D. (2006). <span>‘Probabilistic models of language processing and acquisition’</span>, <em>Trends in Cognitive Sciences</em>, 10: 335–44.
+Chater, N., &amp; Manning, C. D. (2006). <span>‘Probabilistic models of
+language processing and acquisition’</span>, <em>Trends in Cognitive
+Sciences</em>, 10: 335–44.
 </div>
 <div id="ref-ChaterOaksford08" class="csl-entry" role="doc-biblioentry">
-Chater, N., &amp; Oaksford, M. (Eds). (2008). <em>The probabilistic mind: Prospects for bayesian cognitive science</em>. Oxford: Oxford University Press.
+Chater, N., &amp; Oaksford, M. (Eds). (2008). <em>The probabilistic
+mind: Prospects for bayesian cognitive science</em>. Oxford: Oxford
+University Press.
 </div>
 <div id="ref-Clark11" class="csl-entry" role="doc-biblioentry">
-Clark, A. (2011). <span>‘<a href="https://www.edge.org/response-detail/10404">What scientific concept would improve everybody’s cognitive toolkit?</a>’</span>, <em>Edge</em>.
+Clark, A. (2011). <span>‘<a
+href="https://www.edge.org/response-detail/10404">What scientific
+concept would improve everybody’s cognitive toolkit?</a>’</span>,
+<em>Edge</em>.
 </div>
 <div id="ref-Clark13" class="csl-entry" role="doc-biblioentry">
-——. (2013). <span>‘Whatever next? Predictive brains, situated agents, and the future of cognitive science’</span>, <em>Behavioral and Brain Sciences</em>, 36: 181–253.
+——. (2013). <span>‘Whatever next? Predictive brains, situated agents,
+and the future of cognitive science’</span>, <em>Behavioral and Brain
+Sciences</em>, 36: 181–253.
 </div>
 <div id="ref-Clark15" class="csl-entry" role="doc-biblioentry">
-——. (2016). <em>Surfing uncertainty: Prediction, action, and the embodied mind</em>. Oxford: Oxford University Press.
+——. (2016). <em>Surfing uncertainty: Prediction, action, and the
+embodied mind</em>. Oxford: Oxford University Press.
 </div>
 <div id="ref-Clark19" class="csl-entry" role="doc-biblioentry">
-——. (2019). <span>‘Consciousness as generative entanglement’</span>, <em>The Journal of Philosophy</em>, 116: 645–62.
+——. (2019). <span>‘Consciousness as generative entanglement’</span>,
+<em>The Journal of Philosophy</em>, 116: 645–62.
 </div>
 <div id="ref-ColomboElkin18" class="csl-entry" role="doc-biblioentry">
-Colombo, M., Elkin, L., &amp; Hartmann, S. (2018). <span>‘Being realist about <span>B</span>ayes, and the predictive processing theory of mind’</span>, <em>The British Journal for the Philosophy of Science</em>. DOI: <a href="https://doi.org/10.1093/bjps/axy059">10.1093/bjps/axy059</a>
+Colombo, M., Elkin, L., &amp; Hartmann, S. (2018). <span>‘Being realist
+about <span>B</span>ayes, and the predictive processing theory of
+mind’</span>, <em>The British Journal for the Philosophy of
+Science</em>, 72: 185–220.
 </div>
 <div id="ref-deFinetti90" class="csl-entry" role="doc-biblioentry">
-de Finetti, B. (1990). <em>Theory of probability</em>., Vol. 1. New York, NY: Wiley &amp; Sons.
+de Finetti, B. (1990). <em>Theory of probability</em>., Vol. 1. New
+York, NY: Wiley &amp; Sons.
 </div>
 <div id="ref-Deneve08" class="csl-entry" role="doc-biblioentry">
-Deneve, S. (2008). <span>‘Bayesian spiking neurons <span>I</span>: <span>I</span>nference’</span>, <em>Neural Computation</em>, 20: 91–117.
+Deneve, S. (2008). <span>‘Bayesian spiking neurons <span>I</span>:
+<span>I</span>nference’</span>, <em>Neural Computation</em>, 20: 91–117.
 </div>
 <div id="ref-Dennett91" class="csl-entry" role="doc-biblioentry">
-Dennett, D. C. (1991). <em>Consciousness explained</em>. Boston, MA: Little, Brown &amp; Company.
+Dennett, D. C. (1991). <em>Consciousness explained</em>. Boston, MA:
+Little, Brown &amp; Company.
 </div>
 <div id="ref-DolegaDewhurst20" class="csl-entry" role="doc-biblioentry">
-Dolega, K., &amp; Dewhurst, J. E. (2020). <span>‘Fame in the predictive brain: A deflationary approach to explaining consciousness in the prediction error minimization framework’</span>, <em>Synthese</em>. DOI: <a href="https://doi.org/10.1007/s11229-020-02548-9">10.1007/s11229-020-02548-9</a>
+Dolega, K., &amp; Dewhurst, J. E. (2021). <span>‘Fame in the predictive
+brain: A deflationary approach to explaining consciousness in the
+prediction error minimization framework’</span>, <em>Synthese</em>, 198:
+7781–806.
 </div>
 <div id="ref-Drayson17" class="csl-entry" role="doc-biblioentry">
-Drayson, Z. (2017). <span>‘Modularity and the predictive mind’</span>. Metzinger T. &amp; Wiese W. (eds) <em>Philosophy and predictive processing</em>. MIND Group: 10.15502/9783958573031. DOI: <a href="https://doi.org/10.15502/9783958573024">10.15502/9783958573024</a>
+Drayson, Z. (2017). <span>‘Modularity and the predictive mind’</span>.
+Metzinger T. &amp; Wiese W. (eds) <em>Philosophy and predictive
+processing</em>. MIND Group: 10.15502/9783958573031. DOI: <a
+href="https://doi.org/10.15502/9783958573024">10.15502/9783958573024</a>
 </div>
-<div id="ref-FirestoneScholl16" class="csl-entry" role="doc-biblioentry">
-Firestone, C., &amp; Scholl, B. J. (2016). <span>‘Cognition does not affect perception: Evaluating the evidence for <span>“top-down”</span> effects’</span>, <em>Behavioral and Brain Sciences</em>, 39: E229.
+<div id="ref-FirestoneScholl16" class="csl-entry"
+role="doc-biblioentry">
+Firestone, C., &amp; Scholl, B. J. (2016). <span>‘Cognition does not
+affect perception: Evaluating the evidence for <span>“top-down”</span>
+effects’</span>, <em>Behavioral and Brain Sciences</em>, 39: E229.
 </div>
 <div id="ref-FiserBerkes10" class="csl-entry" role="doc-biblioentry">
-Fiser, J., Berkes, P., Orbán, G., &amp; Lengyel, M. (2010). <span>‘Statistically optimal perception and learning: From behavior to neural representations’</span>, <em>Trends in Cognitive Sciences</em>, 14: 119–30.
+Fiser, J., Berkes, P., Orbán, G., &amp; Lengyel, M. (2010).
+<span>‘Statistically optimal perception and learning: From behavior to
+neural representations’</span>, <em>Trends in Cognitive Sciences</em>,
+14: 119–30.
 </div>
-<div id="ref-FranklinWolpert11" class="csl-entry" role="doc-biblioentry">
-Franklin, D. W., &amp; Wolpert, D. M. (2011). <span>‘Computational mechanisms of sensorimotor control’</span>, <em>Neuron</em>, 72: 425–42.
+<div id="ref-FranklinWolpert11" class="csl-entry"
+role="doc-biblioentry">
+Franklin, D. W., &amp; Wolpert, D. M. (2011). <span>‘Computational
+mechanisms of sensorimotor control’</span>, <em>Neuron</em>, 72: 425–42.
 </div>
-<div id="ref-FristonSchwartenbeckFitzGerald13" class="csl-entry" role="doc-biblioentry">
-Friston, K., Schwartenbeck, P., FitzGerald, T., Moutoussis, M., Behrens, T., &amp; Dolan, R. J. (2013). <span>‘The anatomy of choice: Active inference and agency’</span>, <em>Frontiers in Human Neuroscience</em>, 7: 598.
+<div id="ref-Friston03" class="csl-entry" role="doc-biblioentry">
+Friston, K. (2003). <span>‘Learning and inference in the brain’</span>,
+<em>Neural Networks</em>, 16: 1325–52.
+</div>
+<div id="ref-Friston05" class="csl-entry" role="doc-biblioentry">
+——. (2005). <span>‘A theory of cortical responses’</span>,
+<em>Philosophical Transactions of the Royal Society of London, Series
+B</em>, 360: 815–36.
+</div>
+<div id="ref-Friston09" class="csl-entry" role="doc-biblioentry">
+——. (2009). <span>‘The free-energy principle: A rough guide to the
+brain?’</span>, <em>Trends in Cognitive Sciences</em>, 13: 293–301.
+</div>
+<div id="ref-Friston10" class="csl-entry" role="doc-biblioentry">
+——. (2010). <span>‘The free-energy principle: A unified brain
+theory?’</span>, <em>Nature Reviews Neuroscience</em>, 11: 127–38.
+</div>
+<div id="ref-FristonFortierFriedman18" class="csl-entry"
+role="doc-biblioentry">
+Friston, K., Fortier, M., &amp; Friedman, D. A. (2018). <span>‘Of
+woodlice and men: A <span>B</span>ayesian account of cognition, life and
+consciousness: An interview with <span>K</span>arl
+<span>F</span>riston’</span>, <em>ALIUS Bulletin</em>, 2: 17–43.
+</div>
+<div id="ref-FristonSchwartenbeckFitzGerald13" class="csl-entry"
+role="doc-biblioentry">
+Friston, K., Schwartenbeck, P., FitzGerald, T., Moutoussis, M., Behrens,
+T., &amp; Dolan, R. J. (2013). <span>‘The anatomy of choice: Active
+inference and agency’</span>, <em>Frontiers in Human Neuroscience</em>,
+7: 598.
 </div>
 <div id="ref-GardnerBarlow01" class="csl-entry" role="doc-biblioentry">
-Gardner-Medwin, A. R., &amp; Barlow, H. B. (2001). <span>‘The limits of counting accuracy in distributed neural representations’</span>, <em>Neural Computation</em>, 13: 477–504.
+Gardner-Medwin, A. R., &amp; Barlow, H. B. (2001). <span>‘The limits of
+counting accuracy in distributed neural representations’</span>,
+<em>Neural Computation</em>, 13: 477–504.
+</div>
+<div id="ref-Gershman19" class="csl-entry" role="doc-biblioentry">
+Gershman, S. J. (2019). <span>‘What does the free energy principle tell
+us about the brain?’</span>, <em>Neurons, Behavior, Data Analysis, and
+Theory</em>.
 </div>
 <div id="ref-Gregory97" class="csl-entry" role="doc-biblioentry">
-Gregory, R. L. (1997). <span>‘Knowledge in perception and illusion’</span>, <em>Philosophical Transactions of the Royal Society of London, Series B</em>, 352: 1121–8.
+Gregory, R. L. (1997). <span>‘Knowledge in perception and
+illusion’</span>, <em>Philosophical Transactions of the Royal Society of
+London, Series B</em>, 352: 1121–8.
 </div>
 <div id="ref-GriffithsVul12" class="csl-entry" role="doc-biblioentry">
-Griffiths, T. L., Vul, E., &amp; Sanborn, A. N. (2012). <span>‘Bridging levels of analysis for probabilistic models of cognition’</span>, <em>Current Directions in Psychological Science</em>, 21: 263–8.
+Griffiths, T. L., Vul, E., &amp; Sanborn, A. N. (2012). <span>‘Bridging
+levels of analysis for probabilistic models of cognition’</span>,
+<em>Current Directions in Psychological Science</em>, 21: 263–8.
 </div>
 <div id="ref-Grush04" class="csl-entry" role="doc-biblioentry">
-Grush, R. (2004). <span>‘The emulator theory of representation: Motor control, imagery, and perception’</span>, <em>Behavioral and Brain Sciences</em>, 27: 377–442.
+Grush, R. (2004). <span>‘The emulator theory of representation: Motor
+control, imagery, and perception’</span>, <em>Behavioral and Brain
+Sciences</em>, 27: 377–442.
 </div>
 <div id="ref-Helmholtz67" class="csl-entry" role="doc-biblioentry">
-Helmholtz, H. von. (1867). <em>Handbuch der physiologischen <span>O</span>ptik</em>. Hamburg und Leipzig: Leopold Voss.
+Helmholtz, H. von. (1867). <em>Handbuch der physiologischen
+<span>O</span>ptik</em>. Hamburg und Leipzig: Leopold Voss.
 </div>
 <div id="ref-Hohwy12" class="csl-entry" role="doc-biblioentry">
-Hohwy, J. (2012). <span>‘Attention and conscious perception in the hypothesis testing brain’</span>, <em>Frontiers in Psychology</em>, 3: 1–4.
+Hohwy, J. (2012). <span>‘Attention and conscious perception in the
+hypothesis testing brain’</span>, <em>Frontiers in Psychology</em>, 3:
+1–4.
 </div>
 <div id="ref-Hohwy13" class="csl-entry" role="doc-biblioentry">
-——. (2013). <em>The predictive mind</em>. Oxford: Oxford University Press.
+——. (2013). <em>The predictive mind</em>. Oxford: Oxford University
+Press.
+</div>
+<div id="ref-Hohwy20" class="csl-entry" role="doc-biblioentry">
+——. (2020). <span>‘New directions in predictive processing’</span>,
+<em>Mind and Language</em>, 35: 209–23.
 </div>
 <div id="ref-HoyerHyvarinen03" class="csl-entry" role="doc-biblioentry">
-Hoyer, P. O, &amp; Hyvärinen, A. (2003). <span>‘Interpreting neural response variability as <span>M</span>onte <span>C</span>arlo sampling of the posterior’</span>. Becker S., Thrun S., &amp; Obermayer K. (eds) <em>Advances in neural information processing systems 15</em>, pp. 277–84. MIT Press: Cambridge, MA.
+Hoyer, P. O, &amp; Hyvärinen, A. (2003). <span>‘Interpreting neural
+response variability as <span>M</span>onte <span>C</span>arlo sampling
+of the posterior’</span>. Becker S., Thrun S., &amp; Obermayer K. (eds)
+<em>Advances in neural information processing systems 15</em>, pp.
+277–84. MIT Press: Cambridge, MA.
 </div>
-<div id="ref-KellerMrsciFlogel18" class="csl-entry" role="doc-biblioentry">
-Keller, G. B., &amp; Mrsci-Flogel, T. D. (2018). <span>‘Predictive processing: A canonical cortical computation’</span>, <em>Neuron</em>, 100: 424–35.
+<div id="ref-KanaiKomuraShipp15" class="csl-entry"
+role="doc-biblioentry">
+Kanai, R., Komura, Y., Shipp, S., &amp; Friston, K. (2015).
+<span>‘Cerebral hierarchies: Predictive processing, precision and the
+pulvinar’</span>, <em>Philosophical Transactions of the Royal Society of
+London, Series B</em>, 370: 20140169.
 </div>
-<div id="ref-KirchhoffKiverstein19a" class="csl-entry" role="doc-biblioentry">
-Kirchhoff, M. D., &amp; Kiverstein, J. (2019). <em>Extended consciousness and predictive processing</em>. Abingdon: Routledge.
+<div id="ref-KellerMrsciFlogel18" class="csl-entry"
+role="doc-biblioentry">
+Keller, G. B., &amp; Mrsci-Flogel, T. D. (2018). <span>‘Predictive
+processing: A canonical cortical computation’</span>, <em>Neuron</em>,
+100: 424–35.
+</div>
+<div id="ref-KirchhoffKiverstein19a" class="csl-entry"
+role="doc-biblioentry">
+Kirchhoff, M. D., &amp; Kiverstein, J. (2019). <em>Extended
+consciousness and predictive processing</em>. Abingdon: Routledge.
 </div>
 <div id="ref-KnillPouget04" class="csl-entry" role="doc-biblioentry">
-Knill, D. C., &amp; Pouget, A. (2004). <span>‘The <span>B</span>ayesian brain: The role of uncertainty in neural coding and computation’</span>, <em>Trends in Neurosciences</em>, 27: 712–9.
+Knill, D. C., &amp; Pouget, A. (2004). <span>‘The <span>B</span>ayesian
+brain: The role of uncertainty in neural coding and computation’</span>,
+<em>Trends in Neurosciences</em>, 27: 712–9.
+</div>
+<div id="ref-KokLange15" class="csl-entry" role="doc-biblioentry">
+Kok, P., &amp; Lange, F. P. de. (2015). <span>‘Predictive coding in the
+sensory cortex’</span>. Forstmann B. U. &amp; Wagenmakers E.-. J. (eds)
+<em>An introduction to model-based cognitive neuroscience</em>, pp.
+221–44. Springer: New York, NY.
 </div>
 <div id="ref-KordingWolpert04" class="csl-entry" role="doc-biblioentry">
-Körding, K. P., &amp; Wolpert, D. M. (2004). <span>‘Bayesian integration in sensorimotor learning’</span>, <em>Nature</em>, 427: 244–7.
+Körding, K. P., &amp; Wolpert, D. M. (2004). <span>‘Bayesian integration
+in sensorimotor learning’</span>, <em>Nature</em>, 427: 244–7.
 </div>
 <div id="ref-KordingWolpert06" class="csl-entry" role="doc-biblioentry">
-——. (2006). <span>‘Bayesian decision theory in sensorimotor control’</span>, <em>Trends in Cognitive Sciences</em>, 10: 319–26.
+——. (2006). <span>‘Bayesian decision theory in sensorimotor
+control’</span>, <em>Trends in Cognitive Sciences</em>, 10: 319–26.
 </div>
 <div id="ref-Kriegeskorte15" class="csl-entry" role="doc-biblioentry">
-Kriegeskorte, N. (2015). <span>‘Deep neural networks: A new framework for modeling biological vision and brain information processing’</span>, <em>Annual Review of Vision Science</em>, 1: 417–46.
+Kriegeskorte, N. (2015). <span>‘Deep neural networks: A new framework
+for modeling biological vision and brain information processing’</span>,
+<em>Annual Review of Vision Science</em>, 1: 417–46.
 </div>
-<div id="ref-LangeHeilbronKok18" class="csl-entry" role="doc-biblioentry">
-Lange, F. P. de, Heilbron, M., &amp; Kok, P. (2018). <span>‘How do expectations shape perception?’</span>, <em>Trends in Cognitive Sciences</em>, 22: 764–79.
+<div id="ref-LangeHeilbronKok18" class="csl-entry"
+role="doc-biblioentry">
+Lange, F. P. de, Heilbron, M., &amp; Kok, P. (2018). <span>‘How do
+expectations shape perception?’</span>, <em>Trends in Cognitive
+Sciences</em>, 22: 764–79.
 </div>
 <div id="ref-LasserreBishop06" class="csl-entry" role="doc-biblioentry">
-Lasserre, J. A., Bishop, C. M., &amp; Minka, T. P. (2006). <span>‘Principled hybrids of generative and discriminative models’</span>. <em>Proceedings of the 2006 <span>IEEE</span> computer society conference on computer vision and pattern recognition</em>, pp. 87–94. IEEE: New York, NY.
+Lasserre, J. A., Bishop, C. M., &amp; Minka, T. P. (2006).
+<span>‘Principled hybrids of generative and discriminative
+models’</span>. <em>Proceedings of the 2006 <span>IEEE</span> computer
+society conference on computer vision and pattern recognition</em>, pp.
+87–94. IEEE Computer Society: New York, NY.
 </div>
 <div id="ref-Lupyan15" class="csl-entry" role="doc-biblioentry">
-Lupyan, G. (2015). <span>‘Cognitive penetrability of perception in the age of prediction: Predictive systems are penetrable systems’</span>, <em>Review of Philosophy and Psychology</em>, 6: 547–69.
+Lupyan, G. (2015). <span>‘Cognitive penetrability of perception in the
+age of prediction: Predictive systems are penetrable systems’</span>,
+<em>Review of Philosophy and Psychology</em>, 6: 547–69.
 </div>
 <div id="ref-MacKay03" class="csl-entry" role="doc-biblioentry">
-MacKay, D. J. C. (2003). <em>Information theory, inference, and learning algorithms</em>. Cambridge: Cambridge University Press.
+MacKay, D. J. C. (2003). <em>Information theory, inference, and learning
+algorithms</em>. Cambridge: Cambridge University Press.
 </div>
 <div id="ref-Macpherson12" class="csl-entry" role="doc-biblioentry">
-Macpherson, F. (2012). <span>‘Cognivite penetration of colour experience: Rethinking the issue in light of an indirect mechanism’</span>, <em>Philosophy and Phenomenological Research</em>, 84: 24–62.
+Macpherson, F. (2012). <span>‘Cognivite penetration of colour
+experience: Rethinking the issue in light of an indirect
+mechanism’</span>, <em>Philosophy and Phenomenological Research</em>,
+84: 24–62.
 </div>
 <div id="ref-Macpherson17" class="csl-entry" role="doc-biblioentry">
-——. (2017). <span>‘The relationship between cognitive penetration and predictive coding’</span>, <em>Consciousness and Cognition</em>, 47: 6–16.
+——. (2017). <span>‘The relationship between cognitive penetration and
+predictive coding’</span>, <em>Consciousness and Cognition</em>, 47:
+6–16.
 </div>
 <div id="ref-Marr82" class="csl-entry" role="doc-biblioentry">
 Marr, D. (1982). <em>Vision</em>. San Francisco, CA: W. H. Freeman.
 </div>
 <div id="ref-Matloff17" class="csl-entry" role="doc-biblioentry">
-Matloff, N. (2017). <em>Statistical regression and classification</em>. Boca Raton, FL: CRC Press.
+Matloff, N. (2017). <em>Statistical regression and classification</em>.
+Boca Raton, FL: CRC Press.
 </div>
-<div id="ref-MorenoBoteKnillPouget11" class="csl-entry" role="doc-biblioentry">
-Moreno-Bote, R., Knill, D. C., &amp; Pouget, A. (2011). <span>‘Bayesian sampling in visual perception’</span>, <em>Proceedings of the National Academy of Sciences</em>, 108: 12491–6.
+<div id="ref-MetzingerWiese17a" class="csl-entry"
+role="doc-biblioentry">
+Metzinger, T., &amp; Wiese, W. (2017). <span>‘Vanilla <span>PP</span>
+for philosophers: <span>A</span> primer on predictive
+processing’</span>. Metzinger T. &amp; Wiese W. (eds) <em>Philosophy and
+predictive processing</em>. MIND Group: Frankfurt am Main. DOI: <a
+href="https://doi.org/10.15502/9783958573024">10.15502/9783958573024</a>
+</div>
+<div id="ref-MorenoBoteKnillPouget11" class="csl-entry"
+role="doc-biblioentry">
+Moreno-Bote, R., Knill, D. C., &amp; Pouget, A. (2011). <span>‘Bayesian
+sampling in visual perception’</span>, <em>Proceedings of the National
+Academy of Sciences</em>, 108: 12491–6.
 </div>
 <div id="ref-Neisser67" class="csl-entry" role="doc-biblioentry">
-Neisser, U. (2014). <em>Cognitive psychology</em>. Englewood Cliffs, NJ: Prentice-Hall.
+Neisser, U. (2014). <em>Cognitive psychology</em>. Englewood Cliffs, NJ:
+Prentice-Hall.
 </div>
 <div id="ref-NgJordan02" class="csl-entry" role="doc-biblioentry">
-Ng, A. Y., &amp; Jordan, M. I. (2002). <span>‘On discriminative vs. Generative classifiers: <span>A</span> comparison of logistic regression and naive <span>B</span>ayes’</span>. Dietterich T. G., Becker S., &amp; Ghahramani Z. (eds) <em>Advances in neural information processing systems 14</em>, pp. 841–8. MIT Press: Cambridge, MA.
+Ng, A. Y., &amp; Jordan, M. I. (2002). <span>‘On discriminative
+vs. Generative classifiers: <span>A</span> comparison of logistic
+regression and naive <span>B</span>ayes’</span>. Dietterich T. G.,
+Becker S., &amp; Ghahramani Z. (eds) <em>Advances in neural information
+processing systems 14</em>, pp. 841–8. MIT Press: Cambridge, MA.
 </div>
 <div id="ref-NivSchoenbaum08" class="csl-entry" role="doc-biblioentry">
-Niv, Y., &amp; Schoenbaum, G. (2008). <span>‘Dialogues on prediction errors’</span>, <em>Trends in Cognitive Sciences</em>, 12: 265–72.
+Niv, Y., &amp; Schoenbaum, G. (2008). <span>‘Dialogues on prediction
+errors’</span>, <em>Trends in Cognitive Sciences</em>, 12: 265–72.
 </div>
 <div id="ref-PoeppelBever10" class="csl-entry" role="doc-biblioentry">
-Poeppel, D., &amp; Bever, T. G. (2010). <span>‘Analysis by synthesis: A (re-)emerging program of research for language and vision’</span>, <em>Biolinguistics</em>, 4: 174–200.
+Poeppel, D., &amp; Bever, T. G. (2010). <span>‘Analysis by synthesis: A
+(re-)emerging program of research for language and vision’</span>,
+<em>Biolinguistics</em>, 4: 174–200.
 </div>
 <div id="ref-PougetDayan03" class="csl-entry" role="doc-biblioentry">
-Pouget, A., Dayan, P., &amp; Zemel, R. S. (2003). <span>‘Inference and computation with population codes’</span>, <em>Annual Review of Neuroscience</em>, 26: 381–410.
+Pouget, A., Dayan, P., &amp; Zemel, R. S. (2003). <span>‘Inference and
+computation with population codes’</span>, <em>Annual Review of
+Neuroscience</em>, 26: 381–410.
 </div>
 <div id="ref-Rahnev17" class="csl-entry" role="doc-biblioentry">
-Rahnev, D. (2017). <span>‘The case against full probability distributions in perceptual decision making’</span>, <em><span>bioRxiv</span></em>. DOI: <a href="https://doi.org/10.1101/108944">10.1101/108944</a>
+Rahnev, D. (2017). <em>The case against full probability distributions
+in perceptual decision making</em>. DOI: <a
+href="https://doi.org/10.1101/108944">10.1101/108944</a>
 </div>
-<div id="ref-RainaShenMcCallum03" class="csl-entry" role="doc-biblioentry">
-Raina, R., Shen, Y., McCallum, A., &amp; Ng, A. Y. (2003). <span>‘Classification with hybrid generative/discriminative models’</span>. Thrun S., Saul L. K., &amp; Schölkopf B. (eds) <em>Advances in neural information processing systems 16</em>, pp. 545–52. MIT Press: Cambridge, MA.
+<div id="ref-RainaShenMcCallum03" class="csl-entry"
+role="doc-biblioentry">
+Raina, R., Shen, Y., McCallum, A., &amp; Ng, A. Y. (2003).
+<span>‘Classification with hybrid generative/discriminative
+models’</span>. Thrun S., Saul L. K., &amp; Schölkopf B. (eds)
+<em>Advances in neural information processing systems 16</em>, pp.
+545–52. MIT Press: Cambridge, MA.
 </div>
 <div id="ref-Ramsey90" class="csl-entry" role="doc-biblioentry">
-Ramsey, F. P. (1990). <em>Philosophical papers</em>. (D. H. Mellor, Ed.). Cambridge: Cambridge University Press.
+Ramsey, F. P. (1990). <em>Philosophical papers</em>. (D. H. Mellor,
+Ed.). Cambridge: Cambridge University Press.
+</div>
+<div id="ref-RoskiesWood17" class="csl-entry" role="doc-biblioentry">
+Roskies, A. L., &amp; Wood, C. C. (2017). <span>‘Catching the prediction
+wave in brain science’</span>, <em>Analysis</em>, 77: 848–57.
 </div>
 <div id="ref-RussellNorvig10" class="csl-entry" role="doc-biblioentry">
-Russell, S., &amp; Norvig, P. (2010). <em>Artificial intelligence: A modern approach</em>., 3rd ed. Upper Saddle River, NJ: Pearson.
+Russell, S., &amp; Norvig, P. (2010). <em>Artificial intelligence: A
+modern approach</em>., 3rd ed. Upper Saddle River, NJ: Pearson.
 </div>
 <div id="ref-SanbornChater16" class="csl-entry" role="doc-biblioentry">
-Sanborn, A. N., &amp; Chater, N. (2016). <span>‘Bayesian brains without probabilities’</span>, <em>Trends in Cognitive Sciences</em>, 20: 883–93.
+Sanborn, A. N., &amp; Chater, N. (2016). <span>‘Bayesian brains without
+probabilities’</span>, <em>Trends in Cognitive Sciences</em>, 20:
+883–93.
 </div>
 <div id="ref-SanbornChater17" class="csl-entry" role="doc-biblioentry">
-——. (2017). <span>‘The sampling brain’</span>, <em>Trends in Cognitive Sciences</em>, 21: 492–3.
+——. (2017). <span>‘The sampling brain’</span>, <em>Trends in Cognitive
+Sciences</em>, 21: 492–3.
 </div>
 <div id="ref-SchultzDayan97" class="csl-entry" role="doc-biblioentry">
-Schultz, W., Dayan, P., &amp; Montague, P. R. (1997). <span>‘A neural substrate of prediction and reward’</span>, <em>Science</em>, 275: 1593–9.
+Schultz, W., Dayan, P., &amp; Montague, P. R. (1997). <span>‘A neural
+substrate of prediction and reward’</span>, <em>Science</em>, 275:
+1593–9.
 </div>
-<div id="ref-SchwartenbeckFitzGeraldMathys15" class="csl-entry" role="doc-biblioentry">
-Schwartenbeck, P., FitzGerald, T., Mathys, C., Dolan, R. J., &amp; Friston, K. (2015). <span>‘The dopaminergic midbrain encodes the expected certainty about desired outcomes’</span>, <em>Cerebral Cortex</em>, 25: 3434–445.
+<div id="ref-SchwartenbeckFitzGeraldMathys15" class="csl-entry"
+role="doc-biblioentry">
+Schwartenbeck, P., FitzGerald, T., Mathys, C., Dolan, R. J., &amp;
+Friston, K. (2015). <span>‘The dopaminergic midbrain encodes the
+expected certainty about desired outcomes’</span>, <em>Cerebral
+Cortex</em>, 25: 3434–445.
 </div>
 <div id="ref-Seth17" class="csl-entry" role="doc-biblioentry">
-Seth, A. K. (2017). <span>‘The cybernetic brain: From interoceptive inference to sensorimotor contingencies’</span>. Metzinger T. &amp; Wiese W. (eds) <em>Philosophy and predictive processing</em>. MIND Group: Frankfurt am Main. DOI: <a href="https://doi.org/10.15502/9783958570108">10.15502/9783958570108</a>
+Seth, A. K. (2017). <span>‘The cybernetic brain: From interoceptive
+inference to sensorimotor contingencies’</span>. Metzinger T. &amp;
+Wiese W. (eds) <em>Philosophy and predictive processing</em>. MIND
+Group: Frankfurt am Main. DOI: <a
+href="https://doi.org/10.15502/9783958570108">10.15502/9783958570108</a>
 </div>
-<div id="ref-SimoncelliOlshausen01" class="csl-entry" role="doc-biblioentry">
-Simoncelli, E. P., &amp; Olshausen, B. A. (2001). <span>‘Natural image statistics and neural representation’</span>, <em>Annual Review of Neuroscience</em>, 24: 1193–216.
+<div id="ref-Seth21" class="csl-entry" role="doc-biblioentry">
+——. (2021). <em>Being you: A new science of consciousness</em>. London:
+Faber &amp; Faber.
+</div>
+<div id="ref-SimoncelliOlshausen01" class="csl-entry"
+role="doc-biblioentry">
+Simoncelli, E. P., &amp; Olshausen, B. A. (2001). <span>‘Natural image
+statistics and neural representation’</span>, <em>Annual Review of
+Neuroscience</em>, 24: 1193–216.
+</div>
+<div id="ref-Spratling17" class="csl-entry" role="doc-biblioentry">
+Spratling, M. W. (2017). <span>‘A review of predictive coding
+algorithms’</span>, <em>Brain and Cognition</em>, 112: 92–7.
 </div>
 <div id="ref-Sprevak20e" class="csl-entry" role="doc-biblioentry">
-Sprevak, M. (forthcoming). <span>‘Predictive coding: appendix’</span>, <em>TBC</em>.
+Sprevak, M. (forthcoming). <span>‘Predictive coding: appendix’</span>,
+<em>TBC</em>.
 </div>
 <div id="ref-Sprevak20d" class="csl-entry" role="doc-biblioentry">
-——. (forthcoming). <span>‘Predictive coding <span>IV</span>: The implementation level’</span>, <em>TBC</em>.
+——. (forthcoming). <span>‘Predictive coding <span>IV</span>: The
+implementation level’</span>, <em>TBC</em>.
 </div>
 <div id="ref-Sprevak20c" class="csl-entry" role="doc-biblioentry">
-——. (forthcoming). <span>‘Predictive coding <span>III</span>: The algorithmic level’</span>, <em>TBC</em>.
+——. (forthcoming). <span>‘Predictive coding <span>III</span>: The
+algorithmic level’</span>, <em>TBC</em>.
 </div>
 <div id="ref-Sprevak20b" class="csl-entry" role="doc-biblioentry">
-——. (forthcoming). <span>‘Predictive coding <span>II</span>: The computational level’</span>, <em>TBC</em>.
+——. (forthcoming). <span>‘Predictive coding <span>II</span>: The
+computational level’</span>, <em>TBC</em>.
 </div>
-<div id="ref-SterlingLaughlin15" class="csl-entry" role="doc-biblioentry">
-Sterling, P., &amp; Laughlin, S. (2015). <em>Principles of neural design</em>. Cambridge, MA: MIT Press.
+<div id="ref-SterlingLaughlin15" class="csl-entry"
+role="doc-biblioentry">
+Sterling, P., &amp; Laughlin, S. (2015). <em>Principles of neural
+design</em>. Cambridge, MA: MIT Press.
 </div>
 <div id="ref-Stone18" class="csl-entry" role="doc-biblioentry">
-Stone, J. V. (2018). <em>Principles of neural information theory: Computational neuroscience and metabolic efficiency</em>. Sebtel Press.
+Stone, J. V. (2018). <em>Principles of neural information theory:
+Computational neuroscience and metabolic efficiency</em>. Sebtel Press.
 </div>
 <div id="ref-TenenbaumKemp11" class="csl-entry" role="doc-biblioentry">
-Tenenbaum, J. B., Kemp, C., Griffiths, T. L., &amp; Goodman, N. D. (2011). <span>‘How to grow a mind: Statistics, structure, and abstraction’</span>, <em>Science</em>, 331: 1279–85.
+Tenenbaum, J. B., Kemp, C., Griffiths, T. L., &amp; Goodman, N. D.
+(2011). <span>‘How to grow a mind: Statistics, structure, and
+abstraction’</span>, <em>Science</em>, 331: 1279–85.
 </div>
-<div id="ref-TodericiVincent16" class="csl-entry" role="doc-biblioentry">
-Toderici, G., Vincent, D., Johnston, N., Hwang, S. J., Minnen, D., Shor, J., &amp; Covell, M. (2016). <em><a href="http://arxiv.org/abs/1608.05148">Full resolution image compression with recurrent neural networks</a></em>.
+<div id="ref-TodericiVincent16" class="csl-entry"
+role="doc-biblioentry">
+Toderici, G., Vincent, D., Johnston, N., Hwang, S. J., Minnen, D., Shor,
+J., &amp; Covell, M. (2016). <em>Full resolution image compression with
+recurrent neural networks</em>. DOI: <a
+href="https://doi.org/10.48550/arXiv.1608.05148">10.48550/arXiv.1608.05148</a>
 </div>
 <div id="ref-Usevitch01" class="csl-entry" role="doc-biblioentry">
-Usevitch, B. E. (2001). <span>‘A tutorial on modern lossy wavelet image compression: Foundations of <span>JPEG</span> 2000’</span>, <em>IEEE Signal Processing Magazine</em>, 18: 22–35.
+Usevitch, B. E. (2001). <span>‘A tutorial on modern lossy wavelet image
+compression: Foundations of <span>JPEG</span> 2000’</span>, <em>IEEE
+Signal Processing Magazine</em>, 18: 22–35.
 </div>
-<div id="ref-WolpertGhahramaniFlanagan01" class="csl-entry" role="doc-biblioentry">
-Wolpert, D. M., Ghahramani, Z., &amp; Flanagan, J. R. (2001). <span>‘Perspectives and problems in motor learning’</span>, <em>Trends in Cognitive Sciences</em>, 5: 487–94.
+<div id="ref-WolpertGhahramaniFlanagan01" class="csl-entry"
+role="doc-biblioentry">
+Wolpert, D. M., Ghahramani, Z., &amp; Flanagan, J. R. (2001).
+<span>‘Perspectives and problems in motor learning’</span>, <em>Trends
+in Cognitive Sciences</em>, 5: 487–94.
 </div>
 <div id="ref-YuilleKersten06" class="csl-entry" role="doc-biblioentry">
-Yuille, A., &amp; Kersten, D. (2006). <span>‘Vision as <span>B</span>ayesian inference: Analysis by synthesis?’</span>, <em>Trends in Cognitive Sciences</em>, 10: 301–8.
+Yuille, A., &amp; Kersten, D. (2006). <span>‘Vision as
+<span>B</span>ayesian inference: Analysis by synthesis?’</span>,
+<em>Trends in Cognitive Sciences</em>, 10: 301–8.
 </div>
 </div>
-<section class="footnotes" role="doc-endnotes">
+<section class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1" role="doc-endnote"><p>See <span class="citation" data-cites="Marr82">Marr (1982)</span>, Ch. 1 for a description of these three levels.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>For examples of work that applies predictive coding’s computational model to personal-level and conscious experience, see <span class="citation" data-cites="Clark19">Clark (2019)</span>; <span class="citation" data-cites="DolegaDewhurst20">Dolega &amp; Dewhurst (2020)</span>; <span class="citation" data-cites="Hohwy12">Hohwy (2012)</span>; <span class="citation" data-cites="KirchhoffKiverstein19a">Kirchhoff &amp; Kiverstein (2019)</span>; <span class="citation" data-cites="Seth17">Seth (2017)</span>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3" role="doc-endnote"><p>See <span class="citation" data-cites="SimoncelliOlshausen01">Simoncelli &amp; Olshausen (2001)</span>; <span class="citation" data-cites="SterlingLaughlin15">Sterling &amp; Laughlin (2015)</span>; <span class="citation" data-cites="Stone18">Stone (2018)</span> for reviews of the contemporary literature on efficient coding in the sensory system.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4" role="doc-endnote"><p>Other coding schemes are better than JPEG at redundancy reduction. Wavelet-based codes <span class="citation" data-cites="Usevitch01">(Usevitch 2001)</span> and deep neural networks <span class="citation" data-cites="TodericiVincent16">(Toderici et al. 2016)</span> can both outperform it. Notably however, these schemes tend to impose higher processing burdens during decoding for inference or transformation of an image.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5" role="doc-endnote"><p>This is an instance of a more general trade-off in computer science between saving time and space. Compressing data saves space, but generally has an adverse effect on the time (computing cycles) required to manipulate that data for many other tasks. You would have experienced this trade-off any time you waited for a ‘.zip’ archive to uncompress before being able to work on its contents.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6" role="doc-endnote"><p>A related point is that uncompressed data are more resistant to noise during storage and transmission.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7" role="doc-endnote"><p><span class="citation" data-cites="GardnerBarlow01">Gardner-Medwin &amp; Barlow (2001)</span> list examples in which adding redundancy to sensory signals increases the chances of fast and reliable inference over sensory data.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn8" role="doc-endnote"><p>For example, <span class="citation" data-cites="SimoncelliOlshausen01">Simoncelli &amp; Olshausen (2001)</span> suggest that the details of the task a cognitive system currently faces, and not the mere imperative for redundancy reduction, should be considered when calculating the efficiency of a coding scheme (p. 1210).<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn9" role="doc-endnote"><p>For examples, see <span class="citation" data-cites="Clark13">Clark (2013)</span>, p. 190; <span class="citation" data-cites="Lupyan15">Lupyan (2015)</span>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn10" role="doc-endnote"><p>See <span class="citation" data-cites="Macpherson12">Macpherson (2012)</span>; <span class="citation" data-cites="FirestoneScholl16">Firestone &amp; Scholl (2016)</span>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn11" role="doc-endnote"><p><span class="citation" data-cites="Sprevak20c">Sprevak (forthcoming)</span>, Section 3; <span class="citation" data-cites="Sprevak20d">Sprevak (forthcoming)</span>, Section 2.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn12" role="doc-endnote"><p>See <span class="citation" data-cites="Macpherson17">Macpherson (2017)</span>; <span class="citation" data-cites="Drayson17">Drayson (2017)</span> for in-depth discussion of this line of argument. They suggest – for reasons similar to those indicated here – that predictive coding’s computational model is compatible with <em>no</em> personal-level top-down effects occurring at all.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn13" role="doc-endnote"><p>As Ira Hyman observes in his introduction to the reprinting of Neisser’s classic 1967 textbook: ‘Cognitive psychology has been and always will be an interaction of bottom-up and top-down influences’ <span class="citation" data-cites="Neisser67">(Neisser 2014 p. xvi)</span>. See <span class="citation" data-cites="FirestoneScholl16">Firestone &amp; Scholl (2016)</span>, p. 14, where despite alternative explanations being sought, attention is introduced as an unavoidable source of subpersonal top-down influence. See <span class="citation" data-cites="Gregory97">Gregory (1997)</span>; <span class="citation" data-cites="PoeppelBever10">Poeppel &amp; Bever (2010)</span>; <span class="citation" data-cites="YuilleKersten06">Yuille &amp; Kersten (2006)</span> for appeal to subpersonal top-down influences to explain how the brain resolves ambiguities in its incoming sensory data, how it handles noise, the persistence of knowledge-based perceptual illusions, and semantic priming effects.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn14" role="doc-endnote"><p><span class="citation" data-cites="Dennett91">Dennett (1991)</span> argues that these kind of top-down ‘virtual wires’ can produce extremely sophisticated forms of information processing, including those that are characteristic of high-level human thought and reasoning (pp. 193–199).<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn15" role="doc-endnote"><p>See <span class="citation" data-cites="Marr82">Marr (1982)</span>, pp. 100–101: ‘… top-down information is <em>sometimes used and necessary</em> … The interpretation of some images involves more complex factors as well as more straightforward visual skills. This image [a black-and-white picture of a Dalmatian] devised by R. C. James may be one example. Such images are not considered here.’ (emphasis mine)<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn16" role="doc-endnote"><p><span class="citation" data-cites="Bishop06">Bishop (2006)</span>, pp. 1–12 and <span class="citation" data-cites="Hohwy13">Hohwy (2013)</span>, pp. 42–46.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn17" role="doc-endnote"><p>Note that a prediction is not necessarily about the future. It is an <em>estimate</em> of some data the computational system has not already observed. A prediction in this sense might well concern past or present unobserved data. For a helpful review of the relevant sense of ‘prediction’, see <span class="citation" data-cites="LangeHeilbronKok18">Lange et al. (2018)</span>, p. 766, Box 2.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn18" role="doc-endnote"><p>More accurately, they aim to minimise a <em>cost function</em>, which describes the overall cost of a prediction and of which prediction error is one component. A common cost function is the prediction error plus the sum of the squares of all the model’s parameters. The latter serves as a ‘regularisation’ that penalises (increases the cost of) learning more complex models. For an introduction to prediction errors, regularisation, and cost functions, see <span class="citation" data-cites="RussellNorvig10">Russell &amp; Norvig (2010)</span>, pp. 709–713.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn19" role="doc-endnote"><p>For example, <span class="citation" data-cites="Bishop06">Bishop (2006)</span>; <span class="citation" data-cites="MacKay03">MacKay (2003)</span>; <span class="citation" data-cites="Barber12">Barber (2012)</span>; <span class="citation" data-cites="Matloff17">Matloff (2017)</span>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn20" role="doc-endnote"><p><span class="citation" data-cites="Sprevak20b">Sprevak (forthcoming)</span>, Section 2.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn21" role="doc-endnote"><p>For example, see <span class="citation" data-cites="SchultzDayan97">Schultz et al. (1997)</span>; <span class="citation" data-cites="NivSchoenbaum08">Niv &amp; Schoenbaum (2008)</span>. The relationship between minimising <em>reward</em> prediction error and minimising <em>sensory</em> prediction error is an active area of research and not yet fully understood. See <span class="citation" data-cites="FristonSchwartenbeckFitzGerald13">Friston et al. (2013)</span>; <span class="citation" data-cites="SchwartenbeckFitzGeraldMathys15">Schwartenbeck et al. (2015)</span> for an attempt to redescribe the task of minimising reward prediction error as that of minimising sensory prediction error.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn22" role="doc-endnote"><p><span class="citation" data-cites="Sprevak20c">Sprevak (forthcoming)</span>, Section 2.3.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn23" role="doc-endnote"><p>Against this, <span class="citation" data-cites="Rahnev17">Rahnev (2017)</span> suggests that brains do not store full subjective probability distributions, but instead only store a small number of samples or summary statistics (e.g. the mean and variance of some distribution). <span class="citation" data-cites="ColomboElkin18">Colombo et al. (2018)</span> review a number of other non-probabilistic ways in which the brain might encode uncertainty.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn24" role="doc-endnote"><p><span class="citation" data-cites="ChaterOaksford08">Chater &amp; Oaksford (2008)</span>; <span class="citation" data-cites="KnillPouget04">Knill &amp; Pouget (2004)</span>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn25" role="doc-endnote"><p>For an introduction to sampling methods (e.g. Markov chain Monte Carlo methods or particle filtering), see <span class="citation" data-cites="Bishop06">Bishop (2006)</span>, Ch. 11. For an introduction to variational methods, see <span class="citation" data-cites="Bishop06">Bishop (2006)</span>, Ch. 10.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref25" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn26" role="doc-endnote"><p>For proposals that the brain uses sampling, see <span class="citation" data-cites="FiserBerkes10">Fiser et al. (2010)</span>; <span class="citation" data-cites="GriffithsVul12">Griffiths et al. (2012)</span>; <span class="citation" data-cites="HoyerHyvarinen03">Hoyer &amp; Hyvärinen (2003)</span>; <span class="citation" data-cites="MorenoBoteKnillPouget11">Moreno-Bote et al. (2011)</span>; <span class="citation" data-cites="SanbornChater16">Sanborn &amp; Chater (2016)</span>; <span class="citation" data-cites="SanbornChater17">Sanborn &amp; Chater (2017)</span>. Predictive coding is an example of a proposal that the brain uses a variational method to approximate Bayesian inference.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref26" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn27" role="doc-endnote"><p><span class="citation" data-cites="Sprevak20b">Sprevak (forthcoming)</span>, Section 8; <span class="citation" data-cites="Sprevak20e">Sprevak (forthcoming)</span>, Section 2.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref27" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn28" role="doc-endnote"><p><span class="citation" data-cites="Sprevak20c">Sprevak (forthcoming)</span>, Section 5.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref28" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn29" role="doc-endnote"><p><span class="citation" data-cites="Sprevak20d">Sprevak (forthcoming)</span>, Section 3.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref29" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn30" role="doc-endnote"><p><span class="citation" data-cites="AitchisonLengyel17">Aitchison &amp; Lengyel (2017)</span> consider what might happen if, at the algorithmic level, predictive coding’s variational methods were replaced by a sampling method (pp. 223–224).<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref30" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn31" role="doc-endnote"><p>For a description, see <span class="citation" data-cites="KellerMrsciFlogel18">Keller &amp; Mrsci-Flogel (2018)</span>, pp. 424–425. <span class="citation" data-cites="Blakemore99">Blakemore et al. (1999)</span> use a model of this kind to explain why it is difficult to tickle yourself.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref31" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn32" role="doc-endnote"><p>See <span class="citation" data-cites="FranklinWolpert11">Franklin &amp; Wolpert (2011)</span>; <span class="citation" data-cites="Grush04">Grush (2004)</span>; <span class="citation" data-cites="KordingWolpert04">Körding &amp; Wolpert (2004)</span>; <span class="citation" data-cites="KordingWolpert06">Körding &amp; Wolpert (2006)</span>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref32" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn33" role="doc-endnote"><p>A <em>discriminative model</em> is typically defined as a model that tells one the conditional probability of some unobserved target variable <span class="math inline">\(Y\)</span>, given an observation <span class="math inline">\(x\)</span>, <span class="math inline">\(P(Y \mid X=x)\)</span>. A <em>generative model</em> is defined either as a model that tells one the likelihood function, i.e. the conditional probability an observation, <span class="math inline">\(X\)</span>, given some hidden state of the world, <span class="math inline">\(y\)</span>, <span class="math inline">\(P(X \mid Y=y)\)</span>; or, as a model that tells one the joint probability distribution, <span class="math inline">\(P(X, Y)\)</span>. In practice, the difference between the two does not matter as the joint probability distribution is equal to the product of the likelihood function and the system’s priors over those unobserved states: <span class="math inline">\(P(X, Y) = P(X \mid Y) P(Y)\)</span>, and both likelihood and priors are needed to invert the model under Bayes’ theorem.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref33" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn34" role="doc-endnote"><p>The reasons for this complex and depend on the contingent way our world is often structured. For a brief intuitive explanation, see <span class="citation" data-cites="RussellNorvig10">Russell &amp; Norvig (2010)</span>, pp. 497, 516–517.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref34" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn35" role="doc-endnote"><p>See <span class="citation" data-cites="Bishop06">Bishop (2006)</span>, Ch. 4 on creating classifiers using generative models. See <span class="citation" data-cites="ChaterManning06">Chater &amp; Manning (2006)</span>; <span class="citation" data-cites="Kriegeskorte15">Kriegeskorte (2015)</span>; <span class="citation" data-cites="PoeppelBever10">Poeppel &amp; Bever (2010)</span>; <span class="citation" data-cites="TenenbaumKemp11">Tenenbaum et al. (2011)</span>; <span class="citation" data-cites="YuilleKersten06">Yuille &amp; Kersten (2006)</span> for various proposals for using generative models to answer discriminative queries in cognition.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref35" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn36" role="doc-endnote"><p><span class="citation" data-cites="WolpertGhahramaniFlanagan01">Wolpert et al. (2001)</span>; <span class="citation" data-cites="Grush04">Grush (2004)</span> propose this. They also suggest that the generative model used by motor control is not implemented in the neocortex, but in the cerebellum.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref36" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn37" role="doc-endnote"><p>See <span class="citation" data-cites="NgJordan02">Ng &amp; Jordan (2002)</span> for conditions under which learning and using a discriminative model of a domain is more efficient than learning a generative model and inverting it. For examples of hybrid discriminative-generative approaches, see <span class="citation" data-cites="RainaShenMcCallum03">Raina et al. (2003)</span>; <span class="citation" data-cites="LasserreBishop06">Lasserre et al. (2006)</span>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref37" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn38" role="doc-endnote"><p>See <span class="citation" data-cites="Sprevak20c">Sprevak (forthcoming)</span>, Section 2.5; <span class="citation" data-cites="Sprevak20d">Sprevak (forthcoming)</span>, Section 6.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref38" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1" role="doc-endnote"><p>See <span class="citation"
+data-cites="Marr82">Marr (1982)</span>, Ch. 1 for a description of these
+three levels.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>Helpful reviews include <span
+class="citation" data-cites="AitchisonLengyel17">Aitchison &amp; Lengyel
+(2017)</span>; <span class="citation" data-cites="Friston03">Friston
+(2003)</span>; <span class="citation" data-cites="Friston05">Friston
+(2005)</span>; <span class="citation" data-cites="Friston09">Friston
+(2009)</span>; <span class="citation" data-cites="Friston10">Friston
+(2010)</span>; <span class="citation"
+data-cites="KanaiKomuraShipp15">Kanai et al. (2015)</span>; <span
+class="citation" data-cites="KellerMrsciFlogel18">Keller &amp;
+Mrsci-Flogel (2018)</span>. For reviews that focus on the describing the
+mathematical and computational framework, see <span class="citation"
+data-cites="Bogacz17">Bogacz (2017)</span>; <span class="citation"
+data-cites="Gershman19">Gershman (2019)</span>; <span class="citation"
+data-cites="Spratling17">Spratling (2017)</span>. For reviews that focus
+on the possible neural implementation, see <span class="citation"
+data-cites="BastosUsrey12">Bastos et al. (2012)</span>; <span
+class="citation" data-cites="LangeHeilbronKok18">Lange et al.
+(2018)</span>; <span class="citation" data-cites="KokLange15">Kok &amp;
+Lange (2015)</span>. For reviews that foreground philosophical issues
+see <span class="citation" data-cites="Clark13">Clark (2013)</span>;
+<span class="citation" data-cites="Clark15">Clark (2016)</span>; <span
+class="citation" data-cites="FristonFortierFriedman18">Friston et al.
+(2018)</span>; <span class="citation" data-cites="Hohwy13">Hohwy
+(2013)</span>; <span class="citation" data-cites="Hohwy20">Hohwy
+(2020)</span>; <span class="citation"
+data-cites="MetzingerWiese17a">Metzinger &amp; Wiese (2017)</span>;
+<span class="citation" data-cites="RoskiesWood17">Roskies &amp; Wood
+(2017)</span>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref2" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>For examples of work that applies
+predictive coding’s computational model to personal-level and conscious
+experience, see <span class="citation" data-cites="Clark19">Clark
+(2019)</span>; <span class="citation"
+data-cites="DolegaDewhurst20">Dolega &amp; Dewhurst (2021)</span>; <span
+class="citation" data-cites="Hohwy12">Hohwy (2012)</span>; <span
+class="citation" data-cites="KirchhoffKiverstein19a">Kirchhoff &amp;
+Kiverstein (2019)</span>; <span class="citation"
+data-cites="Seth17">Seth (2017)</span>; <span class="citation"
+data-cites="Seth21">Seth (2021)</span>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref3"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>See <span class="citation"
+data-cites="SimoncelliOlshausen01">Simoncelli &amp; Olshausen
+(2001)</span>; <span class="citation"
+data-cites="SterlingLaughlin15">Sterling &amp; Laughlin (2015)</span>;
+<span class="citation" data-cites="Stone18">Stone (2018)</span> for
+reviews of the contemporary literature on efficient coding in the
+sensory system.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref4" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>Other coding schemes are better than
+JPEG at redundancy reduction. Wavelet-based codes <span class="citation"
+data-cites="Usevitch01">(Usevitch 2001)</span> and deep neural networks
+<span class="citation" data-cites="TodericiVincent16">(Toderici et al.
+2016)</span> can both outperform it. Notably however, these schemes tend
+to impose higher processing burdens during decoding for inference or
+transformation of an image.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref5" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>This is an instance of a more general
+trade-off in computer science between saving time and space. Compressing
+data saves space, but generally has an adverse effect on the time
+(computing cycles) required to manipulate that data for many other
+tasks. You would have experienced this trade-off any time you waited for
+a ‘.zip’ archive to uncompress before being able to work on its
+contents.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref6" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p>A related point is that uncompressed
+data are more resistant to noise during storage and transmission.<a
+href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p><span class="citation"
+data-cites="GardnerBarlow01">Gardner-Medwin &amp; Barlow (2001)</span>
+list examples in which adding redundancy to sensory signals increases
+the chances of fast and reliable inference over sensory data.<a
+href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9" role="doc-endnote"><p>For example, <span class="citation"
+data-cites="SimoncelliOlshausen01">Simoncelli &amp; Olshausen
+(2001)</span> suggest that the details of the task a cognitive system
+currently faces, and not the mere imperative for redundancy reduction,
+should be considered when calculating the efficiency of a coding scheme
+(p. 1210).<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref9" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn10" role="doc-endnote"><p>For examples, see <span
+class="citation" data-cites="Clark13">Clark (2013)</span>, p. 190; <span
+class="citation" data-cites="Lupyan15">Lupyan (2015)</span>.<a
+href="#fnref10" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn11" role="doc-endnote"><p>See <span class="citation"
+data-cites="Macpherson12">Macpherson (2012)</span>; <span
+class="citation" data-cites="FirestoneScholl16">Firestone &amp; Scholl
+(2016)</span>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref11" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn12" role="doc-endnote"><p><span class="citation"
+data-cites="Sprevak20c">Sprevak (forthcoming)</span>, Section 3; <span
+class="citation" data-cites="Sprevak20d">Sprevak (forthcoming)</span>,
+Section 2.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref12" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn13" role="doc-endnote"><p>See <span class="citation"
+data-cites="Macpherson17">Macpherson (2017)</span>; <span
+class="citation" data-cites="Drayson17">Drayson (2017)</span> for
+in-depth discussion of this line of argument. They suggest – for reasons
+similar to those indicated here – that predictive coding’s computational
+model is compatible with <em>no</em> personal-level top-down effects
+occurring at all.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref13" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn14" role="doc-endnote"><p>As Ira Hyman observes in his
+introduction to the reprinting of Neisser’s classic 1967 textbook:
+‘Cognitive psychology has been and always will be an interaction of
+bottom-up and top-down influences’ <span class="citation"
+data-cites="Neisser67">(Neisser 2014 p. xvi)</span>. See <span
+class="citation" data-cites="FirestoneScholl16">Firestone &amp; Scholl
+(2016)</span>, p. 14, where despite alternative explanations being
+sought, attention is introduced as an unavoidable source of subpersonal
+top-down influence. See <span class="citation"
+data-cites="Gregory97">Gregory (1997)</span>; <span class="citation"
+data-cites="PoeppelBever10">Poeppel &amp; Bever (2010)</span>; <span
+class="citation" data-cites="YuilleKersten06">Yuille &amp; Kersten
+(2006)</span> for appeal to subpersonal top-down influences to explain
+how the brain resolves ambiguities in its incoming sensory data, how it
+handles noise, the persistence of knowledge-based perceptual illusions,
+and semantic priming effects.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref14" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn15" role="doc-endnote"><p><span class="citation"
+data-cites="Dennett91">Dennett (1991)</span> argues that these kind of
+top-down ‘virtual wires’ can produce extremely sophisticated forms of
+information processing, including those that are characteristic of
+high-level human thought and reasoning (pp. 193–199).<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref15"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16" role="doc-endnote"><p>See <span class="citation"
+data-cites="Marr82">Marr (1982)</span>, pp. 100–101: ‘… top-down
+information is <em>sometimes used and necessary</em> … The
+interpretation of some images involves more complex factors as well as
+more straightforward visual skills. This image [a black-and-white
+picture of a Dalmatian] devised by R. C. James may be one example. Such
+images are not considered here.’ (emphasis added)<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref16"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17" role="doc-endnote"><p><span class="citation"
+data-cites="Bishop06">Bishop (2006)</span>, pp. 1–12 and <span
+class="citation" data-cites="Hohwy13">Hohwy (2013)</span>, pp. 42–46.<a
+href="#fnref17" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn18" role="doc-endnote"><p>Note that a prediction is not
+necessarily about the future. It is an <em>estimate</em> of some data
+the computational system has not already observed. A prediction in this
+sense might well concern past or present unobserved data. For a helpful
+review of the relevant sense of ‘prediction’, see <span class="citation"
+data-cites="LangeHeilbronKok18">Lange et al. (2018)</span>, p. 766, Box
+2.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref18" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn19" role="doc-endnote"><p>More accurately, they aim to
+minimise a <em>cost function</em>, which describes the overall cost of a
+prediction and of which prediction error is one component. A common cost
+function is the prediction error plus the sum of the squares of all the
+model’s parameters. The latter serves as a ‘regularisation’ that
+penalises (increases the cost of) learning more complex models. For an
+introduction to prediction errors, regularisation, and cost functions,
+see <span class="citation" data-cites="RussellNorvig10">Russell &amp;
+Norvig (2010)</span>, pp. 709–713.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref19"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20" role="doc-endnote"><p>For example, <span class="citation"
+data-cites="Bishop06">Bishop (2006)</span>; <span class="citation"
+data-cites="MacKay03">MacKay (2003)</span>; <span class="citation"
+data-cites="Barber12">Barber (2012)</span>; <span class="citation"
+data-cites="Matloff17">Matloff (2017)</span>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref20"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn21" role="doc-endnote"><p><span class="citation"
+data-cites="Sprevak20b">Sprevak (forthcoming)</span>, Section 2.<a
+href="#fnref21" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn22" role="doc-endnote"><p>For example, see <span
+class="citation" data-cites="SchultzDayan97">Schultz et al.
+(1997)</span>; <span class="citation" data-cites="NivSchoenbaum08">Niv
+&amp; Schoenbaum (2008)</span>. The relationship between minimising
+<em>reward</em> prediction error and minimising <em>sensory</em>
+prediction error is an active area of research and not yet fully
+understood. See <span class="citation"
+data-cites="FristonSchwartenbeckFitzGerald13">Friston et al.
+(2013)</span>; <span class="citation"
+data-cites="SchwartenbeckFitzGeraldMathys15">Schwartenbeck et al.
+(2015)</span> for an attempt to redescribe the task of minimising reward
+prediction error as that of minimising sensory prediction error.<a
+href="#fnref22" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn23" role="doc-endnote"><p><span class="citation"
+data-cites="Sprevak20c">Sprevak (forthcoming)</span>, Section 2.3.<a
+href="#fnref23" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn24" role="doc-endnote"><p>Against this, <span class="citation"
+data-cites="Rahnev17">Rahnev (2017)</span> suggests that brains do not
+store full subjective probability distributions, but instead only store
+a small number of samples or summary statistics (e.g. the mean and
+variance of some distribution). <span class="citation"
+data-cites="ColomboElkin18">Colombo et al. (2018)</span> review a number
+of other non-probabilistic ways in which the brain might encode
+uncertainty.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref24" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn25" role="doc-endnote"><p><span class="citation"
+data-cites="ChaterOaksford08">Chater &amp; Oaksford (2008)</span>; <span
+class="citation" data-cites="KnillPouget04">Knill &amp; Pouget
+(2004)</span>.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref25" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn26" role="doc-endnote"><p>For an introduction to sampling
+methods (e.g. Markov chain Monte Carlo methods or particle filtering),
+see <span class="citation" data-cites="Bishop06">Bishop (2006)</span>,
+Ch. 11. For an introduction to variational methods, see <span
+class="citation" data-cites="Bishop06">Bishop (2006)</span>, Ch. 10.<a
+href="#fnref26" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn27" role="doc-endnote"><p>For proposals that the brain uses
+sampling, see <span class="citation" data-cites="FiserBerkes10">Fiser et
+al. (2010)</span>; <span class="citation"
+data-cites="GriffithsVul12">Griffiths et al. (2012)</span>; <span
+class="citation" data-cites="HoyerHyvarinen03">Hoyer &amp; Hyvärinen
+(2003)</span>; <span class="citation"
+data-cites="MorenoBoteKnillPouget11">Moreno-Bote et al. (2011)</span>;
+<span class="citation" data-cites="SanbornChater16">Sanborn &amp; Chater
+(2016)</span>; <span class="citation"
+data-cites="SanbornChater17">Sanborn &amp; Chater (2017)</span>.
+Predictive coding is an example of a proposal that the brain uses a
+variational method to approximate Bayesian inference.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref27"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn28" role="doc-endnote"><p><span class="citation"
+data-cites="Sprevak20b">Sprevak (forthcoming)</span>, Section 8; <span
+class="citation" data-cites="Sprevak20e">Sprevak (forthcoming)</span>,
+Section 2.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref28" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn29" role="doc-endnote"><p><span class="citation"
+data-cites="Sprevak20c">Sprevak (forthcoming)</span>, Section 5.<a
+href="#fnref29" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn30" role="doc-endnote"><p><span class="citation"
+data-cites="Sprevak20d">Sprevak (forthcoming)</span>, Section 3.<a
+href="#fnref30" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn31" role="doc-endnote"><p><span class="citation"
+data-cites="AitchisonLengyel17">Aitchison &amp; Lengyel (2017)</span>
+consider what might happen if, at the algorithmic level, predictive
+coding’s variational methods were replaced by a sampling method
+(pp. 223–224).<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref31" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn32" role="doc-endnote"><p>For a description, see <span
+class="citation" data-cites="KellerMrsciFlogel18">Keller &amp;
+Mrsci-Flogel (2018)</span>, pp. 424–425. <span class="citation"
+data-cites="Blakemore99">Blakemore et al. (1999)</span> use a model of
+this kind to explain why it is difficult to tickle yourself.<a
+href="#fnref32" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn33" role="doc-endnote"><p>See <span class="citation"
+data-cites="FranklinWolpert11">Franklin &amp; Wolpert (2011)</span>;
+<span class="citation" data-cites="Grush04">Grush (2004)</span>; <span
+class="citation" data-cites="KordingWolpert04">Körding &amp; Wolpert
+(2004)</span>; <span class="citation"
+data-cites="KordingWolpert06">Körding &amp; Wolpert (2006)</span>.<a
+href="#fnref33" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn34" role="doc-endnote"><p>A <em>discriminative model</em> is
+typically defined as a model that tells one the conditional probability
+of some unobserved target variable <span
+class="math inline">\(Y\)</span>, given an observation <span
+class="math inline">\(x\)</span>, <span class="math inline">\(P(Y \mid
+X=x)\)</span>. A <em>generative model</em> is defined either as a model
+that tells one the likelihood function, i.e. the conditional probability
+an observation, <span class="math inline">\(X\)</span>, given some
+hidden state of the world, <span class="math inline">\(y\)</span>, <span
+class="math inline">\(P(X \mid Y=y)\)</span>; or, as a model that tells
+one the joint probability distribution, <span class="math inline">\(P(X,
+Y)\)</span>. In practice, the difference between the two does not matter
+as the joint probability distribution is equal to the product of the
+likelihood function and the system’s priors over those unobserved
+states: <span class="math inline">\(P(X, Y) = P(X \mid Y) P(Y)\)</span>,
+and both likelihood and priors are needed to invert the model under
+Bayes’ theorem.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref34" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn35" role="doc-endnote"><p>The reasons for this complex and
+depend on the contingent way our world is often structured. For a brief
+intuitive explanation, see <span class="citation"
+data-cites="RussellNorvig10">Russell &amp; Norvig (2010)</span>,
+pp. 497, 516–517.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref35" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn36" role="doc-endnote"><p>See <span class="citation"
+data-cites="Bishop06">Bishop (2006)</span>, Ch. 4 on creating
+classifiers using generative models. See <span class="citation"
+data-cites="ChaterManning06">Chater &amp; Manning (2006)</span>; <span
+class="citation" data-cites="Kriegeskorte15">Kriegeskorte (2015)</span>;
+<span class="citation" data-cites="PoeppelBever10">Poeppel &amp; Bever
+(2010)</span>; <span class="citation"
+data-cites="TenenbaumKemp11">Tenenbaum et al. (2011)</span>; <span
+class="citation" data-cites="YuilleKersten06">Yuille &amp; Kersten
+(2006)</span> for various proposals for using generative models to
+answer discriminative queries in cognition.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref36"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn37" role="doc-endnote"><p><span class="citation"
+data-cites="WolpertGhahramaniFlanagan01">Wolpert et al. (2001)</span>;
+<span class="citation" data-cites="Grush04">Grush (2004)</span> propose
+this. They also suggest that the generative model used by motor control
+is not implemented in the neocortex, but in the cerebellum.<a
+href="#fnref37" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn38" role="doc-endnote"><p>See <span class="citation"
+data-cites="NgJordan02">Ng &amp; Jordan (2002)</span> for conditions
+under which learning and using a discriminative model of a domain is
+more efficient than learning a generative model and inverting it. For
+examples of hybrid discriminative-generative approaches, see <span
+class="citation" data-cites="RainaShenMcCallum03">Raina et al.
+(2003)</span>; <span class="citation"
+data-cites="LasserreBishop06">Lasserre et al. (2006)</span>.<a
+href="#fnref38" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn39" role="doc-endnote"><p>See <span class="citation"
+data-cites="Sprevak20c">Sprevak (forthcoming)</span>, Section 2.5; <span
+class="citation" data-cites="Sprevak20d">Sprevak (forthcoming)</span>,
+Section 6.<a href="https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/#fnref39" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 </div>

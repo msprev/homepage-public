@@ -5,7 +5,7 @@
     <link>https://marksprevak.com/</link>
     <description>Recent content on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 04 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Cognitive Science</title>
       <link>https://marksprevak.com/teaching/intro-to-cog-sci-ug/</link>
@@ -115,6 +115,15 @@ Please note that this is personal advice and not to be taken as a substitute for
     </item>
     
     <item>
+      <title>Predictive coding I: Introduction</title>
+      <link>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</guid>
+      <description>1 Introduction Predictive coding is a computational model of cognition. Like other computational models, it attempts to explain human thought and behaviour in terms of computations performed by our brains. It differs from more traditional approaches in at least three respects. First, it aspires to be comprehensive: it aims to explain, not just one domain of human cognition, but all of it – perception, motor control, decision making, planning, reasoning, attention, and so on.</description>
+    </item>
+    
+    <item>
       <title>What realism about agents requires</title>
       <link>https://marksprevak.com/publications/what-realism-about-agents-requires-c999/</link>
       <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
@@ -130,15 +139,6 @@ Please note that this is personal advice and not to be taken as a substitute for
       
       <guid>https://marksprevak.com/publications/philosophical-issues-in-computational-cognitive-sciences-06dd/</guid>
       <description>1 Introduction In 1962, Wilfred Sellars wrote: ‘The aim of philosophy, abstractly formulated, is to understand how things in the broadest possible sense of the term hang together in the broadest possible sense of the term’ (Sellars 1962 p. 35). On this view, philosophical issues are marked out not by having some uniquely philosophical subject matter, but in terms of the overall scope of the inquiry. When one turns to philosophical issues, what one is doing is taking a step back from some of the details of the science and considering how matters hang together relative to the broad ambitions and goals that motivated the scientific inquiry in the first place.</description>
-    </item>
-    
-    <item>
-      <title>Predictive coding I: Introduction</title>
-      <link>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</link>
-      <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</guid>
-      <description>1 Introduction Predictive coding is a computational model of cognition. Like other computational models, it attempts to explain human thought and behaviour in terms of computations performed by our brains. It differs from more traditional approaches in at least three respects. First, it aspires to be comprehensive: it aims to explain, not just one domain of human cognition, but all of it – perception, motor control, decision making, planning, reasoning, attention, and so on.</description>
     </item>
     
     <item>

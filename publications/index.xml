@@ -5,7 +5,16 @@
     <link>https://marksprevak.com/publications/</link>
     <description>Recent content in Publications on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What realism about agents requires</title>
+      <link>https://marksprevak.com/publications/what-realism-about-agents-requires-c999/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/what-realism-about-agents-requires-c999/</guid>
+      <description>Bruineberg et al. distinguish a metaphysically robust use from a merely formal use of the concept of a Markov blanket (Friston vs. Pearl blankets). They argue that Friston blankets are only able to do the work required of them if they yield a single principled boundary between the agent and world. They argue that Friston blankets cannot do this (Sect 5). Reasons include that a Friston blanket depends on a number of non-trivial assumptions that don’t flow purely from the formalism, including the choice of which Bayesian network one uses to model the system.</description>
+    </item>
+    
     <item>
       <title>Review of *Being You* by Anil Seth</title>
       <link>https://marksprevak.com/publications/review-of-being-you-by-anil-seth-5925/</link>
@@ -22,15 +31,6 @@
       
       <guid>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</guid>
       <description>1 Introduction Predictive coding is a computational model of cognition. Like other computational models, it attempts to explain human thought and behaviour in terms of computations performed by our brains. It differs from more traditional approaches in at least three respects. First, it aspires to be comprehensive: it aims to explain, not just one domain of human cognition, but all of it – perception, motor control, decision making, planning, reasoning, attention, and so on.</description>
-    </item>
-    
-    <item>
-      <title>What realism about agents requires</title>
-      <link>https://marksprevak.com/publications/what-realism-about-agents-requires-c999/</link>
-      <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/publications/what-realism-about-agents-requires-c999/</guid>
-      <description>Bruineberg et al. distinguish a metaphysically robust use from a merely formal use of the concept of a Markov blanket (Friston vs Pearl blankets). They argue that Friston blankets are only able to do the work required of them if they yield a single principled boundary between the agent and world. They argue that Friston blankets cannot do this (Sect 5). Reasons include that a Friston blanket depends on a number of non-trivial assumptions that don’t flow purely from the formalism, including the choice of which Bayesian network one uses to model the system.</description>
     </item>
     
     <item>

@@ -5,7 +5,7 @@
     <link>https://marksprevak.com/</link>
     <description>Recent content on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Cognitive Science</title>
       <link>https://marksprevak.com/teaching/intro-to-cog-sci-ug/</link>
@@ -112,6 +112,16 @@ Please note that this is personal advice and not to be taken as a substitute for
       
       <guid>https://marksprevak.com/teaching/dissertations-past-ug/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Not all computations are effective methods</title>
+      <link>https://marksprevak.com/publications/not-all-computations-are-effective-methods-3da6/</link>
+      <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/not-all-computations-are-effective-methods-3da6/</guid>
+      <description>1 Introduction What is the relationship between the notion of a computation and that of an effective method? A number of authors assume that the two notions are coextensive. Indeed, some treat the terms ‘effective method’ and ‘computation’ as not just extensional equivalents but also as synonyms. The claim made by this paper is that any such equation is false: not all computations are effective methods.
+Distinguishing effective methods from computational methods is important for a number of reasons.</description>
     </item>
     
     <item>

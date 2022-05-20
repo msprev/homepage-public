@@ -5,7 +5,7 @@
     <link>https://marksprevak.com/</link>
     <description>Recent content on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Cognitive Science</title>
       <link>https://marksprevak.com/teaching/intro-to-cog-sci-ug/</link>
@@ -115,6 +115,24 @@ Please note that this is personal advice and not to be taken as a substitute for
     </item>
     
     <item>
+      <title>Predictive coding II: The computational level</title>
+      <link>https://marksprevak.com/publications/predictive-coding-ii-the-computational-level-b9f5/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/predictive-coding-ii-the-computational-level-b9f5/</guid>
+      <description>1 Introduction When we encounter a new computing device, we often try to describe its computational characteristics in terms of the task it faces: this shop’s cash register has the task of adding numbers, this computer programme has the task of sorting names into alphabetical order, this Excel spreadsheet has the task of calculating losses. As well as asking a how-question about the device – How does it work? – we might ask a what-question: What is the problem the device is trying to solve?</description>
+    </item>
+    
+    <item>
+      <title>Review of *Being You* by Anil Seth</title>
+      <link>https://marksprevak.com/publications/review-of-being-you-by-anil-seth-5925/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/review-of-being-you-by-anil-seth-5925/</guid>
+      <description>Being You is a beautifully written book about consciousness. It pulls off the seemingly impossible trick of being a deeply personal account of the author’s own life and conscious experiences while also being a substantial contribution to the philosophy and science of consciousness. On the latter score, the intentions of this book are broad and programmatic. It sketches an agenda for a pragmatic, scientific approach to consciousness that has a different character to more familiar research programmes (e.</description>
+    </item>
+    
+    <item>
       <title>Not all computations are effective methods</title>
       <link>https://marksprevak.com/publications/not-all-computations-are-effective-methods-3da6/</link>
       <pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate>
@@ -134,15 +152,6 @@ Distinguishing effective methods from computational methods is important for a n
     </item>
     
     <item>
-      <title>Review of *Being You* by Anil Seth</title>
-      <link>https://marksprevak.com/publications/review-of-being-you-by-anil-seth-5925/</link>
-      <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/publications/review-of-being-you-by-anil-seth-5925/</guid>
-      <description>Being You is a beautifully written book about consciousness. It pulls off the seemingly impossible trick of being a deeply personal account of the author’s own life and conscious experiences while also being a substantial contribution to the philosophy and science of consciousness. On the latter score, the intentions of this book are broad and programmatic. It sketches an agenda for a pragmatic, scientific approach to consciousness that has a different character to more familiar research programmes (e.</description>
-    </item>
-    
-    <item>
       <title>Predictive coding I: Introduction</title>
       <link>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</link>
       <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
@@ -158,15 +167,6 @@ Distinguishing effective methods from computational methods is important for a n
       
       <guid>https://marksprevak.com/publications/philosophical-issues-in-computational-cognitive-sciences-06dd/</guid>
       <description>1 Introduction In 1962, Wilfred Sellars wrote: ‘The aim of philosophy, abstractly formulated, is to understand how things in the broadest possible sense of the term hang together in the broadest possible sense of the term’ (Sellars 1962 p. 35). On this view, philosophical issues are marked out not by having some uniquely philosophical subject matter, but in terms of the overall scope of the inquiry. When one turns to philosophical issues, what one is doing is taking a step back from some of the details of the science and considering how matters hang together relative to the broad ambitions and goals that motivated the scientific inquiry in the first place.</description>
-    </item>
-    
-    <item>
-      <title>Predictive coding II: The computational level</title>
-      <link>https://marksprevak.com/publications/predictive-coding-ii-the-computational-level-b9f5/</link>
-      <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/publications/predictive-coding-ii-the-computational-level-b9f5/</guid>
-      <description>1 Introduction When we encounter a new computing device, we often try to describe its computational characteristics in terms of the task it faces: this shop’s cash register has the task of adding numbers, this computer programme has the task of sorting names into alphabetical order, this Excel spreadsheet has the task of calculating expected losses. As well as asking a how-question about the device – How does it work?</description>
     </item>
     
     <item>

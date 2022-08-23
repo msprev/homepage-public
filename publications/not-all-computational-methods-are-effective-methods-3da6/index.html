@@ -1,0 +1,2431 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Not all computational methods are effective methods | Mark Sprevak</title>
+        <meta name="description" content="">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://marksprevak.com/kube/css/kube.min.css" />
+<link rel="stylesheet" href="https://marksprevak.com/css-customisations/sprevak.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<title>Mark Sprevak</title>
+<base href="https://marksprevak.com/">
+<link rel="canonical" href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700%7CLato:400,700" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="page wrapper">
+
+            <header class="header">
+                <div class="is-navbar-container" style="padding-bottom: 6px; padding-top: 0px; margin-bottom: 12px; border-bottom: 1px solid; border-color: rgba(0, 0, 0, 0.3);">
+    <div class="is-brand">
+        <div class="titlebar"><a href="https://marksprevak.com/">Mark&nbsp;Sprevak</a></div>
+        
+        <a href="#"
+                style="color: rgba(0, 0, 0, 0.8); text-decoration: none; border-bottom: none; font-size:18px;"
+                class="is-hidden-print nav-toggle is-push-right-mobile is-shown-mobile icon-kube-menu"
+                data-kube="toggle"
+                data-target="#top-navbar"></a>
+    </div>
+    <div id="top-navbar" class="is-navbar is-hidden-print is-hidden-mobile">
+        <nav class="is-push-right">
+            <ul style="text-align: right;">
+                
+                
+                
+                
+                
+                <li  >
+                    <a href="https://marksprevak.com/publications/" style="text-decoration: none; border-bottom: none;">Publications</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="https://marksprevak.com/talks/" style="text-decoration: none; border-bottom: none;">Talks</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="https://marksprevak.com/outreach/" style="text-decoration: none; border-bottom: none;">Outreach</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="https://marksprevak.com/cv/" style="text-decoration: none; border-bottom: none;">CV</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="https://marksprevak.com/phds/" style="text-decoration: none; border-bottom: none;">PhD study</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="https://marksprevak.com/mscs/" style="text-decoration: none; border-bottom: none;">MSc study</a>
+                </li>
+                
+                
+                
+                <li  >
+                    <a href="https://marksprevak.com/teaching/" style="text-decoration: none; border-bottom: none;">Teaching</a>
+                </li>
+                
+                
+            </ul>
+        </nav>
+    </div>
+</div>
+
+            </header>
+
+            <main class="main">
+                <div class="is-row">
+
+                    <div class="is-col is-67">     
+
+                        <div style="padding-bottom: 30px;">
+                            <div style="margin-bottom: 10px;">
+                                <h1 class="is-color-black" style="margin-top: 0px; margin-bottom: 0px;">Not all computational methods are effective methods</h1>
+                                
+                                <p class="is-muted" style="margin-top: 10px;">
+                                    
+                                        draft  &nbsp;
+                                    
+                                    
+                                </p>
+                                <p class="is-small" style="margin-top: 10px;">
+                                    <span>Last updated 23 August 2022</span>
+                                    
+                                </p>
+                            </div>
+                            <div class="is-hidden-print">
+                                
+<a href="https://marksprevak.com/pdf/paper/Sprevak--Not-all-computations-are-effective-methods.pdf" target="_blank" class="label is-primary is-focus" style="margin-left: 0px; margin-right:5px;">
+    <i class="far fa-file-pdf" style="font-size: 12px;"></i>
+    &nbsp;PDF
+</a>
+
+
+
+
+
+                            </div>
+                        </div>
+
+                        <div class="is-hidden-mobile">
+                            
+                            <div class="article-style" style="margin-left: 30px; margin-right: 30px; margin-bottom: 30px;">
+                                <p>An effective method is a computational method that might, in
+principle, be executed by a human. In this paper, I argue that there are
+methods for computing that are not effective methods. The examples I
+consider are taken primarily from quantum computing, but these are only
+meant to be illustrative of a much wider class. Quantum inference and
+quantum parallelism involve steps that might be implemented in multiple
+physical systems, but cannot be implemented, or at least not at will, by
+an idealised human. Recognising that not all computational methods are
+effective methods is important for at least two reasons. First, it is
+needed to correctly state the results of Turing and other founders of
+computation theory. Turing is sometimes said to have offered a
+replacement for the informal notion of an effective method with the
+formal notion of a Turing machine. I argue that such a view only holds
+under limited circumstances. Second, not distinguishing between
+computational methods and effective methods can lead to mistakes when
+quantifying over the class of all possible computational methods. Such
+quantification is common in philosophy of mind in the context of thought
+experiments that explore the limits of computational functionalism. I
+argue that these &#x2018;homuncular&#x2019; thought experiments should not be treated
+as valid.</p>
+
+                            </div>
+                            
+                        </div>
+                        <div class="is-shown-mobile">
+                            
+                            
+                            <div class="is-muted is-smaller is-hidden-print">
+                                Abstract:
+                            </div>
+                            <div class="article-style" style="margin-bottom: 30px;">
+                                <p>An effective method is a computational method that might, in
+principle, be executed by a human. In this paper, I argue that there are
+methods for computing that are not effective methods. The examples I
+consider are taken primarily from quantum computing, but these are only
+meant to be illustrative of a much wider class. Quantum inference and
+quantum parallelism involve steps that might be implemented in multiple
+physical systems, but cannot be implemented, or at least not at will, by
+an idealised human. Recognising that not all computational methods are
+effective methods is important for at least two reasons. First, it is
+needed to correctly state the results of Turing and other founders of
+computation theory. Turing is sometimes said to have offered a
+replacement for the informal notion of an effective method with the
+formal notion of a Turing machine. I argue that such a view only holds
+under limited circumstances. Second, not distinguishing between
+computational methods and effective methods can lead to mistakes when
+quantifying over the class of all possible computational methods. Such
+quantification is common in philosophy of mind in the context of thought
+experiments that explore the limits of computational functionalism. I
+argue that these &#x2018;homuncular&#x2019; thought experiments should not be treated
+as valid.</p>
+
+                            </div>
+                            
+                        </div>
+
+                        <div>
+                            
+                            <div class="is-shown-mobile">
+                                
+                                    <h1 style="margin-top: 0px;" id="internal-mds-toc">Contents</h1>
+                                    <ul class="is-unstyled">
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#introduction"><span style="visibility: visible;">1</span> &nbsp;  Introduction</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#distinguishing-features-of-this-argument"><span style="visibility: visible;">2</span> &nbsp;  Distinguishing features of this argument</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <ul class="is-unstyled" style="margin-left: 15px;">
+            
+            <li>
+                <span style="font-size: 12px;">
+                    
+                    <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#no-dependence-on-hypercomputation"><span style="visibility: visible;">2.1</span> &nbsp;  No dependence on hypercomputation</a>
+                    
+                </span>
+            </li>
+            
+            <li>
+                <span style="font-size: 12px;">
+                    
+                    <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#computations-should-be-individuated-their-internal-workings"><span style="visibility: visible;">2.2</span> &nbsp;  Computations should be individuated their internal workings</a>
+                    
+                </span>
+            </li>
+            
+        </ul>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#what-is-an-effective-method"><span style="visibility: visible;">3</span> &nbsp;  What is an effective method?</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#didnt-turing-define-effective-method"><span style="visibility: visible;">4</span> &nbsp;  Didn&#x2019;t Turing define &#x2018;effective method&#x2019;?</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#all-computational-methods-are-effective-methods"><span style="visibility: visible;">5</span> &nbsp;  All computational methods are effective methods</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#quantum-computations-that-are-not-effective-methods"><span style="visibility: visible;">6</span> &nbsp;  Quantum computations that are not effective methods</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#simulating-the-quantum-system-by-hand"><span style="visibility: visible;">7</span> &nbsp;  Simulating the quantum system by hand</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#conclusion"><span style="visibility: visible;">8</span> &nbsp;  Conclusion</a>
+            
+        </span>
+        
+    </li>
+    
+</ul>
+
+                                
+                                
+                            </div>
+                            <div class="article-style">
+                                <div>
+<h1 data-number="1" id="introduction"><span
+class="header-section-number">1</span> Introduction</h1>
+<p>What is the relationship between the notion of a computational method
+and that of an effective method? A number of authors assume that the two
+notions are coextensive. Indeed, some treat the terms ‘effective method’
+and ‘computational method’ as not just extensional equivalents but also
+as synonyms. The claim made by this paper is that any such equation is
+false: not all computational methods are effective methods.</p>
+<p>Distinguishing effective methods from computational methods is
+important for a number of reasons. First, it is needed to accurately
+represent the historical motivations of the founders of computation
+theory, such as Turing, and to correctly state their results in a modern
+context. Second, not distinguishing between the two has the potential to
+adversely affect our reasoning when we quantify over the class of all
+possible computational methods. For example, if one thinks that some
+mental processes are computational processes, one might be led to an
+incorrect view about the possible nature of those processes – that they
+are the kinds of things that ‘little men’ might perform. While this kind
+of homuncular thinking might serve as a rough heuristic or explanatory
+device when first introducing computational ideas about the mind, it is
+simply not the right way to understand computational processes. Not all
+computational methods are human executable, even in principle.</p>
+<p>Turing famously developed a formal predicate that aimed to make the
+informal idea of an effective method more precise. This formalisation,
+the Turing machine, is sometimes described as offering a ‘definition’,
+an ‘analysis’, or a ‘replacement’ for the informal notion of an
+effective method. I argue that care should be taken in interpreting
+these claims. Turing’s formalisation may serve as an adequate
+replacement for the informal notion in certain contexts, but not in all
+contexts. In particular, if one chooses to individuate computational
+methods so as to preserve fine-grained differences between methods that
+compute the same function – for example, if one is a functionalist about
+the mind or one cares about the complexity profiles of different methods
+for computing the same function – then the methods available to a system
+that uses an effective method cannot be identified with those available
+to a system that can use any computational method.</p>
+<p>The argument of this paper runs as follows. In Section 2, I
+distinguish my argument from two superficially similar arguments in the
+literature: the first is that hypercomputers provide examples of
+non-effective computational methods; the second is that all
+computational methods should be individuated extensionally (by their
+overall input–output profile). In Section 3, I analyse the notion of an
+effective method; I argue that an essential requirement is that an
+effective method should, in principle, be human executable. In Section
+4, I consider the objection that Turing offered a precisification of the
+notion of an effective method that would allow us to dispense with the
+informal notion. In Section 5, I examine instances of the claim that all
+computational methods are effective methods and explore some of their
+damaging consequences. In Section 6, I describe two examples, taken from
+quantum computing, of computational methods that are not effective
+methods. In Section 7, I consider the objection that quantum computing
+methods may still be executed by hand if a human were to simulate,
+step-by-step, the evolution of the underlying quantum wave function.</p>
+<h1 data-number="2" id="distinguishing-features-of-this-argument"><span
+class="header-section-number">2</span> Distinguishing features of this
+argument</h1>
+<p>The argument in this paper should be distinguished from similar
+arguments in the literature that (i) depend on hypercomputation; or (ii)
+concern differences in functions rather than in methods.</p>
+<h2 data-number="2.1" id="no-dependence-on-hypercomputation"><span
+class="header-section-number">2.1</span> No dependence on
+hypercomputation</h2>
+<p>Hypercomputers are hypothetical (real or notional) systems that
+compute functions that cannot be computed by any effective method.<a
+href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a> Hypercomputers generally deploy some
+deliberately ‘non-effective’ element as part of their design – some
+special extra resource that is not available to a human being working by
+themself. The exact nature of this special resource may vary between
+different machines. It might, for example, take the form of being able
+to complete an infinite number of steps in finite time, of being able to
+store arbitrary real numbers with infinite precision, or of having an
+‘oracle’ that provides the machine with the answer to uncomputable
+problems via some non-effective means.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn2"
+class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p>It might seem natural to appeal to hypercomputers to justify the
+claim that not all computational methods are effective methods. Shagrir
+and Pitowsky develop an argument along exactly these lines. After
+introducing various hypercomputer designs, they write:</p>
+<blockquote>
+<p>‘effective computation’ (i.e., calculation by means of effective
+procedures) encompasses a wide, and an important, class of computations,
+but not necessarily all computations … none of the hyper-machines
+described in the literature computes by means of effective procedures.
+<span class="citation" data-cites="ShagrirPitowsky03">(Shagrir &amp;
+Pitowsky 2003 p. 94)</span></p>
+</blockquote>
+<p>If one accepts that hypercomputers are computers in the full and
+ordinary sense of the word, then it appears that no more needs to be
+said. Not all computational methods are effective methods because the
+computational methods used by hypercomputers are (by design) not
+effective methods.</p>
+<p>Complicating this conclusion, however, are two issues.</p>
+<p>First, the hypercomputers that have been proposed to date are only
+notional constructs. It is unclear whether they correspond to
+possibilities that are in any reasonable sense physically or practically
+available to us. It is unknown whether the kinds of non-effective
+resources required by hypercomputers could be physically implemented in
+our universe, and even if they could, whether they could be exploited by
+us in a practical way.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a> This may prompt one to wonder
+whether we should treat hypercomputers as being exactly on a par with
+more ordinary types of computer. Notwithstanding the properties of
+notional hypercomputers, perhaps all computational methods that <em>can
+be physically implemented</em>, or <em>implemented in some practicable
+way</em>, are effective methods. If one’s primary interest is in methods
+that can be, or actually are, physically implemented – for example, the
+computational methods that are implemented in the brain – then perhaps
+one can ignore or bracket off considerations about non-effective methods
+based solely on hypercomputation.</p>
+<p>Second, even if one ignores issues about the physical implementation
+of hypercomputers, it is common for both advocates and critics of
+hypercomputation to characterise hypercomputers as not computing in the
+full or ordinary sense of the term. <span class="citation"
+data-cites="NemetiDavid06">Németi &amp; Dávid (2006)</span> talk of
+their machines using computational methods in a ‘broad’ or ‘extended’
+sense. <span class="citation" data-cites="Copeland97">Copeland
+(1997)</span> describes them as satisfying a ‘nonclassical’ conception
+of computation. <span class="citation" data-cites="Turing39">Turing
+(1939)</span> refers to oracle machines as instances of ‘relativised’
+computation: computation relative to the assumption that some problem
+uncomputable in the ordinary sense has been solved. These qualifications
+seem to suggest that a distinction should be drawn between an ordinary
+conception of computation and an extended or relativised notion. As with
+the previous point, this threatens to deaden the force of the claimed
+result. Not all hypercomputational methods are effective methods, but
+perhaps all <em>ordinary</em> computational methods are.</p>
+<p>This paper deliberately avoids appeal to hypercomputation to justify
+the claim that not all computational methods are effective methods. This
+is not to endorse either of the two worries above, but only to show that
+one does not need to rely on hypercomputational methods in order to
+establish the relevant claim.</p>
+<p>The examples I use to justify the claim are taken from quantum
+computing. These have been chosen because (i) they are known to be
+physically implementable (and are already physically implemented and
+practically used); and (ii) they are commonly regarded as computing in
+the ordinary (non-hyper, non-extended) sense.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn4"
+class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<p>In their seminal paper on hypercomputation, Copeland and Sylvan
+wrote:</p>
+<blockquote>
+<p>It is perhaps surprising that not all classical algorithms are manual
+methods. That this is in fact the case has emerged from recent work on
+quantum computation … Algorithms for quantum Turing machines are not in
+general manual methods, since not all the primitive operations made
+available by the quantum hardware can be performed by a person unaided
+by machinery. <span class="citation"
+data-cites="CopelandSylvan99">(Copeland &amp; Sylvan 1999 p.
+55)</span></p>
+</blockquote>
+<p>After making this observation, they immediately turn to consider
+hypercomputation (‘non-classical’ algorithms). They do not return to, or
+explore further, non-hypercomputational methods (‘classical’ algorithms)
+that are not effective (‘manual’) methods. This paper could be
+understood as an attempt to expand on and defend Copeland and Sylvan’s
+original observation.</p>
+<h2 data-number="2.2"
+id="computations-should-be-individuated-their-internal-workings"><span
+class="header-section-number">2.2</span> Computations should be
+individuated their internal workings</h2>
+<p>It is common for textbook discussions of effective methods to focus
+on questions of computability – questions about which functions can be
+computed.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a> In that context, computational
+methods are normally individuated <em>extensionally</em>: by their
+overall input–output behaviour.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn6" class="footnote-ref"
+id="fnref6" role="doc-noteref"><sup>6</sup></a> My focus in this paper
+is not on the question of which functions are computable, but on which
+<em>method</em> is used for computing a given function. None of the
+examples I consider involve computation of a function that cannot also
+be computed by some effective method. The question considered by this
+paper is whether the deployment of a <em>computational method</em>
+always entails the deployment of an <em>effective method</em>. This
+should not be interpreted as a question about computability, but as a
+question about the conditions under which effective methods are and are
+not instantiated in a given computational system. In order to be able to
+state this question correctly, and to prevent it collapsing into the
+question about computability, it is important that we do not individuate
+computational methods in a purely extensional fashion. To this end, in
+the context of this paper, I will assume that computational methods
+should be individuated, at least in part, by their internal workings.<a
+href="#fn7" class="footnote-ref" id="fnref7"
+role="doc-noteref"><sup>7</sup></a></p>
+<p>It should be stressed that this assumption is not ad hoc or
+unmotivated. Questions of computability and relations of extensional
+equivalence are important, but more fine-grained differences between
+computational methods matter too. Such differences are relevant to
+proposals about computational functionalism regarding the mind.
+According to these views, what is required for having a mental life is
+not only having the right behavioural responses – computing the right
+input–output function – but also the computational method by which that
+behaviour is generated – how the system calculates its function. If one
+wishes to reproduce or model cognition in an artificial system, then
+reproducing that method – not merely its overall input–output behaviour
+– is essential.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn8" class="footnote-ref" id="fnref8"
+role="doc-noteref"><sup>8</sup></a></p>
+<p>Fine-grained differences between computational methods also matter to
+computer science. Different methods for computing the same function
+sometimes impose significantly different demands on resource usage,
+rendering some computational methods more or less feasible to implement.
+Measures of that resource usage – often summarised by a function that
+bounds how much time or space a method uses in the worst case – are of
+considerable theoretical and practical interest in computer science.<a
+href="#fn9" class="footnote-ref" id="fnref9"
+role="doc-noteref"><sup>9</sup></a></p>
+<p><span class="smallcaps">BubbleSort</span> and <span
+class="smallcaps">MergeSort</span> are widely regarded as distinct
+computational methods even though they compute the same function. Both
+<span class="smallcaps">BubbleSort</span> and <span
+class="smallcaps">MergeSort</span> take an unordered list of elements as
+input and yield a sorted list of the same elements as output. <span
+class="smallcaps">BubbleSort</span> works by swapping pairs of adjacent
+elements in place until the entire list is sorted. <span
+class="smallcaps">MergeSort</span> works by splitting a list to create
+sublists which it then recursively merges to produce a final sorted
+version. <span class="smallcaps">BubbleSort</span> can be shown to have
+a worst-case run-time complexity of <span
+class="math inline">\(O(n^2)\)</span> and space complexity of <span
+class="math inline">\(O(1)\)</span>, whereas <span
+class="smallcaps">MergeSort</span> has a worst-case run-time complexity
+of <span class="math inline">\(O(n \log{n})\)</span> and space
+complexity of <span class="math inline">\(O(n)\)</span>.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn10"
+class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> A
+powerful motivation for distinguishing between these computational
+methods – for treating them as two distinct computational methods rather
+than as one – is that they have different worst-case complexity
+profiles. Their different complexity profiles are strong indicators that
+they place significantly different demands on the resources of any
+system that implements them. The implied general principle – that
+different worst-case complexity profiles indicate different
+computational methods – will be important later in this paper.</p>
+<p>Worst-case complexity profiles are not the only considerations of
+relevance when individuating computational methods. Variants of either
+<span class="smallcaps">BubbleSort</span> or <span
+class="smallcaps">MergeSort</span> might share the same worst-case
+complexity profile but still count as different methods. Indeed, for any
+computational method one might imagine introducing a range of variations
+from minor (e.g. extra debugging checks) to major changes (e.g. new data
+structures) into the sequence of its operations without changing its
+worst-case complexity profile. At which point does a variation in a
+method’s internal workings produce a new computational method? Which
+factors – above and beyond differences in worst-case complexity profile
+– matter when individuating computational methods?</p>
+<p>This question is a hard one to answer. Currently, there is no agreed
+answer, or at least none that takes the form of an exhaustive set of
+necessary and sufficient conditions.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn11" class="footnote-ref"
+id="fnref11" role="doc-noteref"><sup>11</sup></a> It is difficult to
+give a fully general theory for the individuation of computational
+methods. There are multiple reasons for this. One is that there are
+‘borderline’ cases where no one seems to be certain whether a theory
+should say that two computational methods are the same or not. Another
+is that the standards regarding what we treat as the ‘same’
+computational method sometimes appear to vary depending on context and
+what features are currently of most interest to the interlocutors.<a
+href="#fn12" class="footnote-ref" id="fnref12"
+role="doc-noteref"><sup>12</sup></a> Notwithstanding these challenges
+however, and the presence of ‘hard’ cases for a general theory to
+handle, there are also plenty of clear-cut cases where we <em>can</em>
+say that computational methods are the same or different.</p>
+<p><span class="smallcaps">BubbleSort</span> and <span
+class="smallcaps">MergeSort</span> are examples of such cases. They are
+paradigmatic examples of different computational methods, and classified
+as such both clearly and relative to any interests. As remarked above, a
+powerful consideration in their specific case – one that makes the
+relevant identity judgement relatively clear cut – is their demonstrable
+difference in worst-case complexity measure. In computer science, it is
+unheard of for two computational methods with different worst-case
+complexity profiles to be classified as the same for any purpose other
+than extensional equivalence.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn13" class="footnote-ref"
+id="fnref13" role="doc-noteref"><sup>13</sup></a> My claim is that,
+relative to this widely accepted, clear, and robust standard for
+individuating computational methods, there are computational methods
+that are not effective methods.</p>
+<h1 data-number="3" id="what-is-an-effective-method"><span
+class="header-section-number">3</span> What is an effective method?</h1>
+<p>Copeland provides a clear characterisation of an effective
+method:</p>
+<blockquote>
+<p>A method, or procedure, <span class="math inline">\(M\)</span>, for
+achieving some desired result is called ‘effective’ (or ‘systematic’ or
+‘mechanical’) just in case:</p>
+<ol type="1">
+<li><p><span class="math inline">\(M\)</span> is set out in terms of a
+finite number of exact instructions (each instruction being expressed by
+means of a finite number of symbols);</p></li>
+<li><p><span class="math inline">\(M\)</span> will, if carried out
+without error, produce the desired result in a finite number of
+steps;</p></li>
+<li><p><span class="math inline">\(M\)</span> can (in practice or in
+principle) be carried out by a human being unaided by any machinery
+except paper and pencil;</p></li>
+<li><p><span class="math inline">\(M\)</span> demands no insight,
+intuition, or ingenuity, on the part of the human being carrying out the
+method. <span class="citation" data-cites="Copeland20">(Copeland
+2020)</span></p></li>
+</ol>
+</blockquote>
+<p>Or more briefly:</p>
+<blockquote>
+<p>A mathematical method is termed ‘effective’ or ‘mechanical’ if and
+only if it can be set out in the form of a list of instructions able to
+be followed by an obedient human clerk … who works with paper and
+pencil, reliably but without insight or ingenuity, for as long as is
+necessary. <span class="citation" data-cites="Copeland00">(Copeland 2000
+p. 12)</span></p>
+</blockquote>
+<p>What Copeland says is consistent with a wide range of historical and
+contemporary sources:</p>
+<blockquote>
+<p>Turing examined however <em>human</em> mechanical computability and
+exploited, in sharp contrast to Post, limitations of the human computing
+agent to motivate restrictive conditions … Turing asked in the
+historical context in which he found himself <em>the</em> pertinent
+question, namely, what are the possible processes a human being can
+carry out (when computing a number or, equivalently, determining
+algorithmically the value of a number theoretic function)? <span
+class="citation" data-cites="Sieg01">(Sieg 2002 p. 395)</span></p>
+</blockquote>
+<blockquote>
+<p>[computable problems are those] which can be solved by human clerical
+labour, working to fixed rule, and without understanding <span
+class="citation" data-cites="Turing92b">(Turing 1992 pp.
+38–9)</span></p>
+</blockquote>
+<blockquote>
+<p>[With regard to what is effectively calculable] Both Church and
+Turing had in mind calculation by an abstract human being using some
+mechanical aids (such as paper and pencil). <span class="citation"
+data-cites="Gandy80">(Gandy 1980 p. 123)</span></p>
+</blockquote>
+<blockquote>
+<p><em>Turing’s analysis makes no reference whatsoever to calculating
+machines</em>. Turing machines appear as a result, as a codification, of
+his analysis of calculation by humans [previously defined as ‘effective
+calculability’] <span class="citation" data-cites="Gandy88">(Gandy 1988
+p. 77)</span></p>
+</blockquote>
+<blockquote>
+<p>Roughly speaking, an algorithm [previously defined as an ‘effective
+procedure’] is a clerical (i.e., deterministic, book-keeping) procedure
+which can be applied to any of a certain class of symbolic
+<em>inputs</em> and which will eventually yield, for each such input a
+corresponding symbolic <em>output</em>. <span class="citation"
+data-cites="Rogers67">(Rogers 1967 p. 1)</span></p>
+</blockquote>
+<blockquote>
+<p><em>Effectiveness</em>. An algorithm is also generally expected to be
+<em>effective</em>, in the sense that its operations must all be
+sufficiently basic that they can in principle be done exactly and in a
+finite length of time by someone using pencil and paper. <span
+class="citation" data-cites="Knuth97">(Knuth 1997 p. 6)</span></p>
+</blockquote>
+<blockquote>
+<p>[an effective procedure is] a list of instructions … that in
+principle make it possible to determine the value <span
+class="math inline">\(f(n)\)</span> for any argument <span
+class="math inline">\(n\)</span> … The instructions must be completely
+definite and explicit. They should tell you at each step what to do, not
+tell you to go ask someone else what to do, or to figure out for
+yourself what to do: the instructions should require no external sources
+of information, and should require no ingenuity to execute … <span
+class="citation" data-cites="BoolosBurgessJeffrey07">(Boolos et al. 2007
+p. 23)</span></p>
+</blockquote>
+<p>Common to all these suggestions is the idea that an effective method
+should be capable of being executed <em>by a lone human being unaided by
+any resources except paper and pencil</em>. The human is allowed an
+unlimited but finite amount of time, they are assumed not to make errors
+or get bored, and they have an unlimited but finite supply of paper and
+pencils. An effective method is a method that can be implemented by such
+an idealised human worker. Correspondingly, the kinds of operations that
+can be executed by this idealised human set limits on the class of
+effective methods.</p>
+<p>Some authors have argued for revisionist accounts of ‘effective
+method’. Cleland <span class="citation"
+data-cites="Cleland04 Cleland02">(2002, 2004)</span> argues that an
+effective method is a ‘quotidian’ procedure that has essentially
+physical, causal consequences, such baking a cake or assembling a
+child’s bicycle. Although a human might follow an effective method,
+human executability is not a necessary condition on such a method – a
+non-living particle travelling through a vacuum might follow an
+effective method that no human could replicate. <span class="citation"
+data-cites="EtesiNemeti02">Etesi &amp; Németi (2002)</span> suggest that
+‘effective method’ should refer to any method that can be realised in
+any physical system, whether that system is an idealised human being or
+not. <span class="citation" data-cites="Shagrir02">Shagrir (2002)</span>
+argues that the term ‘effective method’ has undergone a meaning shift:
+in 1936, ‘effective method’ meant a method that was in principle human
+executable, but today it means any symbolic operation that makes use of
+a finite procedure, and so it may refer to methods executable by humans,
+physical systems, or abstract automata.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn14"
+class="footnote-ref" id="fnref14"
+role="doc-noteref"><sup>14</sup></a></p>
+<p>What our words mean is ultimately up to us and, in principle, there
+is nothing to stop a sufficiently determined revisionist from electing
+to define or redefine ‘effective method’ so that it includes
+non-human-executable methods. However, there are good reasons for not
+choosing to define ‘effective method’ in this way. Or rather, there are
+good reasons for maintaining a term in our vocabulary that refers
+specifically to only human-executable computational methods, and this
+role is normally occupied in mathematics and computer science by the
+term ‘effective method’.</p>
+<p><span class="citation" data-cites="Shapiro06">Shapiro (2006)</span>
+provides a helpful discussion that places these attempts at revision in
+context. He describes how our various different ideas about effective
+computation <em>might</em> have been sharpened in many competing ways.
+He argues that the notion of effectiveness exhibited ‘open texture’,
+meaning that the full range of possible cases to which it correctly
+applied was not entirely pinned down by our pre-theoretic intuitions.
+Shapiro’s point about flexibility, however, pertains primarily to the
+historical development of the concept: our early, relatively inchoate
+ideas about what was or was not an effective method <em>could</em> have
+been sharpened in different ways. He does not suggest that today we are
+free to adopt different conceptions (as suggested by the revisionist
+proposals above), or that adopting an alternative, e.g. non-human,
+conception of what an effective method is would be equally good for the
+purposes of doing computer science or mathematical logic. Indeed, he
+argues that this is not the case. In line with others working on the
+foundations of computing, he suggests that the idealisation described
+above – a human working with unbounded time and computing space – is a
+way of signalling that one is talking about a particular subtype of
+procedure, one that has important pre-existing connections to ideas
+about mathematical provability, decidability, and surveyability.
+Irrespective of the rise of non-human machines or shifting interests
+within computer science, there is a persistent need to refer to this
+subset of methods. The term ‘effective method’ is standardly the one
+used to fulfil this function.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn15" class="footnote-ref"
+id="fnref15" role="doc-noteref"><sup>15</sup></a> A revisionist might
+insist that a different term should play this role – not ‘effective
+method’ but something else. In that case, the argument of this paper may
+be rephrased to employ that alternative term.</p>
+<h1 data-number="4" id="didnt-turing-define-effective-method"><span
+class="header-section-number">4</span> Didn’t Turing define ‘effective
+method’?</h1>
+<p>In textbooks on mathematical computation theory, the term ‘effective
+method’ often disappears once an appropriate formal predicate has been
+introduced. It is rare to see it persist after the first few
+introductory pages. Its disappearance is often explained by saying that
+Alan Turing provided a formal <em>definition</em>, <em>analysis</em>, or
+<em>replacement</em> for the informal notion. Thanks to Turing, we can
+replace ‘effective method’ with a more formal, mathematically precise
+term, ‘Turing machine’. A small wrinkle in the story is that there is
+more than one definition, analysis, or replacement for ‘effective
+method’ available – Church introduced one with the <span
+class="math inline">\(\lambda\)</span>-calculus, Gödel introduced
+another with general recursive functions, and there are many others.
+However, all these formal terms can be shown to be extensionally
+equivalent, so the choice between them may be glossed as largely a
+matter of convention. In light of this, the informal, human-centric
+notion of an ‘effective method’ can be systematically replaced with the
+formal, precise notion of a ‘Turing machine’ (or an extensionally
+equivalent term):</p>
+<blockquote>
+<p>Turing’s work is a paradigm of philosophical analysis: it shows that
+what appears to be a vague intuitive notion has in fact a unique meaning
+which can be stated with complete precision. <span class="citation"
+data-cites="Gandy88">(Gandy 1988 p. 79)</span></p>
+</blockquote>
+<blockquote>
+<p>Church’s thesis is the proposal to identify an intuitive notion with
+a precise, formal, definition <span class="citation"
+data-cites="Folina98">(Folina 1998 p. 311)</span></p>
+</blockquote>
+<blockquote>
+<p>In 1928, the notion of an algorithm [effective method] was pretty
+vague. Up to that point, algorithms were often carried out by human
+beings using paper and pencil … Attacking Hilbert’s problem forced
+Turing to make precise exactly what was meant by an algorithm. To do
+this, Turing described what we now call a <em>Turing machine</em> <span
+class="citation" data-cites="MatuschakNielsen19">(Matuschak &amp;
+Nielsen 2019)</span></p>
+</blockquote>
+<blockquote>
+<p>If Turing’s thesis is correct, then talk about the existence and
+non-existence of effective methods can be replaced throughout
+mathematics, logic and computer science by talk about the existence or
+non-existence of Turing machine programs. <span class="citation"
+data-cites="Copeland20">(Copeland 2020)</span></p>
+</blockquote>
+<p>Turing himself, perhaps in a relatively unguarded moment, appears to
+endorse this too:</p>
+<blockquote>
+<p>… one can reduce it [the definition of a solvable puzzle] to the
+definition of ‘computable function’ or ‘systematic [effective]
+procedure’. A definition of any one of these would define all the rest.
+Since 1935 a number of definitions have been given [Turing machines, the
+<span class="math inline">\(\lambda\)</span>-calculus, the <span
+class="math inline">\(\mu\)</span>-recursive functions, etc.],
+explaining in detail the meaning of one or other of these terms, and
+these have all been proved equivalent to one another <span
+class="citation" data-cites="Turing04g">(Turing 2004/1954 p.
+589)</span></p>
+</blockquote>
+<p>I call this the ‘replacement theory’ of effective methods. If the
+replacement theory is correct, then the notion of an effective method
+can be exchanged for that of a Turing machine (or an appropriate
+equivalent) without loss or distortion. The question this paper asks
+could then be rephrased as a question about which computational systems
+can and cannot instantiate Turing machines (or an appropriate
+equivalent).</p>
+<p>It is important to see that this is not the case. The replacement
+theory only holds – and it was only justified by Turing – under certain
+limited circumstances. To see this, it should be clear that an entirely
+unrestricted version of the replacement theory would not be plausible.
+‘Effective method’ and ‘Turing machine’ do not have the same meaning –
+they do not have identical semantic content. If they did, it would have
+taken little or no insight on Turing’s part to establish a relationship
+between them. In order to make sense of Turing’s work, and the
+breakthrough that it represents, one needs to set aside the idea that
+‘effective method’ is a mere synonym for ‘Turing machine’. The key
+question is when it is, and is not, legitimate to replace one notion
+with the other.</p>
+<p>In Section 9 of his <span class="citation"
+data-cites="Turing36">(1936)</span> paper (‘The extent of the computable
+numbers’), Turing says that his goal is to show that a human working by
+hand and a machine (later known as a Turing machine) compute the same
+numbers. If this relationship between the two were to hold, then a
+certain kind of intersubstitutability between the corresponding terms
+would be warranted. Provided one’s concern is only to identify <em>which
+numbers are computable</em>, then talk of effective methods could be
+safely replaced with that of Turing machines (or an extensionally
+equivalent formalism). For replacing one term with the other would have
+no effect on the validity of one’s reasoning about the extent of the
+computable numbers.</p>
+<p>One of the key arguments that Turing gives to justify this claim is
+to say that his machine and a human clerk go through a similar process
+when they compute a number. He does not say however, that they go
+through an <em>identical</em> process, or that the operations that a
+Turing machine may take include all and only those that an idealised
+human worker may take. Turing instead suggests that the <em>results</em>
+the human worker can obtain without insight or ingenuity must meet a
+series of constraints, and that in light of these constraints, they are
+also reproducible by an appropriate series of steps of a Turing machine.
+He does not say that effective methods <em>are</em> Turing machines, but
+that the numbers that can be computed by any effective method turn out
+to be the same as the numbers that can be computed by a Turing
+machine.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn16" class="footnote-ref" id="fnref16"
+role="doc-noteref"><sup>16</sup></a> If one’s primary concern is to
+identify those numbers (i.e. to determine which numbers are computable),
+then talk of effective methods can be replaced with that of Turing
+machines (or another extensionally equivalent formalism).</p>
+<p>It is worth noting that Turing did not argue – he did not need to
+argue – that the computational methods available to a Turing machine are
+identical to the methods available to a human clerk. Indeed, such a
+claim would be almost certainly false, and for reasons independent of
+the main argument of this paper. The steps and operations of a Turing
+machine – the basic operations that change the state of the head and
+that make marks on the tape – are not the only ways for a human or any
+other system to effectively calculate a number. The alternative models
+of Church, Gödel, and others show that there are many other ways to
+effectively calculate that do not involve exactly those basic
+operations. A sequence of basic operations might, for example, involve
+reduction operations in the <span
+class="math inline">\(\lambda\)</span>-calculus, or minimisation and
+recursion operations over the <span
+class="math inline">\(\mu\)</span>-recursive functions. Different
+computational formalisms support different types of computational method
+and porting methods between different computational formalisms is often
+non-trivial. One cannot always take a computational method that runs on
+a Turing machine and run <em>exactly the same method</em>, without
+changes, on a system that operates according to the rules of the <span
+class="math inline">\(\lambda\)</span>-calculus. One might attempt to
+create a similar process – one with different internal characteristics
+expressed in terms of the basic operations and idioms of the <span
+class="math inline">\(\lambda\)</span>-calculus – that computes the same
+function. The computational methods available to a user of the <span
+class="math inline">\(\lambda\)</span>-calculus are not identical to
+those available to Turing machines. Given that a human clerk might
+follow any one of these various effective methods when computing a
+number, Turing machines cannot be identified with effective methods.</p>
+<h1 data-number="5"
+id="all-computational-methods-are-effective-methods"><span
+class="header-section-number">5</span> All computational methods are
+effective methods</h1>
+<p>Here are some examples of the claim that all computational methods
+are effective methods:</p>
+<blockquote>
+<p>An algorithm or effective method … is a procedure for correctly
+calculating the values of a function or solving a class of problems that
+can be executed in a finite time and mechanically – that is, without the
+exercise of intelligence or ingenuity or creativity … A computation is
+anything that … calculates the values of a function or solves a problem
+by following an algorithm or effective method. <span class="citation"
+data-cites="Burkholder00">(Burkholder 2000 p. 47)</span></p>
+</blockquote>
+<blockquote>
+<p>The logician Turing proposed (and solved) the problem of giving a
+characterization of <em>computing machines</em> in the widest sense –
+mechanisms for solving problems by effective series of logical
+operations. <span class="citation"
+data-cites="OppenheimPutnam58">(Oppenheim &amp; Putnam 1958 p.
+19)</span></p>
+</blockquote>
+<blockquote>
+<p>We have assumed the reader’s understanding of the general notion of
+effectiveness, and indeed it must be considered as an informally
+familiar mathematical notion, since it is involved in mathematical
+problems of a frequently occurring kind, namely, problems to find a
+method of computation, i.e., a method by which to determine a number, or
+other thing, effectively. We shall not try to give here a rigorous
+definition of effectiveness, the informal notion being sufficient to
+enable us, in the cases we shall meet, to distinguish methods as
+effective or non-effective … The notion of effectiveness may also be
+described by saying that an effective method of computation, or
+algorithm, is one for which it would be possible to build a computing
+machine <span class="citation" data-cites="Church56">(Church 1956 p.
+52)</span></p>
+</blockquote>
+<blockquote>
+<p>Sometimes computers are called information processors … <em>How</em>
+they process or manipulate is by carrying out effective procedures …
+Computation [means] the use of an algorithm … also called an ‘effective
+method’ or a ‘mechanical procedure’ … to calculate the value of a
+function. <span class="citation" data-cites="Crane03">(Crane 2003 pp.
+102, 233)</span></p>
+</blockquote>
+<blockquote>
+<p>The functional organisation of mental processes can be characterized
+in terms of effective procedures, since the mind’s ability to construct
+working models is a computational process. <span class="citation"
+data-cites="JohnsonLaird83">(Johnson-Laird 1983 pp. 9–10)</span></p>
+</blockquote>
+<blockquote>
+<p>… [a] procedure admissible as an ‘ultimate’ procedure in a
+psychological theory [will fall] well within the intuitive boundaries of
+the ‘computable’ or ‘effective’ as these terms are presumed to be used
+in Church’s Thesis <span class="citation"
+data-cites="Dennett78a">(Dennett 1978 p. 83)</span></p>
+</blockquote>
+<p>The quotations above illustrate that the claim has been made in a
+variety of contexts. The final three quotations provide examples of how
+it can constrain thinking about the mind.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn17"
+class="footnote-ref" id="fnref17"
+role="doc-noteref"><sup>17</sup></a></p>
+<p>Searle’s Chinese room argument provides a particularly clear example
+of the latter phenomenon <span class="citation"
+data-cites="Searle80">(Searle 1980)</span>. Searle’s argument may be
+challenged on many points, but among them is his assumption that any
+computational method can be executed by the human being inside the room
+who generates Chinese responses. Searle needs a claim like this in order
+to connect the specifics of his thought experiment (a lone human working
+without insight or ingenuity inside a room) to the general conclusion
+that <em>no possible</em> computational method can suffice for
+understanding. He needs some way to make the inferential leap from the
+person inside the room not understanding Chinese regardless of which
+method <em>they follow</em> to the conclusion that <em>no possible
+computational method</em> could be sufficient for Chinese understanding.
+Searle cites Turing’s analysis of computation to justify this key
+step.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn18" class="footnote-ref" id="fnref18"
+role="doc-noteref"><sup>18</sup></a> However, as we have seen in Section
+4, the required claim is not attributable to Turing, and as we will see
+in the next section, it is false.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn19" class="footnote-ref"
+id="fnref19" role="doc-noteref"><sup>19</sup></a></p>
+<p>However, the identification of computational methods with effective
+methods is more deep-seated in the philosophical literature than just
+Searle’s argument. It is employed not only by the critics of
+computational accounts of cognition, but also by their advocates. A
+common philosophical move when reasoning about a computational model of
+cognition is to assume that one may freely replace <em>any</em>
+computational system’s internal workings with a human working by rote
+without changing the computational method. Computational methods may
+always be swapped out during the course of reasoning, without loss or
+distortion, for effective methods. This has given rise to a widespread
+and mistaken form of what I call ‘homuncular thinking’ about
+computational models of cognition. Here are some examples.</p>
+<p><span class="citation" data-cites="Fodor68">Fodor (1968)</span>
+describes how an account of knowledge-how, e.g. knowledge of how to tie
+one’s shoes, could be given in computational terms. In the course his
+analysis, Fodor moves between a formulation of that knowledge-how in
+terms of a computation performed by the brain and a formulation of it in
+terms of elementary steps taken by an imaginary ‘little man’ who reads
+basic instructions and follows them. The unstated assumption is that
+whatever computational method actually underlies knowledge-how (and that
+is implemented in the brain), one can be sure that it can be described,
+without loss or distortion, in terms of a series of steps taken by a
+little man who reads instructions and follows them without insight or
+ingenuity. Fodor does not, of course, suggest that a little man actually
+lives inside the head. However, he does think that talk of ‘the little
+man stands as a representative <em>pro tem</em> for psychological
+faculties which mediate the integration of shoe-tying behavior by
+applying information about how shoes are tied.’ (ibid., p. 629). He does
+not consider the possibility that ‘little man’ talk might provide a
+blinkered, distorted, or misleading picture of a computational method.
+He simply assumes that it can always stand in for a computation method
+without colouring assumptions about the kind of computational method
+that is being considered. In other words, he assumes that all
+computational methods are human executable.</p>
+<p><span class="citation" data-cites="Dennett78a">Dennett (1978)</span>
+famously developed a highly influential view known as homuncular
+functionalism.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn20" class="footnote-ref" id="fnref20"
+role="doc-noteref"><sup>20</sup></a> In the course of defending the
+view, Dennett moves between two different formulations of it that, like
+Fodor, he treats as freely interchangeable. According to one
+formulation, Dennett characterises homuncular functionalism as the view
+that a cognitive capacity can be explained by breaking it down in terms
+of operations of simpler computational subsystems, which are each
+explained in terms of the operations of simpler subsubsystems, and so
+on, until one reaches systems whose operations are so basic that they do
+not require further explanation of this kind. This model of explanation
+is treated as equivalent to the idea that one should explain the
+cognitive capacity by breaking it down into the capacities of a series
+of notional ‘little men’ inside the head who each work without insight
+or ingenuity. The unstated assumption is, again, that whatever
+computational processes actually underlie cognition, they may
+<em>always</em> be described – without any loss or distortion – as a
+series of operations capable of being executed by little men each
+working to an effective method.</p>
+<p><span class="citation" data-cites="Block78">Block (1978)</span>
+provides a range of arguments against computational theories of
+consciousness based on intuitions about what a collection of little men
+can and cannot do. In his ‘homunculi-headed’ thought experiment, the
+computation that normally takes place inside a human brain via neuronal
+activity is imagined to be reproduced by a sequence of steps taken by a
+group of little men each working according to an effective method. Block
+argues that is implausible that this group of little men would
+instantiate a new qualitative conscious experience, and hence that any
+purely computational account of conscious experience is unlikely to be
+true. A crucial premise in Block’s argument is, again, that such a
+collection of little men could reproduce, without loss or distortion,
+any computational method, and in particular any computational method
+allegedly characteristic of conscious experience. Like Fodor and
+Dennett, Block does not justify this assumption. He simply takes for
+granted that all computational methods are human executable.</p>
+<p>Why do these authors make this assumption?</p>
+<p>One possible explanation might come from misguided intuitions about
+multiple realisability. Computational methods are multiply realisable:
+they can be implemented in more than one physical system. They are
+multiply realisable because the kind of description that is needed to
+characterise a computational method does not tie it to being
+implementable in just one physical medium. When the steps of a Turing
+machine are described, there is no requirement intrinsic to that
+description that a system which implements those steps must be made out
+of, e.g., lead or wood or steel. In other words, computational methods
+are not tied by virtue of their specification to being implemented in
+one type of physical medium. However, there is a different and much
+stronger claim about multiple realisability that is regularly associated
+with computation and which is much less plausible. This second claim is
+that any computational method can be realised, in principle, in
+<em>any</em> physical medium. As Putnam put it: ‘We could be made of
+Swiss cheese and it wouldn’t matter’ <span class="citation"
+data-cites="Putnam75a">(Putnam 1975 p. 291)</span>. In the specific case
+of the human clerk, this second claim would suggest that any
+computational method could be implemented in the specific physical
+system of the clerk (provided they were to take an appropriate sequence
+of steps).</p>
+<p>However, unlike the first claim, there is no reason to think that
+this second claim is true. It does not follow from computational methods
+being multiply realisable: just because it is possible for a
+computational method to be implemented in <em>more than one</em>
+physical medium that does not entail that it could be implemented in any
+medium (or in a human clerk). Different physical media have different
+causal powers. Those causal powers afford them the ability to implement
+some computational operations, but not others. There is no reason to
+think that an idealised human clerk has the causal powers to implement
+any possible computational method.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn21" class="footnote-ref"
+id="fnref21" role="doc-noteref"><sup>21</sup></a></p>
+<p>Before closing this section, it is worth saying a few words about the
+definition of the term ‘algorithm’. A number of the authors cited above
+suggest that ‘algorithm’ should be regarded as a synonym for
+<em>both</em> ‘effective method’ and ‘computational method’. My claim is
+that ‘effective method’ and ‘computational method’ have different
+meanings and different extensions. If we are to distinguish these two
+terms, how then should we understand ‘algorithm’? Should ‘algorithm’ be
+treated as a synonym for ‘effective method’, as suggested by <span
+class="citation" data-cites="Button09">Button (2009)</span>; <span
+class="citation" data-cites="Smith13">Smith (2013)</span>; <span
+class="citation" data-cites="Cutland80">Cutland (1980)</span>; or,
+should ‘algorithm’ be treated as a synonym for ‘computational method’,
+as suggested by <span class="citation" data-cites="Copeland97">Copeland
+(1997)</span>; <span class="citation"
+data-cites="CopelandSylvan99">Copeland &amp; Sylvan (1999)</span>; <span
+class="citation" data-cites="Soare99">Soare (1999)</span>; <span
+class="citation" data-cites="Gurevich11">Gurevich (2011)</span>.<a
+href="#fn22" class="footnote-ref" id="fnref22"
+role="doc-noteref"><sup>22</sup></a> In this paper, I will follow the
+latter convention and treat ‘algorithm’ as a synonym for the broader
+term, ‘computational method’. This will allow us to say that there are
+quantum computing algorithms, even if there are no quantum computing
+effective methods. This convention has the virtue that it preserves how
+computer scientists already talk about quantum computing methods.
+Nothing important turns on this decision however, and the argument of
+this paper may be rephrased if one prefers to define the term
+‘algorithm’ differently.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn23" class="footnote-ref"
+id="fnref23" role="doc-noteref"><sup>23</sup></a></p>
+<h1 data-number="6"
+id="quantum-computations-that-are-not-effective-methods"><span
+class="header-section-number">6</span> Quantum computations that are not
+effective methods</h1>
+<p>Quantum computers are able to move from input to output using
+computational methods that are not open to any idealised human clerk. A
+human working by hand may be able to compute the same functions as a
+quantum computer – they may be able to simulate a quantum computer’s
+input–output behaviour – but they are not able to use the same
+computational method to do so.</p>
+<p><span class="citation" data-cites="DeutschEkert00">Deutsch et al.
+(2000)</span> describe a simple quantum computer that uses a
+non-effective method. The computer uses <em>quantum interference</em> to
+compute the NOT function. The NOT function maps an input of <span
+class="math inline">\(0\)</span> to an output of <span
+class="math inline">\(1\)</span> and an input of <span
+class="math inline">\(1\)</span> to an output of <span
+class="math inline">\(0\)</span>. Clearly, there is no question here of
+computing a function that cannot also be computed by hand. The question
+is whether the computational method that the quantum computer uses to
+calculate NOT could also be used by an idealised human clerk.</p>
+<p>Deutsch’s proposed quantum computer is composed of two half-silvered
+mirrors (mirrors that reflect a photon with <span
+class="math inline">\(50\%\)</span> probability and allow a photon to
+pass through with <span class="math inline">\(50\%\)</span>
+probability). The presence of a photon along one path to a half-silvered
+mirror denotes an input of <span class="math inline">\(1\)</span>, the
+presence of a photon along the other path denotes an input of <span
+class="math inline">\(0\)</span>, the presence of a photon along one
+exit path denotes an output of <span class="math inline">\(1\)</span>,
+the presence of a photon along the other exit path denotes an output of
+<span class="math inline">\(0\)</span>.</p>
+<p>A single half-silvered mirror implements a quantum computational gate
+that Deutsch calls <span
+class="math inline">\(\sqrt{\textrm{NOT}}\)</span>. If the input to the
+gate is <span class="math inline">\(0\)</span>, then the output is
+measured as either <span class="math inline">\(0\)</span> or <span
+class="math inline">\(1\)</span> with <span
+class="math inline">\(50\%\)</span> probability; similarly, if the input
+is <span class="math inline">\(1\)</span>, the output is measured as
+either <span class="math inline">\(0\)</span> or <span
+class="math inline">\(1\)</span> with <span
+class="math inline">\(50\%\)</span> probability. Formally, if the input
+is prepared in quantum state <span
+class="math inline">\(\mathinner{|0\rangle}\)</span> (i.e. <span
+class="math inline">\(0\)</span>), then the output occurs in
+superposition state <span class="math inline">\((\mathinner{|0\rangle} -
+i \mathinner{|1\rangle})/\sqrt{2}\)</span> (which, on measurement,
+results in a <span class="math inline">\(0\)</span> or <span
+class="math inline">\(1\)</span> with <span
+class="math inline">\(50\%\)</span> probability). If the input is
+prepared in quantum state <span
+class="math inline">\(\mathinner{|1\rangle}\)</span> (i.e. <span
+class="math inline">\(1\)</span>), then the output occurs in
+superposition state <span class="math inline">\((-i
+\mathinner{|0\rangle} + \mathinner{|1\rangle})/\sqrt{2}\)</span> (which
+also, on measurement, results in a <span
+class="math inline">\(0\)</span> or <span
+class="math inline">\(1\)</span> with <span
+class="math inline">\(50\%\)</span> probability).<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn24"
+class="footnote-ref" id="fnref24"
+role="doc-noteref"><sup>24</sup></a></p>
+<p>If two half-silvered mirrors are connected together in series as
+shown in Figure 1, then the overall system computes NOT (<span
+class="math inline">\(0 \rightarrow 1\)</span>, <span
+class="math inline">\(1 \rightarrow 0\)</span>). If one did not know
+better, one might have guessed that this arrangement would produce a
+random result, perhaps with the output evenly distributed over <span
+class="math inline">\(0\)</span>s and <span
+class="math inline">\(1\)</span>s. Individual half-silvered mirrors
+appear to be randomisers, so one might guess that chaining two mirrors
+together would produce equally random results. However, due to the rules
+by which superposition states evolve in quantum mechanics, the relevant
+states interfere with each other, so that an input of <span
+class="math inline">\(0\)</span> to the first mirror always yields an
+output of <span class="math inline">\(1\)</span>, and an input of <span
+class="math inline">\(1\)</span> to the first mirror always yields an
+output of <span class="math inline">\(0\)</span>. This occurs even if a
+single photon is sent into the system, a phenomenon known as
+single-particle interference.</p>
+<p>Formally, this can be seen as follows. The first half-silvered steps
+maps <span class="math inline">\(\mathinner{|0\rangle} \rightarrow
+(\mathinner{|0\rangle} - i \mathinner{|1\rangle})/\sqrt{2}\)</span>. The
+second half-silvered mirror applies the same quantum operator to that
+superposition state, mapping <span
+class="math inline">\((\mathinner{|0\rangle} - i
+\mathinner{|1\rangle})/\sqrt{2} \rightarrow -i
+\mathinner{|1\rangle}\)</span>, which, on measurement, results in an
+output of <span class="math inline">\(1\)</span> with <span
+class="math inline">\(100\%\)</span> probability (<span
+class="math inline">\(|-i|^2=1\)</span>). Combining the two operations,
+if the input is <span class="math inline">\(0\)</span>, then the output
+is <span class="math inline">\(1\)</span>. Similarly, the first
+half-silvered mirror maps <span
+class="math inline">\(\mathinner{|1\rangle} \rightarrow (-i
+\mathinner{|0\rangle} + \mathinner{|1\rangle})/\sqrt{2}\)</span>. The
+second half-silvered mirror applies the same operator, mapping <span
+class="math inline">\((-i \mathinner{|0\rangle} +
+\mathinner{|1\rangle})/\sqrt{2} \rightarrow - i
+\mathinner{|0\rangle}\)</span>, which, on measurement, results in an
+output of <span class="math inline">\(0\)</span> with <span
+class="math inline">\(100\%\)</span> probability.</p>
+<figure>
+<img src="img/NOT-gate.png" />
+<figcaption aria-hidden="true">An example of a quantum NOT
+computer.</figcaption>
+</figure>
+<p>The same function, NOT, can of course be calculated by a human, but
+not using the same method.</p>
+<p>It is important to stress that the claim here is not about the
+physical implementation of the quantum computation. The claim is not
+that the same <em>photon-and-mirrors</em> process cannot be reproduced
+by an unaided human. That is obviously true. The claim is that the same
+abstract <em>computational method</em> cannot be used. There is no
+suitably equivalent physical process that a human worker can engage in,
+even if they are idealised in the way suggested, that calculates
+input–output in the same way. The computational method used by the
+quantum NOT computer is multiply realisable: it might be implemented
+with photons, electrons, fields, or atomic nuclei. All of these physical
+resources exhibit interference patterns that might be exploited to
+compute NOT using this computational method. But that method cannot be
+implemented in an unaided human working by hand – or at least, not in a
+controllable way. The computational method for calculating NOT is
+multiply realisable, but it cannot be realised at will in an unaided
+human.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn25" class="footnote-ref" id="fnref25"
+role="doc-noteref"><sup>25</sup></a></p>
+<p>Interference is one non-effective computing method. Another example
+is <em>quantum parallelism</em>. Quantum parallelism underlies the
+claimed speedup of some quantum computers over more conventional
+computers.</p>
+<p>Quantum parallelism allows a quantum computing system to calculate
+multiple values of a function <span class="math inline">\(f(x)\)</span>
+in a single step. In the simplest case, if an arbitrary 1-bit function
+<span class="math inline">\(f(x)\)</span> is applied to an input
+superposition state <span class="math inline">\((\mathinner{|0\rangle} +
+\mathinner{|1\rangle})/\sqrt{2}\)</span>, then the output state would
+include <span
+class="math inline">\((\mathinner{|0,f(0)\rangle}+\mathinner{|1,f(1)\rangle})/\sqrt{2}\)</span>.
+This state contains information about <em>both</em> <span
+class="math inline">\(f(0)\)</span> and <span
+class="math inline">\(f(1)\)</span>, but it was obtained using only a
+single application of <span class="math inline">\(f(x)\)</span>.<a
+href="#fn26" class="footnote-ref" id="fnref26"
+role="doc-noteref"><sup>26</sup></a> In a more complex case, every value
+of an arbitrary <span class="math inline">\(n\)</span>-bit <span
+class="math inline">\(f(x)\)</span> could be calculated using a single
+application of <span class="math inline">\(f(x)\)</span>. If <span
+class="math inline">\(n+1\)</span> bits are prepared in a superposition
+state, then one application of <span class="math inline">\(f(x)\)</span>
+would result in the superposition state <span
+class="math inline">\((2^{-n/2})\sum_x\mathinner{|x,f(x)\rangle}\)</span>,
+a state that encodes all values of <span
+class="math inline">\(f(x)\)</span>.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn27" class="footnote-ref"
+id="fnref27" role="doc-noteref"><sup>27</sup></a> Quantum parallelism is
+a non-effective method that allows a quantum computing system to
+calculate all values of an arbitrary function in one step. It is not a
+computing method freely available to a human working by hand.</p>
+<p>A well-known limitation on methods that employ this kind of quantum
+parallelism is that it is only possible to recover a single value of
+<span class="math inline">\(f(x)\)</span> from the superposition state
+<span
+class="math inline">\((2^{-n/2})\sum_x\mathinner{|x,f(x)\rangle}\)</span>
+by measurement.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn28" class="footnote-ref" id="fnref28"
+role="doc-noteref"><sup>28</sup></a> This limitation, however, is far
+from fatal to the use of quantum parallelism in computation. That is
+because before measurement all manner of computational operations might
+be performed on the quantum state that encodes all values of <span
+class="math inline">\(f(x)\)</span>. These operations might affect
+different components of the superposition state in different ways. For
+example, certain components of the superposition state might be arranged
+to interfere with one another. These interference relations might be
+constructive or destructive, amplifying the probability of an outcome,
+or suppressing it. If correctly arranged, such interference relations
+might combine to allow a quantum computer to calculate some ‘global’
+property of <span class="math inline">\(f(x)\)</span>: a mathematical
+property that depends on multiple values of <span
+class="math inline">\(f(x)\)</span> – one that would require a
+conventional computer to explicitly evaluate <span
+class="math inline">\(f(x)\)</span> for several values of <span
+class="math inline">\(x\)</span> individually. Consequently, even though
+only a single value of <span class="math inline">\(f(x)\)</span> can be
+recovered directly via measurement, all values of <span
+class="math inline">\(f(x)\)</span> are in principle available to
+compute global properties of <span class="math inline">\(f(x)\)</span>,
+rendering this a potentially useful form of parallel computation.</p>
+<p>The Deutsch–Jozsa algorithm provides an example of how this might
+work.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn29" class="footnote-ref" id="fnref29"
+role="doc-noteref"><sup>29</sup></a> Suppose that Alice picks a function
+<span class="math inline">\(f(x): \{1,\ldots,n\} \rightarrow
+\{0,1\}\)</span> that is either balanced or constant and keeps it
+secret. A <em>constant</em> function yields the same value for all <span
+class="math inline">\(x\)</span>; a <em>balanced</em> function yields
+<span class="math inline">\(1\)</span> for half of <span
+class="math inline">\(x\)</span>, and <span
+class="math inline">\(0\)</span> for the other half. Bob can send Alice
+a number and ask her for the value <span
+class="math inline">\(f(x)\)</span>. Bob’s task is to determine, with as
+few queries as possible, whether Alice’s function is constant or
+balanced. Using quantum parallelism, Bob can solve the problem using
+<em>just one</em> evaluation of <span
+class="math inline">\(f(x)\)</span>. In the classical case, Bob requires
+at least <span class="math inline">\(2^n/2+1\)</span> operations in
+order to solve the same problem. Using quantum parallelism, Bob can
+apply Alice’s <span class="math inline">\(f(x)\)</span> once to a
+superposition state which is then passed through a series of Hadamard
+gates.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn30" class="footnote-ref" id="fnref30"
+role="doc-noteref"><sup>30</sup></a> If Alice’s function is balanced,
+the various components of the superposition state <span
+class="math inline">\(\sum_x\mathinner{|x,f(x)\rangle}\)</span>
+interfere with each other to yield the answer <span
+class="math inline">\(0\)</span>. If Alice’s function is constant, the
+components of the superposition state that encode all the values of
+<span class="math inline">\(f(x)\)</span> interfere to yield the answer
+<span class="math inline">\(1\)</span>.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn31"
+class="footnote-ref" id="fnref31" role="doc-noteref"><sup>31</sup></a>
+The full details of the Deutsch–Jozsa algorithm are complex, but the key
+point is that the way in which Bob solves the problem requires only a
+single application of <span class="math inline">\(f(x)\)</span>, which
+is not available to a human working by hand.</p>
+<p>The problem that the Deutsch–Jozsa algorithm solves is of little
+practical interest but similar techniques that employ quantum
+parallelism can be used to compute other, more useful properties. Shor’s
+algorithm, for example, uses quantum parallelism to find the prime
+factors of integers <span class="citation" data-cites="Shor99">(Shor
+1999)</span>. Shor’s algorithm factorises integers in polynomial time,
+making it almost exponentially faster than the most efficient known
+non-quantum factorisation method (the general number field sieve).<a
+href="#fn32" class="footnote-ref" id="fnref32"
+role="doc-noteref"><sup>32</sup></a> Shor’s algorithm correspondingly
+has a different worst-case complexity profile to any known effective
+method for factoring numbers. Applying the principle described in
+Section 2.2 – that different worst-case complexity profiles indicate
+different computational methods – it seems reasonable to conclude that
+Shor’s algorithm is <em>different</em> from any known effective method.
+It is an example of a computational method that, as far as we know,
+cannot be executed by a suitably idealised human clerk.</p>
+<p>Just as with interference, what is at issue here is not whether an
+unaided human could reproduce the same physical processes that take
+place inside a specific quantum computer. An unaided human is clearly
+not the same as an arrangement of half-silvered mirrors. The question at
+issue is whether that same <em>computing method</em> could be
+instantiated by a human clerk. Could a human following an effective
+method instantiate a computing method like Shor’s algorithm? Quantum
+parallelism is a computational method that is multiply realisable: it
+might be implemented with photons, electrons, or atomic nuclei. Can it
+also be implemented by an unaided human working to an effective method?
+The answer appears to be no. The fact that such a human cannot, to our
+knowledge, engage in any process that would factorise numbers with the
+same worst-case complexity profile is strong evidence that they
+<em>cannot</em> instantiate the same computational method.</p>
+<p>Quantum parallelism should not be conflated with other forms of
+parallelism found in modern electronic computers. In a modern electronic
+computer, multiple computational units are often executed simultaneously
+to compute more than one value of <span
+class="math inline">\(f(x)\)</span> within a single time step. In
+contrast, in a case of quantum parallelism, a single computational unit
+is executed <em>once</em> to evaluate all values of <span
+class="math inline">\(f(x)\)</span>. Quantum parallelism should also not
+be conflated with a non-deterministic method of computation. A quantum
+computer that uses the superposition state <span
+class="math inline">\((\mathinner{|0,f(0)\rangle} +
+\mathinner{|1,f(1)\rangle})/\sqrt{2}\)</span> is not the same as a
+non-deterministic computer that yields <span
+class="math inline">\(f(0)\)</span> with <span
+class="math inline">\(50\%\)</span> probability and <span
+class="math inline">\(f(1)\)</span> with <span
+class="math inline">\(50\%\)</span> probability. In the case of a
+non-deterministic computer, the two alternatives <span
+class="math inline">\(f(0)\)</span> and <span
+class="math inline">\(f(1)\)</span> necessarily exclude each other: the
+machine either computes <span class="math inline">\(f(0)\)</span> or
+<span class="math inline">\(f(1)\)</span> on any given run. In a device
+that uses quantum parallelism, the two alternatives might interfere with
+each other to create an output that reflects a global property of <span
+class="math inline">\(f(x)\)</span> – an output that would require a
+machine to know both <span class="math inline">\(f(0)\)</span> and <span
+class="math inline">\(f(1)\)</span>.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn33" class="footnote-ref"
+id="fnref33" role="doc-noteref"><sup>33</sup></a></p>
+<p>The two examples described in this section – quantum interference and
+quantum parallelism – are not meant to be an exhaustive list of all
+non-effective features of quantum computation. Other potential features
+might include quantum entanglement, quantum teleportation, or
+counterfactual computation.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn34" class="footnote-ref"
+id="fnref34" role="doc-noteref"><sup>34</sup></a> Just like interference
+and quantum parallelism, these features are multiply realisable – they
+are not specific to any particular hardware implementation. Just like
+interference and quantum parallelism, it is hard to see how they might
+be implemented at will in an unaided human.</p>
+<p>Quantum computers are unlikely to be the only systems that use
+non-effective computational methods. Other possible examples might
+include DNA computers <span class="citation"
+data-cites="Adleman94 Lipton95">(Adleman 1994; Lipton 1995)</span>,
+enzyme-based computers <span class="citation"
+data-cites="Barrett05">(Barrett 2005)</span>, slime moulds <span
+class="citation" data-cites="Adamatzky16">(Adamatzky 2016)</span>, fungi
+<span class="citation" data-cites="Adamatzky18">(Adamatzky 2018)</span>,
+reservoir computers <span class="citation"
+data-cites="TanakaYamaneHeroux19">(Tanaka et al. 2019)</span>, and
+optical computers <span class="citation"
+data-cites="WuGarciaDeAbajoSoci14">(Wu et al. 2014)</span>. An anonymous
+referee suggested that analog computers provide good examples of systems
+that use non-effective computing methods <span class="citation"
+data-cites="Ulmann13">(Ulmann 2013)</span>. <span class="citation"
+data-cites="Shagrir22">Shagrir (2022)</span> claims that the Game of
+Life is another case. According to Shagrir, an unbounded number of cells
+inside the Game of Life need to be updated simultaneously at each time
+step. He argues that this requires an unbounded number of parallel
+operations, which he argues, building on work by <span class="citation"
+data-cites="Gandy80">Gandy (1980)</span>, cannot be executed by a human
+clerk.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn35" class="footnote-ref" id="fnref35"
+role="doc-noteref"><sup>35</sup></a> Gurevich suggests that although the
+idea of a computational method (‘algorithm’) originated with
+human-executable methods, it has since been generalised to other
+methods, and it continues to expand in ways that are hard to
+delimit:</p>
+<blockquote>
+<p>In addition to classical sequential algorithms, in use from
+antiquity, we have now parallel, interactive, distributed, real-time,
+analog, hybrid, quantum, etc. algorithms. New kinds of numbers and
+algorithms may be introduced. The notions of numbers and algorithms have
+not crystallized (and maybe never will) to support rigorous definitions.
+<span class="citation" data-cites="Gurevich11">(Gurevich 2011 p.
+32)</span></p>
+</blockquote>
+<p>The argument of this paper is not intended to suggest that quantum
+computing methods are the only, or the most central, examples of
+non-effective computational methods. However, the case of quantum
+computing is a particularly helpful one with which to make the case that
+not all computational methods are effective methods. This is because it
+allows us to apply a relatively clear-cut, quantitative, and widely
+accepted principle – that different worst-case complexity profiles
+indicate different computational methods – to settle hard questions
+about how to individuate computational methods.</p>
+<p>Any claim that a computational method is not an effective method is
+liable to face scrutiny or some degree of scepticism regarding its
+specific understanding of how to individuate computational methods. As
+noted in Section 2.2, this involves defence over a complex and unsettled
+territory. It is often hard to say definitely whether two computational
+methods are the same or not. From one perspective – at a particular
+level of abstraction, or with a focus on the similarity of the certain
+features rather than others – two computational methods might appear to
+be the same. However, if looked at in a different way – at a different
+level of abstraction, or with an emphasis on different features – those
+same methods might be classified as be different.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn36"
+class="footnote-ref" id="fnref36" role="doc-noteref"><sup>36</sup></a>
+In general, it is not obvious what counts as a ‘superficial’ versus a
+‘genuine’ difference between the internal workings of computing methods
+(for example, in Shagrir’s case it is not obvious that the Game of Life
+really does require all cells to be updated simultaneously). The
+question therefore always potentially arises about whether a suggested
+computational method is genuinely different from an effective method –
+whether it is a legitimate case of a non-effective computational method
+– or only one that differs in some superficial respects.</p>
+<p>The principle described in Section 2.2 provides a way of cutting
+through this uncertainty. Different complexity profiles provide a
+sufficient reason for distinguishing between computational methods that
+compute the same function. This principle only really gets its teeth,
+however, in the quantum computing case. Generally speaking, it is common
+inside complexity theory to assume that any two ‘reasonable’ models of
+computation are able to simulate each with at most a polynomial penalty
+in time or space. This is sometimes known as the Cobham–Edmonds thesis
+or the extended Church–Turing thesis <span class="citation"
+data-cites="Goldreich08 Yao03">(Goldreich 2008; Yao 2003)</span>. It is
+sometimes glossed as showing that the abstract computational method
+‘does not matter’ to the worst-case complexity profile associated with a
+task – worst-case complexity profiles are robust under changes in
+computing method or computing paradigm <span class="citation"
+data-cites="Goldreich08">(Goldreich 2008 pp. 33–4)</span>. However,
+quantum computers appear to offer an exception to this <span
+class="citation"
+data-cites="AharonovVazirani13 BernsteinVazirani97 Yao03">(Aharonov
+&amp; Vazirani 2013; Bernstein &amp; Vazirani 1997; Yao 2003)</span>.
+Some quantum computational methods provide near exponential speed up for
+some problems (e.g. factorisation). They appear to be examples of cases
+where the computational method <em>does</em> matter to the worst-case
+complexity profile associated with solving a task. My claim is that
+because of these differences in complexity profile we have good reason
+to think that we have genuinely different computing methods on our
+hands. We can apply the principle from Section 2.2 to show that a
+quantum computational method is <em>different</em> from any effective
+method. This kind of result is not known for other types of non-human
+computing method. As such, quantum computing methods stand out as
+particularly clear-cut, egregious cases of computational methods that
+are not effective methods.</p>
+<h1 data-number="7" id="simulating-the-quantum-system-by-hand"><span
+class="header-section-number">7</span> Simulating the quantum system by
+hand</h1>
+<p>Someone might object to the treatment of the computational methods
+described in the previous section by replying that the relevant quantum
+computational methods <em>are</em> executable by a human. All a human
+would need to do is calculate the evolution of the relevant quantum wave
+function. This is exactly what we appeared to do in the case of
+Deutsch’s NOT quantum computer: we applied the relevant quantum operator
+step-by-step (by performing matrix multiplication) to calculate the
+output state from an input state. In principle, a similar kind of
+procedure could be performed for the Deutsch–Jozsa algorithm or for
+Shor’s algorithm. Calculating the evolution of a quantum wave function
+by hand can be extremely laborious, but there is no reason to think it
+cannot be done, in principle, with an effective method. There is no
+overtly ‘non-effective’ mathematical step within any of the formal
+theory of quantum mechanics. Hence, the objection goes, there is no
+reason to think that a suitably idealised human clerk cannot reproduce
+the computational methods of any quantum computer.</p>
+<p>It is important to note that although it might be possible to
+calculate the evolution of a quantum computer’s wave function by hand,
+doing so is <em>not</em> the same computational method as letting a
+quantum computer evolve by itself. There is a difference between
+applying the relevant quantum operators by hand (e.g., by doing a
+sequence of matrix multiplications), and letting the target physical
+system run to produce its output. That there is a difference can be
+justified by appealing, again, to the principle, described in Section
+2.2.</p>
+<p><span class="citation" data-cites="Feynman82">Feynman (1982)</span>
+famously showed that simulating the evolution of a quantum system by
+hand is a computationally intractable problem. This means that a quantum
+computer undergoing natural evolution of its wave function, and a human
+simulating it by an effective method, e.g. by repeatedly performing
+matrix multiplications, have qualitatively different worst-case
+complexity profiles. The human working by hand will use exponentially
+more space (or time) than the quantum computer to produce the same
+overall output. Calculating the evolution of an <span
+class="math inline">\(n\)</span>-bit quantum system by hand would
+require (at least) <span class="math inline">\(2^n\)</span> classical
+bits.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fn37" class="footnote-ref" id="fnref37"
+role="doc-noteref"><sup>37</sup></a> For a quantum computer with 400
+quantum bits (say, consisting of 400 atomic nuclei), an effective method
+that calculates the wave function by hand would require more bits for
+storage than there are estimated particles in the universe. The relevant
+issue here is not however a practical limitation on storage – after all,
+the imagined clerk is allowed unlimited space and time. The problem is
+about how the clerk’s resource use <em>grows</em> with the size of the
+problem. This growth is what the worst-case complexity profiles measure
+and it is what signals that these are different methods for tackling the
+same problem. Any effective method that an idealised human might adopt
+for stepping through the evolution of the quantum system by hand will be
+exponentially less efficient than running the quantum computer itself.
+Therefore, applying the principle from Section 2.2, running the quantum
+computation is not the same – in terms of which computational method is
+instantiated – as having a human work through the evolution of its wave
+function by hand.</p>
+<h1 data-number="8" id="conclusion"><span
+class="header-section-number">8</span> Conclusion</h1>
+<p>In Section 9 of <span class="citation" data-cites="Turing36">Turing
+(1936)</span>, he wrote:</p>
+<blockquote>
+<p>The real question at issue is “What are the possible processes which
+can be carried out in computing a number?” <span class="citation"
+data-cites="Turing36">(Turing 1936 p. 249)</span></p>
+</blockquote>
+<p>Turing had in mind a human computer (a ‘computor’ to use Gandy’s term
+<span class="citation" data-cites="Gandy88">(1988)</span>), and he goes
+on to answer this question by describing the operations and methods of
+what has come to be known as a Turing machine. This appears to suggest
+that the <em>possible processes which can be carried out in effectively
+computing a number</em> should be identified with the <em>methods that
+can be executed by a Turing machine</em>. As Wittgenstein said,
+‘Turing’s … machines are <em>humans</em> who calculate.’ <span
+class="citation" data-cites="Wittgenstein80">(Wittgenstein 1980/1947
+sec. 1096)</span>.</p>
+<p>We have seen that care should be taken in how this claim is
+interpreted. The possible processes that might be carried out in
+computing a number outrun both (i) those that might be carried out by a
+Turing machine and (ii) those that might be carried out by an idealised
+human following an effective method. There are processes for computing
+that are human executable but not Turing-machine executable (e.g. that
+involve sequences of operations in the <span
+class="math inline">\(\lambda\)</span>-calculus, or over the <span
+class="math inline">\(\mu\)</span>-recursive functions) and there are
+processes for computing that are not executable by a human but which are
+executable by certain other systems (e.g. quantum computers).</p>
+<p>Turing ignored these issues in his 1936 paper because his focus was
+on relationships between computing processes of extensional equivalence.
+If one’s primary focus is on questions of computability, then these
+fine-grained differences between computational methods – differences
+that do not affect which numbers are computable – can be ignored.
+However, if one is interested in differences in internal workings
+between computing methods – as is commonly the case in philosophy of
+mind and in many areas of computer science – then an identification
+between computing methods and effective methods cannot be made.</p>
+<h1 class="unnumbered" id="acknowledgements">Acknowledgements</h1>
+<p>I would like to thank three anonymous referees for their helpful
+comments on this paper. An early version of the paper greatly benefitted
+from feedback at the Philosophy Workshop at the Dept. History and
+Philosophy of Science, University of Cambridge.</p>
+<h1 class="unnumbered" id="bibliography">Bibliography</h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+role="doc-bibliography">
+<div id="ref-Adamatzky16" class="csl-entry" role="doc-biblioentry">
+Adamatzky, A. (Ed.). (2016). <em>Advances in physarum machines</em>.
+Berlin: Springer.
+</div>
+<div id="ref-Adamatzky18" class="csl-entry" role="doc-biblioentry">
+——. (2018). <span>‘Towards fungal computer’</span>, <em>Journal of the
+Royal Society Interface Focus</em>, 20180029. DOI: <a
+href="https://doi.org/10.1098/rsfs.2018.0029">10.1098/rsfs.2018.0029</a>
+</div>
+<div id="ref-Adleman94" class="csl-entry" role="doc-biblioentry">
+Adleman, L. M. (1994). <span>‘Molecular computation of solutions to
+combinatorial problems’</span>, <em>Science</em>, 266: 1021–4.
+</div>
+<div id="ref-AharonovVazirani13" class="csl-entry"
+role="doc-biblioentry">
+Aharonov, D., &amp; Vazirani, U. (2013). <span>‘Is quantum mechanics
+falsifiable? A computational perspective on the foundations of quantum
+mechanics’</span>. Copeland B. J., Posy C. J., &amp; Shagrir O. (eds)
+<em>Computability: Turing, g<span>ö</span>del, church, and beyond</em>,
+pp. 329–49. MIT Press: Cambridge, MA.
+</div>
+<div id="ref-Barrett05" class="csl-entry" role="doc-biblioentry">
+Barrett, H. C. (2005). <span>‘Enzymatic computation and cognitive
+modularity’</span>, <em>Mind and Language</em>, 20: 259–87.
+</div>
+<div id="ref-Barz15" class="csl-entry" role="doc-biblioentry">
+Barz, S. (2015). <span>‘Quantum computing with photons: Introduction to
+the circuit model, the one- way quantum computer, and the fundamental
+principles of photonic experiments’</span>, <em>Journal of Physics B:
+Atomic, Molecular and Optical Physics</em>, 48: 083001.
+</div>
+<div id="ref-BennettBrassard93" class="csl-entry"
+role="doc-biblioentry">
+Bennett, C. H., Brassard, G., Crépeau, C., Jozsa, R., Peres, A., &amp;
+Wootters, W. K. (1993). <span>‘Teleporting an unknown quantum state via
+dual classical and
+<span>E</span>instein-<span>P</span>odolsky-<span>R</span>osen
+channels’</span>, <em>Physical Review Letters</em>, 70: 1895–9.
+</div>
+<div id="ref-BernsteinVazirani97" class="csl-entry"
+role="doc-biblioentry">
+Bernstein, E., &amp; Vazirani, U. (1997). <span>‘Quantum complexity
+theory’</span>, <em><span>SIAM</span> Journal on Computing</em>, 26:
+1411–73.
+</div>
+<div id="ref-Black00" class="csl-entry" role="doc-biblioentry">
+Black, R. (2000). <span>‘Proving <span>C</span>hurch’s
+<span>T</span>hesis’</span>, <em>Philosophia Mathematica</em>, 8:
+244–58.
+</div>
+<div id="ref-BlassDershowitzGurevich09" class="csl-entry"
+role="doc-biblioentry">
+Blass, A., Dershowitz, N., &amp; Gurevich, Y. (2009). <span>‘When are
+two algorithms the same?’</span>, <em>The Bulletin of Symbolic
+Logic</em>, 15: 145–68.
+</div>
+<div id="ref-BlassGurevich06" class="csl-entry" role="doc-biblioentry">
+Blass, A., &amp; Gurevich, Y. (2006). <span>‘Algorithms: A quest for
+absolute definitions’</span>. Olszewski A., Woleński J., &amp; Janusz R.
+(eds) <em>Church’s thesis after 70 years</em>, pp. 24–57. Ontos Verlag.
+</div>
+<div id="ref-Block78" class="csl-entry" role="doc-biblioentry">
+Block, N. (1978). <span>‘Troubles with functionalism’</span>. Savage C.
+W. (ed.) <em>Perception and cognition: Issues in the foundations of
+psychology, minnesota studies in the philosophy of science</em>, Vol. 9,
+pp. 261–325. University of Minnesota Press: Minneapolis.
+</div>
+<div id="ref-Block81" class="csl-entry" role="doc-biblioentry">
+——. (1981). <span>‘Psychologism and behaviorism’</span>,
+<em>Philosophical Review</em>, 90: 5–43.
+</div>
+<div id="ref-BoolosBurgessJeffrey07" class="csl-entry"
+role="doc-biblioentry">
+Boolos, G., Burgess, J. P., &amp; Jeffrey, R. C. (2007).
+<em>Computability and logic</em>., 5th ed. Cambridge: Cambridge
+University Press.
+</div>
+<div id="ref-Burkholder00" class="csl-entry" role="doc-biblioentry">
+Burkholder, L. (2000). <span>‘Computing’</span>. Newton-Smith W. H.
+(ed.) <em>A companion to the philosophy of science</em>, pp. 44–55.
+Blackwell: Oxford.
+</div>
+<div id="ref-Button09" class="csl-entry" role="doc-biblioentry">
+Button, T. (2009). <span>‘<span>SAD</span> computers and two versions of
+the <span>Church-Turing Thesis</span>’</span>, <em>The British Journal
+for the Philosophy of Science</em>, 60: 765–92.
+</div>
+<div id="ref-ChabertWeeksBarbin99" class="csl-entry"
+role="doc-biblioentry">
+Chabert, J.-L., Weeks, C., Barbin, E., Borowczyk, J., Guillemot, M.,
+Michel-Pajus, A., Djebbar, A., et al. (1999). <em>A history of
+algorithms: From the pebble to the microchip</em>. Berlin:
+Springer-Verlag.
+</div>
+<div id="ref-Church41" class="csl-entry" role="doc-biblioentry">
+Church, A. (1941). <em>The calculi of lambda-conversion</em>. Princeton,
+NJ: Princeton University Press.
+</div>
+<div id="ref-Church56" class="csl-entry" role="doc-biblioentry">
+——. (1956). <em>Introduction to mathematical logic</em>. Princeton, NJ:
+Princeton University Press.
+</div>
+<div id="ref-Cleland02" class="csl-entry" role="doc-biblioentry">
+Cleland, C. E. (2002). <span>‘On effective procedures’</span>, <em>Minds
+and Machines</em>, 12: 159–79.
+</div>
+<div id="ref-Cleland04" class="csl-entry" role="doc-biblioentry">
+——. (2004). <span>‘The concept of computability’</span>, <em>Theoretical
+Computer Science</em>, 317: 209–25.
+</div>
+<div id="ref-CleveEkertMacchiavello98" class="csl-entry"
+role="doc-biblioentry">
+Cleve, R., Ekert, A., Macchiavello, C., &amp; Mosca, M. (1998).
+<span>‘Quantum algorithms revisited’</span>, <em>Proceedings of the
+Royal Society, Series A</em>, 454: 339–54.
+</div>
+<div id="ref-Copeland93" class="csl-entry" role="doc-biblioentry">
+Copeland, B. J. (1993). <span>‘The curious case of the
+<span>C</span>hinese gym’</span>, <em>Synthese</em>, 95: 173–86.
+</div>
+<div id="ref-Copeland97" class="csl-entry" role="doc-biblioentry">
+——. (1997). <span>‘The broad conception of computation’</span>,
+<em>American Behavioral Scientist</em>, 40: 690–716.
+</div>
+<div id="ref-Copeland98c" class="csl-entry" role="doc-biblioentry">
+——. (1998). <span>‘<span>T</span>uring’s <span>O</span>-machines,
+<span>S</span>earle, <span>P</span>enrose and the brain’</span>,
+<em>Analysis</em>, 58: 128–38.
+</div>
+<div id="ref-Copeland00" class="csl-entry" role="doc-biblioentry">
+——. (2000). <span>‘Narrow versus wide mechanism’</span>, <em>The Journal
+of Philosophy</em>, 97: 5–32.
+</div>
+<div id="ref-Copeland02c" class="csl-entry" role="doc-biblioentry">
+——. (2002). <span>‘Hypercomputation’</span>, <em>Minds and
+Machines</em>, 12: 461–502.
+</div>
+<div id="ref-Copeland04" class="csl-entry" role="doc-biblioentry">
+——. (2004). <span>‘Hypercomputation: Philosophical issues’</span>,
+<em>Theoretical Computer Science</em>, 317: 251–67.
+</div>
+<div id="ref-Copeland20" class="csl-entry" role="doc-biblioentry">
+——. (2020). <span>‘<a
+href="https://plato.stanford.edu/archives/sum2020/entries/church-turing/">The
+<span>C</span>hurch-<span>T</span>uring thesis</a>’</span>. Zalta E. N.
+(ed.) <em>The stanford encyclopedia of philosophy</em>, Summer 2020.
+</div>
+<div id="ref-CopelandProudfoot99" class="csl-entry"
+role="doc-biblioentry">
+Copeland, B. J., &amp; Proudfoot, D. (1999). <span>‘Alan
+<span>T</span>uring’s forgotten ideas in computer science’</span>,
+<em>Scientific American</em>, 280: 77–81.
+</div>
+<div id="ref-CopelandSylvan99" class="csl-entry" role="doc-biblioentry">
+Copeland, B. J., &amp; Sylvan, R. (1999). <span>‘Beyond the universal
+<span>T</span>uring machine’</span>, <em>Australasian Journal of
+Philosophy</em>, 77: 46–66.
+</div>
+<div id="ref-Crane03" class="csl-entry" role="doc-biblioentry">
+Crane, T. (2003). <em>The mechanical mind</em>., 2nd ed. London:
+Routledge.
+</div>
+<div id="ref-Cutland80" class="csl-entry" role="doc-biblioentry">
+Cutland, N. (1980). <em>An introduction to recursive function
+theory</em>. Cambridge: Cambridge University Press.
+</div>
+<div id="ref-Davis04" class="csl-entry" role="doc-biblioentry">
+Davis, M. (2004). <span>‘The myth of hypercomputation’</span>. Teuscher
+C. (ed.) <em>Alan <span>T</span>uring: Life and legacy of a great
+thinker</em>, pp. 195–211. Springer: Berlin.
+</div>
+<div id="ref-Dean16" class="csl-entry" role="doc-biblioentry">
+Dean, W. (2016). <span>‘Algorithms and the mathematical foundations of
+computer science’</span>. Horsten L. &amp; Welch P. (eds)
+<em>G<span>ö</span>del’s disjunction: The scope and limits of
+mathematical knowledge</em>, pp. 19–66. Oxford University Press: Oxford.
+</div>
+<div id="ref-Dennett78a" class="csl-entry" role="doc-biblioentry">
+Dennett, D. C. (1978). <em>Brainstorms</em>. Cambridge, MA: MIT Press.
+</div>
+<div id="ref-Deutsch85" class="csl-entry" role="doc-biblioentry">
+Deutsch, D. (1985). <span>‘Quantum theory, the
+<span>C</span>hurch–<span>T</span>uring principle and the universal
+quantum computer’</span>, <em>Proceedings of the Royal Society, Series
+A</em>, 400: 97–117.
+</div>
+<div id="ref-DeutschEkert00" class="csl-entry" role="doc-biblioentry">
+Deutsch, D., Ekert, A., &amp; Lupacchini, R. (2000). <span>‘Machines,
+logic and quantum physics’</span>, <em>Bulletin of Symbolic Logic</em>,
+3: 265–83.
+</div>
+<div id="ref-DeutschJozsa92" class="csl-entry" role="doc-biblioentry">
+Deutsch, D., &amp; Jozsa, R. (1992). <span>‘Rapid solution of problems
+by quantum computation’</span>, <em>Proceedings of the Royal Society,
+Series A</em>, 439: 553–8.
+</div>
+<div id="ref-EkertJozsa98" class="csl-entry" role="doc-biblioentry">
+Ekert, A., &amp; Jozsa, R. (1998). <span>‘Quantum algorithms:
+Entanglement-enhanced information processing’</span>, <em>Philosophical
+Transactions of the Royal Society of London, Series A</em>, 356:
+1769–82.
+</div>
+<div id="ref-EtesiNemeti02" class="csl-entry" role="doc-biblioentry">
+Etesi, G., &amp; Németi, I. (2002). <span>‘Non-<span>T</span>uring
+computations via <span>M</span>alament–<span>H</span>ogarth
+space-times’</span>, <em>International Journal of Theoretical
+Physics</em>, 41: 341–70.
+</div>
+<div id="ref-Feynman82" class="csl-entry" role="doc-biblioentry">
+Feynman, R. P. (1982). <span>‘Simulating physics with computers’</span>,
+<em>International Journal of Theoretical Physics</em>, 21: 467–88.
+</div>
+<div id="ref-Fodor68" class="csl-entry" role="doc-biblioentry">
+Fodor, J. A. (1968). <span>‘The appeal to tacit knowledge in
+psychological explanation’</span>, <em>The Journal of Philosophy</em>,
+65: 627–40.
+</div>
+<div id="ref-Folina98" class="csl-entry" role="doc-biblioentry">
+Folina, J. (1998). <span>‘<span>C</span>hurch’s <span>T</span>hesis:
+Prelude to a proof’</span>, <em>Philosophia Mathematica</em>, 6: 302–23.
+</div>
+<div id="ref-Gandy80" class="csl-entry" role="doc-biblioentry">
+Gandy, R. O. (1980). <span>‘Church’s thesis and principles of
+mechanisms’</span>. Barwise J., Keisler H. J., &amp; Kunen K. (eds)
+<em>The kleene symposium</em>, pp. 123–45. North Holland: Amsterdam.
+</div>
+<div id="ref-Gandy88" class="csl-entry" role="doc-biblioentry">
+——. (1988). <span>‘The confluence of ideas in 1936’</span>. Herken R.
+(ed.) <em>The universal <span>T</span>uring machine: A half-century
+survey</em>, pp. 55–111. Oxford University Press: Oxford.
+</div>
+<div id="ref-Goldreich08" class="csl-entry" role="doc-biblioentry">
+Goldreich, O. (2008). <em>Computational complexity: A conceptual
+perspective</em>. Cambridge: Cambridge University Press.
+</div>
+<div id="ref-GottesmanChuang99" class="csl-entry"
+role="doc-biblioentry">
+Gottesman, D., &amp; Chuang, I. L. (1999). <span>‘Quantum teleportation
+is a universal computational primitive’</span>, <em>Nature</em>, 402:
+390–3.
+</div>
+<div id="ref-Gurevich99" class="csl-entry" role="doc-biblioentry">
+Gurevich, Y. (1999). <span>‘The sequential <span>ASM</span>
+thesis’</span>, <em>Bulletin of European Association for Theoretical
+Computer Science</em>, 67: 93–124.
+</div>
+<div id="ref-Gurevich00" class="csl-entry" role="doc-biblioentry">
+——. (2000). <span>‘Sequential <span>A</span>bstract <span>S</span>tate
+<span>M</span>achines capture sequential algorithms’</span>, <em>ACM
+Transactions on Computational Logic</em>, 1: 77–111.
+</div>
+<div id="ref-Gurevich11" class="csl-entry" role="doc-biblioentry">
+——. (2011). <span>‘What is an algorithm?’</span> Bieliková M., Friedrich
+G., Gottlob G., Katzenbeisser S., &amp; Turán G. (eds)
+<em><span>SOFSEM</span> 2012: Theory and practice of computer science.
+Lecture notes in computer science, vol 7147</em>, pp. 31–42. Microsoft
+Research; Springer: Berlin.
+</div>
+<div id="ref-HostenRakher06" class="csl-entry" role="doc-biblioentry">
+Hosten, O., Rakher, M. T., Barreiro, J. T., Peters, N. A., &amp; Kwiat,
+P. G. (2006). <span>‘Counterfactual quantum computation through quantum
+interrogation’</span>, <em>Nature</em>, 949-952.
+</div>
+<div id="ref-JohnsonLaird83" class="csl-entry" role="doc-biblioentry">
+Johnson-Laird, P. N. (1983). <em>Mental models</em>. Cambridge:
+Cambridge University Press.
+</div>
+<div id="ref-Knuth72" class="csl-entry" role="doc-biblioentry">
+Knuth, D. E. (1972). <span>‘Ancient <span>B</span>abylonian
+algorithms’</span>, <em>Communications of the ACM</em>, 15: 671–7.
+</div>
+<div id="ref-Knuth81" class="csl-entry" role="doc-biblioentry">
+——. (1981). <span>‘Algorithms in modern mathematics and computer
+science’</span>. Ershov A. P. &amp; Knuth D. E. (eds) <em>Algorithms in
+modern mathematics and computer science</em>, pp. 82–99.
+Springer-Verlag.
+</div>
+<div id="ref-Knuth97" class="csl-entry" role="doc-biblioentry">
+——. (1997). <em>The art of computer programming, volume 1: Fundamental
+algorithms</em>., 3rd ed. Upper Saddle River, NJ: Addison-Wesley.
+</div>
+<div id="ref-Lipton95" class="csl-entry" role="doc-biblioentry">
+Lipton, R. J. (1995). <span>‘<span>DNA</span> solution of hard
+computational problems’</span>, <em>Science</em>, 268: 542–5.
+</div>
+<div id="ref-Lycan81a" class="csl-entry" role="doc-biblioentry">
+Lycan, W. G. (1981). <span>‘Form, function, and feel’</span>, <em>The
+Journal of Philosophy</em>, 78: 24–50.
+</div>
+<div id="ref-Marr82" class="csl-entry" role="doc-biblioentry">
+Marr, D. (1982). <em>Vision</em>. San Francisco, CA: W. H. Freeman.
+</div>
+<div id="ref-MatuschakNielsen19" class="csl-entry"
+role="doc-biblioentry">
+Matuschak, A., &amp; Nielsen, M. A. (2019). <em><a
+href="https://quantum.country/qcvc">Quantum computing for the very
+curious</a></em>. San Francisco, CA.
+</div>
+<div id="ref-Mendelson63" class="csl-entry" role="doc-biblioentry">
+Mendelson, E. (1963). <span>‘On some recent criticism of
+<span>C</span>hurch’s <span>T</span>hesis’</span>, <em>Notre Dame
+Journal of Formal Logic</em>, 4: 201–5.
+</div>
+<div id="ref-Moschovakis01" class="csl-entry" role="doc-biblioentry">
+Moschovakis, Y. N. (2001). <span>‘What is an algorithm?’</span> Engquist
+B. &amp; Schmid W. (eds) <em>Mathematics unlimited – 2001 and
+beyond</em>. Springer: Berlin.
+</div>
+<div id="ref-NemetiDavid06" class="csl-entry" role="doc-biblioentry">
+Németi, I., &amp; Dávid, G. (2006). <span>‘Relativistic computers and
+the <span>T</span>uring barrier’</span>, <em>Applied Mathematics and
+Computation</em>, 178: 118–42.
+</div>
+<div id="ref-NielsenChuang10" class="csl-entry" role="doc-biblioentry">
+Nielsen, M. A., &amp; Chuang, I. L. (2010). <em>Quantum computation and
+quantum information</em>., 10th Anniversary. Cambridge: Cambridge
+University Press.
+</div>
+<div id="ref-OppenheimPutnam58" class="csl-entry"
+role="doc-biblioentry">
+Oppenheim, P., &amp; Putnam, H. (1958). <span>‘Unity of science as a
+working hypothesis’</span>. Feigl H., Scriven M., &amp; Maxwell G. (eds)
+<em>Concepts, theories, and the mind–body problem</em>, Minnesota
+studies in the philosophy of science, volume 2, pp. 3–36. University of
+Minnesota Press: Minneapolis, MN.
+</div>
+<div id="ref-Papadimitr94" class="csl-entry" role="doc-biblioentry">
+Papadimitriou, C. H. (1994). <em>Computational complexity</em>. Reading,
+MA: Addison-Wesley.
+</div>
+<div id="ref-Piccinini11" class="csl-entry" role="doc-biblioentry">
+Piccinini, G. (2011). <span>‘The physical
+<span>C</span>hurch–<span>T</span>uring <span>T</span>hesis: Modest or
+bold?’</span>, <em>The British Journal for the Philosophy of
+Science</em>, 62: 733–69.
+</div>
+<div id="ref-Putnam75a" class="csl-entry" role="doc-biblioentry">
+Putnam, H. (1975). <span>‘Philosophy and our mental life’</span>.
+<em>Mind, language and reality, philosophical papers, volume 2</em>, pp.
+291–303. Cambridge University Press: Cambridge.
+</div>
+<div id="ref-Rogers67" class="csl-entry" role="doc-biblioentry">
+Rogers, H. (1967). <em>Theory of recursive functions and effective
+computability</em>. New York, NY: McGraw-Hill.
+</div>
+<div id="ref-Searle80" class="csl-entry" role="doc-biblioentry">
+Searle, J. R. (1980). <span>‘Minds, brains, and programs’</span>,
+<em>Behavioral and Brain Sciences</em>, 3: 417–24.
+</div>
+<div id="ref-Searle92" class="csl-entry" role="doc-biblioentry">
+——. (1992). <em>The rediscovery of the mind</em>. Cambridge, MA: MIT
+Press.
+</div>
+<div id="ref-Shagrir98" class="csl-entry" role="doc-biblioentry">
+Shagrir, O. (1998). <span>‘Multiple realization, computation and the
+taxonomy of psychological states’</span>, <em>Synthese</em>, 114:
+445–61.
+</div>
+<div id="ref-Shagrir02" class="csl-entry" role="doc-biblioentry">
+——. (2002). <span>‘Effective computation by humans and machines’</span>,
+<em>Minds and Machines</em>, 12: 221–40.
+</div>
+<div id="ref-Shagrir15" class="csl-entry" role="doc-biblioentry">
+——. (2016). <span>‘Advertisement for the philosophy of the computational
+sciences’</span>. Humphreys P. (ed.) <em>The oxford handbook of
+philosophy of science</em>, pp. 15–42. Oxford University Press: Oxford.
+</div>
+<div id="ref-Shagrir22" class="csl-entry" role="doc-biblioentry">
+——. (2022). <em>The nature of physical computation</em>. Oxford: Oxford
+University Press.
+</div>
+<div id="ref-ShagrirPitowsky03" class="csl-entry"
+role="doc-biblioentry">
+Shagrir, O., &amp; Pitowsky, I. (2003). <span>‘Physical hypercomputation
+and the <span>C</span>hurch-<span>T</span>uring thesis’</span>,
+<em>Minds and Machines</em>, 13: 87–101.
+</div>
+<div id="ref-Shapiro06" class="csl-entry" role="doc-biblioentry">
+Shapiro, S. (2006). <span>‘Computability, proof, and
+open-texture’</span>. Olszewski A., Woleński J., &amp; Janusz R. (eds)
+<em>Church’s thesis after 70 years</em>, pp. 420–55. Ontos Verlag:
+Heusenstamm.
+</div>
+<div id="ref-Shor99" class="csl-entry" role="doc-biblioentry">
+Shor, P. W. (1999). <span>‘Polynomial-time algorithms for prime
+factorization and discrete logarithms on a quantum computer’</span>,
+<em><span>SIAM</span> Review</em>, 41: 303–32.
+</div>
+<div id="ref-Sieg01" class="csl-entry" role="doc-biblioentry">
+Sieg, W. (2002). <span>‘Calculation by man and machine: Conceptual
+analysis’</span>. Sieg W., Sommer R., &amp; Talcot C. (eds)
+<em>Reflections on the foundations of mathematics (essays in honor of
+<span>S</span>olomon <span>F</span>eferman)</em>, pp. 387–406. Volume 15
+of Lectures Notes in Logic, Association of Symbolic Logic.
+</div>
+<div id="ref-Smith13" class="csl-entry" role="doc-biblioentry">
+Smith, P. (2013). <em>An introduction to g<span>ö</span>del’s
+theorems</em>., 2nd ed. Cambridge: Cambridge University Press.
+</div>
+<div id="ref-Soare99" class="csl-entry" role="doc-biblioentry">
+Soare, R. (1999). <span>‘The history and concept of
+computability’</span>. Griffor E. R. (ed.) <em>Handbook of computability
+theory</em>, pp. 3–36. Elsevier: New York, NY.
+</div>
+<div id="ref-Sprevak07b" class="csl-entry" role="doc-biblioentry">
+Sprevak, M. (2007). <span>‘Chinese rooms and program
+portability’</span>, <em>The British Journal for the Philosophy of
+Science</em>, 58: 755–76.
+</div>
+<div id="ref-Syropoulos08" class="csl-entry" role="doc-biblioentry">
+Syropoulos, A. (2008). <em>Hypercomputation: Computing beyond the
+<span>C</span>hurch–<span>T</span>uring barrier</em>. New York, NY:
+Springer.
+</div>
+<div id="ref-TanakaYamaneHeroux19" class="csl-entry"
+role="doc-biblioentry">
+Tanaka, G., Yamane, T., Héroux, J. B., Nakane, R., N., K., Takeda, S.,
+Numata, H., et al. (2019). <span>‘Recent advances in physical reservoir
+computing: A review’</span>, <em>Neural Networks</em>, 115: 100–23.
+</div>
+<div id="ref-Turing36" class="csl-entry" role="doc-biblioentry">
+Turing, A. M. (1936). <span>‘On computable numbers, with an application
+to the <em>entscheidungsproblem</em>’</span>, <em>Proceeding of the
+London Mathematical Society, series 2</em>, 42: 230–65.
+</div>
+<div id="ref-Turing39" class="csl-entry" role="doc-biblioentry">
+——. (1939). <span>‘Systems of logic based on ordinals’</span>,
+<em>Proceedings of the London Mathematical Society, series 2</em>, 45:
+161–228.
+</div>
+<div id="ref-Turing92b" class="csl-entry" role="doc-biblioentry">
+——. (1992). <span>‘Proposals for development in the mathematics division
+of an automatic computing engine (<span>ACE</span>). Report to the
+executive committee of the national physics laboratory’</span>. Ince D.
+C. (ed.) <em>Collected works of
+<span>A</span>. <span>M</span>. <span>T</span>uring: Mechanical
+intelligence</em>, pp. 1–86. Elsevier: Amsterdam.
+</div>
+<div id="ref-Turing04g" class="csl-entry" role="doc-biblioentry">
+——. (2004/1954). <span>‘Solvable and unsolvable problems’</span>.
+Copeland B. J. (ed.) <em>The essential turing</em>, pp. 582–95. Oxford
+University Press: Oxford.
+</div>
+<div id="ref-Ulmann13" class="csl-entry" role="doc-biblioentry">
+Ulmann, B. (2013). <em>Analog computing</em>. Munich: Oldenbourg
+Wissenschaftsverlag.
+</div>
+<div id="ref-Wittgenstein80" class="csl-entry" role="doc-biblioentry">
+Wittgenstein, L. (1980/1947). <em>Remarks on the philosophy of
+psychology, volume 1</em>. (G. E. M. Anscombe, H. Nyman, &amp; G. H. von
+Wright, Eds). Oxford: Blackwell.
+</div>
+<div id="ref-WuGarciaDeAbajoSoci14" class="csl-entry"
+role="doc-biblioentry">
+Wu, K., Garcı́a de Abajo, J., Soci, C., Ping Shum, P., &amp; Zheludev, N.
+I. (2014). <span>‘An optical fiber network oracle for
+<span>NP</span>-complete problems’</span>, <em>Light: Science &amp;
+Applications</em>, 3: e147. DOI: <a
+href="https://doi.org/10.1038/lsa.2014.28">10.1038/lsa.2014.28</a>
+</div>
+<div id="ref-Yao03" class="csl-entry" role="doc-biblioentry">
+Yao, A. C.-C. (2003). <span>‘Classical physics and the
+<span>C</span>hurch–<span>T</span>uring <span>T</span>hesis’</span>,
+<em>Journal of the ACM</em>, 50: 100–5.
+</div>
+</div>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>See <span class="citation"
+data-cites="CopelandProudfoot99">Copeland &amp; Proudfoot
+(1999)</span>.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>For examples of proposed hypercomputers designs, see
+<span class="citation" data-cites="CopelandSylvan99">Copeland &amp;
+Sylvan (1999)</span>; <span class="citation"
+data-cites="Copeland02c">Copeland (2002)</span>; <span class="citation"
+data-cites="Copeland04">Copeland (2004)</span>; <span class="citation"
+data-cites="Syropoulos08">Syropoulos (2008)</span>.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref2"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>For a range of objections to hypercomputation along
+these lines, see <span class="citation" data-cites="Button09">Button
+(2009)</span>; <span class="citation" data-cites="Davis04">Davis
+(2004)</span>; <span class="citation" data-cites="Piccinini11">Piccinini
+(2011)</span>.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>I do not claim that quantum cases are the only examples
+of non-effective computational methods, see the end of Section 6 for
+discussion of other possible examples.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref4"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Or, which numbers can be computed (see Section 4), or
+which puzzles can be solved by computational means (see Section 5).<a
+href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>In other words, by the function that they compute, where
+‘function’ is understood in a purely extensional way, i.e. as a set or
+ordered pairs corresponding to the overall input and output.<a
+href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>In the terms of <span class="citation"
+data-cites="Church41">Church (1941)</span>, we consider differences in
+the function-in-intension rather than the function-in-extension. In the
+terms of <span class="citation" data-cites="Marr82">Marr (1982)</span>,
+we individuate computations as they are at the algorithmic level rather
+than at the computational level (pp. 22–24).<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref7"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>See <span class="citation" data-cites="Block81">Block
+(1981)</span> for a classic discussion of this.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref8"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Worst-case measures of space or time complexity are not
+the only ones used to describe this resource usage, but they are the
+most commonly employed. Thanks to an anonymous reviewer for this
+point.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref9" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>In this notation, <span
+class="math inline">\(n\)</span> is the size of the list and <span
+class="math inline">\(O(g(n))\)</span> provides an asymptotic upper
+bound on the resource consumption: for large enough <span
+class="math inline">\(n\)</span>, resource consumption is always less
+than or equal to some constant times the <span
+class="math inline">\(g(n)\)</span> function named inside the <span
+class="math inline">\(O(\cdot)\)</span>. For more on complexity theory
+and use of big-<span class="math inline">\(O\)</span> notation to
+measure resource usage, see <span class="citation"
+data-cites="Papadimitr94">Papadimitriou (1994)</span>.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref10"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>See <span class="citation" data-cites="Dean16">Dean
+(2016)</span> for a review of contemporary analytic approaches to this
+problem, including those of Gurevich <span class="citation"
+data-cites="Gurevich99 Gurevich00">(1999, 2000)</span> and <span
+class="citation" data-cites="Moschovakis01">Moschovakis (2001)</span>.<a
+href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>For a helpful analysis of these two problems in
+relation to creating a general theory, see <span class="citation"
+data-cites="BlassDershowitzGurevich09">Blass et al. (2009)</span>.<a
+href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>See <span class="citation" data-cites="Knuth81">Knuth
+(1981)</span>, p. 97 who suggests that a distinguishing feature of
+computer science is that algorithms should be individuated by their
+complexity class. He argues that this ‘algorithmic’ mode of thinking
+separates the thought processes of earlier mathematicians from those of
+later computer scientists (pp. 96–98). See <span class="citation"
+data-cites="Dean16">Dean (2016)</span>, pp. 20–29; <span
+class="citation" data-cites="Shagrir15">Shagrir (2016)</span> for
+further discussion of how and why complexity profiles matter to the
+individuation of computational methods.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref13"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>Some critics of Turing argued that his human-centric
+characterisation of an effective method was not too narrow (as the
+authors above suggest), but too broad: the definition should be narrowed
+by adding a requirement that the number of steps taken by the human
+clerk should be somehow bounded or determinable in advance. For
+criticism of such proposals, see <span class="citation"
+data-cites="Gandy88">Gandy (1988)</span>; pp. 59–60; <span
+class="citation" data-cites="Mendelson63">Mendelson (1963)</span>, p.
+202; <span class="citation" data-cites="Rogers67">Rogers (1967)</span>,
+p. 5.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref14" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>For further defence of the human-centric condition
+regarding ‘effective method’, see <span class="citation"
+data-cites="Black00">Black (2000)</span>; <span class="citation"
+data-cites="Button09">Button (2009)</span>; <span class="citation"
+data-cites="Copeland20">Copeland (2020)</span>; <span class="citation"
+data-cites="Gandy88">Gandy (1988)</span>; <span class="citation"
+data-cites="Shagrir22">Shagrir (2022)</span>, p. 40; <span
+class="citation" data-cites="Smith13">Smith (2013)</span>.<a
+href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>See <span class="citation"
+data-cites="Shagrir02">Shagrir (2002)</span>, pp. 225–226; <span
+class="citation" data-cites="Shagrir22">Shagrir (2022)</span>,
+pp. 36–39.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref16" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p>Copeland <span class="citation"
+data-cites="Copeland98c Copeland00">(1998, 2000)</span> criticises a
+number the same authors for committing what he calls the ‘Church–Turing
+fallacy’. The fallacy is to assume that any possible physical mechanism
+could be simulated by some Turing machine. My claim is that the authors
+make a second mistake in that they assume that any possible
+computational method is also an effective method. Copeland argues that
+although ‘effective’ and ‘mechanical’ sometimes appear to be synonyms in
+mathematical logic, the relationship between them should handled with
+caution. ‘Mechanical’ should be understood as a term of art and defined
+in the way described in Section 3. It does not correspond in any
+straightforward way to the concept of a physical mechanism.<a
+href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p>See <span class="citation" data-cites="Searle92">Searle
+(1992)</span>, p. 202 and Searle (personal correspondence).<a
+href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p>See <span class="citation"
+data-cites="Copeland93">Copeland (1993)</span>; <span class="citation"
+data-cites="Sprevak07b">Sprevak (2007)</span> for a detailed analysis of
+the role of this assumption in the Chinese room argument.<a
+href="#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p>See <span class="citation" data-cites="Lycan81a">Lycan
+(1981)</span> for the name ‘homuncular functionalism’ and a clear
+reconstruction of the view.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref20" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn21"><p>See <span class="citation"
+data-cites="Shagrir98">Shagrir (1998)</span> for a helpful analysis and
+criticism of this second claim about the multiple realisability of
+computation.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref21" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn22"><p>See also <span class="citation"
+data-cites="BlassGurevich06">Blass &amp; Gurevich (2006)</span>:</p>
+<blockquote>
+<p>In fact the notion of algorithm is richer these days than it was in
+Turing’s days. And there are algorithms … not covered directly by
+Turing’s analysis, for example, algorithms that interact with their
+environments, algorithms whose inputs are abstract structures, and
+geometric or, more generally, non-discrete algorithms. (p. 31)</p>
+</blockquote>
+<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn23"><p>It is worth noting that the term ‘algorithm’ has a long
+history of its own and semantic associations that predate its current
+connections with either ‘computational method’ or ‘effective method’.
+See <span class="citation" data-cites="ChabertWeeksBarbin99">Chabert et
+al. (1999)</span>; <span class="citation" data-cites="Knuth72">Knuth
+(1972)</span>.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref23" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn24"><p>If a superposition state <span
+class="math inline">\(\alpha \mathinner{|0\rangle} + \beta
+\mathinner{|1\rangle}\)</span> is measured, then the result is <span
+class="math inline">\(0\)</span> with probability <span
+class="math inline">\(|\alpha|^2\)</span>, and <span
+class="math inline">\(1\)</span> with probability <span
+class="math inline">\(|\beta|^2\)</span>, with <span
+class="math inline">\(|\alpha|^2 + |\beta|^2 = 1\)</span>. A <span
+class="math inline">\(\sqrt{\textrm{NOT}}\)</span> gate performs the
+operation on the quantum state vector <span class="math inline">\(\left(
+\!\! \begin{array}{c} \alpha \\ \beta \end{array} \!\! \right)\)</span>
+described by the complex-valued matrix <span
+class="math inline">\(\displaystyle \frac{1}{\sqrt{2}} \left( \!\!
+\begin{array}{cc} 1 \!\! &amp; \!\! -i \\ -i \!\! &amp; \!\! 1
+\end{array} \!\! \right)\)</span>.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref24"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn25"><p>Cf. <span class="citation"
+data-cites="NielsenChuang10">Nielsen &amp; Chuang (2010)</span>, p. 50:
+‘it is tempting to dismiss quantum computation as yet another
+technological fad … This is a mistake, since quantum computation is an
+<em>abstract paradigm</em> for information processing that may have many
+<em>different</em> implementations in technology.’<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref25"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn26"><p>More accurately, a unitary (reversible) operator <span
+class="math inline">\(U_f\)</span> is applied to the input, <span
+class="math inline">\(U_f\)</span>: <span
+class="math inline">\(\mathinner{|x,y\rangle} \rightarrow
+\mathinner{|x,y \oplus f(x)\rangle}\)</span>, where <span
+class="math inline">\(\oplus\)</span> indicates addition modulo 2. <span
+class="math inline">\(U_f\)</span> is used because there is no guarantee
+that an arbitrary <span class="math inline">\(f\)</span> itself is
+unitary, and the evolution of a quantum mechanical system must be
+governed by unitary operators. This modification does not affect the
+point above.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref26" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn27"><p>See <span class="citation"
+data-cites="NielsenChuang10">Nielsen &amp; Chuang (2010)</span>,
+pp. 30–32.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref27" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn28"><p>Strictly, a pair of values can be recovered, <span
+class="math inline">\(x,f(x)\)</span>. The output is a pair because the
+evolution of the quantum state is governed by unitary operators (quantum
+computations must be reversible).<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref28"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn29"><p>See <span class="citation"
+data-cites="DeutschJozsa92">Deutsch &amp; Jozsa (1992)</span>; <span
+class="citation" data-cites="CleveEkertMacchiavello98">Cleve et al.
+(1998)</span>. A simplified version of the algorithm was first proposed
+by <span class="citation" data-cites="Deutsch85">Deutsch
+(1985)</span>.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref29" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn30"><p>A Hadamard gate is a quantum operator that works in a
+similar way to Deutsch’s <span
+class="math inline">\(\sqrt{\textrm{NOT}}\)</span> operator, but defined
+over the real numbers. The transformation provided by a Hadamard gate is
+given by the real-valued matrix <span
+class="math inline">\(\displaystyle \frac{1}{\sqrt{2}} \left( \!\!
+\begin{array}{cc} 1 \!\! &amp; \!\! 1 \\ 1 \!\! &amp; \!\! -1
+\end{array} \!\! \right)\)</span>. Like Deutsch’s <span
+class="math inline">\(\sqrt{\textrm{NOT}}\)</span>, a Hadamard gate may
+be physically implemented with half-silvered mirrors, see <span
+class="citation" data-cites="Barz15">Barz (2015)</span>.<a
+href="#fnref30" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn31"><p>See <span class="citation"
+data-cites="NielsenChuang10">Nielsen &amp; Chuang (2010)</span>,
+pp. 32–36 for the details of the algorithm.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref31"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn32"><p>ibid.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref32" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn33"><p>For further discussion of this point, see <span
+class="citation" data-cites="NielsenChuang10">Nielsen &amp; Chuang
+(2010)</span>, pp. 30–34.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref33" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn34"><p>See <span class="citation"
+data-cites="EkertJozsa98">Ekert &amp; Jozsa (1998)</span> for algorithms
+that use quantum entanglement, and <span class="citation"
+data-cites="BennettBrassard93">Bennett et al. (1993)</span>, <span
+class="citation" data-cites="GottesmanChuang99">Gottesman &amp; Chuang
+(1999)</span> for algorithms that use teleportation. Counterfactual
+computation is a counterintuitive method in which the intermediate steps
+of the computations do not take place in the actual world (according to
+measurement), yet the desired output is still produced; for a proposed
+application, see <span class="citation"
+data-cites="HostenRakher06">Hosten et al. (2006)</span>.<a
+href="#fnref34" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn35"><p><span class="citation" data-cites="Shagrir22">Shagrir
+(2022)</span>, pp. 46–47.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref35" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn36"><p>I am assuming the methods in question have the same
+overall input–output profile and that one is trying to individuate them
+based on their internal workings. As discussed in Section 2.1, I am
+setting aside the use of hypercomputers for establishing the claim that
+not all computational methods are effective methods.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref36"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn37"><p><span class="citation"
+data-cites="NielsenChuang10">Nielsen &amp; Chuang (2010)</span>, pp. 48,
+204–206.<a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#fnref37" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</div>
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="is-col is-33">     
+                        <div class="is-hidden-print is-hidden-mobile">
+                            
+                                <h1 style="margin-top: 0px;">Contents</h1>
+                                <ul class="is-unstyled">
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#introduction"><span style="visibility: visible;">1</span> &nbsp;  Introduction</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#distinguishing-features-of-this-argument"><span style="visibility: visible;">2</span> &nbsp;  Distinguishing features of this argument</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <ul class="is-unstyled" style="margin-left: 15px;">
+            
+            <li>
+                <span style="font-size: 12px;">
+                    
+                    <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#no-dependence-on-hypercomputation"><span style="visibility: visible;">2.1</span> &nbsp;  No dependence on hypercomputation</a>
+                    
+                </span>
+            </li>
+            
+            <li>
+                <span style="font-size: 12px;">
+                    
+                    <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#computations-should-be-individuated-their-internal-workings"><span style="visibility: visible;">2.2</span> &nbsp;  Computations should be individuated their internal workings</a>
+                    
+                </span>
+            </li>
+            
+        </ul>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#what-is-an-effective-method"><span style="visibility: visible;">3</span> &nbsp;  What is an effective method?</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#didnt-turing-define-effective-method"><span style="visibility: visible;">4</span> &nbsp;  Didn&#x2019;t Turing define &#x2018;effective method&#x2019;?</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#all-computational-methods-are-effective-methods"><span style="visibility: visible;">5</span> &nbsp;  All computational methods are effective methods</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#quantum-computations-that-are-not-effective-methods"><span style="visibility: visible;">6</span> &nbsp;  Quantum computations that are not effective methods</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#simulating-the-quantum-system-by-hand"><span style="visibility: visible;">7</span> &nbsp;  Simulating the quantum system by hand</a>
+            
+        </span>
+        
+    </li>
+    
+    <li>
+        
+        <span style="font-size: 14px;">
+            
+            <a href="https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/#conclusion"><span style="visibility: visible;">8</span> &nbsp;  Conclusion</a>
+            
+        </span>
+        
+    </li>
+    
+</ul>
+
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+        <footer class="footer"></footer>
+
+        </div>
+
+        <script src="https://marksprevak.com/kube/js/kube.min.js"></script>
+<script>
+    $K.init();
+</script>
+
+
+    </body>
+</html>

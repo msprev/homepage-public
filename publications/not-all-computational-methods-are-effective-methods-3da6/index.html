@@ -106,7 +106,7 @@
                                     
                                 </p>
                                 <p class="is-small" style="margin-top: 10px;">
-                                    <span>Last updated 7 September 2022</span>
+                                    <span>Last updated 23 September 2022</span>
                                     
                                 </p>
                             </div>
@@ -301,8 +301,6 @@ as valid.</p>
                             </div>
                             <div class="article-style">
                                 <div>
-<!-- add to Shor's algorithm on quantum speedup: -->
-<!-- Another more recent example may be @YamakawaZhandry22. -->
 <h1 data-number="1" id="introduction"><span
 class="header-section-number">1</span> Introduction</h1>
 <p>What is the relationship between the notion of a computational method
@@ -1457,20 +1455,20 @@ computing method or computing paradigm <span class="citation"
 data-cites="Goldreich08">(Goldreich 2008 pp. 33–4)</span>. However,
 quantum computers appear to offer an exception to this <span
 class="citation"
-data-cites="AharonovVazirani13 BernsteinVazirani97 Yao03">(Aharonov
-&amp; Vazirani 2013; Bernstein &amp; Vazirani 1997; Yao 2003)</span>.
-Some quantum computational methods provide near-exponential speedup for
-some problems (e.g. factorisation). They appear to be examples of cases
-where the computational method <em>does</em> matter to the worst-case
-complexity profile associated with solving a task. My claim is that
-because of these differences in complexity profile we have good reason
-to think that we have genuinely different computing methods on our
-hands. We can apply the principle from Section 2.2 to show that a
-quantum computational method is <em>different</em> from any effective
-method. This kind of result is not known for other types of non-human
-computing method. As such, quantum computing methods stand out as
-particularly clear-cut, egregious cases of computational methods that
-are not effective methods.</p>
+data-cites="AharonovVazirani13 BernsteinVazirani97 Yao03 YamakawaZhandry22">(Aharonov
+&amp; Vazirani 2013; Bernstein &amp; Vazirani 1997; Yamakawa &amp;
+Zhandry 2022; Yao 2003)</span>. Some quantum computational methods
+provide near-exponential speedup for some problems (e.g. factorisation).
+They appear to be examples of cases where the computational method
+<em>does</em> matter to the worst-case complexity profile associated
+with solving a task. My claim is that because of these differences in
+complexity profile we have good reason to think that we have genuinely
+different computing methods on our hands. We can apply the principle
+from Section 2.2 to show that a quantum computational method is
+<em>different</em> from any effective method. This kind of result is not
+known for other types of non-human computing method. As such, quantum
+computing methods stand out as particularly clear-cut, egregious cases
+of computational methods that are not effective methods.</p>
 <h1 data-number="7" id="simulating-the-quantum-system-by-hand"><span
 class="header-section-number">7</span> Simulating the quantum system by
 hand</h1>
@@ -1529,6 +1527,50 @@ computational method is instantiated – as having a human work through
 the evolution of its wave function by hand.</p>
 <h1 data-number="8" id="conclusion"><span
 class="header-section-number">8</span> Conclusion</h1>
+<p>The argument of this paper relies on two premises:</p>
+<ol type="1">
+<li><p>If two putative computational methods have different worst-case
+complexity profile, then they are genuinely different computational
+methods.</p></li>
+<li><p>There are abstract quantum computational methods that have
+different worst-case complexity profiles to that of any known effective
+method.</p></li>
+</ol>
+<p>The conclusion follows that:</p>
+<ol start="3" type="1">
+<li>There are computational methods that are not effective methods.</li>
+</ol>
+<p>Premise 1 was introduced and defended in Section 2.2. I argued that
+it is embedded as a principle into the practice of both theoretical and
+engineering computer science. <span class="citation"
+data-cites="Knuth81">Knuth (1981)</span> suggests that it may be a
+defining feature of thinking like a computer scientist rather than
+thinking like a mathematician. Premise 2 is not proven, but widely
+believed to be true within the quantum computing community. It is widely
+thought that certain quantum methods (e.g. Shor’s algorithm) provide a
+true ‘quantum advantage’ in terms of worst-case space or time usage. I
+discuss examples of such methods, and the unusual basic steps that they
+employ, in Sections 5 and 6.</p>
+<p>Someone might take issue with either premise 1 or 2. I have supplied
+here some reasons why someone might accept them, but I offer nothing
+original. The primary argument of this paper is that <em>if</em> they
+are true, then conclusion 3 follows.</p>
+<p>It is worth stressing that neither premise 1 nor premise 2 reference
+the specifics of the physical implementing hardware. Quantum computing
+methods are commonly implemented in non-human physical systems (e.g.
+with mirrors and photons). However, the argument of this paper is not
+that quantum computing methods are not effective because they are
+implemented in some non-human physical system. It is not merely the
+non-human character of their typical implementation that means that
+quantum computing methods are not effective methods. A non-human
+physical system (e.g. an electronic PC) might implement an effective
+computational method and the relevant quantum methods might be
+implemented in many – an unlimited number of – different kinds of
+physical system. The argument of this paper is rather that quantum
+computing methods cannot be implemented in a suitably idealised human
+clerk because, at least to the best of our knowledge, the required clerk
+cannot implement any computational method that displays the same
+worst-case complexity profile.</p>
 <p>In Section 9 of his 1936 paper, Turing wrote:</p>
 <blockquote>
 <p>The real question at issue is ‘What are the possible processes which
@@ -1537,7 +1579,7 @@ data-cites="Turing36">(Turing 1936 p. 249)</span></p>
 </blockquote>
 <p>Turing had in mind a human computer (a ‘computor’, to use Gandy’s
 term <span class="citation" data-cites="Gandy88">(1988)</span>), and he
-goes on to answer this question by describing the operations and methods
+went on to answer this question by describing the operations and methods
 of what has come to be known as a Turing machine. This appears to
 suggest that the <em>possible processes which can be carried out in
 effectively computing a number</em> should be identified with the
@@ -2033,6 +2075,12 @@ I. (2014). <span>‘An optical fiber network oracle for
 <span>NP</span>-complete problems’</span>, <em>Light: Science &amp;
 Applications</em>, 3: e147. DOI: <a
 href="https://doi.org/10.1038/lsa.2014.28">10.1038/lsa.2014.28</a>
+</div>
+<div id="ref-YamakawaZhandry22" class="csl-entry"
+role="doc-biblioentry">
+Yamakawa, T., &amp; Zhandry, M. (2022). <em>Verifiable quantum advantage
+without structure</em>. DOI: <a
+href="https://doi.org/10.48550/arXiv.2204.02063">10.48550/arXiv.2204.02063</a>
 </div>
 <div id="ref-Yao03" class="csl-entry" role="doc-biblioentry">
 Yao, A. C.-C. (2003). <span>‘Classical physics and the

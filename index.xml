@@ -5,7 +5,7 @@
     <link>https://marksprevak.com/</link>
     <description>Recent content on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Cognitive Science</title>
       <link>https://marksprevak.com/teaching/intro-to-cog-sci-ug/</link>
@@ -113,6 +113,15 @@ Have a claim. You should be able to state your claim clearly in 1&amp;ndash;2 se
     </item>
     
     <item>
+      <title>What realism about agents requires</title>
+      <link>https://marksprevak.com/publications/what-realism-about-agents-requires-c999/</link>
+      <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/what-realism-about-agents-requires-c999/</guid>
+      <description>Bruineberg et al. distinguish a metaphysically robust use from a merely formal use of the concept of a Markov blanket (Friston vs. Pearl blankets). They argue that Friston blankets are only able to do the work required of them if they yield a single principled boundary between the agent and world. They argue that Friston blankets cannot do this (Sect 5). Reasons include that a Friston blanket depends on a number of non-trivial assumptions that don’t flow purely from the formalism, including the choice of which Bayesian network one uses to model the system.</description>
+    </item>
+    
+    <item>
       <title>Not all computational methods are effective methods</title>
       <link>https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/</link>
       <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
@@ -137,15 +146,6 @@ Have a claim. You should be able to state your claim clearly in 1&amp;ndash;2 se
       
       <guid>https://marksprevak.com/publications/predictive-coding-ii-the-computational-level-b9f5/</guid>
       <description>1 Introduction When we encounter a new computing device, we often try to describe its computational characteristics in terms of the task it faces: this shop’s cash register has the task of adding numbers, this computer programme has the task of sorting names into alphabetical order, this Excel spreadsheet has the task of calculating losses. As well as asking a how-question about the device – How does it work? – we might ask a what-question: What is the problem the device is trying to solve?</description>
-    </item>
-    
-    <item>
-      <title>What realism about agents requires</title>
-      <link>https://marksprevak.com/publications/what-realism-about-agents-requires-c999/</link>
-      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/publications/what-realism-about-agents-requires-c999/</guid>
-      <description>Bruineberg et al. distinguish a metaphysically robust use from a merely formal use of the concept of a Markov blanket (Friston vs. Pearl blankets). They argue that Friston blankets are only able to do the work required of them if they yield a single principled boundary between the agent and world. They argue that Friston blankets cannot do this (Sect 5). Reasons include that a Friston blanket depends on a number of non-trivial assumptions that don’t flow purely from the formalism, including the choice of which Bayesian network one uses to model the system.</description>
     </item>
     
     <item>

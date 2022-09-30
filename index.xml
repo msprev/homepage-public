@@ -5,7 +5,7 @@
     <link>https://marksprevak.com/</link>
     <description>Recent content on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 29 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Cognitive Science</title>
       <link>https://marksprevak.com/teaching/intro-to-cog-sci-ug/</link>
@@ -113,21 +113,21 @@ Have a claim. You should be able to state your claim clearly in 1&amp;ndash;2 se
     </item>
     
     <item>
+      <title>Not all computational methods are effective methods</title>
+      <link>https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/</link>
+      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/</guid>
+      <description>1 Introduction What is the relationship between the notion of a computational method and that of an effective method? A number of authors assume that the two notions are coextensive. Indeed, some treat the terms ‘effective method’ and ‘computational method’ not just as extensional equivalents but also as synonyms. The claim made by this paper is that any such equation is false: not all computational methods are effective methods.</description>
+    </item>
+    
+    <item>
       <title>What realism about agents requires</title>
       <link>https://marksprevak.com/publications/what-realism-about-agents-requires-c999/</link>
       <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://marksprevak.com/publications/what-realism-about-agents-requires-c999/</guid>
       <description>Bruineberg et al. distinguish a metaphysically robust use from a merely formal use of the concept of a Markov blanket (Friston vs. Pearl blankets). They argue that Friston blankets are only able to do the work required of them if they yield a single principled boundary between the agent and world. They argue that Friston blankets cannot do this (Sect 5). Reasons include that a Friston blanket depends on a number of non-trivial assumptions that don’t flow purely from the formalism, including the choice of which Bayesian network one uses to model the system.</description>
-    </item>
-    
-    <item>
-      <title>Not all computational methods are effective methods</title>
-      <link>https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/</link>
-      <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/</guid>
-      <description>1 Introduction What is the relationship between the notion of a computational method and that of an effective method? A number of authors assume that the two notions are coextensive. Indeed, some treat the terms ‘effective method’ and ‘computational method’ not just as extensional equivalents but also as synonyms. The claim made by this paper is that any such equation is false: not all computational methods are effective methods.</description>
     </item>
     
     <item>

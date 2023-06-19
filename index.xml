@@ -6,7 +6,7 @@
     <description>Recent content on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Cognitive Science</title>
       <link>https://marksprevak.com/teaching/intro-to-cog-sci-ug/</link>
@@ -123,6 +123,15 @@ Have a claim. You should be able to state your claim clearly in 1&amp;ndash;2 se
     </item>
     
     <item>
+      <title>Predictive coding I: Introduction</title>
+      <link>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</link>
+      <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</guid>
+      <description>1 Introduction Predictive coding is a computational model of cognition. Like other computational models, it attempts to explain human thought and behaviour in terms of computations performed by the brain. It differs from more traditional approaches in at least three respects. First, it aspires to be comprehensive: it aims to explain, not just one domain of human cognition, but all of it – perception, motor control, decision making, planning, reasoning, attention, and so on.</description>
+    </item>
+    
+    <item>
       <title>An introduction to predictive processing models of perception and decision-making</title>
       <link>https://marksprevak.com/publications/an-introduction-to-predictive-processing-models-of-perception-and-decision-making-40d3/</link>
       <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
@@ -174,15 +183,6 @@ Have a claim. You should be able to state your claim clearly in 1&amp;ndash;2 se
       
       <guid>https://marksprevak.com/publications/predictive-coding-ii-the-computational-level-b9f5/</guid>
       <description>1 Introduction When we encounter a new computing device, we often try to describe its computational characteristics in terms of the task it faces: this shop’s cash register has the task of adding numbers, this computer programme has the task of sorting names into alphabetical order, this Excel spreadsheet has the task of calculating losses. As well as asking a how-question about the device – How does it work? – we might ask a what-question: What is the problem the device is trying to solve?</description>
-    </item>
-    
-    <item>
-      <title>Predictive coding I: Introduction</title>
-      <link>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</guid>
-      <description>1 Introduction Predictive coding is a computational model of cognition. Like other computational models, it attempts to explain human thought and behaviour in terms of computations performed by our brains. It differs from more traditional approaches in at least three respects. First, it aspires to be comprehensive: it aims to explain, not just one domain of human cognition, but all of it – perception, motor control, decision making, planning, reasoning, attention, and so on.</description>
     </item>
     
     <item>

@@ -57,6 +57,12 @@ figure {
     color: rgba(107, 0, 26, 0.73);
 }
 
+.is-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
+}
+
 .references {
     padding-left: 1em;
     text-indent: -1em;

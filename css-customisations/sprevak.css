@@ -72,6 +72,7 @@ figure {
     padding-top: 10px;
     padding-bottom: 2px;
     margin-bottom: 10px;
+    z-index: 20000;
 }
 
 .references {

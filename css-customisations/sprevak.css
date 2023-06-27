@@ -60,7 +60,18 @@ figure {
 .is-sticky {
     position: -webkit-sticky;
     position: sticky;
-    top: 5%;
+    top: 60px; 
+}
+
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
 }
 
 .references {
@@ -161,7 +172,9 @@ a {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Lato', times;
-    padding: 10px 25px 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 50px;
     max-width: 1100px;
     margin: auto;
 }

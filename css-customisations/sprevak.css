@@ -62,10 +62,16 @@ figure {
     text-indent: -1em;
 }
 
+.csl-entry {
+    padding-bottom: 0.3em;
+}
+
 .csl-indent {
     padding-top: 0.1em;
     text-indent: 0em;
-    padding-bottom: 0.8em;
+    padding-bottom: 0.3em;
+    padding-left: 0.5em;
+    text-indent: -0.5em;
 }
 
 

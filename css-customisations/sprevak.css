@@ -99,6 +99,14 @@ dl {
     font-size: 16px;
 }
 
+.footnote-ref {
+    scroll-margin-top: 50px;
+}
+
+.footnotes ol li {
+    scroll-margin-top: 55px;
+}
+
 h1, h2, h3 {
     font-family: 'Roboto', times;
     line-height: 32px;
@@ -108,6 +116,7 @@ h1, h2, h3 {
     font-size: 18px;
     margin-top: 30px;
     color: rgba(107, 0, 26, 0.73);
+    scroll-margin-top: 60px;
 }
 
 h2, h3 {

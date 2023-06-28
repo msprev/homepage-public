@@ -103,7 +103,7 @@
                                     
                                         2020  &nbsp;
                                     
-                                    <em>Review of Philosophy and Psychology</em>, 11: 591&#x2013;611
+                                    <em>Review of Philosophy and Psychology</em>, 11: 591–611
                                 </p>
                                 <p class="is-small" style="margin-top: 10px;">
                                     <span>Last updated 18 August 2020</span>
@@ -132,7 +132,18 @@
                         <div class="is-hidden-mobile">
                             
                             <div class="article-style" style="margin-left: 30px; margin-right: 30px; margin-bottom: 30px;">
-                                <p>What is the relationship between information and representation? Dating back at least to Dretske (1981), an influential answer has been that information is a rung on a ladder that gets one to representation. Representation is information, or representation is information plus some other ingredient. In this paper, I argue that this approach oversimplifies the relationship between information and representation. If one takes current probabilistic models of cognition seriously, information is connected to representation in a new way. It enters as a property of the represented content as well as a property of the vehicles that carry that content. This offers a new, conceptually and logically distinct way in which information and representation are intertwined in cognition.</p>
+                                <p>What is the relationship between information and representation?
+Dating back at least to Dretske (1981), an influential answer has been
+that information is a rung on a ladder that gets one to representation.
+Representation is information, or representation is information plus
+some other ingredient. In this paper, I argue that this approach
+oversimplifies the relationship between information and representation.
+If one takes current probabilistic models of cognition seriously,
+information is connected to representation in a new way. It enters as a
+property of the represented content as well as a property of the
+vehicles that carry that content. This offers a new, conceptually and
+logically distinct way in which information and representation are
+intertwined in cognition.</p>
 
                             </div>
                             
@@ -148,7 +159,18 @@
                                 Abstract:
                             </div>
                             <div class="article-style" style="margin-bottom: 30px;">
-                                <p>What is the relationship between information and representation? Dating back at least to Dretske (1981), an influential answer has been that information is a rung on a ladder that gets one to representation. Representation is information, or representation is information plus some other ingredient. In this paper, I argue that this approach oversimplifies the relationship between information and representation. If one takes current probabilistic models of cognition seriously, information is connected to representation in a new way. It enters as a property of the represented content as well as a property of the vehicles that carry that content. This offers a new, conceptually and logically distinct way in which information and representation are intertwined in cognition.</p>
+                                <p>What is the relationship between information and representation?
+Dating back at least to Dretske (1981), an influential answer has been
+that information is a rung on a ladder that gets one to representation.
+Representation is information, or representation is information plus
+some other ingredient. In this paper, I argue that this approach
+oversimplifies the relationship between information and representation.
+If one takes current probabilistic models of cognition seriously,
+information is connected to representation in a new way. It enters as a
+property of the represented content as well as a property of the
+vehicles that carry that content. This offers a new, conceptually and
+logically distinct way in which information and representation are
+intertwined in cognition.</p>
 
                             </div>
                             
@@ -270,342 +292,1508 @@
                             </div>
                             <div class="article-style">
                                 <div>
-<h1 data-number="1" id="introduction"><span class="header-section-number">1</span> Introduction</h1>
-<p>There is a new way in which cognition could be information processing. Philosophers have traditionally tended to understand cognition’s relationship to Shannon information in just one way. This suited an approach that treated cognition as an inference over representations of single outcomes (<em>there is a face here</em>, <em>there is a line there</em>, <em>there is a house here</em>). Recent work conceives of cognition differently. Cognition does not involve an inference over representations of single outcomes but an inference over <em>probabilistic representations</em> – representations whose content includes multiple outcomes along with their estimated probabilities.</p>
-<p>My claim in this paper is that recent probabilistic models of cognition open up new conceptual and empirical territory for saying that cognition is information processing. Empirical work is already exploring this territory and researchers are drawing tentative connections between the two kinds of Shannon information in the brain. In this paper, my goal is not to propose a specific relationship between these two quantities of information, although some possible connections are sketched in Section 6. My goal is to convince you that there <em>are</em> two conceptually and logically distinct kinds of Shannon information whose relationship should be studied.</p>
-<p>Before we proceed, some assumptions. My focus in this paper is only on Shannon information and its mathematical cognates. I do not consider other ways in which the brain could be said to process information.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> Second, I assume a representationalist theory of cognition. I take this to mean that cognitive scientists find it <em>useful</em> to describe at least some aspects of cognition as involving representations. I focus on the role of Shannon information within two different kinds of representationalist model: ‘categorical’ models and ‘probabilistic’ models. My claim is that <em>if</em> one accepts a probabilistic model of cognition, then there are two ways in which cognition involves Shannon information. I do not attempt to defend representationalist theories of cognition in general.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
-<p>Here is a preview of my argument. Under probabilistic models of cognition there are two kinds of probability distribution associated with cognition. First, there is the ‘traditional’ kind: probability distributions associated with a specific neural state occurring in conjunction with an environmental state (for example, the probability of a specific neural state occurring when a subject is presented with a line at 45 degrees in a certain portion of her visual field). Second, there is the new kind, characteristic of probabilistic neural representation: probability distributions that are <em>represented by</em> neural states. These probability distributions are the brain’s guesses about the possible environmental outcomes (say, that the line is at 0, 35, 45, or 90 degrees).<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> The two kinds of probability distribution – one associated with <em>a neural/environmental state occurring</em> and the other associated with <em>the neural system’s estimate of a certain environmental state occurring</em> – are conceptually and logically distinct. They have different outcomes, different probability values, and different types of probability (objective and subjective) associated with them. They generate two separate measures of Shannon information in the brain. The algorithms that underlie cognition can be described as processing <em>either</em> or <em>both</em> of these Shannon quantities.</p>
-<h1 data-number="2" id="shannon-information"><span class="header-section-number">2</span> Shannon information</h1>
-<p>Before attributing two kinds of Shannon information to the brain, we first need to know what justifies attributing <em>any</em> kind of Shannon information. Below, I briefly review the definitions of Shannon information in order to identify sufficient conditions for a physical system to be ascribed Shannon information. The rest of the paper shows that these conditions are satisfied in two separate ways. Definitions in this section are taken from <span class="citation" data-cites="MacKay03">MacKay (2003)</span>, although similar points can be made with other formalisms.</p>
-<p>In order to define Shannon information, one first needs to define the notion of a <em>probabilistic ensemble</em>:</p>
+<h1 data-number="1" id="introduction"><span
+class="header-section-number">1</span> Introduction</h1>
+<p>There is a new way in which cognition could be information
+processing. Philosophers have traditionally tended to understand
+cognition’s relationship to Shannon information in just one way. This
+suited an approach that treated cognition as an inference over
+representations of single outcomes (<em>there is a face here</em>,
+<em>there is a line there</em>, <em>there is a house here</em>). Recent
+work conceives of cognition differently. Cognition does not involve an
+inference over representations of single outcomes but an inference over
+<em>probabilistic representations</em> – representations whose content
+includes multiple outcomes along with their estimated probabilities.</p>
+<p>My claim in this paper is that recent probabilistic models of
+cognition open up new conceptual and empirical territory for saying that
+cognition is information processing. Empirical work is already exploring
+this territory and researchers are drawing tentative connections between
+the two kinds of Shannon information in the brain. In this paper, my
+goal is not to propose a specific relationship between these two
+quantities of information, although some possible connections are
+sketched in Section 6. My goal is to convince you that there
+<em>are</em> two conceptually and logically distinct kinds of Shannon
+information whose relationship should be studied.</p>
+<p>Before we proceed, some assumptions. My focus in this paper is only
+on Shannon information and its mathematical cognates. I do not consider
+other ways in which the brain could be said to process information.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a> Second, I assume a
+representationalist theory of cognition. I take this to mean that
+cognitive scientists find it <em>useful</em> to describe at least some
+aspects of cognition as involving representations. I focus on the role
+of Shannon information within two different kinds of representationalist
+model: ‘categorical’ models and ‘probabilistic’ models. My claim is that
+<em>if</em> one accepts a probabilistic model of cognition, then there
+are two ways in which cognition involves Shannon information. I do not
+attempt to defend representationalist theories of cognition in
+general.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a></p>
+<p>Here is a preview of my argument. Under probabilistic models of
+cognition there are two kinds of probability distribution associated
+with cognition. First, there is the ‘traditional’ kind: probability
+distributions associated with a specific neural state occurring in
+conjunction with an environmental state (for example, the probability of
+a specific neural state occurring when a subject is presented with a
+line at 45 degrees in a certain portion of her visual field). Second,
+there is the new kind, characteristic of probabilistic neural
+representation: probability distributions that are <em>represented
+by</em> neural states. These probability distributions are the brain’s
+guesses about the possible environmental outcomes (say, that the line is
+at 0, 35, 45, or 90 degrees).<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn3" class="footnote-ref"
+id="fnref3" role="doc-noteref"><sup>3</sup></a> The two kinds of
+probability distribution – one associated with <em>a
+neural/environmental state occurring</em> and the other associated with
+<em>the neural system’s estimate of a certain environmental state
+occurring</em> – are conceptually and logically distinct. They have
+different outcomes, different probability values, and different types of
+probability (objective and subjective) associated with them. They
+generate two separate measures of Shannon information in the brain. The
+algorithms that underlie cognition can be described as processing
+<em>either</em> or <em>both</em> of these Shannon quantities.</p>
+<h1 data-number="2" id="shannon-information"><span
+class="header-section-number">2</span> Shannon information</h1>
+<p>Before attributing two kinds of Shannon information to the brain, we
+first need to know what justifies attributing <em>any</em> kind of
+Shannon information. Below, I briefly review the definitions of Shannon
+information in order to identify sufficient conditions for a physical
+system to be ascribed Shannon information. The rest of the paper shows
+that these conditions are satisfied in two separate ways. Definitions in
+this section are taken from <span class="citation"
+data-cites="MacKay03">MacKay (2003)</span>, although similar points can
+be made with other formalisms.</p>
+<p>In order to define Shannon information, one first needs to define the
+notion of a <em>probabilistic ensemble</em>:</p>
 <ul>
-<li>Probabilistic ensemble <span class="math inline">\(X\)</span> is a triple <span class="math inline">\((x, A_{X}, P_{X})\)</span>, where the outcome <span class="math inline">\(x\)</span> is the value of a random variable, which takes on one of a set of possible values, <span class="math inline">\(A_{X} = \{a_{1}, a_{2}, \ldots, a_{i}, \ldots, a_{I}\}\)</span>, having probabilities <span class="math inline">\(P_{X} = \{p_{1}, p_{2}, \ldots, p_{I}\}\)</span>, with <span class="math inline">\(P(x=a_{i}) = p_i\)</span>, <span class="math inline">\(p_{i} \ge 0\)</span>, and <span class="math inline">\(\sum_{a_{i} \in A_{X}} P(x=a_{i}) = 1\)</span></li>
+<li>Probabilistic ensemble <span class="math inline">\(X\)</span> is a
+triple <span class="math inline">\((x, A_{X}, P_{X})\)</span>, where the
+outcome <span class="math inline">\(x\)</span> is the value of a random
+variable, which takes on one of a set of possible values, <span
+class="math inline">\(A_{X} = \{a_{1}, a_{2}, \ldots, a_{i}, \ldots,
+a_{I}\}\)</span>, having probabilities <span class="math inline">\(P_{X}
+= \{p_{1}, p_{2}, \ldots, p_{I}\}\)</span>, with <span
+class="math inline">\(P(x=a_{i}) = p_i\)</span>, <span
+class="math inline">\(p_{i} \ge 0\)</span>, and <span
+class="math inline">\(\sum_{a_{i} \in A_{X}} P(x=a_{i}) =
+1\)</span></li>
 </ul>
-<p>A sufficient condition for the existence of a probabilistic ensemble is the existence of a random variable with <em>multiple possible outcomes</em> and an associated <em>probability distribution</em>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> If the random variable has a finite number of outcomes, this probability distribution takes the form of a mass function, assigning a value, <span class="math inline">\(p_i\)</span>, to each possible outcome. If the random variable has an infinite number of outcomes, the probability distribution takes the form of a density function, assigning a value, <span class="math inline">\(p_i\)</span>, to the outcome falling within a certain range. In either case, multiple possible outcomes and a probability distribution over those outcomes is sufficient to define a probabilistic ensemble.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
-<p>If a physical system has multiple possible outcomes and a probability distribution associated with those outcomes, then that physical system can be treated as a probabilistic ensemble. If a neuron has multiple possible outcomes (e.g. firing or not), and a probability distribution over those outcomes (reflecting the chances of it firing), then the neuron can be treated as a probabilistic ensemble.</p>
-<p>Shannon information is a scalar quantity measured in bits. It is predicated of at least three different types of entity: <em>ensembles</em>, <em>outcomes</em>, and <em>ordered pairs of ensembles</em>. The definitions differ, so let us consider each in turn.</p>
-<p>The Shannon information, <span class="math inline">\(H(X)\)</span>, of an <em>ensemble</em> is defined as:</p>
+<p>A sufficient condition for the existence of a probabilistic ensemble
+is the existence of a random variable with <em>multiple possible
+outcomes</em> and an associated <em>probability distribution</em>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a> If the random variable has a finite
+number of outcomes, this probability distribution takes the form of a
+mass function, assigning a value, <span
+class="math inline">\(p_i\)</span>, to each possible outcome. If the
+random variable has an infinite number of outcomes, the probability
+distribution takes the form of a density function, assigning a value,
+<span class="math inline">\(p_i\)</span>, to the outcome falling within
+a certain range. In either case, multiple possible outcomes and a
+probability distribution over those outcomes is sufficient to define a
+probabilistic ensemble.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a></p>
+<p>If a physical system has multiple possible outcomes and a probability
+distribution associated with those outcomes, then that physical system
+can be treated as a probabilistic ensemble. If a neuron has multiple
+possible outcomes (e.g. firing or not), and a probability distribution
+over those outcomes (reflecting the chances of it firing), then the
+neuron can be treated as a probabilistic ensemble.</p>
+<p>Shannon information is a scalar quantity measured in bits. It is
+predicated of at least three different types of entity:
+<em>ensembles</em>, <em>outcomes</em>, and <em>ordered pairs of
+ensembles</em>. The definitions differ, so let us consider each in
+turn.</p>
+<p>The Shannon information, <span class="math inline">\(H(X)\)</span>,
+of an <em>ensemble</em> is defined as:</p>
 <p><span class="math display">\[
 H(X) = \sum_{i} p_{i} \log_{2} \frac{1}{p_{i}}
 \]</span></p>
-<p>The only independent variables in the definition of <span class="math inline">\(H(X)\)</span> are the possible outcomes of the ensemble (the <span class="math inline">\(i\)</span>s) and their probabilities (the <span class="math inline">\(p_{i}\)</span>s). The Shannon information of an ensemble is a mathematical function of, and only of, these features. Therefore, merely being an ensemble in the sense defined above – having multiple possible outcomes and a probability distribution over those outcomes – is enough to define a <span class="math inline">\(H(X)\)</span> measure and bestow a quantity of Shannon information. Any physical system that is treated as a probabilistic ensemble <em>ipso facto</em> has an associated measure of Shannon information. If a neuron is treated as an ensemble (because it has multiple possible outcomes and a probability distribution over those outcomes), then it automatically has a quantity of Shannon information attached.</p>
-<p>The Shannon information, <span class="math inline">\(h(x)\)</span>, of an <em>outcome</em> is defined as:</p>
+<p>The only independent variables in the definition of <span
+class="math inline">\(H(X)\)</span> are the possible outcomes of the
+ensemble (the <span class="math inline">\(i\)</span>s) and their
+probabilities (the <span class="math inline">\(p_{i}\)</span>s). The
+Shannon information of an ensemble is a mathematical function of, and
+only of, these features. Therefore, merely being an ensemble in the
+sense defined above – having multiple possible outcomes and a
+probability distribution over those outcomes – is enough to define a
+<span class="math inline">\(H(X)\)</span> measure and bestow a quantity
+of Shannon information. Any physical system that is treated as a
+probabilistic ensemble <em>ipso facto</em> has an associated measure of
+Shannon information. If a neuron is treated as an ensemble (because it
+has multiple possible outcomes and a probability distribution over those
+outcomes), then it automatically has a quantity of Shannon information
+attached.</p>
+<p>The Shannon information, <span class="math inline">\(h(x)\)</span>,
+of an <em>outcome</em> is defined as:</p>
 <p><span class="math display">\[
 h(x=a_{i}) = \log_{2}\frac{1}{p_{i}}
 \]</span></p>
 <!-- $_ -->
-<p><span class="math inline">\(H(X)\)</span> is the expected value of <span class="math inline">\(h(x)\)</span> taken across all possible outcomes of ensemble <span class="math inline">\(X\)</span>. The only independent variable in <span class="math inline">\(h(x)\)</span> is the probability of the outcome, <span class="math inline">\(p_i\)</span>. This means that, again, the existence of an ensemble is a sufficient condition for satisfying the definition of <span class="math inline">\(h(x)\)</span>. If an ensemble exists, each of its outcomes has a probability and <em>ipso facto</em> has a measure of Shannon information. No further conditions need to be met. If a neuron is treated as an ensemble, each of its outcomes (e.g. firing or not firing) has an associated probability, and hence each has a quantity of Shannon information attached.</p>
-<p>There are many Shannon measures of information defined for <em>ordered pairs of ensembles</em>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> Common ones include:</p>
+<p><span class="math inline">\(H(X)\)</span> is the expected value of
+<span class="math inline">\(h(x)\)</span> taken across all possible
+outcomes of ensemble <span class="math inline">\(X\)</span>. The only
+independent variable in <span class="math inline">\(h(x)\)</span> is the
+probability of the outcome, <span class="math inline">\(p_i\)</span>.
+This means that, again, the existence of an ensemble is a sufficient
+condition for satisfying the definition of <span
+class="math inline">\(h(x)\)</span>. If an ensemble exists, each of its
+outcomes has a probability and <em>ipso facto</em> has a measure of
+Shannon information. No further conditions need to be met. If a neuron
+is treated as an ensemble, each of its outcomes (e.g. firing or not
+firing) has an associated probability, and hence each has a quantity of
+Shannon information attached.</p>
+<p>There are many Shannon measures of information defined for
+<em>ordered pairs of ensembles</em>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn6" class="footnote-ref"
+id="fnref6" role="doc-noteref"><sup>6</sup></a> Common ones include:</p>
 <p><em>Joint information:</em></p>
 <p><span class="math display">\[
 H(X, Y) = \sum_{xy \in A_{X}A_{Y}}P(x,y)\log_{2}\frac{1}{P(x,y)}
 \]</span></p>
 <p><em>Conditional information:</em></p>
 <p><span class="math display">\[
-H(X \mid Y) = \sum_{y \in A_{Y}}P(y) \sum_{x \in A_{X}}P(x \mid y)\log_{2}\frac{1}{P(x \mid y)}
+H(X \mid Y) = \sum_{y \in A_{Y}}P(y) \sum_{x \in A_{X}}P(x \mid
+y)\log_{2}\frac{1}{P(x \mid y)}
 \]</span></p>
 <p><em>Mutual information:</em></p>
 <p><span class="math display">\[
 I(X; Y) = H(X) - H(X \mid Y)
 \]</span></p>
 <!-- $_ -->
-<p>These measures differ from each other in important ways, but again, a sufficient condition for satisfying any one of them is that a physical system has multiple possible outcomes and a probability distribution over their respective outcomes. Two ensembles, <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>, have individual outcomes and probability distributions over those outcomes. The Shannon measures above assume that there is also a joint probability distribution, <span class="math inline">\(P(X, Y)\)</span>, which describes the probability of any given pair of outcomes from the two ensembles occurring.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> If ensembles <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> exist, and if pairs of their respective outcomes have probabilities (even if some are 0), then the Shannon measures of joint information, conditional information, and mutual information are defined. Consequently, if two neurons are treated as two ensembles, and if there is a joint probability distribution over pairs of their respective outcomes, then those neurons have associated measures of joint information, conditional information, and mutual information.</p>
-<p>A sufficient condition for a physical system to be ascribed Shannon information is that it <em>has multiple possible outcomes and a probability distribution over those outcomes</em> (or pairs of outcomes). The Shannon information of an ensemble, a single outcome, or a pair of ensembles is a function of, and only of, the possible outcomes and probability distribution associated with that ensemble, single outcome, or pair. If a physical system is treated as an ensemble (or a pair whose joint outcomes have probabilities), it <em>ipso facto</em> has Shannon information.</p>
-<p>If a physical system <em>changes</em> the probabilities associated with its possible outcomes over time, its associated Shannon measures are likely to change too. Such a system may be described as ‘processing’ Shannon information. This change could happen in at least two ways. If a physical system modifies the probabilities associated with its <em>physical states</em> occurring (e.g. a neuron makes certain physical states such as firing more or less likely), it can be described as processing Shannon information.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> Alternatively, if the firing of the neuron <em>represents</em> a probability distribution over possible outcomes, and that represented probability distribution changes over time – perhaps as a result of learning or inference – then that neuron’s associated Shannon measures will change too. In both cases, probability distributions and Shannon information change. But distinct probability distributions and distinct measures of Shannon information change in each case. The remainder of this paper will unpack the distinction between the two.</p>
-<h1 data-number="3" id="the-traditional-kind-of-shannon-information"><span class="header-section-number">3</span> The traditional kind of Shannon information</h1>
-<p>Traditionally, Shannon information has been used as a building block when <em>naturalising representation</em>. Many versions of information-theoretic semantics try to explain semantic content in terms of Shannon information. These accounts aim to explain how representation arises from Shannon information. Such theories often claim that Shannon information is a source of naturalistic, objective facts about representational content. Dretske formulated one of the earliest such theories.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> Dretske’s <span class="citation" data-cites="Dretske81">(1981)</span> theory aimed to entirely reduce facts about representational content to facts about Shannon information. More recently, other accounts – including Dretske’s later <span class="citation" data-cites="Dretske88 Dretske95">(1988, 1995)</span> views – have proposed that an information-theoretic condition is only one part of a larger naturalistic condition on representational content. Additional conditions include variously conditions on teleology, instrumental (reward-guided) learning, structural isomorphism, and/or appropriate use.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> In what follows, I will focus solely on the information-theoretic part of such a semantic theory.</p>
-<p>Information-theoretic semantics attempts to explain representation in terms of one physical state ‘carrying information’ about another physical state. The relationship of ‘carrying information’ is assumed to be a precursor to, or a precondition for, certain varieties of representation. In the context of the brain, such a theory says:</p>
+<p>These measures differ from each other in important ways, but again, a
+sufficient condition for satisfying any one of them is that a physical
+system has multiple possible outcomes and a probability distribution
+over their respective outcomes. Two ensembles, <span
+class="math inline">\(X\)</span> and <span
+class="math inline">\(Y\)</span>, have individual outcomes and
+probability distributions over those outcomes. The Shannon measures
+above assume that there is also a joint probability distribution, <span
+class="math inline">\(P(X, Y)\)</span>, which describes the probability
+of any given pair of outcomes from the two ensembles occurring.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn7" class="footnote-ref" id="fnref7"
+role="doc-noteref"><sup>7</sup></a> If ensembles <span
+class="math inline">\(X\)</span> and <span
+class="math inline">\(Y\)</span> exist, and if pairs of their respective
+outcomes have probabilities (even if some are 0), then the Shannon
+measures of joint information, conditional information, and mutual
+information are defined. Consequently, if two neurons are treated as two
+ensembles, and if there is a joint probability distribution over pairs
+of their respective outcomes, then those neurons have associated
+measures of joint information, conditional information, and mutual
+information.</p>
+<p>A sufficient condition for a physical system to be ascribed Shannon
+information is that it <em>has multiple possible outcomes and a
+probability distribution over those outcomes</em> (or pairs of
+outcomes). The Shannon information of an ensemble, a single outcome, or
+a pair of ensembles is a function of, and only of, the possible outcomes
+and probability distribution associated with that ensemble, single
+outcome, or pair. If a physical system is treated as an ensemble (or a
+pair whose joint outcomes have probabilities), it <em>ipso facto</em>
+has Shannon information.</p>
+<p>If a physical system <em>changes</em> the probabilities associated
+with its possible outcomes over time, its associated Shannon measures
+are likely to change too. Such a system may be described as ‘processing’
+Shannon information. This change could happen in at least two ways. If a
+physical system modifies the probabilities associated with its
+<em>physical states</em> occurring (e.g. a neuron makes certain physical
+states such as firing more or less likely), it can be described as
+processing Shannon information.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn8" class="footnote-ref"
+id="fnref8" role="doc-noteref"><sup>8</sup></a> Alternatively, if the
+firing of the neuron <em>represents</em> a probability distribution over
+possible outcomes, and that represented probability distribution changes
+over time – perhaps as a result of learning or inference – then that
+neuron’s associated Shannon measures will change too. In both cases,
+probability distributions and Shannon information change. But distinct
+probability distributions and distinct measures of Shannon information
+change in each case. The remainder of this paper will unpack the
+distinction between the two.</p>
+<h1 data-number="3"
+id="the-traditional-kind-of-shannon-information"><span
+class="header-section-number">3</span> The traditional kind of Shannon
+information</h1>
+<p>Traditionally, Shannon information has been used as a building block
+when <em>naturalising representation</em>. Many versions of
+information-theoretic semantics try to explain semantic content in terms
+of Shannon information. These accounts aim to explain how representation
+arises from Shannon information. Such theories often claim that Shannon
+information is a source of naturalistic, objective facts about
+representational content. Dretske formulated one of the earliest such
+theories.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn9" class="footnote-ref" id="fnref9"
+role="doc-noteref"><sup>9</sup></a> Dretske’s <span class="citation"
+data-cites="Dretske81">(1981)</span> theory aimed to entirely reduce
+facts about representational content to facts about Shannon information.
+More recently, other accounts – including Dretske’s later <span
+class="citation" data-cites="Dretske88 Dretske95">(1988, 1995)</span>
+views – have proposed that an information-theoretic condition is only
+one part of a larger naturalistic condition on representational content.
+Additional conditions include variously conditions on teleology,
+instrumental (reward-guided) learning, structural isomorphism, and/or
+appropriate use.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn10" class="footnote-ref" id="fnref10"
+role="doc-noteref"><sup>10</sup></a> In what follows, I will focus
+solely on the information-theoretic part of such a semantic theory.</p>
+<p>Information-theoretic semantics attempts to explain representation in
+terms of one physical state ‘carrying information’ about another
+physical state. The relationship of ‘carrying information’ is assumed to
+be a precursor to, or a precondition for, certain varieties of
+representation. In the context of the brain, such a theory says:</p>
 <ol start="18" type="A">
-<li>Neural state, <span class="math inline">\(n\)</span> (from <span class="math inline">\(N\)</span>), represents an environmental state, <span class="math inline">\(s\)</span> (from <span class="math inline">\(S\)</span>), only if <span class="math inline">\(n\)</span> ‘carries information’ about <span class="math inline">\(s\)</span>.</li>
+<li>Neural state, <span class="math inline">\(n\)</span> (from <span
+class="math inline">\(N\)</span>), represents an environmental state,
+<span class="math inline">\(s\)</span> (from <span
+class="math inline">\(S\)</span>), only if <span
+class="math inline">\(n\)</span> ‘carries information’ about <span
+class="math inline">\(s\)</span>.</li>
 </ol>
-<p>Implicit in R is the idea that neural state, <span class="math inline">\(n\)</span>, and environmental state, <span class="math inline">\(s\)</span>, come from a set of possible alternatives. According to R, neural state <span class="math inline">\(n\)</span> represents <span class="math inline">\(s\)</span> only if <span class="math inline">\(n\)</span> bears the ‘carrying information’ relation to <span class="math inline">\(s\)</span> and not to other outcomes. Different neural states could occur in the brain (e.g. different neurons in a population might fire). Different environmental states could occur (e.g. a face or a house could be present). Crudely, the reason why certain neural firings represent a face and not a house is that those firings, and only those firings, bear the ‘carrying information’ relationship to <em>face</em> outcomes; they do not bear this relationship to <em>house</em> outcomes. R implicitly assumes that we are dealing with multiple possible outcomes: multiple possible representational vehicles (<span class="math inline">\(N\)</span>) and multiple possible environmental states (<span class="math inline">\(S\)</span>). It names a special relationship between individual outcomes that is necessary for representation. Representation occurs only when <span class="math inline">\(n\)</span> from <span class="math inline">\(N\)</span> bears the ‘carrying information’ relation to <span class="math inline">\(s\)</span> from <span class="math inline">\(S\)</span>.</p>
-<p>The primary task for an information-theoretic semantics is to explain what this carrying information relation is. Different versions of information-theoretic semantics do this differently.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a> Theories can be divided into roughly two camps: those that are ‘correlational’ and those that invoke ‘mutual information’.</p>
-<p>The starting point of ‘correlational’ theories is that one physical state ‘carries information’ about another just in case there is a statistical correlation between the two that satisfies some probabilistic condition. This still leaves plenty of questions unanswered: What kind of correlation (Pearson, Spearman, Kendall, mutual information, or something else)?<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a> How should physical states be typed so that a correlation can be measured? How much correlation is enough for information carrying? Does it matter if the correlation is accidental or underwritten by a law or disposition?</p>
-<p>Rival information-theoretic semantics take different views. Consider the following three proposals:</p>
+<p>Implicit in R is the idea that neural state, <span
+class="math inline">\(n\)</span>, and environmental state, <span
+class="math inline">\(s\)</span>, come from a set of possible
+alternatives. According to R, neural state <span
+class="math inline">\(n\)</span> represents <span
+class="math inline">\(s\)</span> only if <span
+class="math inline">\(n\)</span> bears the ‘carrying information’
+relation to <span class="math inline">\(s\)</span> and not to other
+outcomes. Different neural states could occur in the brain
+(e.g. different neurons in a population might fire). Different
+environmental states could occur (e.g. a face or a house could be
+present). Crudely, the reason why certain neural firings represent a
+face and not a house is that those firings, and only those firings, bear
+the ‘carrying information’ relationship to <em>face</em> outcomes; they
+do not bear this relationship to <em>house</em> outcomes. R implicitly
+assumes that we are dealing with multiple possible outcomes: multiple
+possible representational vehicles (<span
+class="math inline">\(N\)</span>) and multiple possible environmental
+states (<span class="math inline">\(S\)</span>). It names a special
+relationship between individual outcomes that is necessary for
+representation. Representation occurs only when <span
+class="math inline">\(n\)</span> from <span
+class="math inline">\(N\)</span> bears the ‘carrying information’
+relation to <span class="math inline">\(s\)</span> from <span
+class="math inline">\(S\)</span>.</p>
+<p>The primary task for an information-theoretic semantics is to explain
+what this carrying information relation is. Different versions of
+information-theoretic semantics do this differently.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn11"
+class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>
+Theories can be divided into roughly two camps: those that are
+‘correlational’ and those that invoke ‘mutual information’.</p>
+<p>The starting point of ‘correlational’ theories is that one physical
+state ‘carries information’ about another just in case there is a
+statistical correlation between the two that satisfies some
+probabilistic condition. This still leaves plenty of questions
+unanswered: What kind of correlation (Pearson, Spearman, Kendall, mutual
+information, or something else)?<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn12" class="footnote-ref"
+id="fnref12" role="doc-noteref"><sup>12</sup></a> How should physical
+states be typed so that a correlation can be measured? How much
+correlation is enough for information carrying? Does it matter if the
+correlation is accidental or underwritten by a law or disposition?</p>
+<p>Rival information-theoretic semantics take different views. Consider
+the following three proposals:</p>
 <ol type="1">
 <li><span class="math inline">\(P(S=s \mid N=n) = 1\)</span></li>
 <li><span class="math inline">\(P(S=s \mid N=n)\)</span> is ‘high’</li>
-<li><span class="math inline">\(P(S=s \mid N=n) &gt; P(S=s \mid N \ne n)\)</span></li>
+<li><span class="math inline">\(P(S=s \mid N=n) &gt; P(S=s \mid N \ne
+n)\)</span></li>
 </ol>
-<p><span class="citation" data-cites="Dretske81">Dretske (1981)</span> endorses (1): a neural state carries information about an environmental state just in case an agent, given the neural state, could infer with certainty that the environmental state occurs (and this could not have been inferred using the agent’s background knowledge alone). Millikan <span class="citation" data-cites="Millikan00 Millikan04a">(2000, 2004)</span> endorses (2): the conditional probability of the environmental state, given the neural state, need only be ‘high’, where what counts as ‘high’ is a complex matter involving the correlation having influenced past agential use via genetic selection or learning.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a> <span class="citation" data-cites="Shea07a">Shea (2007)</span> and <span class="citation" data-cites="ScarantinoPiccinini10">Scarantino &amp; Piccinini (2010)</span> propose that the correlation should be understood in terms of probability raising, (3): the neural state should make the occurrence of the environmental state more probable than it would have been otherwise.</p>
-<p>At first glance, there may seem nothing particularly Shannon-like about proposals (1)–(3). Probability theory alone is sufficient to express the relevant condition on representation. These theories are perhaps better described as ‘probabilistic’ semantics than ‘information-theoretic’ semantics.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a> Nevertheless, there is a legitimate way in which these accounts do entail that cognition is Shannon information processing. According to (1)–(3), ‘carrying information’ is a relationship between particular outcomes and those outcomes must come from ensembles that have probability distributions. Remember that a sufficient condition for a system to have Shannon information is that it <em>has multiple possible outcomes and a probability distribution over those outcomes</em>. (1)–(3) assure us that this is true of a cognitive system that contains representations. According to (1)–(3), the representational content of a neural state arises when that state is an outcome from an ensemble with other possible outcomes (other possible neural states) that could occur with certain probabilities (and probabilities conditional on various possible environmental outcomes). If cognition involves representation, and those representations gain their content by any of (1)–(3), then cognition <em>ipso facto</em> involves Shannon information. Shannon information attaches to representations because of the probabilistic nature of their vehicles. According to (1)–(3), that probabilistic nature is essential to their representational status. Therefore, to the extent that cognition can be described as processing representations, and to the extent that we accept one of these versions of information-theoretic semantics, cognition can be described as processing states with a probabilistic nature, and so, processing states with Shannon information.</p>
-<p>‘Mutual information’ versions of information-theoretic semantics unpack ‘carrying information’ differently. They invoke the Shannon concept of mutual information – or, rather, pointwise mutual information, the analogue of mutual information for pairs of single outcomes. The familiar notion of mutual information <span class="math inline">\(I(X; Y)\)</span> is the expected value of pointwise mutual information <span class="math inline">\(\mathit{PMI}(x, y)\)</span> across all outcomes from a pair of ensembles.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a> Pointwise mutual information for a pair of single outcomes, <span class="math inline">\(x, y\)</span>, is defined as:</p>
+<p><span class="citation" data-cites="Dretske81">Dretske (1981)</span>
+endorses (1): a neural state carries information about an environmental
+state just in case an agent, given the neural state, could infer with
+certainty that the environmental state occurs (and this could not have
+been inferred using the agent’s background knowledge alone). Millikan
+<span class="citation" data-cites="Millikan00 Millikan04a">(2000,
+2004)</span> endorses (2): the conditional probability of the
+environmental state, given the neural state, need only be ‘high’, where
+what counts as ‘high’ is a complex matter involving the correlation
+having influenced past agential use via genetic selection or learning.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn13" class="footnote-ref" id="fnref13"
+role="doc-noteref"><sup>13</sup></a> <span class="citation"
+data-cites="Shea07a">Shea (2007)</span> and <span class="citation"
+data-cites="ScarantinoPiccinini10">Scarantino &amp; Piccinini
+(2010)</span> propose that the correlation should be understood in terms
+of probability raising, (3): the neural state should make the occurrence
+of the environmental state more probable than it would have been
+otherwise.</p>
+<p>At first glance, there may seem nothing particularly Shannon-like
+about proposals (1)–(3). Probability theory alone is sufficient to
+express the relevant condition on representation. These theories are
+perhaps better described as ‘probabilistic’ semantics than
+‘information-theoretic’ semantics.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn14" class="footnote-ref"
+id="fnref14" role="doc-noteref"><sup>14</sup></a> Nevertheless, there is
+a legitimate way in which these accounts do entail that cognition is
+Shannon information processing. According to (1)–(3), ‘carrying
+information’ is a relationship between particular outcomes and those
+outcomes must come from ensembles that have probability distributions.
+Remember that a sufficient condition for a system to have Shannon
+information is that it <em>has multiple possible outcomes and a
+probability distribution over those outcomes</em>. (1)–(3) assure us
+that this is true of a cognitive system that contains representations.
+According to (1)–(3), the representational content of a neural state
+arises when that state is an outcome from an ensemble with other
+possible outcomes (other possible neural states) that could occur with
+certain probabilities (and probabilities conditional on various possible
+environmental outcomes). If cognition involves representation, and those
+representations gain their content by any of (1)–(3), then cognition
+<em>ipso facto</em> involves Shannon information. Shannon information
+attaches to representations because of the probabilistic nature of their
+vehicles. According to (1)–(3), that probabilistic nature is essential
+to their representational status. Therefore, to the extent that
+cognition can be described as processing representations, and to the
+extent that we accept one of these versions of information-theoretic
+semantics, cognition can be described as processing states with a
+probabilistic nature, and so, processing states with Shannon
+information.</p>
+<p>‘Mutual information’ versions of information-theoretic semantics
+unpack ‘carrying information’ differently. They invoke the Shannon
+concept of mutual information – or, rather, pointwise mutual
+information, the analogue of mutual information for pairs of single
+outcomes. The familiar notion of mutual information <span
+class="math inline">\(I(X; Y)\)</span> is the expected value of
+pointwise mutual information <span class="math inline">\(\mathit{PMI}(x,
+y)\)</span> across all outcomes from a pair of ensembles.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn15"
+class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a>
+Pointwise mutual information for a pair of single outcomes, <span
+class="math inline">\(x, y\)</span>, is defined as:</p>
 <p><span class="math display">\[
-\mathit{PMI}(x, y) = \log_{2} \frac{P(x,y)}{P(x)P(y)} = \log_{2} \frac{P(x \mid y)}{P(x)} = \log_{2} \frac{P(y \mid x)}{P(y)}
+\mathit{PMI}(x, y) = \log_{2} \frac{P(x,y)}{P(x)P(y)} = \log_{2}
+\frac{P(x \mid y)}{P(x)} = \log_{2} \frac{P(y \mid x)}{P(y)}
 \]</span></p>
 <!-- $_ -->
-<p><span class="citation" data-cites="Skyrms10">Skyrms (2010)</span> and <span class="citation" data-cites="Isaac17">Isaac (2019)</span> propose that the information carried by a physical state, <span class="math inline">\(n\)</span>, (its ‘informational content’), is a vector consisting of the <span class="math inline">\(\mathit{PMI}(n, s)\)</span> value for every possible environmental state, <span class="math inline">\(s_i\)</span>, from <span class="math inline">\(S\)</span>, given that <span class="math inline">\(n\)</span> from <span class="math inline">\(N\)</span>: <span class="math inline">\(\langle \mathit{PMI}(n, s_1), \ldots, \mathit{PMI}(n, s_n) \rangle\)</span>. Isaac identifies the meaning or representational content of <span class="math inline">\(n\)</span> with this <span class="math inline">\(\mathit{PMI}\)</span>-vector. Skyrms says that the meaning or content is likely to be a more traditional semantic object, such as a set of possible worlds – this set is derived from the <span class="math inline">\(\mathit{PMI}\)</span>-vector by considering the environmental states that generate high-value elements in the vector; the representational content is the set of possible worlds in which high <span class="math inline">\(\mathit{PMI}\)</span>-value environmental states occur.</p>
-<p>Like Skyrms and Isaac, <span class="citation" data-cites="Usher01">Usher (2001)</span> and <span class="citation" data-cites="Eliasmith05">Eliasmith (2005b)</span> appeal to pointwise mutual information to define ‘carrying information’. Unlike Skyrms and Isaac, they define it as a relation that holds between a single neural state, <span class="math inline">\(n\)</span>, and a single environmental state, <span class="math inline">\(s\)</span>. They say that <span class="math inline">\(n\)</span> carries information about <span class="math inline">\(s\)</span> just in case <span class="math inline">\(s\)</span> is the environmental state for which <span class="math inline">\(\mathit{PMI}(n, s)\)</span> has its maximum value given neural state <span class="math inline">\(n\)</span>. Neural state <span class="math inline">\(n\)</span> carries information about the <span class="math inline">\(s\)</span> that produces the peak-value element in its <span class="math inline">\(\mathit{PMI}\)</span>-vector. Usher and Eliasmith connect this to what is measured in ‘encoding’ experiments in neuroscience. In an encoding experiment, many environmental states are presented to a brain and researchers look for the environmental state that best predicts a specific neural response – that yields the highest <span class="math inline">\(\mathit{PMI}(n, s)\)</span> as one varies <span class="math inline">\(s\)</span> for some fixed <span class="math inline">\(n\)</span>. Usher and Eliasmith offer a second, conceptually independent definition of ‘carrying information’. This is based around what is measured in ‘decoding’ experiments. In a decoding experiment, researchers examine many neural states and classify them based on which one best predicts an environmental state – i.e. which neural state <span class="math inline">\(n\)</span> yields the highest <span class="math inline">\(\mathit{PMI}(n, s)\)</span> for a fixed <span class="math inline">\(s\)</span>. Here, instead of looking for the maximum <span class="math inline">\(\mathit{PMI}(n, s)\)</span> value as one varies <span class="math inline">\(s\)</span> and keeps <span class="math inline">\(n\)</span> constant, one looks for the maximum <span class="math inline">\(\mathit{PMI}(n, s)\)</span> value as one varies <span class="math inline">\(n\)</span> and keeps <span class="math inline">\(s\)</span> constant. There is no reason why the results of encoding and decoding experiments should coincide: they pick out two different kinds of information-theoretic relationship between the brain and its environment. Usher and Eliasmith argue that they provide different, complementary, and equally valid accounts of representational content.</p>
-<p>On each of these semantic theories, Shannon information is ascribed to a cognitive system because of the probabilistic properties of neural states <em>qua</em> <em>vehicles</em>. It is because a given neural state is an outcome from a set of possible alternative states, combined with the probability of various environmental outcomes, that the cognitive system has the Shannon information properties relevant to representation and hence to cognition. In the next section, I describe a different way in which Shannon information enters into cognition. Here, the relevant information-theoretic quantity arises not from the probabilistic nature of the physical vehicles and environmental states, but from its <em>representational content</em>. ‘Probabilistic’ models of cognition claim that the representational content of neural states is probabilistic. This means that Shannon information attaches to a cognitive system in a new way: via its content rather than via the probabilistic occurrence of its neural vehicles.</p>
-<h1 data-number="4" id="the-new-kind-of-shannon-information"><span class="header-section-number">4</span> The new kind of Shannon information</h1>
-<p>Probabilistic models of cognition, like the accounts discussed in the previous section, ascribe representations to the brain. Unlike the previous accounts, these models do not aim to naturalise representational content. They help themselves to the existence of representations. Their claim is that these representations have a particular kind of content. They are largely silent about how these representations get this content. In principle, probabilistic models of cognition are compatible with a variety of underlying semantic theories, including versions of information-theoretic semantics.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a></p>
-<p>The central claim of a probabilistic model of cognition is that neural representations have probabilistic representational content. Traditional, ‘categorical’ approaches assume that neural representations have <em>single outcomes</em> as their representational content. Under a categorical approach, a neural state, <span class="math inline">\(n\)</span>, represents a single environmental outcome (or a single set of outcomes). Thinking about neural representation in these terms has prompted description of neural states early in V1 as <em>edge detectors</em>: their activity represents the presence (or absence) of an edge at a particular angle in a portion of the visual field. The represented content is a particular outcome (<em>edge at ~45 degrees</em>). Similarly, neurons in the inferior temporal (IT) cortex are described as <em>hand detectors</em>: their activity represents the presence (or absence) of a hand. The represented content is a single outcome (<em>hand present</em>). Similarly, neurons in the fusiform face area (FFA) are described as <em>face detectors</em>: their activity represents the presence (or absence) of a face. The represented content is a single outcome (<em>face present</em>) <span class="citation" data-cites="Gross07 LogothetisSheinberg96 KanwisherMcDermott97">(for example, see Gross 2007; Kanwisher et al. 1997; Logothetis &amp; Sheinberg 1996)</span>.</p>
-<p>There is increasing suspicion that representation in the brain is not like this. Content is rarely categorical (<em>hand present</em>); rather, what is represented is a probability distribution over many possible states. The brain represents many outcomes simultaneously in order to ‘hedge its bets’ during processing. This allows the brain to store, and make use of, information about multiple possible outcomes if it is uncertain which is the true one. Uncertainty may come from unreliability in the perceptual hardware, or from the brain’s epistemic situation that even with perfectly functioning hardware it only has incomplete access to its environment.</p>
-<p>Ascribing probabilistic representations to a cognitive agent is not a new idea <span class="citation" data-cites="deFinetti90 Ramsey90">(de Finetti 1990; Ramsey 1990)</span>. However, there is an important difference between past approaches and new probabilistic models of cognition. In the past, probabilistic representations were treated as <em>personal-level</em> states of a cognitive agent – ‘credences’, ‘degrees of belief’, or ‘personal probabilities’. In the new models, probabilistic representations are treated as states of subpersonal <em>parts</em> of the agent – of neural populations, or single neurons. Their novel claim is that, regardless of whichever personal-level states that are attributed to an agent, various parts of that agent token diverse (and perhaps even conflicting) probabilistic representations. Thinking in these terms has prompted redescription of neural states early in V1 as probabilistically nuanced ‘hypotheses’, ‘guesses’, or ‘expectations’ about edges. Their neural activity does not represent a single state (<em>edge at ~45 degrees</em>) but a probability distribution over multiple edge orientations <span class="citation" data-cites="AlinkSchwiedrzi10">(Alink et al. 2010)</span>. The represented content is a probability distribution over how the environment stands with respect to edges. Similarly, neural activity in the IT cortex does not represent a single state of affairs (<em>hand present</em>) but a probability distribution over multiple possible outcomes regarding hands. The represented content is a probability distribution over how the environment stands with respect to hands. Similarly, neural activity in FFA does not represent a single state of affairs (<em>face present</em>) but a probability distribution over multiple possible outcomes regarding faces. The represented content is a probability distribution over how the environment stands with respect to faces <span class="citation" data-cites="EgnerMonti10">(Egner et al. 2010)</span>.</p>
-<p>Traditional models of cognition tend to describe cognitive processing as a computationally structured inference over specific outcomes – <em>if there is an edge here, then that is an object boundary</em>. Probabilistic models of cognition in contrast describe cognitive processing as a computationally structured inference over probability distributions – <em>if the probability distribution of edge orientations is this, then the probability distribution of object boundaries is that</em>. Cognitive processing is a series of steps that use one probability distribution to condition, or update, another probability distribution.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a> Neural representations may conceivably maintain a probabilistic character right until the moment that the brain is forced to plump for a specific outcome in action. At that point, the brain may select the most probable outcome from its current represented probability distribution conditioned on all its available evidence (or some other point estimate that is easier to compute).</p>
-<p>Modelling cognition as probabilistic inference does not mean modelling cognition as non-deterministic or chancy. The physical hardware and algorithms underlying the probabilistic inference may be entirely deterministic. Consider that when your electronic PC filters spam messages from incoming emails it performs a probabilistic inference, but both the PC’s physical hardware and the algorithm that the PC follows are entirely deterministic. A probabilistic inference takes representations of probability distributions as input, yields representations of probability distributions as output, and transforms input to output based on rules of valid (or pragmatically efficacious) probabilistic inference. The physical mechanism and the algorithm for processing representations may be entirely deterministic. What makes the process probabilistic is not the chancy nature of vehicles or rules but that probabilities feature in the represented content that is being manipulated.</p>
-<p>Perhaps the best-known example of a probabilistic model of cognition is the ‘Bayesian brain’ hypothesis. This says that brains process probabilistic representations according to rules of Bayesian or approximately Bayesian inference <span class="citation" data-cites="KnillPouget04">(Knill &amp; Pouget 2004)</span>. Predictive coding provides one proposal about how such inference could be implemented in the brain <span class="citation" data-cites="Friston09 Clark13">(Clark 2013; Friston 2009)</span>. It is worth stressing that the motivation for ascribing probabilistic representations to the brain, and for probabilistic models of cognition in general, is broader than that for the Bayesian brain hypothesis (or for predictive coding). The brain’s inferential rules could, in principle, depart very far from Bayesianism and still produce adaptive behaviour under many circumstances. It remains an open question to what extent humans are Bayesian (or approximately Bayesian) reasoners. Probabilistic techniques developed in AI, such as deep learning, reinforcement learning, and generative adversarial models can produce impressive behavioural results despite having complex and qualified relationships to Bayesian inference. The idea that cognition is a form of probabilistic inference is a more general idea than that cognition is Bayesian. A researcher in cognitive science may subscribe to probabilistic representation in the brain even if they take a dim view of the Bayesian brain hypothesis.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn18" class="footnote-ref" id="fnref18" role="doc-noteref"><sup>18</sup></a></p>
-<p>The essential difference between a categorical representation and a probabilistic one lies in its content. Categorical representations aim to represent a single state of affairs. In Section 3, we saw that schema R treats representation as a relationship between a neural state, <span class="math inline">\(n\)</span>, and an environmental outcome, <span class="math inline">\(s\)</span>. Representational content is typically specified by a truth, accuracy, or satisfaction condition. Meeting this condition is assumed to be largely an all-or-nothing matter. A categorical representation effectively ‘bets all its money’ that a certain outcome occurs. An edge detector represents <em>there is an edge</em>. Multiple states of affairs may sometimes feature in the representational content (for example, <em>there is an edge between ~43–47 degrees</em>), but those states of affairs are grouped together into a single outcome that is represented as true. There is no probabilistic nuance, or apportioning of different degrees of belief, to different outcomes.</p>
-<p>In contrast, probabilistic representations aim to represent a probability distribution over multiple outcomes. The probability distribution is a measure of how much the system ‘expects’ that the relevant outcomes are true. Unlike categorical representations, the represented content does not partition the possible environmental states into only two classes (<em>true</em> and <em>false</em>). Representation is not an all-or-nothing matter but involves assigning a probability weight to various possible outcomes. As we will see in the next section, these outcomes need not coincide with the possible outcomes of <span class="math inline">\(S\)</span>. Whereas categorical representational content is typically specified by a truth, accuracy, or satisfaction condition, probabilistic representational content is typically specified by a probability mass or density function over a set of possible outcomes.</p>
-<p>In principle, probabilistic representations could use any physical vehicle, and any formal format. There is nothing about the physical make-up of a representational vehicle that determines whether it is categorical or probabilistic. Either type of representation could also, in principle, use any number of different formal formats to organise its structure and guide the algorithms that operate on it. Possible formal formats for a representation include being a setting of weights in a neural network, a symbolic expression, a directed graph, a ring, a tree, a region in continuous space, or an entry in a relational database <span class="citation" data-cites="GriffithsChater10 TenenbaumKemp11">(Griffiths et al. 2010; Tenenbaum et al. 2011)</span>. The choice of physical vehicle and representational format affects how easy it is to implement an inference with computation in a specific physical context <span class="citation" data-cites="Marr82">(Marr 1982)</span>. Certain physical vehicles and certain formal formats are more apt to serve certain computations than others. But in principle, there is nothing about the physical make-up or formal structure of a representation that determines whether the representation is categorical or probabilistic. That is determined solely by its represented content.</p>
-<p>The preceding discussion should not be taken as suggesting that a model of cognition must employ only one type of representation (categorical or probabilistic). There is no reason why both types of representation cannot appear in a model of cognition, assuming there are appropriate rules to take the cognitive system between the two. Neither does the discussion suggest that one type of representation cannot be reduced to the other. A variety of such reductions may be possible. For example, a cognitive system might use structured complexes of traditional representations to express the probability calculus and thereby express probabilistically nuanced content with categorical representations (maybe this is what we do with the public language of mathematical probability theory). Alternatively, a cognitive system might use structured complexes of probabilistic representations to represent all-or-nothing-like truth conditions. <span class="citation" data-cites="Feldman12">Feldman (2012)</span> describes a proposal in which categorical representations are approximated by probabilistic ones with strongly modal (sharply peaked) probability distributions.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn19" class="footnote-ref" id="fnref19" role="doc-noteref"><sup>19</sup></a> Categorical and probabilistic representations may mix in cognition, and perhaps, given the right conditions, one may give rise to the other.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn20" class="footnote-ref" id="fnref20" role="doc-noteref"><sup>20</sup></a></p>
-<h1 data-number="5" id="two-kinds-of-information-processing"><span class="header-section-number">5</span> Two kinds of information processing</h1>
-<p>In Section 1, we assumed that cognition is profitably described by saying it involves representations. In Section 2, we saw that having multiple outcomes and a probability distribution over those outcomes is sufficient to have an associated measure of Shannon information. We have now seen, in Sections 3 and 4, two ways in which the representations involved in cognition can have multiple outcomes and probability distributions associated with them. Consequently, Shannon information may attach to cognition in two separate ways. What characterises the Shannon information of Section 3 is that it is associated with probability of the <em>vehicle</em> occurring (conditional on various environmental outcomes). What characterises the Shannon information of Section 4 is that it is associated with the probabilities that appear inside the represented <em>content</em>.</p>
-<p>The degree to which these two quantities of Shannon information differ depends on the degree to which the two underlying sets of outcomes and probability distributions differ. In this section, I argue that they typically involve different <em>sets of outcomes</em>, different numerical <em>probability values</em>, and they must involve different <em>kinds of probability</em>.</p>
-<p><em>Different sets of outcomes</em>. In Section 3, the relevant set is the set of <em>possible neural and environmental states</em>. The outcomes are the objective possibilities – neural and environmental – that could occur. What interests Dretske, Millikan, Shea, Skyrms, and others is to know whether a particular neural state from a set of alternatives (<span class="math inline">\(N\)</span>) occurs conditional on a particular environmental state from a set of alternatives (<span class="math inline">\(S\)</span>).<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn21" class="footnote-ref" id="fnref21" role="doc-noteref"><sup>21</sup></a> In contrast, in Section 4, the relevant outcomes are the <em>represented possible states of the environment</em>. These are the ways that the brain represents the environment could be. This set of represented environmental possibilities need not be the same as what is objectively possible. A cognitive system might make a mistake about what is possible just as it might make a mistake about what is actual: it might represent an environmental outcome that is impossible (e.g. winning a lottery that the agent never entered) or it might fail to represent an environmental state that is possible (e.g. that it is a brain in a vat). Unless the cognitive system represents all and only the objectively possible outcomes, there is no reason to think that its set of represented outcomes will be the same as the set of possible outcomes in Section 3. Hence, the set of outcomes represented by a neural state need not be the same as the set of outcomes <span class="math inline">\(S\)</span>. Moreover, for the two sets of outcomes over which probabilities are ascribed to be the same, the brain would need to represent not only the possible environmental states (<span class="math inline">\(S\)</span>) but also its possible neural states (<span class="math inline">\(N\)</span>). Only in the special case of a cognitive system that (a) represents all and only the objectively possible environmental states and (b) represents all and only its own possible neural states would the respective sets of outcomes which are assigned probabilities coincide.</p>
-<p><em>Different probability values</em>. Suppose that a cognitive system, perhaps due to some design quirk, does represent all and only the objectively possible environmental and neural states. In such a case, the numerical probability values associated with the outcomes are still likely to differ. In the context of the projects of Section 3, these probability values measure the objective chances, frequencies, propensities, or some similar measure of a neural state occurring conditional on a possible environmental state. What interests Millikan, Shea, and others are these objective probabilistic relations between neural states and environmental states. In contrast, for the projects of Section 4, the probability values are the cognitive system’s <em>estimation</em> of how likely each outcome is, not its objective probability. Brains are described as having ‘priors’ – probabilistic representations of various outcomes – and a ‘likelihood function’ or ‘probabilistic generative model’ – a probabilistic representation of the relationships between the outcomes. Psychologists are interested in how the brain uses its priors and generative model to make inferences about unknown events, or in how it updates its priors in light of new evidence. All the aforementioned probabilities are the brain’s guesses about the possible outcomes and the relationships between them. Only a God-like cognitive agent, one who knew the truth about the objective probabilities of events and their relations, would assign the right probability values to the various outcomes and relations. Such a system would have a <em>veridical</em> (and a <em>complete</em>) probabilistic representation of its environment, its own neural states, and the relationships between them. This may be a goal to which a cognitive system aspires, but it is surely a position that few achieve.</p>
-<p><em>Different kinds of probability</em>. Assume for the sake of argument that we are dealing with a God-like cognitive agent who has a complete and veridical probabilistic representation of its environment and its neural states. Even for that agent, there are still two distinct types of Shannon information. This is because its respective probability values, even if they agree numerically, measure different <em>kinds</em> of probability. The <span class="math inline">\(P(\cdot)\)</span>s measure something different in each case. In the context of the projects of Section 3, the <span class="math inline">\(P(\cdot)\)</span> values measure objective probabilities. These may be chances, frequencies, propensities, or whatever else corresponds to the objective probability of the relevant outcome occurring.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn22" class="footnote-ref" id="fnref22" role="doc-noteref"><sup>22</sup></a> In the context of the projects of Section 4, the <span class="math inline">\(P(\cdot)\)</span> values measure subjective probabilities. These are the system’s estimation of how likely it thinks the relevant outcomes are. Chances, frequencies, propensities, or similar are not the same as a system’s representation of how likely an event is to occur. Even for a God-like cognitive agent – for whom the two are stipulated as equal in terms of numerical value – what is measured is distinct. Subjective probabilities, even if they agree in terms of numerical value with objective probabilities, do not become objective probabilities merely because they happen to accurately reflect them. No more than a description of a Komodo dragon becomes a living, breathing Komodo dragon if that description happens to be accurate. One is a representation, the other is a state of the world. In the case of our God-like agent, one is a distribution of objective probabilities and the other is the system’s (veridical) representation of possible outcomes and their respective credences. Well-known normative principles connect subjective and objective probabilities. However, no matter which normative principles one endorses, and regardless of whether a God-like agent satisfies them, the two kinds of probability are distinct.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn23" class="footnote-ref" id="fnref23" role="doc-noteref"><sup>23</sup></a></p>
-<p>Two kinds of probability distribution feature in cognition. Each generates an associated measure of Shannon information. The two Shannon measures are distinct: they are likely to involve different outcomes, different probability values, and must involve different kinds of probability. This allows us to make sense of two kinds of Shannon information being processed in cognition: two kinds of probability distribution change under probabilistic models of cognition. Processing involves changes in a system’s representational vehicles and changes in a system’s probabilistic represented content. Information-processing algorithms that govern cognition can be defined over either or both of these Shannon quantities.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn24" class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a></p>
-<h1 data-number="6" id="relationship-between-the-two-kinds-of-information"><span class="header-section-number">6</span> Relationship between the two kinds of information</h1>
-<p>My claim in the previous section was that the two kinds of Shannon information are distinct. This does not rule out all manner of interesting connections between them. That they are distinct does not mean that they can vary independently of each other. This section highlights some possible connections.</p>
-<h2 data-number="6.1" id="connections-via-semantic-theory"><span class="header-section-number">6.1</span> Connections via semantic theory</h2>
-<p>One is likely to be persuaded of deep connections between the two kinds of Shannon information if one endorses some form of information-theoretic semantics for probabilistic representations. The probabilistic models described in Section 4 are silent about how neural representations get their content. In principle, these models could be combined with a range of semantic proposals, including some version of the information-theoretic semantics described in Section 3.</p>
-<p>Skyrms’ or Isaac’s theory looks the most promising approach to generate an information-theoretic account of probabilistic content. Both their theories already attribute multiple environmental outcomes plus a graded response for each outcome. However, it is not immediately obvious how to proceed. The probability distribution represented by <span class="math inline">\(n\)</span> cannot simply be assumed to be the probability distribution of <span class="math inline">\(S\)</span>. As we saw in Section 5, a probabilistic representation may misrepresent the objective possibilities and their probability values. A second consideration is that the represented probabilities appear to depend not only on the probabilistic relations between a representational vehicle and its corresponding environmental outcomes; they also depend on what else the system ‘believes’. The probability that a system assigns to <em>there is a face</em> should not be independent of the probability that it assigns to <em>there is a person</em>, even if the two outcomes are represented by different neural vehicles. A noteworthy feature of the information-theoretic accounts of Section 3 is that they disregard relationships of probabilistic coherence between representations in assigning representational content. They assign content piecemeal, without considering how the contents may cohere. How to address these two issues and create an information-theoretic semantics for probabilistic representations is presently unclear.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn25" class="footnote-ref" id="fnref25" role="doc-noteref"><sup>25</sup></a></p>
-<p>If an information-theoretic semantics for probabilistic neural representations could be developed, it would provide a bridge between the two kinds of Shannon information. One kind of information (associated with the represented probabilities) could not vary independently of the other (associated with the objective probabilities). The two would correlate at least in the cases to which this semantic theory applied. Moreover, if the semantic theory held as a matter of conceptual or logical truth, then the connection between the two Shannon quantities would hold with a similar strength. An information-theoretic account of probabilistic representation offers the prospect of a conceptual or logical connection between the two types of Shannon information. In the absence of such a semantic theory, however, it is hard to speculate on exactly what the nature of that connection would be.</p>
-<p>If one is sceptical about the prospects of an information-theoretic semantics for probabilistic neural representation, then one may be less inclined to see deep conceptual or logical connections between the two kinds of Shannon information. If one endorses Grice’s <span class="citation" data-cites="Grice57">(1957)</span> theory of <em>non-natural</em> meaning, for example, then the two Shannon quantities may look conceptually and logically independent. Grice said that in cases of non-natural meaning, representational content depends on human intentions and not, for example, on the objective probabilities of a physical vehicle occurring in conjunction with environmental outcomes. There is nothing to stop a physical vehicle representing any content, provided it is underwritten by the right intentions. I might say that the proximity of Saturn to the Sun (appropriately normalised) represents the probability that Donald Trump will be impeached. Provided this is underwritten by the right intentions, probabilistic representation occurs. Representation is, in this sense, an arbitrary connection between a vehicle and a content that can be set up or destroyed at will, without regard for the probabilities of the underlying events.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn26" class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a> If one endorses Grice’s theory of non-natural meaning, there need be no connection between the probabilities of neural and environmental states and what those states represent, and one Shannon measure could vary independently of the other. This is not to say that the two measures would not correlate in the brain; just that, if they correlate, that would not flow from the semantic theory.</p>
-<h2 data-number="6.2" id="connections-via-empirical-correlations"><span class="header-section-number">6.2</span> Connections via empirical correlations</h2>
-<p>Regardless of connections that may arise from one’s semantic theory, there are likely to be other reasons why the two measures of Shannon information would correlate in the brain. The nature of these connections will depend on the strategy that the brain uses to ‘code’ its probabilistic content. This coding scheme describes how probabilistic content – which may consist of probability values, the overall analytical shape of the probability distribution, or summary statistics like the mean or variance – maps onto physical activity in the brain or onto physical relations between the brain and environment. The specific scheme that the brain uses to code its probabilistic content is currently unknown and the subject of much speculation. Suggested proposals include that the firing rate of a neuron, the number of neurons firing in a population, the chance of neurons firing in population, or the spatial distribution of neurons firing in a population is a monotonic function of characteristic features of the represented probability distribution <span class="citation" data-cites="Barlow69 AverbeckLatham06 MaBeck06 Deneve08 FiserBerkes10 GriffithsVul12 PougetBeck13">(see, for example, Barlow 1969; Averbeck et al. 2006; Deneve 2008; Fiser et al. 2010; Griffiths et al. 2012; Ma et al. 2006; Pouget et al. 2013)</span>. According to these schemes, the probability of various neural physical states occurring varies in some regular way with their represented probability distributions. This relationship may be straightforward and simple or it may be extremely complicated and vary in different parts of the brain or over time. The same applies to the relationship between the two Shannon quantities. If an experimentalist were to know the brain’s coding scheme, she may be able to infer one Shannon measure from the other. But even granted this were possible, the two kinds of Shannon information would remain distinct, for the reasons given in Section 5.</p>
-<p>Cognitive processing is sometimes defined over the information-theoretic properties of the neural vehicles. <span class="citation" data-cites="SaxeCalderone18">Saxe et al. (2018)</span> describe how brain entropy during resting state, as measured by fMRI, correlates with general intelligence. <span class="citation" data-cites="ChangSong18">Chang et al. (2018)</span> describe how drinking coffee increases the brain’s entropy during resting state. <span class="citation" data-cites="CarhartLeech14">Carhart-Harris et al. (2014)</span> describe the relationship between consciousness and brain entropy, and how this changes after taking the psychedelic drug psilocybin. <span class="citation" data-cites="RiekeWarland99">Rieke et al. (1999)</span> advocate a research programme that examines information-theoretic properties of neural vehicles (spike trains) and their relationships to possible environmental outcomes. They argue that information-theoretic properties of the neural vehicles and environmental outcomes allow us to infer possible and likely computations that the brain uses and the efficiency of the brain’s coding scheme. In each of these cases, the Shannon measures are defined over the possible neural vehicles and environmental states, not over their represented content (although several of the authors suggest that since the two are correlated by the brain’s coding scheme, we can use one to draw conclusions about the other).</p>
-<p>In contrast, <span class="citation" data-cites="Feldman00">Feldman (2000)</span> looks at algorithms defined over the information-theoretic properties of the represented content. He argues that the difficulty of learning a new Boolean concept correlates with the information-theoretic complexity of the represented Boolean condition. <span class="citation" data-cites="Kemp12">Kemp (2012)</span> and <span class="citation" data-cites="PiantadosiTenenbaum16">Piantadosi et al. (2016)</span> extend this idea to general concept learning. They propose that concept learning is a form of probabilistic inference that seeks to find the concept that maximises the probability of the represented classification. This cognitive process is described as the agent seeking the concept that offers the optimal Shannon compression scheme over its perceptual data. <span class="citation" data-cites="GallistelWilkes16">Gallistel &amp; Wilkes (2016)</span> describe associative learning as a probabilistic inference concerning the most likely causes of an unconditioned stimulus given the observations. They describe it in terms of Shannon information processing: the cognitive system starts with priors over hypotheses about causes that have maximum entropy (their probability distributions are as ‘noisy’ as possible consistent with the data); the cognitive system then aims to find the hypotheses that provide optimal compression (that maximise Shannon information) of the represented hypothesis and observed data. In general, researchers who model cognition probabilistically move smoothly between probabilistic formulations and information-theoretic formulations when describing a cognitive process. In each of the cases described above, the Shannon information is associated not with the probabilities of specific neural vehicles occurring, but with the probability distributions that they represent (although, again, one might think that the two are likely to be related via the brain’s coding scheme).</p>
-<h2 data-number="6.3" id="two-versions-of-the-free-energy-principle"><span class="header-section-number">6.3</span> Two versions of the free-energy principle</h2>
-<p><span class="citation" data-cites="Friston10">Friston (2010)</span> claims that the ‘free-energy principle’ provides a unified theory of how cognitive and living creatures work. He invokes two kinds of Shannon information processing and he effectively describes two separate versions of the free-energy principle.</p>
-<p>First, Friston says that the free-energy principle is a claim about the probabilistic inference performed by a cognitive system. He claims that the brain aims to predict upcoming sensory activation and it forms probabilistic hypotheses about the world that are updated in light of its errors in making this prediction. Shannon information attaches to the represented probability distributions over which the inference is performed. Friston says that the brain aims to minimise the ‘surprisal’ of – the Shannon information associated with – new sensory evidence. When the brain is engaged in probabilistic inference, however, he says that it does not represent the full posterior probability distributions as a perfect Bayesian reasoner would do. Instead, the brain approximates them with simpler probability distributions, assumed to be Gaussian. Provided the brain minimises the Shannon-information quantity ‘variational free energy’, it will bring these simpler probability distributions into approximate correspondence with the true posterior distributions that a perfect Bayesian reasoner would have <span class="citation" data-cites="Friston09 Friston10">(Friston 2009, 2010)</span>. Variational free energy is an information-theoretic quantity, predicated of the agent’s represented probability distributions, that measures how far those subjective probability distributions depart from the optimal guesses of a perfect Bayesian reasoner. According to Friston, the brain minimises ‘free energy’ and so approximates an ideal Bayesian reasoner.</p>
-<p>Friston makes a second, conceptually distinct, claim about cognition (and life in general) aiming to minimise free energy. In this context, his goal is to explain how cognitive (and living) systems maintain their physical integrity and homoeostatic balance in the face of a changing physical environment. Cognitive (and living) systems face the problem that their physical entropy tends to increase over time: they generally become more disordered and the chance increases that they will undergo a fatal physical phase transition. Friston says that when living creatures resist this tendency, they minimise free energy <span class="citation" data-cites="FristonStephan07 Friston13">(Friston 2013; Friston &amp; Stephan 2007)</span>. However, the free energy minimised is not the same as that which attaches to the represented probabilistic guesses of some agent. Instead, it attaches to the objective probabilities of various possible (fatal) physical states of the agent occurring in response to environmental changes. Minimising free energy involves the system trying to arrange its internal physical states so as to avoid being overly changed by probable environmental transitions. The system strives to maintain its physical nature in equipoise with likely environmental changes. The information-theoretic free energy minimised here is defined over the objective distributions of possible physical states that could occur, not over the probability distributions represented by an agent’s hypotheses.</p>
-<p>Minimising one free-energy measure may help an agent to minimise the other: a good Bayesian reasoner is plausibly more likely to survive in a changing physical environment than an irrational agent. But they are not the same quantity. Moreover, any correlation between them could conceivably come unstuck. An irrational agent could depart far from Bayesian ideals but be lucky enough to live in an hospitable environment that maintains its physical integrity and homoeostasis no matter how badly the agent updates its beliefs. Alternatively, an agent might be a perfectly rational Bayesian and update its beliefs accordingly, but its physical environment may change so rapidly and catastrophically that it cannot survive or maintain homoeostasis. Understanding how Friston’s two formulations of the free-energy principle interact – that pertaining to represented subjective probabilities and that pertaining to objective probabilities – is ongoing work.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn27" class="footnote-ref" id="fnref27" role="doc-noteref"><sup>27</sup></a></p>
-<h1 data-number="7" id="conclusion"><span class="header-section-number">7</span> Conclusion</h1>
-<p>Shannon information has traditionally been seen as a rung on a ladder that takes one to naturalised representation. In this context, Shannon information is associated with the outcomes and probability distributions of neural and environmental states. This project, however, obscures a novel way in which Shannon information enters into cognition. Probabilistic models of cognition treat cognition as an inference over representations of probability distributions. This means that probabilities may enter into cognition in two distinct ways: as the objective probabilities of neural vehicles and/or environmental states occurring and as the subjective probabilities that describe the agent’s expectations. Two types of Shannon information are associated with cognition accordingly: information that pertains to the probability of the neural vehicle occurring and information that pertains to the represented probabilistic content. The former is conceptually and logically distinct from the latter, just as representational vehicles are conceptually and logically distinct from their content. Various (conceptual, logical, contingent) relations may connect the two kinds of Shannon information in the brain, just as various such relations connect traditional categorical vehicles and their content. Care should be taken, however, not to conflate the two. For, as we know, much trouble lies that way.</p>
+<p><span class="citation" data-cites="Skyrms10">Skyrms (2010)</span> and
+<span class="citation" data-cites="Isaac17">Isaac (2019)</span> propose
+that the information carried by a physical state, <span
+class="math inline">\(n\)</span>, (its ‘informational content’), is a
+vector consisting of the <span class="math inline">\(\mathit{PMI}(n,
+s)\)</span> value for every possible environmental state, <span
+class="math inline">\(s_i\)</span>, from <span
+class="math inline">\(S\)</span>, given that <span
+class="math inline">\(n\)</span> from <span
+class="math inline">\(N\)</span>: <span class="math inline">\(\langle
+\mathit{PMI}(n, s_1), \ldots, \mathit{PMI}(n, s_n) \rangle\)</span>.
+Isaac identifies the meaning or representational content of <span
+class="math inline">\(n\)</span> with this <span
+class="math inline">\(\mathit{PMI}\)</span>-vector. Skyrms says that the
+meaning or content is likely to be a more traditional semantic object,
+such as a set of possible worlds – this set is derived from the <span
+class="math inline">\(\mathit{PMI}\)</span>-vector by considering the
+environmental states that generate high-value elements in the vector;
+the representational content is the set of possible worlds in which high
+<span class="math inline">\(\mathit{PMI}\)</span>-value environmental
+states occur.</p>
+<p>Like Skyrms and Isaac, <span class="citation"
+data-cites="Usher01">Usher (2001)</span> and <span class="citation"
+data-cites="Eliasmith05">Eliasmith (2005b)</span> appeal to pointwise
+mutual information to define ‘carrying information’. Unlike Skyrms and
+Isaac, they define it as a relation that holds between a single neural
+state, <span class="math inline">\(n\)</span>, and a single
+environmental state, <span class="math inline">\(s\)</span>. They say
+that <span class="math inline">\(n\)</span> carries information about
+<span class="math inline">\(s\)</span> just in case <span
+class="math inline">\(s\)</span> is the environmental state for which
+<span class="math inline">\(\mathit{PMI}(n, s)\)</span> has its maximum
+value given neural state <span class="math inline">\(n\)</span>. Neural
+state <span class="math inline">\(n\)</span> carries information about
+the <span class="math inline">\(s\)</span> that produces the peak-value
+element in its <span class="math inline">\(\mathit{PMI}\)</span>-vector.
+Usher and Eliasmith connect this to what is measured in ‘encoding’
+experiments in neuroscience. In an encoding experiment, many
+environmental states are presented to a brain and researchers look for
+the environmental state that best predicts a specific neural response –
+that yields the highest <span class="math inline">\(\mathit{PMI}(n,
+s)\)</span> as one varies <span class="math inline">\(s\)</span> for
+some fixed <span class="math inline">\(n\)</span>. Usher and Eliasmith
+offer a second, conceptually independent definition of ‘carrying
+information’. This is based around what is measured in ‘decoding’
+experiments. In a decoding experiment, researchers examine many neural
+states and classify them based on which one best predicts an
+environmental state – i.e. which neural state <span
+class="math inline">\(n\)</span> yields the highest <span
+class="math inline">\(\mathit{PMI}(n, s)\)</span> for a fixed <span
+class="math inline">\(s\)</span>. Here, instead of looking for the
+maximum <span class="math inline">\(\mathit{PMI}(n, s)\)</span> value as
+one varies <span class="math inline">\(s\)</span> and keeps <span
+class="math inline">\(n\)</span> constant, one looks for the maximum
+<span class="math inline">\(\mathit{PMI}(n, s)\)</span> value as one
+varies <span class="math inline">\(n\)</span> and keeps <span
+class="math inline">\(s\)</span> constant. There is no reason why the
+results of encoding and decoding experiments should coincide: they pick
+out two different kinds of information-theoretic relationship between
+the brain and its environment. Usher and Eliasmith argue that they
+provide different, complementary, and equally valid accounts of
+representational content.</p>
+<p>On each of these semantic theories, Shannon information is ascribed
+to a cognitive system because of the probabilistic properties of neural
+states <em>qua</em> <em>vehicles</em>. It is because a given neural
+state is an outcome from a set of possible alternative states, combined
+with the probability of various environmental outcomes, that the
+cognitive system has the Shannon information properties relevant to
+representation and hence to cognition. In the next section, I describe a
+different way in which Shannon information enters into cognition. Here,
+the relevant information-theoretic quantity arises not from the
+probabilistic nature of the physical vehicles and environmental states,
+but from its <em>representational content</em>. ‘Probabilistic’ models
+of cognition claim that the representational content of neural states is
+probabilistic. This means that Shannon information attaches to a
+cognitive system in a new way: via its content rather than via the
+probabilistic occurrence of its neural vehicles.</p>
+<h1 data-number="4" id="the-new-kind-of-shannon-information"><span
+class="header-section-number">4</span> The new kind of Shannon
+information</h1>
+<p>Probabilistic models of cognition, like the accounts discussed in the
+previous section, ascribe representations to the brain. Unlike the
+previous accounts, these models do not aim to naturalise
+representational content. They help themselves to the existence of
+representations. Their claim is that these representations have a
+particular kind of content. They are largely silent about how these
+representations get this content. In principle, probabilistic models of
+cognition are compatible with a variety of underlying semantic theories,
+including versions of information-theoretic semantics.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn16"
+class="footnote-ref" id="fnref16"
+role="doc-noteref"><sup>16</sup></a></p>
+<p>The central claim of a probabilistic model of cognition is that
+neural representations have probabilistic representational content.
+Traditional, ‘categorical’ approaches assume that neural representations
+have <em>single outcomes</em> as their representational content. Under a
+categorical approach, a neural state, <span
+class="math inline">\(n\)</span>, represents a single environmental
+outcome (or a single set of outcomes). Thinking about neural
+representation in these terms has prompted description of neural states
+early in V1 as <em>edge detectors</em>: their activity represents the
+presence (or absence) of an edge at a particular angle in a portion of
+the visual field. The represented content is a particular outcome
+(<em>edge at ~45 degrees</em>). Similarly, neurons in the inferior
+temporal (IT) cortex are described as <em>hand detectors</em>: their
+activity represents the presence (or absence) of a hand. The represented
+content is a single outcome (<em>hand present</em>). Similarly, neurons
+in the fusiform face area (FFA) are described as <em>face
+detectors</em>: their activity represents the presence (or absence) of a
+face. The represented content is a single outcome (<em>face
+present</em>) <span class="citation"
+data-cites="Gross07 LogothetisSheinberg96 KanwisherMcDermott97">(for
+example, see Gross 2007; Kanwisher et al. 1997; Logothetis &amp;
+Sheinberg 1996)</span>.</p>
+<p>There is increasing suspicion that representation in the brain is not
+like this. Content is rarely categorical (<em>hand present</em>);
+rather, what is represented is a probability distribution over many
+possible states. The brain represents many outcomes simultaneously in
+order to ‘hedge its bets’ during processing. This allows the brain to
+store, and make use of, information about multiple possible outcomes if
+it is uncertain which is the true one. Uncertainty may come from
+unreliability in the perceptual hardware, or from the brain’s epistemic
+situation that even with perfectly functioning hardware it only has
+incomplete access to its environment.</p>
+<p>Ascribing probabilistic representations to a cognitive agent is not a
+new idea <span class="citation" data-cites="deFinetti90 Ramsey90">(de
+Finetti 1990; F. P. Ramsey 1990)</span>. However, there is an important
+difference between past approaches and new probabilistic models of
+cognition. In the past, probabilistic representations were treated as
+<em>personal-level</em> states of a cognitive agent – ‘credences’,
+‘degrees of belief’, or ‘personal probabilities’. In the new models,
+probabilistic representations are treated as states of subpersonal
+<em>parts</em> of the agent – of neural populations, or single neurons.
+Their novel claim is that, regardless of whichever personal-level states
+that are attributed to an agent, various parts of that agent token
+diverse (and perhaps even conflicting) probabilistic representations.
+Thinking in these terms has prompted redescription of neural states
+early in V1 as probabilistically nuanced ‘hypotheses’, ‘guesses’, or
+‘expectations’ about edges. Their neural activity does not represent a
+single state (<em>edge at ~45 degrees</em>) but a probability
+distribution over multiple edge orientations <span class="citation"
+data-cites="AlinkSchwiedrzi10">(Alink et al. 2010)</span>. The
+represented content is a probability distribution over how the
+environment stands with respect to edges. Similarly, neural activity in
+the IT cortex does not represent a single state of affairs (<em>hand
+present</em>) but a probability distribution over multiple possible
+outcomes regarding hands. The represented content is a probability
+distribution over how the environment stands with respect to hands.
+Similarly, neural activity in FFA does not represent a single state of
+affairs (<em>face present</em>) but a probability distribution over
+multiple possible outcomes regarding faces. The represented content is a
+probability distribution over how the environment stands with respect to
+faces <span class="citation" data-cites="EgnerMonti10">(Egner et al.
+2010)</span>.</p>
+<p>Traditional models of cognition tend to describe cognitive processing
+as a computationally structured inference over specific outcomes –
+<em>if there is an edge here, then that is an object boundary</em>.
+Probabilistic models of cognition in contrast describe cognitive
+processing as a computationally structured inference over probability
+distributions – <em>if the probability distribution of edge orientations
+is this, then the probability distribution of object boundaries is
+that</em>. Cognitive processing is a series of steps that use one
+probability distribution to condition, or update, another probability
+distribution.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn17" class="footnote-ref" id="fnref17"
+role="doc-noteref"><sup>17</sup></a> Neural representations may
+conceivably maintain a probabilistic character right until the moment
+that the brain is forced to plump for a specific outcome in action. At
+that point, the brain may select the most probable outcome from its
+current represented probability distribution conditioned on all its
+available evidence (or some other point estimate that is easier to
+compute).</p>
+<p>Modelling cognition as probabilistic inference does not mean
+modelling cognition as non-deterministic or chancy. The physical
+hardware and algorithms underlying the probabilistic inference may be
+entirely deterministic. Consider that when your electronic PC filters
+spam messages from incoming emails it performs a probabilistic
+inference, but both the PC’s physical hardware and the algorithm that
+the PC follows are entirely deterministic. A probabilistic inference
+takes representations of probability distributions as input, yields
+representations of probability distributions as output, and transforms
+input to output based on rules of valid (or pragmatically efficacious)
+probabilistic inference. The physical mechanism and the algorithm for
+processing representations may be entirely deterministic. What makes the
+process probabilistic is not the chancy nature of vehicles or rules but
+that probabilities feature in the represented content that is being
+manipulated.</p>
+<p>Perhaps the best-known example of a probabilistic model of cognition
+is the ‘Bayesian brain’ hypothesis. This says that brains process
+probabilistic representations according to rules of Bayesian or
+approximately Bayesian inference <span class="citation"
+data-cites="KnillPouget04">(Knill &amp; Pouget 2004)</span>. Predictive
+coding provides one proposal about how such inference could be
+implemented in the brain <span class="citation"
+data-cites="Friston09 Clark13">(Clark 2013; Friston 2009)</span>. It is
+worth stressing that the motivation for ascribing probabilistic
+representations to the brain, and for probabilistic models of cognition
+in general, is broader than that for the Bayesian brain hypothesis (or
+for predictive coding). The brain’s inferential rules could, in
+principle, depart very far from Bayesianism and still produce adaptive
+behaviour under many circumstances. It remains an open question to what
+extent humans are Bayesian (or approximately Bayesian) reasoners.
+Probabilistic techniques developed in AI, such as deep learning,
+reinforcement learning, and generative adversarial models can produce
+impressive behavioural results despite having complex and qualified
+relationships to Bayesian inference. The idea that cognition is a form
+of probabilistic inference is a more general idea than that cognition is
+Bayesian. A researcher in cognitive science may subscribe to
+probabilistic representation in the brain even if they take a dim view
+of the Bayesian brain hypothesis.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn18" class="footnote-ref"
+id="fnref18" role="doc-noteref"><sup>18</sup></a></p>
+<p>The essential difference between a categorical representation and a
+probabilistic one lies in its content. Categorical representations aim
+to represent a single state of affairs. In Section 3, we saw that schema
+R treats representation as a relationship between a neural state, <span
+class="math inline">\(n\)</span>, and an environmental outcome, <span
+class="math inline">\(s\)</span>. Representational content is typically
+specified by a truth, accuracy, or satisfaction condition. Meeting this
+condition is assumed to be largely an all-or-nothing matter. A
+categorical representation effectively ‘bets all its money’ that a
+certain outcome occurs. An edge detector represents <em>there is an
+edge</em>. Multiple states of affairs may sometimes feature in the
+representational content (for example, <em>there is an edge between
+~43–47 degrees</em>), but those states of affairs are grouped together
+into a single outcome that is represented as true. There is no
+probabilistic nuance, or apportioning of different degrees of belief, to
+different outcomes.</p>
+<p>In contrast, probabilistic representations aim to represent a
+probability distribution over multiple outcomes. The probability
+distribution is a measure of how much the system ‘expects’ that the
+relevant outcomes are true. Unlike categorical representations, the
+represented content does not partition the possible environmental states
+into only two classes (<em>true</em> and <em>false</em>). Representation
+is not an all-or-nothing matter but involves assigning a probability
+weight to various possible outcomes. As we will see in the next section,
+these outcomes need not coincide with the possible outcomes of <span
+class="math inline">\(S\)</span>. Whereas categorical representational
+content is typically specified by a truth, accuracy, or satisfaction
+condition, probabilistic representational content is typically specified
+by a probability mass or density function over a set of possible
+outcomes.</p>
+<p>In principle, probabilistic representations could use any physical
+vehicle, and any formal format. There is nothing about the physical
+make-up of a representational vehicle that determines whether it is
+categorical or probabilistic. Either type of representation could also,
+in principle, use any number of different formal formats to organise its
+structure and guide the algorithms that operate on it. Possible formal
+formats for a representation include being a setting of weights in a
+neural network, a symbolic expression, a directed graph, a ring, a tree,
+a region in continuous space, or an entry in a relational database <span
+class="citation"
+data-cites="GriffithsChater10 TenenbaumKemp11">(Griffiths et al. 2010;
+Tenenbaum et al. 2011)</span>. The choice of physical vehicle and
+representational format affects how easy it is to implement an inference
+with computation in a specific physical context <span class="citation"
+data-cites="Marr82">(Marr 1982)</span>. Certain physical vehicles and
+certain formal formats are more apt to serve certain computations than
+others. But in principle, there is nothing about the physical make-up or
+formal structure of a representation that determines whether the
+representation is categorical or probabilistic. That is determined
+solely by its represented content.</p>
+<p>The preceding discussion should not be taken as suggesting that a
+model of cognition must employ only one type of representation
+(categorical or probabilistic). There is no reason why both types of
+representation cannot appear in a model of cognition, assuming there are
+appropriate rules to take the cognitive system between the two. Neither
+does the discussion suggest that one type of representation cannot be
+reduced to the other. A variety of such reductions may be possible. For
+example, a cognitive system might use structured complexes of
+traditional representations to express the probability calculus and
+thereby express probabilistically nuanced content with categorical
+representations (maybe this is what we do with the public language of
+mathematical probability theory). Alternatively, a cognitive system
+might use structured complexes of probabilistic representations to
+represent all-or-nothing-like truth conditions. <span class="citation"
+data-cites="Feldman12">Feldman (2012)</span> describes a proposal in
+which categorical representations are approximated by probabilistic ones
+with strongly modal (sharply peaked) probability distributions.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn19" class="footnote-ref" id="fnref19"
+role="doc-noteref"><sup>19</sup></a> Categorical and probabilistic
+representations may mix in cognition, and perhaps, given the right
+conditions, one may give rise to the other.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn20"
+class="footnote-ref" id="fnref20"
+role="doc-noteref"><sup>20</sup></a></p>
+<h1 data-number="5" id="two-kinds-of-information-processing"><span
+class="header-section-number">5</span> Two kinds of information
+processing</h1>
+<p>In Section 1, we assumed that cognition is profitably described by
+saying it involves representations. In Section 2, we saw that having
+multiple outcomes and a probability distribution over those outcomes is
+sufficient to have an associated measure of Shannon information. We have
+now seen, in Sections 3 and 4, two ways in which the representations
+involved in cognition can have multiple outcomes and probability
+distributions associated with them. Consequently, Shannon information
+may attach to cognition in two separate ways. What characterises the
+Shannon information of Section 3 is that it is associated with
+probability of the <em>vehicle</em> occurring (conditional on various
+environmental outcomes). What characterises the Shannon information of
+Section 4 is that it is associated with the probabilities that appear
+inside the represented <em>content</em>.</p>
+<p>The degree to which these two quantities of Shannon information
+differ depends on the degree to which the two underlying sets of
+outcomes and probability distributions differ. In this section, I argue
+that they typically involve different <em>sets of outcomes</em>,
+different numerical <em>probability values</em>, and they must involve
+different <em>kinds of probability</em>.</p>
+<p><em>Different sets of outcomes</em>. In Section 3, the relevant set
+is the set of <em>possible neural and environmental states</em>. The
+outcomes are the objective possibilities – neural and environmental –
+that could occur. What interests Dretske, Millikan, Shea, Skyrms, and
+others is to know whether a particular neural state from a set of
+alternatives (<span class="math inline">\(N\)</span>) occurs conditional
+on a particular environmental state from a set of alternatives (<span
+class="math inline">\(S\)</span>).<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn21" class="footnote-ref"
+id="fnref21" role="doc-noteref"><sup>21</sup></a> In contrast, in
+Section 4, the relevant outcomes are the <em>represented possible states
+of the environment</em>. These are the ways that the brain represents
+the environment could be. This set of represented environmental
+possibilities need not be the same as what is objectively possible. A
+cognitive system might make a mistake about what is possible just as it
+might make a mistake about what is actual: it might represent an
+environmental outcome that is impossible (e.g. winning a lottery that
+the agent never entered) or it might fail to represent an environmental
+state that is possible (e.g. that it is a brain in a vat). Unless the
+cognitive system represents all and only the objectively possible
+outcomes, there is no reason to think that its set of represented
+outcomes will be the same as the set of possible outcomes in Section 3.
+Hence, the set of outcomes represented by a neural state need not be the
+same as the set of outcomes <span class="math inline">\(S\)</span>.
+Moreover, for the two sets of outcomes over which probabilities are
+ascribed to be the same, the brain would need to represent not only the
+possible environmental states (<span class="math inline">\(S\)</span>)
+but also its possible neural states (<span
+class="math inline">\(N\)</span>). Only in the special case of a
+cognitive system that (a) represents all and only the objectively
+possible environmental states and (b) represents all and only its own
+possible neural states would the respective sets of outcomes which are
+assigned probabilities coincide.</p>
+<p><em>Different probability values</em>. Suppose that a cognitive
+system, perhaps due to some design quirk, does represent all and only
+the objectively possible environmental and neural states. In such a
+case, the numerical probability values associated with the outcomes are
+still likely to differ. In the context of the projects of Section 3,
+these probability values measure the objective chances, frequencies,
+propensities, or some similar measure of a neural state occurring
+conditional on a possible environmental state. What interests Millikan,
+Shea, and others are these objective probabilistic relations between
+neural states and environmental states. In contrast, for the projects of
+Section 4, the probability values are the cognitive system’s
+<em>estimation</em> of how likely each outcome is, not its objective
+probability. Brains are described as having ‘priors’ – probabilistic
+representations of various outcomes – and a ‘likelihood function’ or
+‘probabilistic generative model’ – a probabilistic representation of the
+relationships between the outcomes. Psychologists are interested in how
+the brain uses its priors and generative model to make inferences about
+unknown events, or in how it updates its priors in light of new
+evidence. All the aforementioned probabilities are the brain’s guesses
+about the possible outcomes and the relationships between them. Only a
+God-like cognitive agent, one who knew the truth about the objective
+probabilities of events and their relations, would assign the right
+probability values to the various outcomes and relations. Such a system
+would have a <em>veridical</em> (and a <em>complete</em>) probabilistic
+representation of its environment, its own neural states, and the
+relationships between them. This may be a goal to which a cognitive
+system aspires, but it is surely a position that few achieve.</p>
+<p><em>Different kinds of probability</em>. Assume for the sake of
+argument that we are dealing with a God-like cognitive agent who has a
+complete and veridical probabilistic representation of its environment
+and its neural states. Even for that agent, there are still two distinct
+types of Shannon information. This is because its respective probability
+values, even if they agree numerically, measure different <em>kinds</em>
+of probability. The <span class="math inline">\(P(\cdot)\)</span>s
+measure something different in each case. In the context of the projects
+of Section 3, the <span class="math inline">\(P(\cdot)\)</span> values
+measure objective probabilities. These may be chances, frequencies,
+propensities, or whatever else corresponds to the objective probability
+of the relevant outcome occurring.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn22" class="footnote-ref"
+id="fnref22" role="doc-noteref"><sup>22</sup></a> In the context of the
+projects of Section 4, the <span class="math inline">\(P(\cdot)\)</span>
+values measure subjective probabilities. These are the system’s
+estimation of how likely it thinks the relevant outcomes are. Chances,
+frequencies, propensities, or similar are not the same as a system’s
+representation of how likely an event is to occur. Even for a God-like
+cognitive agent – for whom the two are stipulated as equal in terms of
+numerical value – what is measured is distinct. Subjective
+probabilities, even if they agree in terms of numerical value with
+objective probabilities, do not become objective probabilities merely
+because they happen to accurately reflect them. No more than a
+description of a Komodo dragon becomes a living, breathing Komodo dragon
+if that description happens to be accurate. One is a representation, the
+other is a state of the world. In the case of our God-like agent, one is
+a distribution of objective probabilities and the other is the system’s
+(veridical) representation of possible outcomes and their respective
+credences. Well-known normative principles connect subjective and
+objective probabilities. However, no matter which normative principles
+one endorses, and regardless of whether a God-like agent satisfies them,
+the two kinds of probability are distinct.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn23"
+class="footnote-ref" id="fnref23"
+role="doc-noteref"><sup>23</sup></a></p>
+<p>Two kinds of probability distribution feature in cognition. Each
+generates an associated measure of Shannon information. The two Shannon
+measures are distinct: they are likely to involve different outcomes,
+different probability values, and must involve different kinds of
+probability. This allows us to make sense of two kinds of Shannon
+information being processed in cognition: two kinds of probability
+distribution change under probabilistic models of cognition. Processing
+involves changes in a system’s representational vehicles and changes in
+a system’s probabilistic represented content. Information-processing
+algorithms that govern cognition can be defined over either or both of
+these Shannon quantities.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn24" class="footnote-ref"
+id="fnref24" role="doc-noteref"><sup>24</sup></a></p>
+<h1 data-number="6"
+id="relationship-between-the-two-kinds-of-information"><span
+class="header-section-number">6</span> Relationship between the two
+kinds of information</h1>
+<p>My claim in the previous section was that the two kinds of Shannon
+information are distinct. This does not rule out all manner of
+interesting connections between them. That they are distinct does not
+mean that they can vary independently of each other. This section
+highlights some possible connections.</p>
+<h2 data-number="6.1" id="connections-via-semantic-theory"><span
+class="header-section-number">6.1</span> Connections via semantic
+theory</h2>
+<p>One is likely to be persuaded of deep connections between the two
+kinds of Shannon information if one endorses some form of
+information-theoretic semantics for probabilistic representations. The
+probabilistic models described in Section 4 are silent about how neural
+representations get their content. In principle, these models could be
+combined with a range of semantic proposals, including some version of
+the information-theoretic semantics described in Section 3.</p>
+<p>Skyrms’ or Isaac’s theory looks the most promising approach to
+generate an information-theoretic account of probabilistic content. Both
+their theories already attribute multiple environmental outcomes plus a
+graded response for each outcome. However, it is not immediately obvious
+how to proceed. The probability distribution represented by <span
+class="math inline">\(n\)</span> cannot simply be assumed to be the
+probability distribution of <span class="math inline">\(S\)</span>. As
+we saw in Section 5, a probabilistic representation may misrepresent the
+objective possibilities and their probability values. A second
+consideration is that the represented probabilities appear to depend not
+only on the probabilistic relations between a representational vehicle
+and its corresponding environmental outcomes; they also depend on what
+else the system ‘believes’. The probability that a system assigns to
+<em>there is a face</em> should not be independent of the probability
+that it assigns to <em>there is a person</em>, even if the two outcomes
+are represented by different neural vehicles. A noteworthy feature of
+the information-theoretic accounts of Section 3 is that they disregard
+relationships of probabilistic coherence between representations in
+assigning representational content. They assign content piecemeal,
+without considering how the contents may cohere. How to address these
+two issues and create an information-theoretic semantics for
+probabilistic representations is presently unclear.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn25"
+class="footnote-ref" id="fnref25"
+role="doc-noteref"><sup>25</sup></a></p>
+<p>If an information-theoretic semantics for probabilistic neural
+representations could be developed, it would provide a bridge between
+the two kinds of Shannon information. One kind of information
+(associated with the represented probabilities) could not vary
+independently of the other (associated with the objective
+probabilities). The two would correlate at least in the cases to which
+this semantic theory applied. Moreover, if the semantic theory held as a
+matter of conceptual or logical truth, then the connection between the
+two Shannon quantities would hold with a similar strength. An
+information-theoretic account of probabilistic representation offers the
+prospect of a conceptual or logical connection between the two types of
+Shannon information. In the absence of such a semantic theory, however,
+it is hard to speculate on exactly what the nature of that connection
+would be.</p>
+<p>If one is sceptical about the prospects of an information-theoretic
+semantics for probabilistic neural representation, then one may be less
+inclined to see deep conceptual or logical connections between the two
+kinds of Shannon information. If one endorses Grice’s <span
+class="citation" data-cites="Grice57">(1957)</span> theory of
+<em>non-natural</em> meaning, for example, then the two Shannon
+quantities may look conceptually and logically independent. Grice said
+that in cases of non-natural meaning, representational content depends
+on human intentions and not, for example, on the objective probabilities
+of a physical vehicle occurring in conjunction with environmental
+outcomes. There is nothing to stop a physical vehicle representing any
+content, provided it is underwritten by the right intentions. I might
+say that the proximity of Saturn to the Sun (appropriately normalised)
+represents the probability that Donald Trump will be impeached. Provided
+this is underwritten by the right intentions, probabilistic
+representation occurs. Representation is, in this sense, an arbitrary
+connection between a vehicle and a content that can be set up or
+destroyed at will, without regard for the probabilities of the
+underlying events.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn26" class="footnote-ref" id="fnref26"
+role="doc-noteref"><sup>26</sup></a> If one endorses Grice’s theory of
+non-natural meaning, there need be no connection between the
+probabilities of neural and environmental states and what those states
+represent, and one Shannon measure could vary independently of the
+other. This is not to say that the two measures would not correlate in
+the brain; just that, if they correlate, that would not flow from the
+semantic theory.</p>
+<h2 data-number="6.2" id="connections-via-empirical-correlations"><span
+class="header-section-number">6.2</span> Connections via empirical
+correlations</h2>
+<p>Regardless of connections that may arise from one’s semantic theory,
+there are likely to be other reasons why the two measures of Shannon
+information would correlate in the brain. The nature of these
+connections will depend on the strategy that the brain uses to ‘code’
+its probabilistic content. This coding scheme describes how
+probabilistic content – which may consist of probability values, the
+overall analytical shape of the probability distribution, or summary
+statistics like the mean or variance – maps onto physical activity in
+the brain or onto physical relations between the brain and environment.
+The specific scheme that the brain uses to code its probabilistic
+content is currently unknown and the subject of much speculation.
+Suggested proposals include that the firing rate of a neuron, the number
+of neurons firing in a population, the chance of neurons firing in
+population, or the spatial distribution of neurons firing in a
+population is a monotonic function of characteristic features of the
+represented probability distribution <span class="citation"
+data-cites="Barlow69 AverbeckLatham06 MaBeck06 Deneve08 FiserBerkes10 GriffithsVul12 PougetBeck13">(Averbeck
+et al. 2006; see, for example, Barlow 1969; Deneve 2008; Fiser et al.
+2010; Griffiths et al. 2012; Ma et al. 2006; Pouget et al. 2013)</span>.
+According to these schemes, the probability of various neural physical
+states occurring varies in some regular way with their represented
+probability distributions. This relationship may be straightforward and
+simple or it may be extremely complicated and vary in different parts of
+the brain or over time. The same applies to the relationship between the
+two Shannon quantities. If an experimentalist were to know the brain’s
+coding scheme, she may be able to infer one Shannon measure from the
+other. But even granted this were possible, the two kinds of Shannon
+information would remain distinct, for the reasons given in Section
+5.</p>
+<p>Cognitive processing is sometimes defined over the
+information-theoretic properties of the neural vehicles. <span
+class="citation" data-cites="SaxeCalderone18">Saxe et al. (2018)</span>
+describe how brain entropy during resting state, as measured by fMRI,
+correlates with general intelligence. <span class="citation"
+data-cites="ChangSong18">Chang et al. (2018)</span> describe how
+drinking coffee increases the brain’s entropy during resting state.
+<span class="citation" data-cites="CarhartLeech14">Carhart-Harris et al.
+(2014)</span> describe the relationship between consciousness and brain
+entropy, and how this changes after taking the psychedelic drug
+psilocybin. <span class="citation" data-cites="RiekeWarland99">Rieke et
+al. (1999)</span> advocate a research programme that examines
+information-theoretic properties of neural vehicles (spike trains) and
+their relationships to possible environmental outcomes. They argue that
+information-theoretic properties of the neural vehicles and
+environmental outcomes allow us to infer possible and likely
+computations that the brain uses and the efficiency of the brain’s
+coding scheme. In each of these cases, the Shannon measures are defined
+over the possible neural vehicles and environmental states, not over
+their represented content (although several of the authors suggest that
+since the two are correlated by the brain’s coding scheme, we can use
+one to draw conclusions about the other).</p>
+<p>In contrast, <span class="citation" data-cites="Feldman00">Feldman
+(2000)</span> looks at algorithms defined over the information-theoretic
+properties of the represented content. He argues that the difficulty of
+learning a new Boolean concept correlates with the information-theoretic
+complexity of the represented Boolean condition. <span class="citation"
+data-cites="Kemp12">Kemp (2012)</span> and <span class="citation"
+data-cites="PiantadosiTenenbaum16">Piantadosi et al. (2016)</span>
+extend this idea to general concept learning. They propose that concept
+learning is a form of probabilistic inference that seeks to find the
+concept that maximises the probability of the represented
+classification. This cognitive process is described as the agent seeking
+the concept that offers the optimal Shannon compression scheme over its
+perceptual data. <span class="citation"
+data-cites="GallistelWilkes16">Gallistel &amp; Wilkes (2016)</span>
+describe associative learning as a probabilistic inference concerning
+the most likely causes of an unconditioned stimulus given the
+observations. They describe it in terms of Shannon information
+processing: the cognitive system starts with priors over hypotheses
+about causes that have maximum entropy (their probability distributions
+are as ‘noisy’ as possible consistent with the data); the cognitive
+system then aims to find the hypotheses that provide optimal compression
+(that maximise Shannon information) of the represented hypothesis and
+observed data. In general, researchers who model cognition
+probabilistically move smoothly between probabilistic formulations and
+information-theoretic formulations when describing a cognitive process.
+In each of the cases described above, the Shannon information is
+associated not with the probabilities of specific neural vehicles
+occurring, but with the probability distributions that they represent
+(although, again, one might think that the two are likely to be related
+via the brain’s coding scheme).</p>
+<h2 data-number="6.3"
+id="two-versions-of-the-free-energy-principle"><span
+class="header-section-number">6.3</span> Two versions of the free-energy
+principle</h2>
+<p><span class="citation" data-cites="Friston10">Friston (2010)</span>
+claims that the ‘free-energy principle’ provides a unified theory of how
+cognitive and living creatures work. He invokes two kinds of Shannon
+information processing and he effectively describes two separate
+versions of the free-energy principle.</p>
+<p>First, Friston says that the free-energy principle is a claim about
+the probabilistic inference performed by a cognitive system. He claims
+that the brain aims to predict upcoming sensory activation and it forms
+probabilistic hypotheses about the world that are updated in light of
+its errors in making this prediction. Shannon information attaches to
+the represented probability distributions over which the inference is
+performed. Friston says that the brain aims to minimise the ‘surprisal’
+of – the Shannon information associated with – new sensory evidence.
+When the brain is engaged in probabilistic inference, however, he says
+that it does not represent the full posterior probability distributions
+as a perfect Bayesian reasoner would do. Instead, the brain approximates
+them with simpler probability distributions, assumed to be Gaussian.
+Provided the brain minimises the Shannon-information quantity
+‘variational free energy’, it will bring these simpler probability
+distributions into approximate correspondence with the true posterior
+distributions that a perfect Bayesian reasoner would have <span
+class="citation" data-cites="Friston09 Friston10">(Friston 2009,
+2010)</span>. Variational free energy is an information-theoretic
+quantity, predicated of the agent’s represented probability
+distributions, that measures how far those subjective probability
+distributions depart from the optimal guesses of a perfect Bayesian
+reasoner. According to Friston, the brain minimises ‘free energy’ and so
+approximates an ideal Bayesian reasoner.</p>
+<p>Friston makes a second, conceptually distinct, claim about cognition
+(and life in general) aiming to minimise free energy. In this context,
+his goal is to explain how cognitive (and living) systems maintain their
+physical integrity and homoeostatic balance in the face of a changing
+physical environment. Cognitive (and living) systems face the problem
+that their physical entropy tends to increase over time: they generally
+become more disordered and the chance increases that they will undergo a
+fatal physical phase transition. Friston says that when living creatures
+resist this tendency, they minimise free energy <span class="citation"
+data-cites="FristonStephan07 Friston13">(Friston 2013; Friston &amp;
+Stephan 2007)</span>. However, the free energy minimised is not the same
+as that which attaches to the represented probabilistic guesses of some
+agent. Instead, it attaches to the objective probabilities of various
+possible (fatal) physical states of the agent occurring in response to
+environmental changes. Minimising free energy involves the system trying
+to arrange its internal physical states so as to avoid being overly
+changed by probable environmental transitions. The system strives to
+maintain its physical nature in equipoise with likely environmental
+changes. The information-theoretic free energy minimised here is defined
+over the objective distributions of possible physical states that could
+occur, not over the probability distributions represented by an agent’s
+hypotheses.</p>
+<p>Minimising one free-energy measure may help an agent to minimise the
+other: a good Bayesian reasoner is plausibly more likely to survive in a
+changing physical environment than an irrational agent. But they are not
+the same quantity. Moreover, any correlation between them could
+conceivably come unstuck. An irrational agent could depart far from
+Bayesian ideals but be lucky enough to live in an hospitable environment
+that maintains its physical integrity and homoeostasis no matter how
+badly the agent updates its beliefs. Alternatively, an agent might be a
+perfectly rational Bayesian and update its beliefs accordingly, but its
+physical environment may change so rapidly and catastrophically that it
+cannot survive or maintain homoeostasis. Understanding how Friston’s two
+formulations of the free-energy principle interact – that pertaining to
+represented subjective probabilities and that pertaining to objective
+probabilities – is ongoing work.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fn27" class="footnote-ref"
+id="fnref27" role="doc-noteref"><sup>27</sup></a></p>
+<h1 data-number="7" id="conclusion"><span
+class="header-section-number">7</span> Conclusion</h1>
+<p>Shannon information has traditionally been seen as a rung on a ladder
+that takes one to naturalised representation. In this context, Shannon
+information is associated with the outcomes and probability
+distributions of neural and environmental states. This project, however,
+obscures a novel way in which Shannon information enters into cognition.
+Probabilistic models of cognition treat cognition as an inference over
+representations of probability distributions. This means that
+probabilities may enter into cognition in two distinct ways: as the
+objective probabilities of neural vehicles and/or environmental states
+occurring and as the subjective probabilities that describe the agent’s
+expectations. Two types of Shannon information are associated with
+cognition accordingly: information that pertains to the probability of
+the neural vehicle occurring and information that pertains to the
+represented probabilistic content. The former is conceptually and
+logically distinct from the latter, just as representational vehicles
+are conceptually and logically distinct from their content. Various
+(conceptual, logical, contingent) relations may connect the two kinds of
+Shannon information in the brain, just as various such relations connect
+traditional categorical vehicles and their content. Care should be
+taken, however, not to conflate the two. For, as we know, much trouble
+lies that way.</p>
 <h1 class="unnumbered" id="acknowledgements">Acknowledgements</h1>
-<p>This paper has been greatly improved by comments from Matteo Colombo, Carrie Figdor, Alastair Isaac, Oron Shagrir, Nick Shea, Ulrich Stegmann, Filippo Torresan, and two anonymous referees. An early version of this paper was presented on 1 June 2016 at the 30th Annual International Workshop on the History and Philosophy of Science, Jerusalem. I would like to thank the participants and organisers for their encouragement and feedback.</p>
+<p>This paper has been greatly improved by comments from Matteo Colombo,
+Carrie Figdor, Alastair Isaac, Oron Shagrir, Nick Shea, Ulrich Stegmann,
+Filippo Torresan, and two anonymous referees. An early version of this
+paper was presented on 1 June 2016 at the 30th Annual International
+Workshop on the History and Philosophy of Science, Jerusalem. I would
+like to thank the participants and organisers for their encouragement
+and feedback.</p>
 <h1 class="unnumbered" id="bibliography">Bibliography</h1>
-<div id="refs" class="references hanging-indent" role="doc-bibliography">
-<div id="ref-AlinkSchwiedrzi10">
-<p>Alink, A., Schwiedrzik, C. M., Kohler, A., Singer, W., &amp; Muckli, L. (2010). ‘Stimulus predictability reduces responses in primary visual cortex’, <em>Journal of Neuroscience</em>, 30: 2960–6.</p>
-</div>
-<div id="ref-AverbeckLatham06">
-<p>Averbeck, B. B., Latham, P. E., &amp; Pouget, A. (2006). ‘Neural correlations, population coding and computation’, <em>Nature Reviews Neuroscience</em>, 7: 358–66.</p>
-</div>
-<div id="ref-BarHillelCarnap64">
-<p>Bar-Hillel, Y., &amp; Carnap, R. (1964). ‘An outline of a theory of semantic information’. <em>Language and information</em>, pp. 221–74. Addison-Wesley: Reading, MA.</p>
-</div>
-<div id="ref-Barlow69">
-<p>Barlow, H. B. (1969). ‘Pattern recognition and the responses of sensory neurons’, <em>Annals of the New York Academy of Sciences</em>, 156: 872–81.</p>
-</div>
-<div id="ref-CarhartLeech14">
-<p>Carhart-Harris, R., Leech, R., Hellyer, P., Shanahan, M., Feilding, A., Tagliazucchi, E., Chialvo, D., et al. (2014). ‘The entropic brain: A theory of conscious states informed by neuroimaging research with psychedelic drugs’, <em>Frontiers in Human Neuroscience</em>, 8: 1–22.</p>
-</div>
-<div id="ref-ChangSong18">
-<p>Chang, D., Song, D., Zhang, J., Shang, Y., Ge, Q., &amp; Wang, Z. (2018). ‘Caffeine caused a widespread increase in brain entropy’, <em>Scientific Reports</em>, 8: 2700.</p>
-</div>
-<div id="ref-Clark13">
-<p>Clark, A. (2013). ‘Whatever next? Predictive brains, situated agents, and the future of cognitive science’, <em>Behavioral and Brain Sciences</em>, 36: 181–253.</p>
-</div>
-<div id="ref-ColomboSeries12">
-<p>Colombo, M., &amp; Seriès, P. (2012). ‘Bayes on the brain—on Bayesian modelling in neuroscience’, <em>The British Journal for the Philosophy of Science</em>, 63: 697–723.</p>
-</div>
-<div id="ref-ColomboWright18">
-<p>Colombo, M., &amp; Wright, C. (2018). ‘First principles in the life sciences: The free-energy principle, organicism, and mechanism’, <em>Synthese</em>. DOI: <a href="https://doi.org/10.1007/s11229-018-01932-w">10.1007/s11229-018-01932-w</a></p>
-</div>
-<div id="ref-deFinetti90">
-<p>de Finetti, B. (1990). <em>Theory of probability</em>., Vol. 1. New York, NY: Wiley &amp; Sons.</p>
-</div>
-<div id="ref-Deneve08">
-<p>Deneve, S. (2008). ‘Bayesian spiking neurons I: Inference’, <em>Neural Computation</em>, 20: 91–117.</p>
-</div>
-<div id="ref-Dretske81">
-<p>Dretske, F. (1981). <em>Knowledge and the flow of information</em>. Cambridge, MA: MIT Press.</p>
-</div>
-<div id="ref-Dretske83">
-<p>——. (1983). ‘Précis of <em>knowledge and the flow of information</em>’, <em>Behavioral and Brain Sciences</em>, 6: 55–90.</p>
-</div>
-<div id="ref-Dretske88">
-<p>——. (1988). <em>Explaining behavior</em>. Cambridge, MA: MIT Press.</p>
-</div>
-<div id="ref-Dretske95">
-<p>——. (1995). <em>Naturalizing the mind</em>. Cambridge, MA: MIT Press.</p>
-</div>
-<div id="ref-Egan10">
-<p>Egan, F. (2010). ‘Computational models: A modest role for content’, <em>Studies in History and Philosophy of Science</em>, 41: 253–9.</p>
-</div>
-<div id="ref-EgnerMonti10">
-<p>Egner, T., Monti, J. M., &amp; Summerfield, C. (2010). ‘Expectation and surprise determine neural population responses in the ventral visual system’, <em>Journal of Neuroscience</em>, 30: 16601–8.</p>
-</div>
-<div id="ref-Eliasmith05a">
-<p>Eliasmith, C. (2005a). ‘A new perspective on representational problems’, <em>Journal of Cognitive Science</em>, 6: 97–123.</p>
-</div>
-<div id="ref-Eliasmith05">
-<p>——. (2005b). ‘Neurosemantics and categories’. Cohen H. &amp; Lefebvre C. (eds) <em>Handbook of categorization in cognitive science</em>, pp. 1035–55. Elsevier: Amsterdam.</p>
-</div>
-<div id="ref-Feldman00">
-<p>Feldman, J. (2000). ‘Minimization of Boolean complexity in human concept learning’, <em>Nature</em>, 407: 630–3.</p>
-</div>
-<div id="ref-Feldman12">
-<p>——. (2012). ‘Symbolic representation of probabilistic worlds’, <em>Cognition</em>, 123: 61–83.</p>
-</div>
-<div id="ref-FiserBerkes10">
-<p>Fiser, J., Berkes, P., Orbán, G., &amp; Lengyel, M. (2010). ‘Statistically optimal perception and learning: From behavior to neural representations’, <em>Trends in Cognitive Sciences</em>, 14: 119–30.</p>
-</div>
-<div id="ref-Floridi11">
-<p>Floridi, L. (2011). <em>The philosophy of information</em>. Oxford: Oxford University Press.</p>
-</div>
-<div id="ref-Friston09">
-<p>Friston, K. (2009). ‘The free-energy principle: A rough guide to the brain?’, <em>Trends in Cognitive Sciences</em>, 13: 293–301.</p>
-</div>
-<div id="ref-Friston10">
-<p>——. (2010). ‘The free-energy principle: A unified brain theory?’, <em>Nature Reviews Neuroscience</em>, 11: 127–38.</p>
-</div>
-<div id="ref-Friston13">
-<p>——. (2013). ‘Life as we know it’, <em>Journal of the Royal Society Interface</em>, 10: 20130475.</p>
-</div>
-<div id="ref-FristonStephan07">
-<p>Friston, K., &amp; Stephan, K. E. (2007). ‘Free-energy and the brain’, <em>Synthese</em>, 159: 417–58.</p>
-</div>
-<div id="ref-GallistelWilkes16">
-<p>Gallistel, C. R., &amp; Wilkes, J. T. (2016). ‘Minimum description length model selection in associative learning’, <em>Current Opinion in Behavioral Sciences</em>, 11: 8–13.</p>
-</div>
-<div id="ref-Grice57">
-<p>Grice, P. (1957). ‘Meaning’, <em>Philosophical Review</em>, 66: 377–88.</p>
-</div>
-<div id="ref-GriffithsChater10">
-<p>Griffiths, T. L., Chater, N., Kemp, C., Perfors, A., &amp; Tenenbaum, J. B. (2010). ‘Probabilistic models of cognition: Exploring representations and inductive biases’, <em>Trends in Cognitive Sciences</em>, 14: 357–64.</p>
-</div>
-<div id="ref-GriffithsVul12">
-<p>Griffiths, T. L., Vul, E., &amp; Sanborn, A. N. (2012). ‘Bridging levels of analysis for probabilistic models of cognition’, <em>Current Directions in Psychological Science</em>, 21: 263–8.</p>
-</div>
-<div id="ref-Gross07">
-<p>Gross, C. G. (2007). ‘Single neuron studies of inferior temporal cortex’, <em>Neuropsychologia</em>, 46: 841–52.</p>
-</div>
-<div id="ref-Isaac17">
-<p>Isaac, A. M. C. (2019). ‘The semantics latent in Shannon information’, <em>The British Journal for the Philosophy of Science</em>, 70: 103–25.</p>
-</div>
-<div id="ref-KanwisherMcDermott97">
-<p>Kanwisher, N., McDermott, J., &amp; Chun, M. M. (1997). ‘The fusiform face area: A module in human extrastriate cortex specialized for face perception’, <em>Journal of Neuroscience</em>, 17: 4302–11.</p>
-</div>
-<div id="ref-Kemp12">
-<p>Kemp, C. (2012). ‘Exploring the conceptual universe’, <em>Psychological Review</em>, 119: 685–722.</p>
-</div>
-<div id="ref-KnillPouget04">
-<p>Knill, D. C., &amp; Pouget, A. (2004). ‘The Bayesian brain: The role of uncertainty in neural coding and computation’, <em>Trends in Neurosciences</em>, 27: 712–9.</p>
-</div>
-<div id="ref-LogothetisSheinberg96">
-<p>Logothetis, N. K., &amp; Sheinberg, D. L. (1996). ‘Visual object recognition’, <em>Annual Review of Neuroscience</em>, 19: 577–621.</p>
-</div>
-<div id="ref-Ma12">
-<p>Ma, W. J. (2012). ‘Organizing probabilistic models of perception’, <em>Trends in Cognitive Sciences</em>, 16: 511–8.</p>
-</div>
-<div id="ref-MaBeck06">
-<p>Ma, W. J., Beck, J. M., Latham, P. E., &amp; Pouget, A. (2006). ‘Bayesian inference with probabilistic population codes’, <em>Nature Neuroscience</em>, 9: 1432–8.</p>
-</div>
-<div id="ref-MacKay03">
-<p>MacKay, D. J. C. (2003). <em>Information theory, inference, and learning algorithms</em>. Cambridge: Cambridge University Press.</p>
-</div>
-<div id="ref-Marr82">
-<p>Marr, D. (1982). <em>Vision</em>. San Francisco, CA: W. H. Freeman.</p>
-</div>
-<div id="ref-Millikan84">
-<p>Millikan, R. G. (1984). <em>Language, thought and other biological categories</em>. Cambridge, MA: MIT Press.</p>
-</div>
-<div id="ref-Millikan00">
-<p>——. (2000). <em>On clear and confused ideas</em>. Cambridge: Cambridge University Press.</p>
-</div>
-<div id="ref-Millikan01">
-<p>——. (2001). ‘What has natural information to do with intentional representation?’ Walsh D. (ed.) <em>Naturalism, evolution and mind</em>, pp. 105–25. Cambridge University Press: Cambridge.</p>
-</div>
-<div id="ref-Millikan04a">
-<p>——. (2004). <em>The varieties of meaning</em>. Cambridge, MA: MIT Press.</p>
-</div>
-<div id="ref-Papineau87">
-<p>Papineau, D. (1987). <em>Reality and representation</em>. Oxford: Blackwell.</p>
-</div>
-<div id="ref-PiantadosiTenenbaum16">
-<p>Piantadosi, S. T., Tenenbaum, J. B., &amp; Goodman, N. D. (2016). ‘The logical primitives of thought: Empirical foundations for compositional cognitive models’, <em>Psychological Review</em>, 123: 392–424.</p>
-</div>
-<div id="ref-PougetBeck13">
-<p>Pouget, A., Beck, J. M., Ma, W. J., &amp; Latham, P. E. (2013). ‘Probabilistic brains: Knows and unknowns’, <em>Nature Neuroscience</em>, 16: 1170–8.</p>
-</div>
-<div id="ref-Rahnev17">
-<p>Rahnev, D. (2017). ‘The case against full probability distributions in perceptual decision making’, <em>bioRxiv</em>. DOI: <a href="https://doi.org/10.1101/108944">10.1101/108944</a></p>
-</div>
-<div id="ref-Ramsey90">
-<p>Ramsey, F. P. (1990). <em>Philosophical papers</em>. (D. H. Mellor, Ed.). Cambridge: Cambridge University Press.</p>
-</div>
-<div id="ref-Ramsey16">
-<p>Ramsey, W. M. (2016). ‘Untangling two questions about mental representation’, <em>New Ideas in Psychology</em>, 40: 3–12.</p>
-</div>
-<div id="ref-RiekeWarland99">
-<p>Rieke, F., Warland, D., Steveninck, R. R. van, &amp; Bialek, W. (1999). <em>Spikes</em>. Cambridge, MA: MIT Press.</p>
-</div>
-<div id="ref-SaxeCalderone18">
-<p>Saxe, G. N., Calderone, D., &amp; Morale, L. J. (2018). ‘Brain entropy and human intelligence: A resting-state fMRI study’, <em>PLoS ONE</em>, 13: e0191582.</p>
-</div>
-<div id="ref-ScarantinoPiccinini10">
-<p>Scarantino, A., &amp; Piccinini, G. (2010). ‘Information without truth’, <em>Metaphilosophy</em>, 41: 313–30.</p>
-</div>
-<div id="ref-Shea07a">
-<p>Shea, N. (2007). ‘Consumers need information: Supplementing teleosemantics with an input condition’, <em>Philosophy and Phenomenological Research</em>, 75: 404–35.</p>
-</div>
-<div id="ref-Shea14">
-<p>——. (2014a). ‘Exploitable isomorphism and structural representation’, <em>Proceedings of the Aristotelian Society</em>, 114: 123–44.</p>
-</div>
-<div id="ref-Shea14a">
-<p>——. (2014b). ‘Neural signaling of probabilistic vectors’, <em>Philosophy of Science</em>, 81: 902–13.</p>
-</div>
-<div id="ref-Shea18">
-<p>——. (2018). <em>Representation in cognitive science</em>. Oxford: Oxford University Press.</p>
-</div>
-<div id="ref-Skyrms10">
-<p>Skyrms, B. (2010). <em>Signals</em>. Oxford: Oxford University Press.</p>
-</div>
-<div id="ref-Sprevak13">
-<p>Sprevak, M. (2013). ‘Fictionalism about neural representations’, <em>The Monist</em>, 96: 539–60.</p>
-</div>
-<div id="ref-Stegmann15">
-<p>Stegmann, U. E. (2015). ‘Prospects for probabilistic theories of natural information’, <em>Erkenntnis</em>, 80: 869–93.</p>
-</div>
-<div id="ref-TenenbaumKemp11">
-<p>Tenenbaum, J. B., Kemp, C., Griffiths, T. L., &amp; Goodman, N. D. (2011). ‘How to grow a mind: Statistics, structure, and abstraction’, <em>Science</em>, 331: 1279–85.</p>
-</div>
-<div id="ref-Timpson13">
-<p>Timpson, C. G. (2013). <em>Quantum information theory and the foundations of quantum mechanics</em>. Oxford: Oxford University Press.</p>
-</div>
-<div id="ref-Usher01">
-<p>Usher, M. (2001). ‘A statistical referential theory of content: Using information theory to account for misrepresentation’, <em>Mind and Language</em>, 16: 311–34.</p>
-</div>
-<div id="ref-Wiener61">
-<p>Wiener, N. (1961). <em>Cybernetics</em>., 2nd ed. New York, NY: Wiley &amp; Sons.</p>
-</div>
-</div>
-<section class="footnotes" role="doc-endnotes">
+<div id="refs" class="references csl-bib-body hanging-indent"
+role="list">
+<div id="ref-AlinkSchwiedrzi10" class="csl-entry" role="listitem">
+Alink, A., Schwiedrzik, C. M., Kohler, A., Singer, W., &amp; Muckli, L.
+(2010). <span>‘Stimulus predictability reduces responses in primary
+visual cortex’</span>, <em>Journal of Neuroscience</em>, 30: 2960–6.
+</div>
+<div id="ref-AverbeckLatham06" class="csl-entry" role="listitem">
+Averbeck, B. B., Latham, P. E., &amp; Pouget, A. (2006). <span>‘Neural
+correlations, population coding and computation’</span>, <em>Nature
+Reviews Neuroscience</em>, 7: 358–66.
+</div>
+<div id="ref-BarHillelCarnap64" class="csl-entry" role="listitem">
+Bar-Hillel, Y., &amp; Carnap, R. (1964). <span>‘An outline of a theory
+of semantic information’</span>. <em>Language and information</em>, pp.
+221–74. Addison-Wesley: Reading, MA.
+</div>
+<div id="ref-Barlow69" class="csl-entry" role="listitem">
+Barlow, H. B. (1969). <span>‘Pattern recognition and the responses of
+sensory neurons’</span>, <em>Annals of the New York Academy of
+Sciences</em>, 156: 872–81.
+</div>
+<div id="ref-CarhartLeech14" class="csl-entry" role="listitem">
+Carhart-Harris, R., Leech, R., Hellyer, P., Shanahan, M., Feilding, A.,
+Tagliazucchi, E., Chialvo, D., et al. (2014). <span>‘The entropic brain:
+A theory of conscious states informed by neuroimaging research with
+psychedelic drugs’</span>, <em>Frontiers in Human Neuroscience</em>, 8:
+1–22.
+</div>
+<div id="ref-ChangSong18" class="csl-entry" role="listitem">
+Chang, D., Song, D., Zhang, J., Shang, Y., Ge, Q., &amp; Wang, Z.
+(2018). <span>‘Caffeine caused a widespread increase in brain
+entropy’</span>, <em>Scientific Reports</em>, 8: 2700.
+</div>
+<div id="ref-Clark13" class="csl-entry" role="listitem">
+Clark, A. (2013). <span>‘Whatever next? Predictive brains, situated
+agents, and the future of cognitive science’</span>, <em>Behavioral and
+Brain Sciences</em>, 36: 181–253.
+</div>
+<div id="ref-ColomboSeries12" class="csl-entry" role="listitem">
+Colombo, M., &amp; Seriès, P. (2012). <span>‘Bayes on the brain—on
+<span>B</span>ayesian modelling in neuroscience’</span>, <em>The British
+Journal for the Philosophy of Science</em>, 63: 697–723.
+</div>
+<div id="ref-ColomboWright18" class="csl-entry" role="listitem">
+Colombo, M., &amp; Wright, C. (2021). <span>‘First principles in the
+life sciences: The free-energy principle, organicism, and
+mechanism’</span>, <em>Synthese</em>, 198: S3463–88.
+</div>
+<div id="ref-deFinetti90" class="csl-entry" role="listitem">
+de Finetti, B. (1990). <em>Theory of probability</em>., Vol. 1. New
+York, NY: Wiley &amp; Sons.
+</div>
+<div id="ref-Deneve08" class="csl-entry" role="listitem">
+Deneve, S. (2008). <span>‘Bayesian spiking neurons <span>I</span>:
+<span>I</span>nference’</span>, <em>Neural Computation</em>, 20: 91–117.
+</div>
+<div id="ref-Dretske81" class="csl-entry" role="listitem">
+Dretske, F. (1981). <em>Knowledge and the flow of information</em>.
+Cambridge, MA: MIT Press.
+</div>
+<div id="ref-Dretske83" class="csl-entry" role="listitem">
+Dretske, F. (1983). <span>‘Pr<span>é</span>cis of <em>knowledge and the
+flow of information</em>’</span>, <em>Behavioral and Brain
+Sciences</em>, 6: 55–90.
+</div>
+<div id="ref-Dretske88" class="csl-entry" role="listitem">
+Dretske, F. (1988). <em>Explaining behavior</em>. Cambridge, MA: MIT
+Press.
+</div>
+<div id="ref-Dretske95" class="csl-entry" role="listitem">
+Dretske, F. (1995). <em>Naturalizing the mind</em>. Cambridge, MA: MIT
+Press.
+</div>
+<div id="ref-Egan10" class="csl-entry" role="listitem">
+Egan, F. (2010). <span>‘Computational models: A modest role for
+content’</span>, <em>Studies in History and Philosophy of Science</em>,
+41: 253–9.
+</div>
+<div id="ref-EgnerMonti10" class="csl-entry" role="listitem">
+Egner, T., Monti, J. M., &amp; Summerfield, C. (2010).
+<span>‘Expectation and surprise determine neural population responses in
+the ventral visual system’</span>, <em>Journal of Neuroscience</em>, 30:
+16601–8.
+</div>
+<div id="ref-Eliasmith05a" class="csl-entry" role="listitem">
+Eliasmith, C. (2005a). <span>‘A new perspective on representational
+problems’</span>, <em>Journal of Cognitive Science</em>, 6: 97–123.
+</div>
+<div id="ref-Eliasmith05" class="csl-entry" role="listitem">
+Eliasmith, C. (2005b). <span>‘Neurosemantics and categories’</span>.
+Cohen H. &amp; Lefebvre C. (eds) <em>Handbook of categorization in
+cognitive science</em>, pp. 1035–55. Elsevier: Amsterdam.
+</div>
+<div id="ref-Feldman00" class="csl-entry" role="listitem">
+Feldman, J. (2000). <span>‘Minimization of <span>B</span>oolean
+complexity in human concept learning’</span>, <em>Nature</em>, 407:
+630–3.
+</div>
+<div id="ref-Feldman12" class="csl-entry" role="listitem">
+Feldman, J. (2012). <span>‘Symbolic representation of probabilistic
+worlds’</span>, <em>Cognition</em>, 123: 61–83.
+</div>
+<div id="ref-FiserBerkes10" class="csl-entry" role="listitem">
+Fiser, J., Berkes, P., Orbán, G., &amp; Lengyel, M. (2010).
+<span>‘Statistically optimal perception and learning: From behavior to
+neural representations’</span>, <em>Trends in Cognitive Sciences</em>,
+14: 119–30.
+</div>
+<div id="ref-Floridi11" class="csl-entry" role="listitem">
+Floridi, L. (2011). <em>The philosophy of information</em>. Oxford:
+Oxford University Press.
+</div>
+<div id="ref-Friston09" class="csl-entry" role="listitem">
+Friston, K. (2009). <span>‘The free-energy principle: A rough guide to
+the brain?’</span>, <em>Trends in Cognitive Sciences</em>, 13: 293–301.
+</div>
+<div id="ref-Friston10" class="csl-entry" role="listitem">
+Friston, K. (2010). <span>‘The free-energy principle: A unified brain
+theory?’</span>, <em>Nature Reviews Neuroscience</em>, 11: 127–38.
+</div>
+<div id="ref-Friston13" class="csl-entry" role="listitem">
+Friston, K. (2013). <span>‘Life as we know it’</span>, <em>Journal of
+the Royal Society Interface</em>, 10: 20130475.
+</div>
+<div id="ref-FristonStephan07" class="csl-entry" role="listitem">
+Friston, K., &amp; Stephan, K. E. (2007). <span>‘Free-energy and the
+brain’</span>, <em>Synthese</em>, 159: 417–58.
+</div>
+<div id="ref-GallistelWilkes16" class="csl-entry" role="listitem">
+Gallistel, C. R., &amp; Wilkes, J. T. (2016). <span>‘Minimum description
+length model selection in associative learning’</span>, <em>Current
+Opinion in Behavioral Sciences</em>, 11: 8–13.
+</div>
+<div id="ref-Grice57" class="csl-entry" role="listitem">
+Grice, P. (1957). <span>‘Meaning’</span>, <em>Philosophical Review</em>,
+66: 377–88.
+</div>
+<div id="ref-GriffithsChater10" class="csl-entry" role="listitem">
+Griffiths, T. L., Chater, N., Kemp, C., Perfors, A., &amp; Tenenbaum, J.
+B. (2010). <span>‘Probabilistic models of cognition: Exploring
+representations and inductive biases’</span>, <em>Trends in Cognitive
+Sciences</em>, 14: 357–64.
+</div>
+<div id="ref-GriffithsVul12" class="csl-entry" role="listitem">
+Griffiths, T. L., Vul, E., &amp; Sanborn, A. N. (2012). <span>‘Bridging
+levels of analysis for probabilistic models of cognition’</span>,
+<em>Current Directions in Psychological Science</em>, 21: 263–8.
+</div>
+<div id="ref-Gross07" class="csl-entry" role="listitem">
+Gross, C. G. (2007). <span>‘Single neuron studies of inferior temporal
+cortex’</span>, <em>Neuropsychologia</em>, 46: 841–52.
+</div>
+<div id="ref-Isaac17" class="csl-entry" role="listitem">
+Isaac, A. M. C. (2019). <span>‘The semantics latent in
+<span>S</span>hannon information’</span>, <em>The British Journal for
+the Philosophy of Science</em>, 70: 103–25.
+</div>
+<div id="ref-KanwisherMcDermott97" class="csl-entry" role="listitem">
+Kanwisher, N., McDermott, J., &amp; Chun, M. M. (1997). <span>‘The
+fusiform face area: A module in human extrastriate cortex specialized
+for face perception’</span>, <em>Journal of Neuroscience</em>, 17:
+4302–11.
+</div>
+<div id="ref-Kemp12" class="csl-entry" role="listitem">
+Kemp, C. (2012). <span>‘Exploring the conceptual universe’</span>,
+<em>Psychological Review</em>, 119: 685–722.
+</div>
+<div id="ref-KnillPouget04" class="csl-entry" role="listitem">
+Knill, D. C., &amp; Pouget, A. (2004). <span>‘The <span>B</span>ayesian
+brain: The role of uncertainty in neural coding and computation’</span>,
+<em>Trends in Neurosciences</em>, 27: 712–9.
+</div>
+<div id="ref-LogothetisSheinberg96" class="csl-entry" role="listitem">
+Logothetis, N. K., &amp; Sheinberg, D. L. (1996). <span>‘Visual object
+recognition’</span>, <em>Annual Review of Neuroscience</em>, 19:
+577–621.
+</div>
+<div id="ref-Ma12" class="csl-entry" role="listitem">
+Ma, W. J. (2012). <span>‘Organizing probabilistic models of
+perception’</span>, <em>Trends in Cognitive Sciences</em>, 16: 511–8.
+</div>
+<div id="ref-MaBeck06" class="csl-entry" role="listitem">
+Ma, W. J., Beck, J. M., Latham, P. E., &amp; Pouget, A. (2006).
+<span>‘Bayesian inference with probabilistic population codes’</span>,
+<em>Nature Neuroscience</em>, 9: 1432–8.
+</div>
+<div id="ref-MacKay03" class="csl-entry" role="listitem">
+MacKay, D. J. C. (2003). <em>Information theory, inference, and learning
+algorithms</em>. Cambridge: Cambridge University Press.
+</div>
+<div id="ref-Marr82" class="csl-entry" role="listitem">
+Marr, D. (1982). <em>Vision</em>. San Francisco, CA: W. H. Freeman.
+</div>
+<div id="ref-Millikan84" class="csl-entry" role="listitem">
+Millikan, R. G. (1984). <em>Language, thought and other biological
+categories</em>. Cambridge, MA: MIT Press.
+</div>
+<div id="ref-Millikan00" class="csl-entry" role="listitem">
+Millikan, R. G. (2000). <em>On clear and confused ideas</em>. Cambridge:
+Cambridge University Press.
+</div>
+<div id="ref-Millikan01" class="csl-entry" role="listitem">
+Millikan, R. G. (2001). <span>‘What has natural information to do with
+intentional representation?’</span> Walsh D. (ed.) <em>Naturalism,
+evolution and mind</em>, pp. 105–25. Cambridge University Press:
+Cambridge.
+</div>
+<div id="ref-Millikan04a" class="csl-entry" role="listitem">
+Millikan, R. G. (2004). <em>The varieties of meaning</em>. Cambridge,
+MA: MIT Press.
+</div>
+<div id="ref-Papineau87" class="csl-entry" role="listitem">
+Papineau, D. (1987). <em>Reality and representation</em>. Oxford:
+Blackwell.
+</div>
+<div id="ref-PiantadosiTenenbaum16" class="csl-entry" role="listitem">
+Piantadosi, S. T., Tenenbaum, J. B., &amp; Goodman, N. D. (2016).
+<span>‘The logical primitives of thought: Empirical foundations for
+compositional cognitive models’</span>, <em>Psychological Review</em>,
+123: 392–424.
+</div>
+<div id="ref-PougetBeck13" class="csl-entry" role="listitem">
+Pouget, A., Beck, J. M., Ma, W. J., &amp; Latham, P. E. (2013).
+<span>‘Probabilistic brains: Knows and unknowns’</span>, <em>Nature
+Neuroscience</em>, 16: 1170–8.
+</div>
+<div id="ref-Rahnev17" class="csl-entry" role="listitem">
+Rahnev, D. (2017). <em>The case against full probability distributions
+in perceptual decision making</em>. DOI: <a
+href="https://doi.org/10.1101/108944">10.1101/108944</a>
+</div>
+<div id="ref-Ramsey90" class="csl-entry" role="listitem">
+Ramsey, F. P. (1990). <em>Philosophical papers</em>. (D. H. Mellor,
+Ed.). Cambridge: Cambridge University Press.
+</div>
+<div id="ref-Ramsey16" class="csl-entry" role="listitem">
+Ramsey, W. M. (2016). <span>‘Untangling two questions about mental
+representation’</span>, <em>New Ideas in Psychology</em>, 40: 3–12.
+</div>
+<div id="ref-RiekeWarland99" class="csl-entry" role="listitem">
+Rieke, F., Warland, D., Steveninck, R. R. van, &amp; Bialek, W. (1999).
+<em>Spikes</em>. Cambridge, MA: MIT Press.
+</div>
+<div id="ref-SaxeCalderone18" class="csl-entry" role="listitem">
+Saxe, G. N., Calderone, D., &amp; Morale, L. J. (2018). <span>‘Brain
+entropy and human intelligence: <span>A</span> resting-state <span
+class="nocase">fMRI</span> study’</span>, <em>PLoS ONE</em>, 13:
+e0191582.
+</div>
+<div id="ref-ScarantinoPiccinini10" class="csl-entry" role="listitem">
+Scarantino, A., &amp; Piccinini, G. (2010). <span>‘Information without
+truth’</span>, <em>Metaphilosophy</em>, 41: 313–30.
+</div>
+<div id="ref-Shea07a" class="csl-entry" role="listitem">
+Shea, N. (2007). <span>‘Consumers need information: Supplementing
+teleosemantics with an input condition’</span>, <em>Philosophy and
+Phenomenological Research</em>, 75: 404–35.
+</div>
+<div id="ref-Shea14a" class="csl-entry" role="listitem">
+Shea, N. (2014b). <span>‘Neural signaling of probabilistic
+vectors’</span>, <em>Philosophy of Science</em>, 81: 902–13.
+</div>
+<div id="ref-Shea14" class="csl-entry" role="listitem">
+Shea, N. (2014a). <span>‘Exploitable isomorphism and structural
+representation’</span>, <em>Proceedings of the Aristotelian
+Society</em>, 114: 123–44.
+</div>
+<div id="ref-Shea18" class="csl-entry" role="listitem">
+Shea, N. (2018). <em>Representation in cognitive science</em>. Oxford:
+Oxford University Press.
+</div>
+<div id="ref-Skyrms10" class="csl-entry" role="listitem">
+Skyrms, B. (2010). <em>Signals</em>. Oxford: Oxford University Press.
+</div>
+<div id="ref-Sprevak13" class="csl-entry" role="listitem">
+Sprevak, M. (2013). <span>‘Fictionalism about neural
+representations’</span>, <em>The Monist</em>, 96: 539–60.
+</div>
+<div id="ref-Stegmann15" class="csl-entry" role="listitem">
+Stegmann, U. E. (2015). <span>‘Prospects for probabilistic theories of
+natural information’</span>, <em>Erkenntnis</em>, 80: 869–93.
+</div>
+<div id="ref-TenenbaumKemp11" class="csl-entry" role="listitem">
+Tenenbaum, J. B., Kemp, C., Griffiths, T. L., &amp; Goodman, N. D.
+(2011). <span>‘How to grow a mind: Statistics, structure, and
+abstraction’</span>, <em>Science</em>, 331: 1279–85.
+</div>
+<div id="ref-Timpson13" class="csl-entry" role="listitem">
+Timpson, C. G. (2013). <em>Quantum information theory and the
+foundations of quantum mechanics</em>. Oxford: Oxford University Press.
+</div>
+<div id="ref-Usher01" class="csl-entry" role="listitem">
+Usher, M. (2001). <span>‘A statistical referential theory of content:
+Using information theory to account for misrepresentation’</span>,
+<em>Mind and Language</em>, 16: 311–34.
+</div>
+<div id="ref-Wiener61" class="csl-entry" role="listitem">
+Wiener, N. (1961). <em>Cybernetics</em>., 2nd ed. New York, NY: Wiley
+&amp; Sons.
+</div>
+</div>
+<aside id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1" role="doc-endnote"><p>See <span class="citation" data-cites="Floridi11">Floridi (2011)</span>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>Note that I define representationalist theories in terms of their <em>utility</em> for describing cognitive processes, not in terms of their <em>truth</em>. Some deny truth but accept utility: they endorse some form of instrumentalism about representationalist models in cognitive science <span class="citation" data-cites="Egan10 ColomboSeries12 Sprevak13">(for example, Egan 2010; Colombo &amp; Seriès 2012; Sprevak 2013)</span>. On my view, this still falls within the representationalist paradigm. To the extent that it is legitimate, even if only on pragmatic grounds, to use a representationalist model of cognition, it is legitimate to say that cognition involves two kinds of information processing.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3" role="doc-endnote"><p>This distinction is not that between ‘encoding’ and ‘decoding’ probability distributions <span class="citation" data-cites="Eliasmith05a">(Eliasmith 2005a)</span>. Encoding and decoding distributions are discussed in Section 3.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4" role="doc-endnote"><p>The term ‘outcome’ here is not meant to imply that this is the output of a causal process.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5" role="doc-endnote"><p>In principle, an ensemble might have only one outcome (necessarily, with probability 1). As we will see, this corresponds to an ensemble and its single outcome having 0 bits of Shannon information.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6" role="doc-endnote"><p>One member of the pair is usually called the ‘sender’ and the other the ‘receiver’.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7" role="doc-endnote"><p><span class="math inline">\(P(X, Y)\)</span> defines conditional probability measures, such as <span class="math inline">\(P(X \mid Y)\)</span>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn8" role="doc-endnote"><p>One way in which this could occur is during learning and other kinds of long-term plasticity. However, similar changes also occur during short-term processes. When a neuron fires, it makes a specific outcome – <em>firing</em> – certain. That will affect the probabilities associated with other neurons in the brain (making their respective outcomes of firing more or less probable), and hence change their associated Shannon measures. Neuroscientists can track how these Shannon measures change as a specific outcome propagates in the brain during cognition. Thanks to Nick Shea for this point.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn9" role="doc-endnote"><p>Prior to Dretske’s work, Shannon information had been linked to semantic content, although not always in reductive fashion <span class="citation" data-cites="Wiener61 BarHillelCarnap64">(Bar-Hillel &amp; Carnap 1964; Wiener 1961)</span>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn10" role="doc-endnote"><p>See <span class="citation" data-cites="Millikan84">Millikan (1984)</span>; <span class="citation" data-cites="Papineau87">Papineau (1987)</span>; <span class="citation" data-cites="Dretske88">Dretske (1988)</span>; <span class="citation" data-cites="Shea07a">Shea (2007)</span>; <span class="citation" data-cites="Shea14">Shea (2014a)</span>; <span class="citation" data-cites="Skyrms10">Skyrms (2010)</span>; <span class="citation" data-cites="Ramsey16">Ramsey (2016)</span> for a range of such proposals. Note that some of these authors argue that mental representations sometimes gain their content solely on the basis of non-Shannon factors. Thanks to an anonymous referee for pointing this out.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn11" role="doc-endnote"><p>The relation of ‘carrying information’ is also sometimes described as one physical state ‘having natural information’ about another <span class="citation" data-cites="Stegmann15">(see Stegmann 2015)</span>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn12" role="doc-endnote"><p><span class="citation" data-cites="Millikan01">Millikan (2001)</span> suggests that one should look at the probabilistic relations that are ‘learnable’ for an agent: A is correlated with B, and hence carries information, if B is learnable (or inferable) from A. However, any degree of probabilistic dependence between A and B (no matter how slight) could, in principle, allow an agent to learn, or infer, one from the other. With suitable rewards, even the mildest degree of probabilistic dependence <em>could</em> be a target of learning as an agent could be arbitrarily incentivised to do so. The notion of a ‘learnable’ relation – if it is not merely a synonym for <em>not probabilistically independent</em> – is as much in need of explication as the notion of ‘correlation’.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn13" role="doc-endnote"><p>See <span class="citation" data-cites="Stegmann15">Stegmann (2015)</span>, pp. 873–874 for helpful analysis of Millikan’s view.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn14" role="doc-endnote"><p><span class="citation" data-cites="Timpson13">Timpson (2013)</span>, pp. 41–42 makes a similar point with regard to Dretske’s <span class="citation" data-cites="Dretske81">(1981)</span> theory, and related criticisms are raised by commentators for <span class="citation" data-cites="Dretske83">Dretske (1983)</span>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn15" role="doc-endnote"><p><span class="math inline">\(I(X; Y) = \sum_{x, y \in A_{X}, A_{Y}}P(x,y)\mathit{PMI}(x,y)\)</span><a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn16" role="doc-endnote"><p>I discuss how information-theoretic semantics might interact with probabilistic models of cognition in Section 6.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn17" role="doc-endnote"><p>Conditional probabilities tell the cognitive system how to update its estimate of one variable based on its knowledge about other variables.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn18" role="doc-endnote"><p>See <span class="citation" data-cites="Ma12">Ma (2012)</span>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn19" role="doc-endnote"><p>Feldman calls these ‘symbolic representations’, but his claim is about their content, not about the representational format of their vehicles.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref19" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn20" role="doc-endnote"><p>Also see <span class="citation" data-cites="Rahnev17">Rahnev (2017)</span> for models of cognition that are ‘intermediate’ between categorical and probabilistic representation.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref20" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn21" role="doc-endnote"><p>Or whether an environmental state occurs conditional on some neural state occurring. Each can be exchanged for the other via Bayes’ theorem.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn22" role="doc-endnote"><p>Different theorists in Section 4 take different views about the nature of these objective probabilities. <span class="citation" data-cites="Shea07a">Shea (2007)</span> says the probabilities are chances (although he does not say what chances are); <span class="citation" data-cites="Millikan00">Millikan (2000)</span> focuses on the idea that they are frequencies and she considers the consequent reference class problem. No one entertains the hypothesis that they are subjective probabilities.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref22" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn23" role="doc-endnote"><p>Skyrms agrees: ‘objective and subjective information’ may be carried by a neural state <span class="citation" data-cites="Skyrms10">(2010 pp. 44–5)</span>. Skyrms’ concern is with the objective probabilities that are associated with neural states and environmental states. However, he agrees that subjective probabilities (and, hence, subjective information) may be carried by a neural state <em>qua</em> content.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn24" role="doc-endnote"><p>One might object that there are not two <em>kinds</em> of Shannon information, but only two applications of a single mathematical kind of Shannon information to the brain. However, the same could be said of objective and subjective probabilities: both are applications of a single kind of mathematical probability (to measure objective chances and agents’ uncertainties). To the extent that one is willing to say that there are two ‘kinds’ of probability (objective and subjective), one should be willing to say the same for Shannon information.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref24" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn25" role="doc-endnote"><p>See <span class="citation" data-cites="Shea14a">Shea (2014b)</span>; <span class="citation" data-cites="Shea18">Shea (2018)</span> for a promising approach.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref25" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn26" role="doc-endnote"><p><span class="citation" data-cites="Skyrms10">Skyrms (2010)</span> argues against this that ‘all meaning is natural meaning’ (p. 1). All meaning depends on the physical probabilities that connect vehicles and their content.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref26" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn27" role="doc-endnote"><p><span class="citation" data-cites="ColomboWright18">Colombo &amp; Wright (2018)</span> draw a similar contrast between the two formulations of the free-energy principle. They describe different versions of the principle as involving ‘epistemic’ and ‘physical’ probabilities.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref27" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>See <span class="citation"
+data-cites="Floridi11">Floridi (2011)</span>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref1"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Note that I define representationalist theories in terms
+of their <em>utility</em> for describing cognitive processes, not in
+terms of their <em>truth</em>. Some deny truth but accept utility: they
+endorse some form of instrumentalism about representationalist models in
+cognitive science <span class="citation"
+data-cites="Egan10 ColomboSeries12 Sprevak13">(Colombo &amp; Seriès
+2012; for example, Egan 2010; Sprevak 2013)</span>. On my view, this
+still falls within the representationalist paradigm. To the extent that
+it is legitimate, even if only on pragmatic grounds, to use a
+representationalist model of cognition, it is legitimate to say that
+cognition involves two kinds of information processing.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref2"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>This distinction is not that between ‘encoding’ and
+‘decoding’ probability distributions <span class="citation"
+data-cites="Eliasmith05a">(Eliasmith 2005a)</span>. Encoding and
+decoding distributions are discussed in Section 3.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref3"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>The term ‘outcome’ here is not meant to imply that this
+is the output of a causal process.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref4"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>In principle, an ensemble might have only one outcome
+(necessarily, with probability 1). As we will see, this corresponds to
+an ensemble and its single outcome having 0 bits of Shannon
+information.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref5" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>One member of the pair is usually called the ‘sender’
+and the other the ‘receiver’.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref6" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p><span class="math inline">\(P(X, Y)\)</span> defines
+conditional probability measures, such as <span
+class="math inline">\(P(X \mid Y)\)</span>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref7"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>One way in which this could occur is during learning and
+other kinds of long-term plasticity. However, similar changes also occur
+during short-term processes. When a neuron fires, it makes a specific
+outcome – <em>firing</em> – certain. That will affect the probabilities
+associated with other neurons in the brain (making their respective
+outcomes of firing more or less probable), and hence change their
+associated Shannon measures. Neuroscientists can track how these Shannon
+measures change as a specific outcome propagates in the brain during
+cognition. Thanks to Nick Shea for this point.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref8"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Prior to Dretske’s work, Shannon information had been
+linked to semantic content, although not always in reductive fashion
+<span class="citation"
+data-cites="Wiener61 BarHillelCarnap64">(Bar-Hillel &amp; Carnap 1964;
+Wiener 1961)</span>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref9" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>See <span class="citation"
+data-cites="Millikan84">Millikan (1984)</span>; <span class="citation"
+data-cites="Papineau87">Papineau (1987)</span>; <span class="citation"
+data-cites="Dretske88">Dretske (1988)</span>; <span class="citation"
+data-cites="Shea07a">Shea (2007)</span>; <span class="citation"
+data-cites="Shea14">Shea (2014a)</span>; <span class="citation"
+data-cites="Skyrms10">Skyrms (2010)</span>; <span class="citation"
+data-cites="Ramsey16">W. M. Ramsey (2016)</span> for a range of such
+proposals. Note that some of these authors argue that mental
+representations sometimes gain their content solely on the basis of
+non-Shannon factors. Thanks to an anonymous referee for pointing this
+out.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref10" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>The relation of ‘carrying information’ is also
+sometimes described as one physical state ‘having natural information’
+about another <span class="citation" data-cites="Stegmann15">(see
+Stegmann 2015)</span>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref11" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p><span class="citation" data-cites="Millikan01">Millikan
+(2001)</span> suggests that one should look at the probabilistic
+relations that are ‘learnable’ for an agent: A is correlated with B, and
+hence carries information, if B is learnable (or inferable) from A.
+However, any degree of probabilistic dependence between A and B (no
+matter how slight) could, in principle, allow an agent to learn, or
+infer, one from the other. With suitable rewards, even the mildest
+degree of probabilistic dependence <em>could</em> be a target of
+learning as an agent could be arbitrarily incentivised to do so. The
+notion of a ‘learnable’ relation – if it is not merely a synonym for
+<em>not probabilistically independent</em> – is as much in need of
+explication as the notion of ‘correlation’.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref12"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>See <span class="citation"
+data-cites="Stegmann15">Stegmann (2015)</span>, pp. 873–874 for helpful
+analysis of Millikan’s view.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref13" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p><span class="citation" data-cites="Timpson13">Timpson
+(2013)</span>, pp. 41–42 makes a similar point with regard to Dretske’s
+<span class="citation" data-cites="Dretske81">(1981)</span> theory, and
+related criticisms are raised by commentators for <span class="citation"
+data-cites="Dretske83">Dretske (1983)</span>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref14"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p><span class="math inline">\(I(X; Y) = \sum_{x, y \in
+A_{X}, A_{Y}}P(x,y)\mathit{PMI}(x,y)\)</span><a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref15"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>I discuss how information-theoretic semantics might
+interact with probabilistic models of cognition in Section 6.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p>Conditional probabilities tell the cognitive system how
+to update its estimate of one variable based on its knowledge about
+other variables.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref17" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p>See <span class="citation" data-cites="Ma12">Ma
+(2012)</span>.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref18" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p>Feldman calls these ‘symbolic representations’, but his
+claim is about their content, not about the representational format of
+their vehicles.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref19" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p>Also see <span class="citation"
+data-cites="Rahnev17">Rahnev (2017)</span> for models of cognition that
+are ‘intermediate’ between categorical and probabilistic
+representation.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref20" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn21"><p>Or whether an environmental state occurs conditional on
+some neural state occurring. Each can be exchanged for the other via
+Bayes’ theorem.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref21" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn22"><p>Different theorists in Section 4 take different views
+about the nature of these objective probabilities. <span
+class="citation" data-cites="Shea07a">Shea (2007)</span> says the
+probabilities are chances (although he does not say what chances are);
+<span class="citation" data-cites="Millikan00">Millikan (2000)</span>
+focuses on the idea that they are frequencies and she considers the
+consequent reference class problem. No one entertains the hypothesis
+that they are subjective probabilities.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref22"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn23"><p>Skyrms agrees: ‘objective and subjective information’
+may be carried by a neural state <span class="citation"
+data-cites="Skyrms10">(2010 pp. 44–5)</span>. Skyrms’ concern is with
+the objective probabilities that are associated with neural states and
+environmental states. However, he agrees that subjective probabilities
+(and, hence, subjective information) may be carried by a neural state
+<em>qua</em> content.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref23" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn24"><p>One might object that there are not two <em>kinds</em>
+of Shannon information, but only two applications of a single
+mathematical kind of Shannon information to the brain. However, the same
+could be said of objective and subjective probabilities: both are
+applications of a single kind of mathematical probability (to measure
+objective chances and agents’ uncertainties). To the extent that one is
+willing to say that there are two ‘kinds’ of probability (objective and
+subjective), one should be willing to say the same for Shannon
+information.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref24" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn25"><p>See <span class="citation" data-cites="Shea14a">Shea
+(2014b)</span>; <span class="citation" data-cites="Shea18">Shea
+(2018)</span> for a promising approach.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref25"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn26"><p><span class="citation" data-cites="Skyrms10">Skyrms
+(2010)</span> argues against this that ‘all meaning is natural meaning’
+(p. 1). All meaning depends on the physical probabilities that connect
+vehicles and their content.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref26" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn27"><p><span class="citation"
+data-cites="ColomboWright18">Colombo &amp; Wright (2021)</span> draw a
+similar contrast between the two formulations of the free-energy
+principle. They describe different versions of the principle as
+involving ‘epistemic’ and ‘physical’ probabilities.<a href="https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/#fnref27"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section>
+</aside>
 </div>
 
                             </div>

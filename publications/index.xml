@@ -6,429 +6,338 @@
     <description>Recent content in Publications on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://marksprevak.com/publications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An introduction to predictive processing models of perception and decision-making</title>
       <link>https://marksprevak.com/publications/an-introduction-to-predictive-processing-models-of-perception-and-decision-making-40d3/</link>
-      <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
-      
+      <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://marksprevak.com/publications/an-introduction-to-predictive-processing-models-of-perception-and-decision-making-40d3/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Predictive coding I: Introduction</title>
       <link>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</link>
       <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</guid>
       <description>1 Introduction Predictive coding is a computational model of cognition. Like other computational models, it attempts to explain human thought and behaviour in terms of computations performed by the brain. It differs from more traditional approaches in at least three respects. First, it aspires to be comprehensive: it aims to explain, not just one domain of human cognition, but all of it – perception, motor control, decision making, planning, reasoning, attention, and so on.</description>
     </item>
-    
     <item>
       <title>Philosophical issues in computational cognitive sciences</title>
       <link>https://marksprevak.com/publications/philosophical-issues-in-computational-cognitive-sciences-06dd/</link>
       <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/philosophical-issues-in-computational-cognitive-sciences-06dd/</guid>
       <description>1 Introduction In 1962, Wilfred Sellars wrote: ‘The aim of philosophy, abstractly formulated, is to understand how things in the broadest possible sense of the term hang together in the broadest possible sense of the term’ (Sellars 1962 p. 35). On this view, philosophical issues are marked out not by having some uniquely philosophical subject matter, but in terms of the overall scope of the enquiry. When one turns to philosophical issues, what one is doing is taking a step back from some of the details of the science and considering how matters hang together relative to the broad ambitions and goals that motivated the scientific enquiry in the first place.</description>
     </item>
-    
     <item>
       <title>Not all computational methods are effective methods</title>
       <link>https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/not-all-computational-methods-are-effective-methods-3da6/</guid>
       <description>1 Introduction What is the relationship between the notion of a computational method and that of an effective method? A number of authors assume that the two notions are coextensive. Indeed, some treat the terms ‘effective method’ and ‘computational method’ not just as extensional equivalents but also as synonyms. The claim made by this paper is that any such equation is false: not all computational methods are effective methods.</description>
     </item>
-    
     <item>
       <title>What realism about agents requires</title>
       <link>https://marksprevak.com/publications/what-realism-about-agents-requires-c999/</link>
       <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/what-realism-about-agents-requires-c999/</guid>
       <description>Bruineberg et al. distinguish a metaphysically robust use from a merely formal use of the concept of a Markov blanket (Friston vs. Pearl blankets). They argue that Friston blankets are only able to do the work required of them if they yield a single principled boundary between the agent and world. They argue that Friston blankets cannot do this (Sect 5). Reasons include that a Friston blanket depends on a number of non-trivial assumptions that don’t flow purely from the formalism, including the choice of which Bayesian network one uses to model the system.</description>
     </item>
-    
     <item>
       <title>Understanding phenomenal consciousness while keeping it real</title>
       <link>https://marksprevak.com/publications/understanding-phenomenal-consciousness-while-keeping-it-real-5925/</link>
       <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/understanding-phenomenal-consciousness-while-keeping-it-real-5925/</guid>
       <description>Being You is a beautifully written book about consciousness. It pulls off the seemingly impossible trick of being a deeply personal account of the author’s own life and conscious experiences while also being a substantial contribution to the philosophy and science of consciousness. On the latter score, the intentions of this book are broad and programmatic. It sketches an agenda for a pragmatic, scientific approach to consciousness that has a different character to more familiar research programmes (e.</description>
     </item>
-    
     <item>
       <title>Predictive coding II: The computational level</title>
       <link>https://marksprevak.com/publications/predictive-coding-ii-the-computational-level-b9f5/</link>
       <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/predictive-coding-ii-the-computational-level-b9f5/</guid>
       <description>1 Introduction When we encounter a new computing device, we often try to describe its computational characteristics in terms of the task it faces: this shop’s cash register has the task of adding numbers, this computer programme has the task of sorting names into alphabetical order, this Excel spreadsheet has the task of calculating losses. As well as asking a how-question about the device – How does it work? – we might ask a what-question: What is the problem the device is trying to solve?</description>
     </item>
-    
     <item>
       <title>Predictive coding III: The algorithmic level</title>
       <link>https://marksprevak.com/publications/predictive-coding-iii-the-algorithmic-level-4cf4/</link>
       <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/predictive-coding-iii-the-algorithmic-level-4cf4/</guid>
       <description>1 Introduction At Marr’s computational level, predictive coding suggests that the task facing the brain is to minimise its long-term, precision-weighted sensory prediction error. This article focuses on the algorithm and representations by which the brain attempts to accomplish this task – in other words, what predictive coding says at Marr’s algorithmic level. In principle, a huge range of possible algorithms could be used to minimise sensory prediction error. Furthermore, nothing has been assumed about the brain’s success rate in solving this computational problem.</description>
     </item>
-    
     <item>
       <title>Predictive coding IV: The implementation level</title>
       <link>https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/</link>
       <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/predictive-coding-iv-the-implementation-level-cfb2/</guid>
       <description>1 Introduction A theory at Marr’s implementation level focuses on the relationship between the algorithm and the nuts and bolts of a physical machine. When a physical system implements an algorithm, its physical states should correspond to the algorithm’s abstract inputs, outputs, and intermediate states. Changes in those physical states should be governed by physical processes that mirror the corresponding changes between the abstract symbolic or numerical states described at the algorithmic level.</description>
     </item>
-    
     <item>
       <title>Two kinds of information processing in cognition</title>
       <link>https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/two-kinds-of-information-processing-in-cognition/</guid>
       <description>1 Introduction There is a new way in which cognition could be information processing. Philosophers have traditionally tended to understand cognition’s relationship to Shannon information in just one way. This suited an approach that treated cognition as an inference over representations of single outcomes (there is a face here, there is a line there, there is a house here). Recent work conceives of cognition differently. Cognition does not involve an inference over representations of single outcomes but an inference over probabilistic representations – representations whose content includes multiple outcomes along with their estimated probabilities.</description>
     </item>
-    
     <item>
       <title>Eliminativism about consciousness</title>
       <link>https://marksprevak.com/publications/eliminativism-about-consciousness/</link>
       <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/eliminativism-about-consciousness/</guid>
       <description>1 Introduction In this chapter, we examine a radical philosophical position about consciousness: eliminativism. Eliminativists claim that consciousness does not exist and/or that talk of consciousness should be eliminated from science. These are strong positions to take, and require serious defence. To evaluate these positions, the chapter is structured as follows. In Section 2 we introduce the difference between entity eliminativism and discourse eliminativism and outline the typical strategies used to support each.</description>
     </item>
-    
     <item>
       <title>Distributed Cognition from Victorian Culture to Modernism</title>
       <link>https://marksprevak.com/publications/distributed-cognition-in-victorian-culture-2020/</link>
       <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/distributed-cognition-in-victorian-culture-2020/</guid>
       <description>Reinvigorates our understanding of Victorian and Modernist works and society:
 Offers a wide-ranging application of theories of distributed cognition to Victorian culture and Modernism Explores the distinctive nature and expression of notions of distributed cognition in Victorian culture and Modernism and considers their relation to current notions Reinvigorates our understanding of Western European works – including Wordsworth, T. S. Eliot and Virginia Woolf – and society by bringing to bear recent insights on the distributed nature of cognition Includes essays by international specialists in Victorian culture and Modernist literature, history, technology, science, philosophy and art including Andrew Michael Roberts, Jennifer Gosetti-Ferencei and Melba Cuddy-Keane Includes essays on literature, history, technology, science, philosophy and art This book brings together 11 essays by international specialists in Victorian culture and Modernism and provides a general and period-specific introduction to distributed cognition and the cognitive humanities.</description>
     </item>
-    
     <item>
       <title>Extended cognition</title>
       <link>https://marksprevak.com/publications/extended-cognition/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/extended-cognition/</guid>
       <description>Article Summary Extended cognition takes the idea that your mind is ‘on’ your smartphone literally. It says that human cognitive states and processes sometimes spill outside our heads and into objects in our environment. Alleged examples include not just smartphones, but also use of simpler technology (pencil and paper to perform a calculation), our own body (ticking off our fingers when we count), and other people (our spouse who remembers appointments so we don’t have to).</description>
     </item>
-    
     <item>
       <title>Routledge Handbook of the Computational Mind</title>
       <link>https://marksprevak.com/publications/routledge-handbook-of-the-computational-mind-2018/</link>
       <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/routledge-handbook-of-the-computational-mind-2018/</guid>
       <description>Computational approaches dominate contemporary cognitive science, promising a unified, scientific explanation of how the mind works. However, computational approaches raise major philosophical and scientific questions. In what sense is the mind computational? How do computational approaches explain perception, learning, and decision making? What kinds of challenges should computational approaches overcome to advance our understanding of mind, brain, and behaviour?
 The Routledge Handbook of the Computational Mind is an outstanding overview and exploration of these issues and the first philosophical collection of its kind.</description>
     </item>
-    
     <item>
       <title>Review of *The Language of Thought: A New Philosophical Direction* by
 Susan Schneider
 </title>
       <link>https://marksprevak.com/publications/review-of-the-language-of-thought-a-new-philosophical-direction-by-susan-schneider-2018/</link>
       <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/review-of-the-language-of-thought-a-new-philosophical-direction-by-susan-schneider-2018/</guid>
       <description>1 Introduction The Language of Thought (LOT) is closely associated with the work of Jerry Fodor. He defended the idea in his book, The Language of Thought (1975), and continued to do so, with relatively minor revisions, throughout his career. Susan Schneider’s book does not aim to be an exegesis or defence of Fodor. Instead, it offers an alternative to Fodor’s version of LOT that she says is an improvement and a worthy replacement.</description>
     </item>
-    
     <item>
       <title>Distributed cognition and the humanities</title>
       <link>https://marksprevak.com/publications/distributed-cognition-and-the-humanities-2018/</link>
       <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/distributed-cognition-and-the-humanities-2018/</guid>
       <description>Consider counting on your fingers; or solving a challenging mathematical problem using pen and paper (or Napier’s bones, or a slide-rule); or the way in which we routinely offload the psychological task of remembering phone numbers on to our ubiquitous mobile phones; or a brainstorming scenario in which new creative ideas emerge from a process of collective group interaction; or the manner in which the intelligent feat of ship navigation is realised through a pattern of embodied, information-communicating social exchanges between crew members who, individually, perform purely local information-processing tasks (such as bearing taking) using specialised technology.</description>
     </item>
-    
     <item>
       <title>Distributed Cognition in Classical Antiquity</title>
       <link>https://marksprevak.com/publications/distributed-cognition-in-classical-antiquity-2018/</link>
       <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/distributed-cognition-in-classical-antiquity-2018/</guid>
       <description>An opening essay outlining the theoretical framework along with twelve essays by international specialists in classical antiquity create a period-specific interdisciplinary introduction to distributed cognition and the cognitive humanities. This collection explores how cognition is explicitly or implicitly conceived of as distributed across brain, body and world in Greek and Roman technology, science, medicine, material culture, philosophy, and literary studies.
 A range of models emerge, which vary both in terms of whether cognition is just embodied or involves tools or objects in the world.</description>
     </item>
-    
     <item>
       <title>Introduction to Handbook</title>
       <link>https://marksprevak.com/publications/introduction-to-handbook-2018/</link>
       <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/introduction-to-handbook-2018/</guid>
       <description>Computational approaches to explain how the mind works have bloomed in the last three decades. The idea that computing can explain thinking emerged in the early modern period, but its impact on the philosophy and sciences of the mind and brain owes much to the groundbreaking work of Alan Turing on the foundations of both mathematical computation theory and artificial intelligence (AI) (e.g. Turing 1936, 1950). Turing’s work set the stage for the computational theory of mind (CTM), which, classically understood, claims that thinking is a computational process defined over linguistically structured representations.</description>
     </item>
-    
     <item>
       <title>Triviality arguments about computational implementation</title>
       <link>https://marksprevak.com/publications/triviality-arguments-about-computational-implementation-2018/</link>
       <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/triviality-arguments-about-computational-implementation-2018/</guid>
       <description>1 Introduction Triviality arguments seek to show that computational implementation in physical systems is trivial in some worrisome way. A triviality argument might show that a theory of implementation attributes computations to too many physical systems, or that it attributes too many computations to those physical systems that compute, or both. Triviality arguments threaten to make trouble both for computational functionalism (the metaphysical claim that implementing a certain computation is sufficient for having a certain mental state or process) and for computational explanation in science (the scientific practice of explaining mental and behavioral phenomena in terms of physical computations).</description>
     </item>
-    
     <item>
       <title>Zuse&#39;s Thesis, Gandy&#39;s Thesis, and Penrose&#39;s Thesis</title>
       <link>https://marksprevak.com/publications/zuse-s-thesis-gandy-s-thesis-and-penrose-s-thesis-2018/</link>
       <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/zuse-s-thesis-gandy-s-thesis-and-penrose-s-thesis-2018/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Realism about cognitive science</title>
       <link>https://marksprevak.com/publications/realism-about-cognitive-science-2018/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/realism-about-cognitive-science-2018/</guid>
       <description>1 Introduction This chapter is about a puzzle. Realism about \(X\) is often glossed as the claim that \(X\)s are mind independent: \(X\)s exist and have their nature independent of human beliefs, interests, attitudes, and other mental states. \(X\)s are out there, getting on with it, independently of human minds. How then should one understand realism about the mind? Having an answer to this is important if one wants to be a realist about cognitive science.</description>
     </item>
-    
     <item>
       <title>Philosophy of the psychological and cognitive sciences</title>
       <link>https://marksprevak.com/publications/philosophy-of-the-psychological-and-cognitive-sciences-2016/</link>
       <pubDate>Mon, 13 Nov 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/philosophy-of-the-psychological-and-cognitive-sciences-2016/</guid>
       <description>1 Introduction Philosophy of the psychological and cognitive sciences is a broad and heterogeneous domain. The psychological and cognitive sciences are rapidly evolving, fragmented, and often lacking in theories that are as precise as one might like. Consequently, philosophers of science have a challenging subject matter: fast moving, variegated, and sometimes slightly fuzzy. Nevertheless, the psychological and cognitive sciences are fertile ground for philosophers. Philosophers can bring their skills to bear with productive effect: in interpreting scientific theories, precisifying concepts, exploring relations of explanatory and logical coherence between theories, and in typing psychological states, processes, and capacities.</description>
     </item>
-    
     <item>
       <title>Turing&#39;s model of the mind</title>
       <link>https://marksprevak.com/publications/turing-s-model-of-the-mind-2017/</link>
       <pubDate>Mon, 13 Nov 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/turing-s-model-of-the-mind-2017/</guid>
       <description>Alan Turing contributed to a revolutionary idea: that mental activity is computation. Turing’s work helped lay the foundation for what is now known as cognitive science. Today, computation is an essential element for explaining how the mind works. In this chapter, I return to Turing’s early attempts to understanding the mind using computation and examine the role that Turing played in the early days of cognitive science.
 1 Engineering versus psychology Turing is famous as a founding figure in artificial intelligence (AI) but his contribution to cognitive science is less well known.</description>
     </item>
-    
     <item>
       <title>Is the whole universe a computer?</title>
       <link>https://marksprevak.com/publications/is-the-whole-universe-a-computer-2017/</link>
       <pubDate>Tue, 23 Aug 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/is-the-whole-universe-a-computer-2017/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>From intelligent machines to the human brain</title>
       <link>https://marksprevak.com/publications/from-intelligent-machines-to-the-human-brain-2015/</link>
       <pubDate>Wed, 06 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/from-intelligent-machines-to-the-human-brain-2015/</guid>
       <description>1 Introduction This chapter introduces the idea that computation is a key tool that can help us understand how the human brain works. Recent years have seen a revolution in the kinds of tasks computers can perform. Underlying these advances is the burgeoning field of machine learning, a branch of artificial intelligence, which aims at creating machines that can act without being programmed, learning from data and experience. Rather startlingly, it turns out that the same methods that allow us to make intelligent machines also appear to hold the key to explaining how our brains work.</description>
     </item>
-    
     <item>
       <title>What is consciousness?</title>
       <link>https://marksprevak.com/publications/what-is-consciousness-2015/</link>
       <pubDate>Wed, 06 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/what-is-consciousness-2015/</guid>
       <description>1 The question of consciousness: Philosophical perspectives Human consciousness is one of the greatest mysteries in the universe. From one point of view this should be surprising, since we know a great deal about consciousness from our own experience. One could say that our own conscious experience is the thing in the world that we know best. Descartes wanted to build the entirety of natural science on the foundation of our understanding of our conscious thought.</description>
     </item>
-    
     <item>
       <title>The Turing Guide: Life, Work, Legacy</title>
       <link>https://marksprevak.com/publications/the-turing-guide-life-work-legacy-2017/</link>
       <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/the-turing-guide-life-work-legacy-2017/</guid>
       <description>Alan Turing has long proved a subject of fascination, but following the centenary of his birth in 2012, the code-breaker, computer pioneer, mathematician (and much more) has become even more celebrated with much media coverage, and several meetings, conferences and books raising public awareness of Turing’s life and work.
 This volume brings together contributions from some of the leading experts on Alan Turing to create a comprehensive guide to Turing that will serve as a useful resource for researchers in the area as well as the increasingly interested general reader.</description>
     </item>
-    
     <item>
       <title>Group minds and explanatory simplicity</title>
       <link>https://marksprevak.com/publications/group-minds-and-explanatory-simplicity-2015/</link>
       <pubDate>Fri, 17 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/group-minds-and-explanatory-simplicity-2015/</guid>
       <description>1 Introduction In three papers, Robert Rupert presents arguments against group minds (Rupert 2005, 2011, 2014) These criticisms motivate the conclusion that although the discovery of group minds is an open empirical possibility, there are strong reasons for thinking that no group minds exist. One of Rupert’s principal arguments against group minds is an argument from explanatory simplicity. His claim is that, for any explanation of intelligent behaviour that appeals to group minds, there exists an alternative explanation couched solely in terms of the minds of individuals.</description>
     </item>
-    
     <item>
       <title>New Waves in Philosophy of Mind</title>
       <link>https://marksprevak.com/publications/new-waves-in-philosophy-of-mind-2014/</link>
       <pubDate>Sat, 12 Jul 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/new-waves-in-philosophy-of-mind-2014/</guid>
       <description>This volume gives promising younger researchers in the philosophy of mind a chance to stir up new ideas. They have been asked to think afresh, to consider what the new waves might look like. The contributors offer what they take to be the right philosophical account of the topic in question, examining along the way where they think the philosophy of mind and cognition is and ought to be going.</description>
     </item>
-    
     <item>
       <title>Review of *The Evolved Apprentice* by Kim Sterelny</title>
       <link>https://marksprevak.com/publications/review-of-the-evolved-apprentice-by-kim-sterelny-2014/</link>
       <pubDate>Sat, 24 May 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/review-of-the-evolved-apprentice-by-kim-sterelny-2014/</guid>
       <description>What makes humans unique? There are many ways in which humans differ from other primates: being bipedal, dependence on technology, social organisation, geographical range, lifespan. In The Evolved Apprentice, Sterelny takes one human novelty as central to explaining why humans are different: our power to transmit vast amounts of information across generations. Chimps and gorillas resemble their parents largely as a result of genetic inheritance. Social learning gives humans a powerful alternative for high-bandwidth, high-fidelity information transmission.</description>
     </item>
-    
     <item>
       <title>Entangled externalisms</title>
       <link>https://marksprevak.com/publications/entangled-externalisms-2014/</link>
       <pubDate>Fri, 10 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/entangled-externalisms-2014/</guid>
       <description>The debate between internalists and externalists is multifaceted, straddling vexed issues in contemporary philosophy. This chapter focuses on the distinction between content and vehicle as it pertains to the internalism/externalism debate in philosophy of mind and cognitive science. Whereas content internalism/externalism seeks to give an account of what makes mental states have the contents they have rather than some other contents or no contents at all, vehicle internalism/externalism seeks to give an account of the processes or mechanisms that enable mental states with contents to play a causal role in, for example, guiding behavior.</description>
     </item>
-    
     <item>
       <title>Fictionalism about neural representations</title>
       <link>https://marksprevak.com/publications/fictionalism-about-neural-representations-2013/</link>
       <pubDate>Tue, 01 Oct 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/fictionalism-about-neural-representations-2013/</guid>
       <description>1 Introduction This paper articulates and explores a novel form of Mental Fictionalism: Fictionalism about the neural representations posited by cognitive science. Cognitive science appears to be committed to neural representations. These representations are claimed to be the springs of our thought and action: they drive our behaviour, determine our thoughts, memories, and inferences. However, despite the central role of neural representations in cognitive science, it is hard to explain what is meant by ‘representation’ in a way that does not incur problematic commitments.</description>
     </item>
-    
     <item>
       <title>Three challenges to Chalmers on computational implementation</title>
       <link>https://marksprevak.com/publications/three-challenges-to-chalmers-on-computational-implementation-2012/</link>
       <pubDate>Tue, 12 Jun 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/three-challenges-to-chalmers-on-computational-implementation-2012/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Neural sufficiency, reductionism, and cognitive neuropsychiatry</title>
       <link>https://marksprevak.com/publications/neural-sufficiency-reductionism-and-cognitive-neuropsychiatry-2011/</link>
       <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/neural-sufficiency-reductionism-and-cognitive-neuropsychiatry-2011/</guid>
       <description>Kanaan &amp;amp; McGuire (2011) elegantly describe three challenges facing the use of fMRI to uncover cognitive mechanisms. They shows how these challenges ramify in the case of identifying the mechanisms responsible for psychiatric disorders. I want to raise another difficulty for fMRI that also appears to ramify in similar cases. This is that there are good reasons for doubting one of the assumptions on which many fMRI studies are based: that neural mechanisms are always and everywhere sufficient for cognition.</description>
     </item>
-    
     <item>
       <title>Inference to the Hypothesis of Extended Cognition</title>
       <link>https://marksprevak.com/publications/inference-to-the-hypothesis-of-extended-cognition-2011/</link>
       <pubDate>Thu, 11 Nov 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/inference-to-the-hypothesis-of-extended-cognition-2011/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Computation, individuation, and the received view on representation</title>
       <link>https://marksprevak.com/publications/computation-individuation-and-the-received-view-on-representation-2010/</link>
       <pubDate>Sun, 08 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/computation-individuation-and-the-received-view-on-representation-2010/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Computation and cognitive science</title>
       <link>https://marksprevak.com/publications/computation-and-cognitive-science-2010/</link>
       <pubDate>Sat, 24 Jul 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/computation-and-cognitive-science-2010/</guid>
       <description>Nowadays, it has become almost a matter of course to say that the human mind is like a computer. Folks in all walks of life talk of ‘programming’ themselves, ‘multi-tasking’, running different ‘operating systems’, and sometimes of ‘crashing’ and being ‘rebooted’. Few who have used computers have not been touched by the appeal of the idea that our inner workings somehow resemble computing machines. The success of modern day computational psychology appears to bears witness to the explanatory and predictive pay-off in positing a connection between computers and minds.</description>
     </item>
-    
     <item>
       <title>Review of *Representation Reconsidered* by William Ramsey</title>
       <link>https://marksprevak.com/publications/review-of-representation-reconsidered-by-william-ramsey-2011/</link>
       <pubDate>Tue, 11 May 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/review-of-representation-reconsidered-by-william-ramsey-2011/</guid>
       <description>William Ramsey’s Representation Reconsidered is a superb insightful analysis of the notion of mental representation in cognitive science. The book presents an original argument for a bold conclusion: partial eliminativism about mental representation in scientific psychology. According to Ramsey, once we examine the conditions that need to be satisfied for something to qualify as a representation, we can see those conditions are not fulfilled by the ‘representations’ posited by much of modern psychology.</description>
     </item>
-    
     <item>
       <title>Special Issue on Computation and Cognitive Science</title>
       <link>https://marksprevak.com/publications/special-issue-on-computation-and-cognitive-science-2010/</link>
       <pubDate>Thu, 15 Apr 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/special-issue-on-computation-and-cognitive-science-2010/</guid>
       <description>A number of papers in this volume developed out of papers presented at a conference on Computation and Cognitive Science held in King’s College, Cambridge, 7–8th July 2008. I would like to thank all the participants and speakers for making the conference such a productive and enjoyable occasion. I would also like to thank the sponsors of the conference: the British Academy, the British Society for the Philosophy of Science, King’s College, Cambridge, the Mind Association, and Microsoft Research.</description>
     </item>
-    
     <item>
       <title>Realism and instrumentalism</title>
       <link>https://marksprevak.com/publications/realism-and-instrumentalism-2013/</link>
       <pubDate>Sun, 20 Dec 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/realism-and-instrumentalism-2013/</guid>
       <description>The choice between realism and instrumentalism is at the core of concerns about how our scientific models relate to reality: Do our models aim to be literally true descriptions of reality, or is their role only to be useful instruments for generating predictions? Realism about \(X\), roughly speaking, is the claim that \(X\) exists and has its nature independent of our interests, attitudes, and beliefs. An instrumentalist about \(X\) denies this.</description>
     </item>
-    
     <item>
       <title>Extended cognition and functionalism</title>
       <link>https://marksprevak.com/publications/extended-cognition-and-functionalism-2009/</link>
       <pubDate>Wed, 14 Oct 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/extended-cognition-and-functionalism-2009/</guid>
       <description>Andy Clark and David Chalmers claim that cognitive processes can and do extend outside the head.1 Call this the ‘hypothesis of extended cognition’ (HEC). HEC has been strongly criticised by Fred Adams, Ken Aizawa and Robert Rupert.2 In this paper I argue for two claims. First, HEC is a harder target than Rupert, Adams and Aizawa have supposed. A widely-held view about the nature of the mind, functionalism – a view to which Rupert, Adams and Aizawa appear to subscribe – entails HEC.</description>
     </item>
-    
     <item>
       <title>Kripke&#39;s paradox and the Church--Turing thesis</title>
       <link>https://marksprevak.com/publications/kripke-s-paradox-and-the-church-turing-thesis-2008/</link>
       <pubDate>Tue, 10 Oct 2006 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/kripke-s-paradox-and-the-church-turing-thesis-2008/</guid>
       <description>1 Introduction I do not aim to solve Kripke’s rule-following problem in this paper. I address a related problem that should be a source of worry for respondents to Kripke. This problem is as follows. Kripke’s challenge about meaning is general: it can be applied to any term in natural language. However, many responses to his challenge are specific: they aim to fix meaning for particular terms or classes of terms.</description>
     </item>
-    
     <item>
       <title>Chinese rooms and program portability</title>
       <link>https://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/</link>
       <pubDate>Wed, 04 Oct 2006 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/chinese-rooms-and-program-portability-2007/</guid>
       <description>1 Searle’s argument Searle’s Chinese room argument is an argument against the possibility of Strong artificial intelligence (Strong AI). The thesis of Strong AI is that running a particular program is sufficient for, or constitutive of, mentality: it is simply in virtue of running a particular program that a system has mentality. One aspect of mentality is understanding, and this is the aspect on which Searle focuses. Searle appreciates that understanding is a complex notion, so he has a particular form of understanding in mind, namely, the understanding of simple stories.</description>
     </item>
-    
     <item>
       <title>Review of *Views into the Chinese Room* edited by John Preston &amp; Mark
 Bishop
 </title>
       <link>https://marksprevak.com/publications/review-of-views-into-the-chinese-room-edited-by-john-preston-mark-bishop-2005/</link>
       <pubDate>Fri, 07 Jan 2005 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/review-of-views-into-the-chinese-room-edited-by-john-preston-mark-bishop-2005/</guid>
       <description>In contrast to many areas of contemporary philosophy, something like a carnival atmosphere surrounds Searle’s Chinese room argument. Not many recent philosophical arguments have exerted such a pull on the popular imagination, or have produced such strong reactions. People from a wide range of fields have expressed their views on the argument. The argument has appeared in Scientific American, television shows, newspapers, and popular science books. Preston and Bishop’s recent volume of essays reflects this interdisciplinary atmosphere.</description>
     </item>
-    
     <item>
       <title>The frame problem and the treatment of prediction</title>
       <link>https://marksprevak.com/publications/the-frame-problem-and-the-treatment-of-prediction-2005/</link>
       <pubDate>Mon, 12 Jul 2004 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/the-frame-problem-and-the-treatment-of-prediction-2005/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Magic, semantics, and Putnam&#39;s vat brains</title>
       <link>https://marksprevak.com/publications/magic-semantics-and-putnam-s-vat-brains-2004/</link>
       <pubDate>Sat, 13 Mar 2004 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/publications/magic-semantics-and-putnam-s-vat-brains-2004/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

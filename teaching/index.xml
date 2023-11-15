@@ -6,121 +6,94 @@
     <description>Recent content on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://marksprevak.com/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://marksprevak.com/teaching/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Cognitive Science</title>
       <link>https://marksprevak.com/teaching/intro-to-cog-sci-ug/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/teaching/intro-to-cog-sci-ug/</guid>
-      <description>Course description This course introduces students to cognitive science, a field at the intersection of several disciplines including philosophy, psychology, linguistics, computer science, human-computer interaction, and neuroscience. The course has two broad aims:
-To provide a high-level perspective on a set of key questions that the field of cognitive science aims to address. To provide hands-on training in computational skills that will serve as a necessary foundation for future related courses in PPLS and Informatics.</description>
+      <description></description>
     </item>
-    
-    <item>
-      <title>Ethics of Artificial Intelligence</title>
-      <link>https://marksprevak.com/teaching/ethics-of-ai-ug/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/teaching/ethics-of-ai-ug/</guid>
-      <description>Course description Artificial intelligence (AI) is developing at an extremely rapid pace. We expect to see significant changes in our society as AI systems become embedded in various aspects of our lives. This course will introduce students to philosophical issues raised by current and future AI systems.
-No previous familiarity with the literature on AI will be assumed.
-Organisation The class meets every week for 11 weeks for a 2-hour session.</description>
-    </item>
-    
     <item>
       <title>Mind, Matter, and Language</title>
       <link>https://marksprevak.com/teaching/mml/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/teaching/mml/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Topics in Mind and Cognition</title>
+      <link>https://marksprevak.com/teaching/topics-in-mind-and-cognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://marksprevak.com/teaching/topics-in-mind-and-cognition/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Rule-Following and Meaning</title>
       <link>https://marksprevak.com/teaching/rule-following-meaning/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/teaching/rule-following-meaning/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Philosophy and the Cognitive Sciences</title>
-      <link>https://marksprevak.com/teaching/mooc/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/teaching/mooc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Philosophy of Psychology</title>
-      <link>https://marksprevak.com/teaching/phil-psych-ug/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/teaching/phil-psych-ug/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Computational Mind</title>
-      <link>https://marksprevak.com/teaching/computational-mind-ug/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/teaching/computational-mind-ug/</guid>
-      <description>Course description This course introduces students to the idea that the mind is a computational device. Computational models dominate modern psychology. Computational models appear to offer the tantalising prospect of explaining how the mind works. These models raise numerous foundational philosophical questions. They also appear to have the potential to contribute to, and perhaps even answer, long-standing philosophical questions about the mind.
-This course does not assume prior knowledge of computational modelling techniques or cognitive science.</description>
-    </item>
-    
-    <item>
-      <title>CogLab</title>
-      <link>https://marksprevak.com/teaching/coglab/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/teaching/coglab/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Philosophy dissertations</title>
       <link>https://marksprevak.com/teaching/dissertations-current-ug/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/teaching/dissertations-current-ug/</guid>
       <description>I supervise at least one undergraduate a year. Many of the same questions come up each year. I have prepared below a set of guidelines to help when starting out on a dissertation.
 Please note that this is personal advice and not to be taken as a substitute for the undergraduate handbook and marking scheme.
 Do&amp;rsquo;s and Don&amp;rsquo;t&amp;rsquo;s for a dissertation Do:
 Have a claim. You should be able to state your claim clearly in 1&amp;ndash;2 sentences.</description>
     </item>
-    
     <item>
-      <title>Advanced Topics in Mind and Cognition</title>
-      <link>https://marksprevak.com/teaching/amlec/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/teaching/amlec/</guid>
+      <title>The Computational Mind</title>
+      <link>https://marksprevak.com/teaching/computational-mind-ug/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://marksprevak.com/teaching/computational-mind-ug/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Philosophy of Psychology</title>
+      <link>https://marksprevak.com/teaching/phil-psych-ug/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://marksprevak.com/teaching/phil-psych-ug/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ethics of Artificial Intelligence</title>
+      <link>https://marksprevak.com/teaching/ethics-of-ai-ug/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://marksprevak.com/teaching/ethics-of-ai-ug/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Introduction to Mind, Language and Embodied Cognition</title>
       <link>https://marksprevak.com/teaching/intro-to-mlec/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://marksprevak.com/teaching/intro-to-mlec/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Philosophy undergraduate dissertations</title>
-      <link>https://marksprevak.com/teaching/dissertations-past-ug/</link>
-      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://marksprevak.com/teaching/dissertations-past-ug/</guid>
+      <title>Advanced Topics in Mind and Cognition</title>
+      <link>https://marksprevak.com/teaching/amlec/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://marksprevak.com/teaching/amlec/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>CogLab</title>
+      <link>https://marksprevak.com/teaching/coglab/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://marksprevak.com/teaching/coglab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Philosophy and the Cognitive Sciences</title>
+      <link>https://marksprevak.com/teaching/mooc/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://marksprevak.com/teaching/mooc/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

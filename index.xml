@@ -6,7 +6,7 @@
     <description>Recent content on Mark Sprevak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://marksprevak.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Cognitive Science</title>
@@ -41,10 +41,7 @@
       <link>https://marksprevak.com/teaching/dissertations-current-ug/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       <guid>https://marksprevak.com/teaching/dissertations-current-ug/</guid>
-      <description>I supervise at least one undergraduate a year. Many of the same questions come up each year. I have prepared below a set of guidelines to help when starting out on a dissertation.
-Please note that this is personal advice and not to be taken as a substitute for the undergraduate handbook and marking scheme.
-Do&amp;rsquo;s and Don&amp;rsquo;t&amp;rsquo;s for a dissertation Do:
-Have a claim. You should be able to state your claim clearly in 1&amp;ndash;2 sentences.</description>
+      <description>I supervise at least one undergraduate a year. Many of the same questions come up each year. I have prepared below a set of guidelines to help when starting out on a dissertation.&#xA;Please note that this is personal advice and not to be taken as a substitute for the undergraduate handbook and marking scheme.&#xA;Do&amp;rsquo;s and Don&amp;rsquo;t&amp;rsquo;s for a dissertation Do:&#xA;Have a claim. You should be able to state your claim clearly in 1&amp;ndash;2 sentences.</description>
     </item>
     <item>
       <title>The Computational Mind</title>
@@ -96,18 +93,18 @@ Have a claim. You should be able to state your claim clearly in 1&amp;ndash;2 se
       <description></description>
     </item>
     <item>
+      <title>Predictive coding I: Introduction</title>
+      <link>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</guid>
+      <description>1 Introduction Predictive coding is a computational model of cognition. Like other computational models, it attempts to explain human thought and behaviour in terms of computations performed by the brain. It differs from more traditional approaches in at least three respects. First, it aspires to be comprehensive: it aims to explain, not just one domain of human cognition, but all of it – perception, motor control, decision making, planning, reasoning, attention, and so on.</description>
+    </item>
+    <item>
       <title>An introduction to predictive processing models of perception and decision-making</title>
       <link>https://marksprevak.com/publications/an-introduction-to-predictive-processing-models-of-perception-and-decision-making-40d3/</link>
       <pubDate>Wed, 15 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://marksprevak.com/publications/an-introduction-to-predictive-processing-models-of-perception-and-decision-making-40d3/</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Predictive coding I: Introduction</title>
-      <link>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</link>
-      <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://marksprevak.com/publications/predictive-coding-i-introduction-40b2/</guid>
-      <description>1 Introduction Predictive coding is a computational model of cognition. Like other computational models, it attempts to explain human thought and behaviour in terms of computations performed by the brain. It differs from more traditional approaches in at least three respects. First, it aspires to be comprehensive: it aims to explain, not just one domain of human cognition, but all of it – perception, motor control, decision making, planning, reasoning, attention, and so on.</description>
     </item>
     <item>
       <title>Philosophical issues in computational cognitive sciences</title>
@@ -177,8 +174,7 @@ Have a claim. You should be able to state your claim clearly in 1&amp;ndash;2 se
       <link>https://marksprevak.com/publications/distributed-cognition-in-victorian-culture-2020/</link>
       <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://marksprevak.com/publications/distributed-cognition-in-victorian-culture-2020/</guid>
-      <description>Reinvigorates our understanding of Victorian and Modernist works and society:
-Offers a wide-ranging application of theories of distributed cognition to Victorian culture and Modernism Explores the distinctive nature and expression of notions of distributed cognition in Victorian culture and Modernism and considers their relation to current notions Reinvigorates our understanding of Western European works – including Wordsworth, T. S. Eliot and Virginia Woolf – and society by bringing to bear recent insights on the distributed nature of cognition Includes essays by international specialists in Victorian culture and Modernist literature, history, technology, science, philosophy and art including Andrew Michael Roberts, Jennifer Gosetti-Ferencei and Melba Cuddy-Keane Includes essays on literature, history, technology, science, philosophy and art This book brings together 11 essays by international specialists in Victorian culture and Modernism and provides a general and period-specific introduction to distributed cognition and the cognitive humanities.</description>
+      <description>Reinvigorates our understanding of Victorian and Modernist works and society:&#xA;Offers a wide-ranging application of theories of distributed cognition to Victorian culture and Modernism Explores the distinctive nature and expression of notions of distributed cognition in Victorian culture and Modernism and considers their relation to current notions Reinvigorates our understanding of Western European works – including Wordsworth, T. S. Eliot and Virginia Woolf – and society by bringing to bear recent insights on the distributed nature of cognition Includes essays by international specialists in Victorian culture and Modernist literature, history, technology, science, philosophy and art including Andrew Michael Roberts, Jennifer Gosetti-Ferencei and Melba Cuddy-Keane Includes essays on literature, history, technology, science, philosophy and art This book brings together 11 essays by international specialists in Victorian culture and Modernism and provides a general and period-specific introduction to distributed cognition and the cognitive humanities.</description>
     </item>
     <item>
       <title>Extended cognition</title>
@@ -192,8 +188,7 @@ Offers a wide-ranging application of theories of distributed cognition to Victor
       <link>https://marksprevak.com/publications/routledge-handbook-of-the-computational-mind-2018/</link>
       <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://marksprevak.com/publications/routledge-handbook-of-the-computational-mind-2018/</guid>
-      <description>Computational approaches dominate contemporary cognitive science, promising a unified, scientific explanation of how the mind works. However, computational approaches raise major philosophical and scientific questions. In what sense is the mind computational? How do computational approaches explain perception, learning, and decision making? What kinds of challenges should computational approaches overcome to advance our understanding of mind, brain, and behaviour?
-The Routledge Handbook of the Computational Mind is an outstanding overview and exploration of these issues and the first philosophical collection of its kind.</description>
+      <description>Computational approaches dominate contemporary cognitive science, promising a unified, scientific explanation of how the mind works. However, computational approaches raise major philosophical and scientific questions. In what sense is the mind computational? How do computational approaches explain perception, learning, and decision making? What kinds of challenges should computational approaches overcome to advance our understanding of mind, brain, and behaviour?&#xA;The Routledge Handbook of the Computational Mind is an outstanding overview and exploration of these issues and the first philosophical collection of its kind.</description>
     </item>
     <item>
       <title>Review of *The Language of Thought: A New Philosophical Direction* by
@@ -216,8 +211,7 @@ Susan Schneider
       <link>https://marksprevak.com/publications/distributed-cognition-in-classical-antiquity-2018/</link>
       <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
       <guid>https://marksprevak.com/publications/distributed-cognition-in-classical-antiquity-2018/</guid>
-      <description>An opening essay outlining the theoretical framework along with twelve essays by international specialists in classical antiquity create a period-specific interdisciplinary introduction to distributed cognition and the cognitive humanities. This collection explores how cognition is explicitly or implicitly conceived of as distributed across brain, body and world in Greek and Roman technology, science, medicine, material culture, philosophy, and literary studies.
-A range of models emerge, which vary both in terms of whether cognition is just embodied or involves tools or objects in the world.</description>
+      <description>An opening essay outlining the theoretical framework along with twelve essays by international specialists in classical antiquity create a period-specific interdisciplinary introduction to distributed cognition and the cognitive humanities. This collection explores how cognition is explicitly or implicitly conceived of as distributed across brain, body and world in Greek and Roman technology, science, medicine, material culture, philosophy, and literary studies.&#xA;A range of models emerge, which vary both in terms of whether cognition is just embodied or involves tools or objects in the world.</description>
     </item>
     <item>
       <title>Introduction to Handbook</title>
@@ -259,8 +253,7 @@ A range of models emerge, which vary both in terms of whether cognition is just 
       <link>https://marksprevak.com/publications/turing-s-model-of-the-mind-2017/</link>
       <pubDate>Mon, 13 Nov 2017 00:00:00 +0000</pubDate>
       <guid>https://marksprevak.com/publications/turing-s-model-of-the-mind-2017/</guid>
-      <description>Alan Turing contributed to a revolutionary idea: that mental activity is computation. Turing’s work helped lay the foundation for what is now known as cognitive science. Today, computation is an essential element for explaining how the mind works. In this chapter, I return to Turing’s early attempts to understanding the mind using computation and examine the role that Turing played in the early days of cognitive science.
-1 Engineering versus psychology Turing is famous as a founding figure in artificial intelligence (AI) but his contribution to cognitive science is less well known.</description>
+      <description>Alan Turing contributed to a revolutionary idea: that mental activity is computation. Turing’s work helped lay the foundation for what is now known as cognitive science. Today, computation is an essential element for explaining how the mind works. In this chapter, I return to Turing’s early attempts to understanding the mind using computation and examine the role that Turing played in the early days of cognitive science.&#xA;1 Engineering versus psychology Turing is famous as a founding figure in artificial intelligence (AI) but his contribution to cognitive science is less well known.</description>
     </item>
     <item>
       <title>Is the whole universe a computer?</title>
@@ -288,8 +281,7 @@ A range of models emerge, which vary both in terms of whether cognition is just 
       <link>https://marksprevak.com/publications/the-turing-guide-life-work-legacy-2017/</link>
       <pubDate>Tue, 05 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://marksprevak.com/publications/the-turing-guide-life-work-legacy-2017/</guid>
-      <description>Alan Turing has long proved a subject of fascination, but following the centenary of his birth in 2012, the code-breaker, computer pioneer, mathematician (and much more) has become even more celebrated with much media coverage, and several meetings, conferences and books raising public awareness of Turing’s life and work.
-This volume brings together contributions from some of the leading experts on Alan Turing to create a comprehensive guide to Turing that will serve as a useful resource for researchers in the area as well as the increasingly interested general reader.</description>
+      <description>Alan Turing has long proved a subject of fascination, but following the centenary of his birth in 2012, the code-breaker, computer pioneer, mathematician (and much more) has become even more celebrated with much media coverage, and several meetings, conferences and books raising public awareness of Turing’s life and work.&#xA;This volume brings together contributions from some of the leading experts on Alan Turing to create a comprehensive guide to Turing that will serve as a useful resource for researchers in the area as well as the increasingly interested general reader.</description>
     </item>
     <item>
       <title>Group minds and explanatory simplicity</title>
